@@ -1,0 +1,54 @@
+/* GLOBAL NAV, OFFERBAR, FOOTER CSS */
+nav { position:sticky; top:0; z-index:400; background:rgba(255,255,255,0.97)!important; backdrop-filter:blur(10px); border-bottom:1px solid #dae0ec!important; height:66px; display:flex!important; align-items:center!important; justify-content:space-between!important; padding:0 5%!important; box-shadow:0 2px 16px rgba(0,0,0,0.06)!important; }
+nav .logo img { height:36px; display:block; width:auto; }
+nav .nl { display:flex; gap:2px; align-items:center; }
+nav .nl a { font-size:0.88rem; font-weight:600; color:#4a6178; padding:7px 11px; border-radius:6px; transition:all 0.14s; font-family:'Outfit',sans-serif; white-space:nowrap; }
+nav .nl a:hover { color:#0c1a2e; background:#f4f6fb; }
+nav .ncta { background:#f97316 !important; color:#fff !important; padding:9px 20px !important; border-radius:6px; font-weight:700 !important; transition:background 0.16s !important; }
+nav .ncta:hover { background:#ea6c0a !important; }
+nav .ham { display:none; flex-direction:column; gap:5px; cursor:pointer; padding:5px; margin:0!important; }
+nav .ham span { width:22px; height:2px; background:#0c1a2e; border-radius:2px; display:block; transition:all 0.22s; }
+nav .ham.o span:nth-child(1) { transform:rotate(45deg) translate(5px,5px); }
+nav .ham.o span:nth-child(2) { opacity:0; }
+nav .ham.o span:nth-child(3) { transform:rotate(-45deg) translate(5px,-5px); }
+.mob { display:none; position:fixed; top:66px; left:0; right:0; bottom:0; background:#ffffff; z-index:399; padding:20px 5% 40px; overflow-y:auto; border-top:3px solid #f97316; }
+.mob.o { display:block!important; }
+.mob a { display:flex; justify-content:space-between; align-items:center; padding:16px 0; font-size:1rem; font-weight:600; color:#0c1a2e; border-bottom:1px solid #dae0ec; font-family:'Outfit',sans-serif; }
+.mob a::after { content:'›'; color:#f97316; font-size:1.2rem; font-weight:700; }
+.mob .mcta { background:#f97316 !important; color:#fff !important; padding:16px 20px !important; border-radius:10px; margin-top:24px; text-align:center; display:block!important; font-size:1rem!important; }
+.mob .mcta::after { display:none!important; }
+
+/* ── OFFER BAR ── */
+.obar { background:#f97316!important; color:#fff!important; text-align:center!important; padding:11px 5%!important; font-size:0.92rem!important; font-weight:700!important; font-family:'Outfit',sans-serif!important; line-height:1.45!important; display:block!important; }
+.obar em { font-style:normal!important; opacity:0.9!important; font-weight:500!important; margin-left:5px!important; }
+
+/* ── FOOTER ── */
+footer { background:#040d18!important; border-top:1px solid rgba(255,255,255,0.06)!important; padding:56px 5% 24px!important; color:#fff!important; text-align:left!important; display:block!important;}
+footer p, footer a, footer h4 { text-align:left!important; }
+footer .fg { display:grid; grid-template-columns:1.3fr 1fr 1fr 1fr 1fr; gap:32px; max-width:1100px; margin:0 auto 44px; }
+footer .fb img { height:36px; margin-bottom:16px; display:block; }
+footer .fb p { font-size:0.92rem; color:rgba(255,255,255,0.86); line-height:1.68; max-width:200px; font-weight:400; }
+footer .fc h4 { font-family:'Outfit',sans-serif; font-size:0.82rem; font-weight:700; color:rgba(255,255,255,0.80); text-transform:uppercase; letter-spacing:0.1em; margin-bottom:15px; }
+footer .fc a { display:block; font-size:0.88rem; color:rgba(255,255,255,0.86); margin-bottom:10px; transition:color 0.15s; font-weight:400; }
+footer .fc a:hover { color:#fff; }
+footer .fbot { max-width:1100px; margin:0 auto; padding-top:22px; border-top:1px solid rgba(255,255,255,0.06); display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:12px; }
+footer .fcopy { font-size:0.88rem; color:rgba(255,255,255,0.80); font-weight:400; }
+footer .flinks { display:flex; gap:20px; }
+footer .flinks a { font-size:0.88rem; color:rgba(255,255,255,0.80); transition:color 0.15s; display:inline-block; }
+footer .flinks a:hover { color:rgba(255,255,255,0.85); }
+
+/* RESPONSIVE NAV/FOOTER */
+@media(max-width:1024px) {
+  footer .fg { grid-template-columns:1fr 1fr 1fr; gap:28px; }
+}
+@media(max-width:768px) {
+  nav .nl { display:none!important; }
+  nav .ham { display:flex!important; }
+  footer .fg { grid-template-columns:1fr 1fr; gap:24px; }
+}
+@media(max-width:600px) {
+  footer .fg { grid-template-columns:1fr; gap:32px; }
+  footer .fc { margin-bottom:0; }
+  footer .fbot { justify-content:center; text-align:center; padding-top:24px; }
+  footer .flinks { justify-content:center; flex-wrap:wrap; gap:14px; }
+}
