@@ -1,0 +1,40 @@
+/* ═══════════════════════════════════════
+   CHINA-FULFILLMENT.COM — SHARED STYLES
+   Custom scrollbars + scroll-reveal animations
+   ═══════════════════════════════════════ */
+
+/* ── CUSTOM SCROLLBARS ── */
+::-webkit-scrollbar{width:6px;height:6px}
+::-webkit-scrollbar-track{background:transparent}
+::-webkit-scrollbar-thumb{background:rgba(249,115,22,.38);border-radius:4px}
+::-webkit-scrollbar-thumb:hover{background:rgba(249,115,22,.7)}
+*{scrollbar-width:thin;scrollbar-color:rgba(249,115,22,.38) transparent}
+
+/* ── SCROLL-REVEAL ANIMATIONS ── */
+/* Only applied via JS — uses .rev class + .vis when in viewport */
+/* Guarded by prefers-reduced-motion in JS before any classes are added */
+.rev{
+  opacity:0;
+  transform:translateY(22px);
+  transition:opacity .52s ease,transform .52s ease;
+  will-change:opacity,transform;
+}
+.rev.vis{
+  opacity:1;
+  transform:none;
+}
+
+/* Staggered delay helpers (added inline by JS) */
+/* Fade variant for image/heavy elements */
+.rev-fade{
+  opacity:0;
+  transition:opacity .65s ease;
+  will-change:opacity;
+}
+.rev-fade.vis{
+  opacity:1;
+}
+
+/* ── TRUST / OFFER BAR SCROLLBAR (horizontal) ── */
+.tbar::-webkit-scrollbar{height:3px}
+.tbar::-webkit-scrollbar-thumb{background:rgba(255,255,255,.25)}
