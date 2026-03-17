@@ -107,6 +107,10 @@ section{padding:72px 5%}
 .detail h2{font-family:'Outfit',sans-serif;font-size:1.5rem;font-weight:800;color:var(--ink);margin-bottom:14px}
 .detail p{font-size:1rem;color:#334155;line-height:1.78;margin-bottom:16px}
 .detail strong{color:var(--ink)}
+.det-img{border-radius:12px;overflow:hidden;box-shadow:0 4px 16px rgba(0,0,0,.08);line-height:0;margin:24px 0}
+.det-img img{width:100%;height:260px;object-fit:cover;display:block}
+.img-cin{line-height:0;overflow:hidden;max-height:420px}
+.img-cin img{width:100%;height:420px;object-fit:cover;display:block}
 
 /* ROUTE TABLE */
 .routes{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin:24px 0 32px}
@@ -158,8 +162,8 @@ footer{background:var(--n3);border-top:1px solid rgba(255,255,255,.06);padding:5
 .flinks a{font-size:.88rem;color:rgba(255,255,255,.80);transition:color .15s}
 
 @media(max-width:1024px){.methods{grid-template-columns:repeat(3,1fr)}}
-@media(max-width:768px){.nl{display:none}.ham{display:flex}.hero{padding:60px 5% 48px;min-height:auto}.methods{grid-template-columns:1fr 1fr}.routes{grid-template-columns:1fr 1fr}.sens-grid{grid-template-columns:repeat(4,1fr)}.ctable{font-size:.82rem}.ctable th,.ctable td{padding:10px 10px}.fg{grid-template-columns:1fr 1fr;gap:24px}}
-@media(max-width:600px){.hero h1{font-size:1.9rem}.hero-stats{gap:20px}.methods{grid-template-columns:1fr}.routes{grid-template-columns:1fr}.sens-grid{grid-template-columns:1fr 1fr}.hbtns{flex-direction:column}.fg{grid-template-columns:1fr}}
+@media(max-width:768px){.nl{display:none}.ham{display:flex}.hero{padding:60px 5% 48px;min-height:auto}.methods{grid-template-columns:1fr 1fr}.routes{grid-template-columns:1fr 1fr}.sens-grid{grid-template-columns:repeat(4,1fr)}.ctable{font-size:.82rem}.ctable th,.ctable td{padding:10px 10px}.fg{grid-template-columns:1fr 1fr;gap:24px}.img-cin{max-height:280px}.img-cin img{height:280px}.det-img img{height:200px}}
+@media(max-width:600px){.hero h1{font-size:1.9rem}.hero-stats{gap:20px}.methods{grid-template-columns:1fr}.routes{grid-template-columns:1fr}.sens-grid{grid-template-columns:1fr 1fr}.hbtns{flex-direction:column}.fg{grid-template-columns:1fr}.img-cin{max-height:220px}.img-cin img{height:220px}.det-img img{height:160px}}
 </style>
   <link rel="stylesheet" href="global-nav-footer.css"/>
 </head>
@@ -214,6 +218,10 @@ footer{background:var(--n3);border-top:1px solid rgba(255,255,255,.06);padding:5
     </div>
   </div>
 </section>
+
+<div class="img-cin">
+  <img src="https://i.ibb.co/nMG5Zz3W/express-shipping-hero-shenzhen-dispatch.jpg" alt="Express shipping dispatch area in Shenzhen warehouse — workers scanning DHL and FedEx waybills, parcels on roller conveyor feeding delivery truck at open dock door" width="1400" height="420" loading="lazy" decoding="async" fetchpriority="low"/>
+</div>
 
 <!-- 5 METHODS OVERVIEW -->
 <section>
@@ -308,6 +316,8 @@ footer{background:var(--n3);border-top:1px solid rgba(255,255,255,.06);padding:5
     </div>
 
     <p>Volume weight applies: L(cm) x W(cm) x H(cm) / 5000. We charge the greater of actual weight or volume weight. All express rates include fuel surcharges. Remote area surcharges apply for certain destination postcodes as defined by each carrier.</p>
+
+    <div class="det-img"><img src="https://i.ibb.co/zTB4L2VT/express-courier-dhl-fedex-parcels-shenzhen.jpg" alt="Express courier collection point in Shenzhen fulfillment warehouse — parcels on sorting shelves with DHL, FedEx and UPS shipping labels, courier driver scanning packages for daily pickup" width="800" height="260" loading="lazy" decoding="async" fetchpriority="low"/></div>
   </div>
 </div>
 
@@ -318,6 +328,8 @@ footer{background:var(--n3);border-top:1px solid rgba(255,255,255,.06);padding:5
     <p>Air freight is 40-50% cheaper than express courier but only takes 5-10 days. It is the right choice for <strong>Amazon FBA replenishments over 100kg</strong>, seasonal inventory builds, and bulk shipments where express is too expensive but ocean is too slow.</p>
     <p>We fly cargo on Emirates, Cathay Pacific, China Southern, Singapore Airlines, Ethiopian Airlines, and 20+ additional carriers. Service is airport-to-door: we handle export customs in Shenzhen, air transport, import clearance at destination, and final delivery to your warehouse or Amazon FC. DDP available on all air freight routes.</p>
     <p>Minimum shipment weight is 21kg. For Amazon FBA shipments, we create the shipping plan, print Amazon's labels in our warehouse, palletise to Amazon's specification, and ship direct to the designated fulfillment centre. Tracking updates at every stage.</p>
+
+    <div class="det-img"><img src="https://i.ibb.co/Nd69mvH7/air-freight-cargo-pallets-airport-loading.jpg" alt="Air freight cargo pallets being loaded onto aircraft at airport cargo terminal — ULD containers on scissor-lift, ground crew in high-visibility vests, cargo dollies in foreground" width="800" height="260" loading="lazy" decoding="async" fetchpriority="low"/></div>
   </div>
 </div>
 
@@ -328,6 +340,8 @@ footer{background:var(--n3);border-top:1px solid rgba(255,255,255,.06);padding:5
     <p>Yantian and Shekou container terminals are within the city limits of Shenzhen. Our warehouse is minutes from both. That proximity means faster container loading, lower origin charges, and more frequent sailing options than inland-based warehouses that truck containers 3-8 hours to reach a port.</p>
     <p><strong>FCL (Full Container Load):</strong> 20GP (28 CBM), 40GP (58 CBM), or 40HQ (68 CBM) containers booked on Maersk, MSC, COSCO, CMA CGM, and other tier-1 carriers. Port-to-door service with full customs clearance and inland delivery at destination. Transit to US West Coast: 14-16 days. Transit to Europe: 25-30 days. Transit to SE Asia: 7-10 days.</p>
     <p><strong>LCL (Less than Container Load):</strong> Share container space with other shippers. Minimum 1 CBM. Weekly departures to major ports worldwide. Your goods are consolidated at our Shenzhen warehouse and loaded into a shared container. You pay only for the volume you use.</p>
+
+    <div class="det-img"><img src="https://i.ibb.co/C3DYdmnK/ocean-freight-container-yantian-port-shenzhen.jpg" alt="Ocean freight containers at Yantian port Shenzhen — colourful stacked shipping containers, gantry cranes loading container ship, mountains in background showing port proximity to city" width="800" height="260" loading="lazy" decoding="async" fetchpriority="low"/></div>
   </div>
 </div>
 
@@ -354,6 +368,8 @@ footer{background:var(--n3);border-top:1px solid rgba(255,255,255,.06);padding:5
     </div>
 
     <p><strong>Not accepted:</strong> Pure/loose batteries, flammable liquids, weapons, narcotics, white powders, and tobacco products.</p>
+
+    <div class="det-img"><img src="https://i.ibb.co/Pv5cWx9S/special-lines-sensitive-goods-hong-kong-route.jpg" alt="Sensitive goods packing station — worker packing cosmetics into compliance-approved shipping carton with hazmat labels, lithium battery stickers, and customs declaration forms on workbench" width="800" height="260" loading="lazy" decoding="async" fetchpriority="low"/></div>
   </div>
 </div>
 
@@ -363,6 +379,8 @@ footer{background:var(--n3);border-top:1px solid rgba(255,255,255,.06);padding:5
     <h2>Postal packets: budget shipping for lightweight items</h2>
     <p>For small, lightweight parcels under 2kg, postal services offer the lowest cost per shipment. We ship via ePacket, China Post Air Mail, Hong Kong Post Registered, and Singapore Post Speedpost. Rates start from $3.20/kg. Delivery takes 10-20 days depending on destination and service.</p>
     <p>Postal is the right choice for dropshipping sellers on eBay and Etsy, low-value accessories and phone cases, jewellery, and any product where shipping cost needs to stay below $3-5 per order. Tracking ranges from basic acceptance scans (standard post) to full pickup-to-delivery tracking (ePacket and registered mail). Customs clearance is simplified through postal channels with lower inspection rates.</p>
+
+    <div class="det-img"><img src="https://i.ibb.co/fYb7RR6M/postal-packets-epacket-lightweight-parcels.jpg" alt="Postal packet sorting area — hundreds of small ePacket padded envelopes in postal trays, worker placing packages into white postal sack with destination country tag, scale showing package under 500g" width="800" height="260" loading="lazy" decoding="async" fetchpriority="low"/></div>
   </div>
 </div>
 
@@ -390,6 +408,8 @@ footer{background:var(--n3);border-top:1px solid rgba(255,255,255,.06);padding:5
     <div class="carrier">China Southern</div>
     <div class="carrier">Singapore Airlines</div>
   </div>
+
+  <div class="det-img" style="max-width:820px;margin:28px auto 0"><img src="https://i.ibb.co/CKLSBhnY/express-shipping-tracking-dashboard-monitor.jpg" alt="Real-time shipment tracking dashboard on wall-mounted monitor — world map with shipping routes from China to North America, Europe, Australia and Asia, green and amber status indicators" width="820" height="260" loading="lazy" decoding="async" fetchpriority="low"/></div>
 </div>
 
 <!-- CTA -->
