@@ -1,0 +1,26 @@
+# robots.txt for china-fulfillment.com
+# Last updated: 2026-03-17
+
+User-agent: *
+Allow: /
+
+# Block login/register (noindex via meta tag too, belt and braces)
+Disallow: /Manage/
+Disallow: /login.html
+Disallow: /register.html
+
+# Block old CMS paths
+Disallow: /Upload/
+Disallow: /download
+Disallow: /notice
+Disallow: /help
+
+# Block search results and internal tools
+Disallow: /*?page=
+Disallow: /*?search=
+
+# Sitemap
+Sitemap: https://www.china-fulfillment.com/sitemap.xml
+
+# Crawl-delay (be polite)
+Crawl-delay: 1
