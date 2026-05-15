@@ -50,6 +50,15 @@ def process_markdown(md_path):
     h1_match = re.search(r'^#\s+(.+)$', body_no_scripts, flags=re.MULTILINE)
     title = meta.get('title', h1_match.group(1) if h1_match else "")
     
+    # Remove H1 from body
+    if h1_match:
+        body_no_scripts = body_no_scripts.replace(h1_match.group(0), '', 1)
+        
+    # Remove the first image (which is the hero image)
+    img_match = re.search(r'^!\[.*?\]\(.*?\)$', body_no_scripts, flags=re.MULTILINE)
+    if img_match:
+        body_no_scripts = body_no_scripts.replace(img_match.group(0), '', 1)
+    
     # The new articles already have title in frontmatter, let's use that.
     # Convert body to HTML
     body_html = markdown.markdown(body_no_scripts, extensions=['tables'])
