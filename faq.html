@@ -54,6 +54,16 @@
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.china-fulfillment.com/"},{"@type":"ListItem","position":2,"name":"FAQ","item":"https://www.china-fulfillment.com/faq.html"}]}
 </script>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"DefinedTermSet","name":"China Fulfillment & Shipping Glossary","url":"https://www.china-fulfillment.com/faq.html#glossary","hasDefinedTerm":[
+{"@type":"DefinedTerm","name":"FBA Consolidation","description":"Storing inventory in one China warehouse and sending smaller, frequent replenishments to Amazon as you sell, instead of shipping everything to Amazon at once. Reduces long-term storage fees and cash tied up in transit."},
+{"@type":"DefinedTerm","name":"DDP (Delivered Duty Paid)","description":"A shipping term where the provider handles everything from warehouse door to destination — export clearance, freight, import customs, and duties — for one all-in price. The standard for Amazon FBA shipments from China."},
+{"@type":"DefinedTerm","name":"FNSKU (Fulfillment Network SKU)","description":"Amazon's unique barcode that ties a unit to a specific seller account, applied during prep so inventory arrives FBA-compliant and is not commingled with other sellers' stock."},
+{"@type":"DefinedTerm","name":"FBA Prep","description":"Preparing products to meet Amazon's inbound requirements — poly bagging, bubble wrap, labelling, bundling, and carton marking. Since January 2026 Amazon no longer performs this in-house, so it must be completed before goods ship."},
+{"@type":"DefinedTerm","name":"CBM (Cubic Metre)","description":"The volume measure used to price warehouse storage and sea freight. One CBM is a 1m x 1m x 1m space. China Fulfillment storage is $0.49 per CBM per day, billed on space occupied."},
+{"@type":"DefinedTerm","name":"D2C Fulfillment (Direct to Consumer)","description":"Picking, packing, and shipping individual orders directly to customers, often in branded packaging, rather than in bulk to a marketplace. Powers Shopify and multi-channel ecommerce brands."}
+]}
+</script>
 
 <link rel="preconnect" href="https://fonts.googleapis.com"/>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
@@ -123,6 +133,15 @@ summary::after{content:'+';font-size:1.5rem;color:var(--ac);font-weight:300;flex
 details[open] summary::after{content:'−'}
 .fans{padding:0 24px 20px;font-size:.97rem;color:var(--mu);line-height:1.76;font-weight:400}
 .fans a{color:var(--b2);text-decoration:underline;text-underline-offset:2px}
+
+/* ── GLOSSARY ── */
+.gloss-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px;margin-top:6px}
+.gloss-grid dl{margin:0}
+.gterm{background:var(--w);border:1px solid var(--bd);border-radius:12px;padding:20px 22px;transition:border-color .18s,box-shadow .18s}
+.gterm:hover{border-color:rgba(37,99,235,.3);box-shadow:0 4px 20px rgba(37,99,235,.07)}
+.gterm dt{font-family:'Outfit',sans-serif;font-weight:800;font-size:1rem;color:var(--ink);margin-bottom:7px;display:flex;align-items:baseline;gap:8px}
+.gterm dt .abbr{font-size:.72rem;font-weight:700;letter-spacing:.06em;color:var(--ac);background:var(--acl);padding:2px 8px;border-radius:5px;text-transform:uppercase}
+.gterm dd{margin:0;font-size:.92rem;color:var(--mu);line-height:1.7}
 
 /* ── CTA ── */
 .ctaf{background:#0a152a;color:#fff;text-align:center;padding:96px 5%}
@@ -207,6 +226,7 @@ footer{background:var(--n3);border-top:1px solid rgba(255,255,255,.06);padding:5
       <a class="cat-link" href="#ecommerce">eCommerce &amp; Dropshipping</a>
       <a class="cat-link" href="#customs">Customs &amp; Duties</a>
       <a class="cat-link" href="#getting-started">Getting Started</a>
+      <a class="cat-link" href="#glossary">Glossary</a>
     </div>
   </div>
 </section>
@@ -300,6 +320,23 @@ footer{background:var(--n3);border-top:1px solid rgba(255,255,255,.06);padding:5
     <details><summary>Do you charge setup fees or require contracts?</summary><div class="fans">No setup fees, no account fees, no lock-in contracts, and no minimum volumes. You pay per shipment, per order, or per unit depending on the service. Storage is $0.49 per CBM per day with the first 30 days free. If you stop using our service, there are no cancellation fees.</div></details>
     <details><summary>How long does it take to get set up and start shipping?</summary><div class="fans">Most new clients are operational within 3-5 business days of their first consultation. Setup involves connecting your store or marketplace account, receiving your first inventory delivery, and running a test shipment. The first 30 days of warehouse storage are free for all new customers with no conditions. <a href="Contact-Us.html">Get started &rarr;</a></div></details>
     <details><summary>How quickly do you process and ship orders?</summary><div class="fans">Standard processing is within 24 hours of receiving the order. For FBA prep, standard turnaround is 24-48 hours after inventory arrives at our warehouse. Same-day rush processing is available for urgent shipments.</div></details>
+  </div>
+</div>
+
+<!-- ═══ GLOSSARY ═══ -->
+<div class="faq-cat" id="glossary">
+  <div class="w">
+    <div class="sl">Glossary</div>
+    <h2>Key fulfillment &amp; shipping terms, in plain English</h2>
+    <p class="cat-desc">The acronyms and trade terms you'll come across when shipping from China — defined the way we'd explain them on a call.</p>
+    <div class="gloss-grid">
+      <dl class="gterm"><dt>FBA Consolidation</dt><dd>Storing your inventory in one China warehouse and sending smaller, frequent replenishments to Amazon as you sell, instead of shipping everything to Amazon at once. Cuts long-term storage fees and frees up cash tied in transit.</dd></dl>
+      <dl class="gterm"><dt>DDP <span class="abbr">Delivered Duty Paid</span></dt><dd>A shipping term where we handle everything from our warehouse door to the destination — export clearance, freight, import customs, and duties — for one all-in price. The standard for FBA shipments from China.</dd></dl>
+      <dl class="gterm"><dt>FNSKU <span class="abbr">Fulfillment Network SKU</span></dt><dd>Amazon's unique barcode that ties a unit to your seller account. We apply FNSKU labels in Shenzhen so inventory arrives FBA-compliant and isn't commingled with other sellers' stock.</dd></dl>
+      <dl class="gterm"><dt>FBA Prep</dt><dd>Getting products ready to meet Amazon's inbound requirements — poly bagging, bubble wrap, labelling, bundling, and carton marking. Since January 2026 Amazon no longer does this in-house, so it must be done before goods ship.</dd></dl>
+      <dl class="gterm"><dt>CBM <span class="abbr">Cubic Metre</span></dt><dd>The volume measure used to price warehouse storage and sea freight. One CBM is a 1m × 1m × 1m space. Our storage is $0.49 per CBM per day, billed on the space your goods actually occupy.</dd></dl>
+      <dl class="gterm"><dt>D2C Fulfillment <span class="abbr">Direct to Consumer</span></dt><dd>Picking, packing, and shipping individual orders straight to your customers — often in your own branded packaging — rather than in bulk to a marketplace. Powers Shopify and multi-channel ecommerce brands.</dd></dl>
+    </div>
   </div>
 </div>
 
