@@ -30,6 +30,10 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
 <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700;800;900&family=Mulish:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
 <style>
+body{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;text-rendering:optimizeLegibility}
+h1,h2,h3,h4,h5{text-wrap:balance}
+p{text-wrap:pretty}
+
 :root{--ink:#0c1a2e;--navy:#0d2144;--n2:#091830;--n3:#040d18;--blue:#1a4fd6;--b2:#2563eb;--ac:#f97316;--ach:#ea6c0a;--off:#f4f6fb;--w:#ffffff;--mu:#4a6178;--bd:#dae0ec;--gr:#10b981}
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
 html{scroll-behavior:smooth;font-size:16px}
@@ -83,15 +87,15 @@ nav{position:sticky;top:0;z-index:400;background:rgba(255,255,255,.97);backdrop-
 .ctable .cheap{color:#047857;font-weight:700}
 .ctable .service{font-weight:600;color:var(--ink)}
 
-.callout{background:linear-gradient(135deg,var(--n3),var(--navy));border-radius:14px;padding:28px 24px;margin:32px 0;color:#fff}
+.callout{background:#0a152a;border-radius:14px;padding:28px 24px;margin:32px 0;color:#fff}
 .callout h3{color:var(--ac);margin:0 0 8px;font-size:1.05rem}
 .callout p{color:rgba(255,255,255,.88);margin-bottom:0;font-size:.97rem;line-height:1.7}
 
-.tip{background:linear-gradient(135deg,#fffbeb,#fef3c7);border-left:4px solid #f59e0b;border-radius:0 10px 10px 0;padding:22px 24px;margin:28px 0}
+.tip{background:#fdf6e3;border-left:4px solid #f59e0b;border-radius:0 10px 10px 0;padding:22px 24px;margin:28px 0}
 .tip h3{color:#92400e;margin:0 0 6px;font-size:1rem}
 .tip p{color:#78350f;margin-bottom:0}
 
-.ctaf{background:linear-gradient(135deg,var(--ink) 0%,var(--navy) 55%,#001428 100%);color:#fff;text-align:center;padding:72px 5%}
+.ctaf{background:#0a152a;color:#fff;text-align:center;padding:72px 5%}
 .ctaf h2{font-family:'Outfit',sans-serif;font-size:clamp(1.6rem,2.6vw,2.2rem);font-weight:900;max-width:620px;margin:0 auto 14px}
 .ctaf p{font-size:1rem;color:rgba(255,255,255,.85);max-width:520px;margin:0 auto 28px;line-height:1.7}
 .bp{background:var(--ac);color:#fff;padding:14px 30px;border-radius:8px;font-weight:700;font-size:1rem;font-family:'Outfit',sans-serif;transition:all .18s;display:inline-block}

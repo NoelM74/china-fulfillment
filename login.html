@@ -11,6 +11,10 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
 <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800;900&family=Mulish:wght@400;500;600;700&display=swap" rel="stylesheet"/>
 <style>
+body{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;text-rendering:optimizeLegibility}
+h1,h2,h3,h4,h5{text-wrap:balance}
+p{text-wrap:pretty}
+
 :root{--ink:#0c1a2e;--navy:#0d2144;--n2:#091830;--n3:#040d18;--ac:#f97316;--ach:#ea6c0a;--off:#f4f6fb;--w:#ffffff;--mu:#4a6178;--bd:#dae0ec;--gr:#10b981;--b2:#2563eb}
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
 html{font-size:16px;height:100%}
@@ -62,9 +66,9 @@ img{max-width:100%;height:auto;display:block}
 .help-link a{color:var(--b2);font-weight:600}
 
 /* ── RIGHT: VALUE PANEL ── */
-.login-value-side{background:linear-gradient(145deg,var(--n3) 0%,var(--navy) 40%,#001428 100%);display:flex;align-items:center;justify-content:center;padding:56px 48px;position:relative;overflow:hidden}
-.login-value-side::before{content:'';position:absolute;inset:0;background-image:linear-gradient(rgba(249,115,22,.03) 1px,transparent 1px),linear-gradient(90deg,rgba(249,115,22,.03) 1px,transparent 1px);background-size:48px 48px}
-.login-value-side::after{content:'';position:absolute;top:-20%;right:-15%;width:60%;height:140%;background:radial-gradient(ellipse at center,rgba(249,115,22,.12) 0%,transparent 60%);pointer-events:none}
+.login-value-side{background:#0a152a;display:flex;align-items:center;justify-content:center;padding:56px 48px;position:relative;overflow:hidden}
+.login-value-side::before{content:'';position:absolute;inset:0;background-image:none;background-size:48px 48px}
+.login-value-side::after{content:'';position:absolute;top:-20%;right:-15%;width:60%;height:140%;background:none;pointer-events:none}
 .value-inner{position:relative;z-index:1;max-width:440px}
 .value-inner h2{font-family:'Outfit',sans-serif;font-size:1.8rem;font-weight:900;color:#fff;line-height:1.2;margin-bottom:18px;letter-spacing:-.02em}
 .value-inner h2 span{color:var(--ac)}

@@ -27,6 +27,10 @@
 <link rel="preconnect" href="https://i.ibb.co" crossorigin/>
 <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700;800;900&family=Mulish:wght@300;400;500;600&display=swap" rel="stylesheet"/>
 <style>
+body{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;text-rendering:optimizeLegibility}
+h1,h2,h3,h4,h5{text-wrap:balance}
+p{text-wrap:pretty}
+
 :root{--ink:#0c1a2e;--navy:#0d2144;--n2:#091830;--n3:#040d18;--blue:#1a4fd6;--b2:#2563eb;--ac:#f97316;--ach:#ea6c0a;--acl:rgba(249,115,22,.12);--off:#f4f6fb;--w:#ffffff;--mu:#4a6178;--bd:#dae0ec;--gr:#10b981;--dk-body:rgba(255,255,255,.88);--dk-sub:rgba(255,255,255,.78);--dk-muted:rgba(255,255,255,.68)}
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
 html{scroll-behavior:smooth;font-size:16px}
@@ -90,7 +94,7 @@ section{padding:88px 5%}
 .tl-step{display:grid;grid-template-columns:60px 1fr;gap:28px;padding-bottom:56px;position:relative}
 .tl-step:last-child{padding-bottom:0}
 .tl-step:last-child .tl-line{display:none}
-.tl-num{width:52px;height:52px;border-radius:50%;background:linear-gradient(135deg,var(--navy),var(--blue));display:flex;align-items:center;justify-content:center;font-family:'Outfit',sans-serif;font-size:1.1rem;font-weight:900;color:#fff;box-shadow:0 4px 16px rgba(26,79,214,.25);position:relative;z-index:2;flex-shrink:0}
+.tl-num{width:52px;height:52px;border-radius:50%;background:var(--blue);display:flex;align-items:center;justify-content:center;font-family:'Outfit',sans-serif;font-size:1.1rem;font-weight:900;color:#fff;box-shadow:0 4px 16px rgba(26,79,214,.25);position:relative;z-index:2;flex-shrink:0}
 .tl-line{position:absolute;left:25px;top:52px;bottom:0;width:2px;background:var(--bd);z-index:1}
 .tl-content h3{font-family:'Outfit',sans-serif;font-size:1.2rem;font-weight:800;color:var(--ink);margin-bottom:8px;line-height:1.25}
 .tl-content p{font-size:1rem;color:var(--mu);line-height:1.76;margin-bottom:10px}
@@ -122,7 +126,7 @@ summary::after{content:'+';font-size:1.5rem;color:var(--ac);font-weight:300;flex
 details[open] summary::after{content:'−'}
 .fans{padding:0 24px 20px;font-size:.97rem;color:var(--mu);line-height:1.76;font-weight:400}
 
-.ctaf{background:linear-gradient(135deg,var(--ink) 0%,var(--navy) 55%,#001428 100%);color:#fff;text-align:center;padding:96px 5%}
+.ctaf{background:#0a152a;color:#fff;text-align:center;padding:96px 5%}
 .ctaf .sl{color:#fed7aa}
 .ctaf h2{font-size:clamp(2rem,3.6vw,2.9rem);font-weight:900;max-width:720px;margin:0 auto 16px;line-height:1.15;letter-spacing:-.022em}
 .ctaf .lead{font-size:1.05rem;color:var(--dk-body);max-width:520px;margin:0 auto 10px;font-weight:400;line-height:1.72}

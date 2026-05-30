@@ -28,6 +28,10 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
 <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800;900&family=Mulish:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
 <style>
+body{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;text-rendering:optimizeLegibility}
+h1,h2,h3,h4,h5{text-wrap:balance}
+p{text-wrap:pretty}
+
 :root{--ink:#0c1a2e;--navy:#0d2144;--n2:#091830;--n3:#040d18;--blue:#1a4fd6;--b2:#2563eb;--ac:#f97316;--ach:#ea6c0a;--off:#f4f6fb;--w:#ffffff;--mu:#4a6178;--bd:#dae0ec;--gr:#10b981}
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
 html{scroll-behavior:smooth;font-size:16px}
@@ -61,9 +65,9 @@ nav{position:sticky;top:0;z-index:400;background:rgba(255,255,255,.97);backdrop-
 
 /* HERO */
 .hero{position:relative;min-height:520px;display:flex;align-items:center;overflow:hidden}
-.hero::before{content:'';position:absolute;inset:0;background:linear-gradient(130deg,#010b1a 0%,#0d2144 45%,#091830 70%,#001428 100%)}
-.hero::after{content:'';position:absolute;inset:0;background-image:linear-gradient(rgba(255,255,255,.022) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.022) 1px,transparent 1px);background-size:52px 52px}
-.hglow{position:absolute;top:-10%;right:-8%;width:58%;height:130%;background:radial-gradient(ellipse at center,rgba(249,115,22,.18) 0%,rgba(249,115,22,.07) 40%,transparent 68%);pointer-events:none}
+.hero::before{content:'';position:absolute;inset:0;background:#0a152a}
+.hero::after{content:'';position:absolute;inset:0;background-image:none;background-size:52px 52px}
+.hglow{position:absolute;top:-10%;right:-8%;width:58%;height:130%;background:none;pointer-events:none}
 .hero .w{position:relative;z-index:2;max-width:720px;padding:88px 5% 72px}
 .hero h1{font-size:clamp(2rem,4vw,3rem);font-weight:900;color:#fff;line-height:1.1;margin-bottom:18px;letter-spacing:-.02em}
 .hero h1 span{color:var(--ac)}
@@ -128,21 +132,21 @@ section{padding:72px 5%}
 
 /* PROCESS STEPS */
 .steps{display:grid;grid-template-columns:repeat(5,1fr);gap:12px;margin-top:32px;position:relative}
-.steps::after{content:'';position:absolute;top:24px;left:10%;right:10%;height:2px;background:linear-gradient(90deg,var(--navy),var(--b2),var(--ac));z-index:0}
+.steps::after{content:'';position:absolute;top:24px;left:10%;right:10%;height:2px;background:var(--bd);z-index:0}
 .step{text-align:center;position:relative;z-index:1}
-.sn{width:48px;height:48px;background:linear-gradient(135deg,var(--navy),var(--blue));border-radius:50%;display:flex;align-items:center;justify-content:center;font-family:'Outfit',sans-serif;font-size:1.05rem;font-weight:900;color:#fff;margin:0 auto 14px;box-shadow:0 4px 16px rgba(26,79,214,.28);border:3px solid var(--w)}
+.sn{width:48px;height:48px;background:var(--blue);border-radius:50%;display:flex;align-items:center;justify-content:center;font-family:'Outfit',sans-serif;font-size:1.05rem;font-weight:900;color:#fff;margin:0 auto 14px;box-shadow:0 4px 16px rgba(26,79,214,.28);border:3px solid var(--w)}
 .step h3{font-family:'Outfit',sans-serif;font-size:.92rem;font-weight:700;color:var(--ink);margin-bottom:4px}
 .step p{font-size:.82rem;color:var(--mu);line-height:1.5}
 
 /* DARK SECTION */
-.dark{background:linear-gradient(135deg,var(--n2) 0%,#001428 100%);color:#fff;position:relative;overflow:hidden}
-.dark::before{content:'';position:absolute;inset:0;background-image:linear-gradient(rgba(249,115,22,.04) 1px,transparent 1px),linear-gradient(90deg,rgba(249,115,22,.04) 1px,transparent 1px);background-size:44px 44px}
+.dark{background:#0a152a;color:#fff;position:relative;overflow:hidden}
+.dark::before{content:'';position:absolute;inset:0;background-image:none;background-size:44px 44px}
 .dark .w{position:relative;z-index:1}
 .dark .st{color:#fff}
 .dark .ss{color:rgba(255,255,255,.75)}
 
 /* CTA */
-.ctaf{background:linear-gradient(135deg,var(--ink) 0%,var(--navy) 55%,#001428 100%);color:#fff;text-align:center;padding:72px 5%}
+.ctaf{background:#0a152a;color:#fff;text-align:center;padding:72px 5%}
 .ctaf h2{font-family:'Outfit',sans-serif;font-size:clamp(1.6rem,2.6vw,2.2rem);font-weight:900;max-width:620px;margin:0 auto 14px;line-height:1.18}
 .ctaf p{font-size:1rem;color:rgba(255,255,255,.85);max-width:520px;margin:0 auto 28px;line-height:1.7}
 .bp:hover{text-decoration:none}

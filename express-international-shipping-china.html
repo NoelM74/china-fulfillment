@@ -27,6 +27,10 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
 <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700;800;900&family=Mulish:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
 <style>
+body{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;text-rendering:optimizeLegibility}
+h1,h2,h3,h4,h5{text-wrap:balance}
+p{text-wrap:pretty}
+
 :root{--ink:#0c1a2e;--navy:#0d2144;--n2:#091830;--n3:#040d18;--blue:#1a4fd6;--b2:#2563eb;--ac:#f97316;--ach:#ea6c0a;--off:#f4f6fb;--w:#ffffff;--mu:#4a6178;--bd:#dae0ec;--gr:#10b981}
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
 html{scroll-behavior:smooth;font-size:16px}
@@ -57,9 +61,9 @@ nav{position:sticky;top:0;z-index:400;background:rgba(255,255,255,.97);backdrop-
 
 /* HERO */
 .hero{position:relative;min-height:480px;display:flex;align-items:center;padding:88px 5% 72px;overflow:hidden}
-.hero::before{content:'';position:absolute;inset:0;background:linear-gradient(130deg,#010b1a 0%,#0d2144 45%,#091830 70%,#001428 100%)}
-.hero::after{content:'';position:absolute;inset:0;background-image:linear-gradient(rgba(255,255,255,.022) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.022) 1px,transparent 1px);background-size:52px 52px}
-.hglow{position:absolute;top:-10%;right:-8%;width:58%;height:130%;background:radial-gradient(ellipse at center,rgba(249,115,22,.18) 0%,rgba(249,115,22,.07) 40%,transparent 68%);z-index:0;pointer-events:none}
+.hero::before{content:'';position:absolute;inset:0;background:#0a152a}
+.hero::after{content:'';position:absolute;inset:0;background-image:none;background-size:52px 52px}
+.hglow{position:absolute;top:-10%;right:-8%;width:58%;height:130%;background:none;z-index:0;pointer-events:none}
 .hero-w{position:relative;z-index:2;max-width:700px}
 .hero-badge{display:inline-block;background:rgba(249,115,22,.15);color:var(--ac);font-size:.82rem;font-weight:800;padding:5px 14px;border-radius:20px;text-transform:uppercase;letter-spacing:.08em;font-family:'Outfit',sans-serif;margin-bottom:18px}
 .hero h1{font-size:clamp(2rem,3.8vw,2.9rem);font-weight:900;color:#fff;line-height:1.12;margin-bottom:18px;letter-spacing:-.02em}
@@ -120,7 +124,7 @@ section{padding:72px 5%}
 .route .rprice{font-size:.85rem;color:var(--ac);font-weight:700;margin-top:2px}
 
 /* SENSITIVE GOODS */
-.sensitive{background:linear-gradient(135deg,#fffbeb,#fef3c7);border:1px solid #fbbf24;border-radius:14px;padding:28px;margin:28px 0}
+.sensitive{background:#fdf6e3;border:1px solid #fbbf24;border-radius:14px;padding:28px;margin:28px 0}
 .sensitive h3{font-family:'Outfit',sans-serif;color:#92400e;margin:0 0 10px;font-size:1.1rem}
 .sensitive p{color:#78350f;margin-bottom:12px}
 .sens-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}
@@ -134,7 +138,7 @@ section{padding:72px 5%}
 .carrier{background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.1);border-radius:10px;padding:14px 22px;font-family:'Outfit',sans-serif;font-size:.9rem;font-weight:700;color:rgba(255,255,255,.85)}
 
 /* CTA */
-.ctaf{background:linear-gradient(135deg,var(--ink) 0%,var(--navy) 55%,#001428 100%);color:#fff;text-align:center;padding:72px 5%}
+.ctaf{background:#0a152a;color:#fff;text-align:center;padding:72px 5%}
 .ctaf h2{font-family:'Outfit',sans-serif;font-size:clamp(1.6rem,2.6vw,2.2rem);font-weight:900;max-width:620px;margin:0 auto 14px}
 .ctaf p{font-size:1rem;color:rgba(255,255,255,.85);max-width:520px;margin:0 auto 28px;line-height:1.7}
 

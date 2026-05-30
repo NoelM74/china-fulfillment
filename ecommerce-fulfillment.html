@@ -31,6 +31,10 @@
 </script>
 <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700;800;900&family=Mulish:wght@300;400;500;600&display=swap" rel="stylesheet"/>
 <style>
+body{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;text-rendering:optimizeLegibility}
+h1,h2,h3,h4,h5{text-wrap:balance}
+p{text-wrap:pretty}
+
 /* ═══════════════════════════════════════
    ECOMMERCE FULFILLMENT — v2 Rebuild
    Same design system as homepage
@@ -88,9 +92,9 @@ nav{position:sticky;top:0;z-index:400;background:rgba(255,255,255,.97);backdrop-
 
 /* ── HERO ── */
 .hero{position:relative;background:var(--n3);overflow:hidden;padding:88px 5% 80px}
-.hero::before{content:'';position:absolute;inset:0;background:linear-gradient(130deg,#010b1a 0%,#0d2144 45%,#091830 70%,#001428 100%)}
-.hero::after{content:'';position:absolute;inset:0;background-image:linear-gradient(rgba(255,255,255,.022) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.022) 1px,transparent 1px);background-size:52px 52px}
-.hglow{position:absolute;top:-10%;right:-8%;width:58%;height:130%;background:radial-gradient(ellipse at center,rgba(249,115,22,.18) 0%,rgba(249,115,22,.07) 40%,transparent 68%);z-index:0;pointer-events:none}
+.hero::before{content:'';position:absolute;inset:0;background:#0a152a}
+.hero::after{content:'';position:absolute;inset:0;background-image:none;background-size:52px 52px}
+.hglow{position:absolute;top:-10%;right:-8%;width:58%;height:130%;background:none;z-index:0;pointer-events:none}
 .hi-wrap{position:relative;z-index:1;max-width:820px}
 .htag{display:inline-flex;align-items:center;gap:9px;background:rgba(249,115,22,.15);border:1px solid rgba(249,115,22,.3);color:#fed7aa;font-size:.88rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;padding:6px 16px;border-radius:40px;margin-bottom:26px;font-family:'Outfit',sans-serif}
 .htag-d{width:6px;height:6px;background:var(--ac);border-radius:50%;animation:pk 2s infinite;flex-shrink:0}
@@ -168,7 +172,7 @@ section{padding:88px 5%}
 .sol-img img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .4s}
 .sol-card:hover .sol-img img{transform:scale(1.05)}
 .sol-body{padding:22px 20px;flex:1;display:flex;flex-direction:column;position:relative}
-.sol-body::before{content:'';position:absolute;top:0;left:20px;right:20px;height:2px;background:linear-gradient(90deg,var(--blue),var(--b2))}
+.sol-body::before{content:'';position:absolute;top:0;left:20px;right:20px;height:2px;background:var(--blue)}
 .sol-num{font-size:.82rem;font-weight:700;letter-spacing:.08em;color:rgba(26,79,214,.35);text-transform:uppercase;margin-bottom:6px;font-family:'Outfit',sans-serif}
 .sol-card h3{font-size:1rem;font-weight:800;color:var(--ink);margin-bottom:8px;font-family:'Outfit',sans-serif;line-height:1.22}
 .sol-card p{font-size:.93rem;color:var(--mu);line-height:1.68;flex:1}
@@ -187,8 +191,8 @@ section{padding:88px 5%}
 .persona p{font-size:.93rem;color:var(--dk-body);line-height:1.68;border-top:1px solid rgba(255,255,255,.1);padding-top:14px;font-style:italic}
 
 /* ── TRUST BAND (dark) ── */
-.trust-band{background:linear-gradient(135deg,var(--n2) 0%,#001428 100%);padding:88px 5%;position:relative;overflow:hidden}
-.trust-band::before{content:'';position:absolute;inset:0;background-image:linear-gradient(rgba(249,115,22,.04) 1px,transparent 1px),linear-gradient(90deg,rgba(249,115,22,.04) 1px,transparent 1px);background-size:44px 44px}
+.trust-band{background:#0a152a;padding:88px 5%;position:relative;overflow:hidden}
+.trust-band::before{content:'';position:absolute;inset:0;background-image:none;background-size:44px 44px}
 .trust-band .sl{color:#fed7aa}
 .trust-band .st{color:#fff}
 .trust-band .ss{color:var(--dk-body)}
@@ -210,7 +214,7 @@ details[open] summary::after{content:'−'}
 .fans{padding:0 24px 20px;font-size:.97rem;color:var(--mu);line-height:1.76;font-weight:400}
 
 /* ── FINAL CTA ── */
-.ctaf{background:linear-gradient(135deg,var(--ink) 0%,var(--navy) 55%,#001428 100%);color:#fff;text-align:center;padding:96px 5%}
+.ctaf{background:#0a152a;color:#fff;text-align:center;padding:96px 5%}
 .ctaf .sl{color:#fed7aa}
 .ctaf h2{font-size:clamp(2rem,3.6vw,2.9rem);font-weight:900;max-width:720px;margin:0 auto 16px;line-height:1.15;letter-spacing:-.022em}
 .ctaf .lead{font-size:1.05rem;color:var(--dk-body);max-width:520px;margin:0 auto 10px;font-weight:400;line-height:1.72}

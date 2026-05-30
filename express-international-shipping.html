@@ -33,6 +33,10 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
 <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700;800;900&family=Mulish:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
 <style>
+body{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;text-rendering:optimizeLegibility}
+h1,h2,h3,h4,h5{text-wrap:balance}
+p{text-wrap:pretty}
+
 :root{--ink:#0c1a2e;--navy:#0d2144;--n2:#091830;--n3:#040d18;--blue:#1a4fd6;--b2:#2563eb;--ac:#f97316;--ach:#ea6c0a;--off:#f4f6fb;--w:#ffffff;--mu:#4a6178;--bd:#dae0ec;--gr:#10b981}
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
 html{scroll-behavior:smooth;font-size:16px}
@@ -70,9 +74,9 @@ section{padding:88px 5%}
 
 /* ── HERO ── */
 .hero{position:relative;overflow:hidden;padding:100px 5% 72px;min-height:440px}
-.hero::before{content:'';position:absolute;inset:0;background:linear-gradient(130deg,#010b1a 0%,#0d2144 45%,#091830 70%,#001428 100%)}
-.hero::after{content:'';position:absolute;inset:0;background-image:linear-gradient(rgba(255,255,255,.022) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.022) 1px,transparent 1px);background-size:52px 52px}
-.hglow{position:absolute;top:-10%;right:-8%;width:58%;height:130%;background:radial-gradient(ellipse at center,rgba(249,115,22,.18) 0%,rgba(249,115,22,.07) 40%,transparent 68%);z-index:0;pointer-events:none}
+.hero::before{content:'';position:absolute;inset:0;background:#0a152a}
+.hero::after{content:'';position:absolute;inset:0;background-image:none;background-size:52px 52px}
+.hglow{position:absolute;top:-10%;right:-8%;width:58%;height:130%;background:none;z-index:0;pointer-events:none}
 .hero .w{position:relative;z-index:1;max-width:740px}
 .hero h1{font-size:clamp(2rem,4vw,2.8rem);font-weight:900;color:#fff;line-height:1.12;margin-bottom:18px}
 .hero h1 span{color:var(--ac)}
@@ -116,7 +120,7 @@ section{padding:88px 5%}
 .carrier{background:var(--w);border:1px solid var(--bd);border-radius:8px;padding:10px 18px;font-family:'Outfit',sans-serif;font-size:.88rem;font-weight:700;color:var(--ink)}
 
 /* ── SENSITIVE GOODS ── */
-.sens{background:linear-gradient(135deg,var(--n3),var(--navy));border-radius:14px;padding:40px 36px;color:#fff;margin:32px 0}
+.sens{background:#0a152a;border-radius:14px;padding:40px 36px;color:#fff;margin:32px 0}
 .sens h3{font-family:'Outfit',sans-serif;font-size:1.2rem;font-weight:800;color:var(--ac);margin-bottom:14px}
 .sens p{color:rgba(255,255,255,.85);line-height:1.75;margin-bottom:14px}
 .sens-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin:20px 0}
@@ -124,7 +128,7 @@ section{padding:88px 5%}
 .sg.no{border-color:rgba(220,38,38,.3);color:rgba(220,38,38,.7);text-decoration:line-through}
 
 /* ── DDP SECTION ── */
-.ddp-box{background:linear-gradient(135deg,#f0fdf4,#ecfdf5);border-left:4px solid var(--gr);border-radius:0 12px 12px 0;padding:28px 32px;margin:32px 0}
+.ddp-box{background:#f2f9f4;border-left:4px solid var(--gr);border-radius:0 12px 12px 0;padding:28px 32px;margin:32px 0}
 .ddp-box h3{font-family:'Outfit',sans-serif;font-size:1.1rem;font-weight:800;color:#065f46;margin-bottom:10px}
 .ddp-box p{color:#064e3b;line-height:1.75;margin-bottom:0}
 
@@ -133,12 +137,12 @@ section{padding:88px 5%}
 .step{background:var(--off);border:1px solid var(--bd);border-radius:12px;padding:24px 18px;text-align:center;position:relative}
 .step::after{content:'→';position:absolute;right:-14px;top:50%;transform:translateY(-50%);font-size:1.2rem;color:var(--ac);font-weight:900;z-index:1}
 .step:last-child::after{display:none}
-.sn{width:40px;height:40px;background:linear-gradient(135deg,var(--navy),var(--b2));border-radius:50%;display:flex;align-items:center;justify-content:center;font-family:'Outfit',sans-serif;font-size:.9rem;font-weight:900;color:#fff;margin:0 auto 12px}
+.sn{width:40px;height:40px;background:var(--blue);border-radius:50%;display:flex;align-items:center;justify-content:center;font-family:'Outfit',sans-serif;font-size:.9rem;font-weight:900;color:#fff;margin:0 auto 12px}
 .step h3{font-family:'Outfit',sans-serif;font-size:.95rem;font-weight:700;color:var(--ink);margin-bottom:6px}
 .step p{font-size:.85rem;color:var(--mu);line-height:1.55;margin:0}
 
 /* ── CTA ── */
-.ctaf{background:linear-gradient(135deg,var(--ink) 0%,var(--navy) 55%,#001428 100%);color:#fff;text-align:center;padding:88px 5%}
+.ctaf{background:#0a152a;color:#fff;text-align:center;padding:88px 5%}
 .ctaf h2{font-family:'Outfit',sans-serif;font-size:clamp(1.7rem,2.8vw,2.3rem);font-weight:900;max-width:620px;margin:0 auto 14px}
 .ctaf p{font-size:1rem;color:rgba(255,255,255,.85);max-width:520px;margin:0 auto 28px;line-height:1.7}
 

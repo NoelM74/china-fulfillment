@@ -29,6 +29,10 @@
 <link rel="preconnect" href="https://i.ibb.co" crossorigin/>
 <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700;800;900&family=Mulish:wght@300;400;500;600&display=swap" rel="stylesheet"/>
 <style>
+body{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;text-rendering:optimizeLegibility}
+h1,h2,h3,h4,h5{text-wrap:balance}
+p{text-wrap:pretty}
+
 :root{--ink:#0c1a2e;--navy:#0d2144;--n2:#091830;--n3:#040d18;--blue:#1a4fd6;--b2:#2563eb;--ac:#f97316;--ach:#ea6c0a;--acl:rgba(249,115,22,.12);--off:#f4f6fb;--w:#ffffff;--mu:#4a6178;--bd:#dae0ec;--gr:#10b981;--gd:#fed7aa;--dk-body:rgba(255,255,255,.88);--dk-sub:rgba(255,255,255,.78);--dk-muted:rgba(255,255,255,.68)}
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
 html{scroll-behavior:smooth;font-size:16px}
@@ -65,9 +69,9 @@ nav{position:sticky;top:0;z-index:400;background:rgba(255,255,255,.97);backdrop-
 .bg:hover{border-color:#fff;background:rgba(255,255,255,.1)}
 
 .hero{position:relative;background:var(--n3);overflow:hidden;padding:88px 5% 80px}
-.hero::before{content:'';position:absolute;inset:0;background:linear-gradient(130deg,#010b1a 0%,#0d2144 45%,#091830 70%,#001428 100%)}
-.hero::after{content:'';position:absolute;inset:0;background-image:linear-gradient(rgba(255,255,255,.022) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.022) 1px,transparent 1px);background-size:52px 52px}
-.hglow{position:absolute;top:-10%;right:-8%;width:58%;height:130%;background:radial-gradient(ellipse at center,rgba(249,115,22,.18) 0%,rgba(249,115,22,.07) 40%,transparent 68%);z-index:0;pointer-events:none}
+.hero::before{content:'';position:absolute;inset:0;background:#0a152a}
+.hero::after{content:'';position:absolute;inset:0;background-image:none;background-size:52px 52px}
+.hglow{position:absolute;top:-10%;right:-8%;width:58%;height:130%;background:none;z-index:0;pointer-events:none}
 .hi-wrap{position:relative;z-index:1;max-width:820px}
 .htag{display:inline-flex;align-items:center;gap:9px;background:rgba(249,115,22,.15);border:1px solid rgba(249,115,22,.3);color:#fed7aa;font-size:.88rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;padding:6px 16px;border-radius:40px;margin-bottom:26px;font-family:'Outfit',sans-serif}
 .htag-d{width:6px;height:6px;background:var(--ac);border-radius:50%;animation:pk 2s infinite;flex-shrink:0}
@@ -134,8 +138,8 @@ section{padding:88px 5%}
 .uc p{font-size:.9rem;color:var(--mu);line-height:1.6}
 
 /* ── PRICING (dark) ── */
-.price-band{background:linear-gradient(135deg,var(--n2) 0%,#001428 100%);padding:88px 5%;position:relative;overflow:hidden}
-.price-band::before{content:'';position:absolute;inset:0;background-image:linear-gradient(rgba(249,115,22,.04) 1px,transparent 1px),linear-gradient(90deg,rgba(249,115,22,.04) 1px,transparent 1px);background-size:44px 44px}
+.price-band{background:#0a152a;padding:88px 5%;position:relative;overflow:hidden}
+.price-band::before{content:'';position:absolute;inset:0;background-image:none;background-size:44px 44px}
 .pb-in{position:relative;z-index:1;max-width:1100px;margin:0 auto;display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:center}
 .pb-copy .sl{color:#fed7aa}
 .pb-copy h2{font-family:'Outfit',sans-serif;font-size:clamp(1.65rem,2.6vw,2.3rem);font-weight:800;color:#fff;line-height:1.2;letter-spacing:-.018em;margin-bottom:14px}
@@ -156,7 +160,7 @@ summary::after{content:'+';font-size:1.5rem;color:var(--ac);font-weight:300;flex
 details[open] summary::after{content:'−'}
 .fans{padding:0 24px 20px;font-size:.97rem;color:var(--mu);line-height:1.76;font-weight:400}
 
-.ctaf{background:linear-gradient(135deg,var(--ink) 0%,var(--navy) 55%,#001428 100%);color:#fff;text-align:center;padding:96px 5%}
+.ctaf{background:#0a152a;color:#fff;text-align:center;padding:96px 5%}
 .ctaf .sl{color:#fed7aa}
 .ctaf h2{font-size:clamp(2rem,3.6vw,2.9rem);font-weight:900;max-width:720px;margin:0 auto 16px;line-height:1.15;letter-spacing:-.022em}
 .ctaf .lead{font-size:1.05rem;color:var(--dk-body);max-width:520px;margin:0 auto 10px;font-weight:400;line-height:1.72}

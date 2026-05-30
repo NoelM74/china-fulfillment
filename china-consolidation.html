@@ -20,6 +20,10 @@
 <link rel="preconnect" href="https://fonts.googleapis.com"/>
 <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800;900&family=Mulish:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&display=swap" rel="stylesheet"/>
 <style>
+body{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;text-rendering:optimizeLegibility}
+h1,h2,h3,h4,h5{text-wrap:balance}
+p{text-wrap:pretty}
+
 :root{--ink:#0d1520;--blue:#003b7a;--blue2:#0050a8;--accent:#ff6b1a;--accentH:#e05a10;--off:#f4f7fb;--w:#fff;--muted:#5a6b7d;--border:#dce6f0;--green:#00b87a;--red:#ef4444}
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
 html{scroll-behavior:smooth}
@@ -35,7 +39,7 @@ nav{position:sticky;top:0;z-index:200;background:var(--w);border-bottom:1px soli
 .offerbar{background:var(--accent);color:#fff;text-align:center;padding:12px 5%;font-size:.88rem;font-weight:600;letter-spacing:.01em}
 .offerbar em{font-style:normal;opacity:.85;font-weight:400;margin-left:6px}
 /* HERO */
-.hero{background:var(--ink);background-image:radial-gradient(ellipse 55% 55% at 75% 45%,rgba(0,80,168,.28) 0%,transparent 65%),radial-gradient(ellipse 35% 45% at 5% 85%,rgba(255,107,26,.1) 0%,transparent 55%);padding:96px 5% 88px;position:relative;overflow:hidden}
+.hero{background:var(--ink);background-image:none;padding:96px 5% 88px;position:relative;overflow:hidden}
 .hero::after{content:'';position:absolute;right:-80px;top:-80px;width:480px;height:480px;border:1px solid rgba(255,255,255,.04);border-radius:50%;pointer-events:none}
 .hinner{max-width:800px}
 .htag{display:inline-block;background:rgba(255,107,26,.16);border:1px solid rgba(255,107,26,.35);color:#ffb07a;font-size:.72rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;padding:5px 14px;border-radius:40px;margin-bottom:28px}
@@ -100,7 +104,7 @@ section{padding:80px 5%}
 .sol-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(310px,1fr));gap:24px}
 .sol-card{border:1px solid var(--border);border-radius:14px;padding:30px 26px;transition:all .2s;position:relative;overflow:hidden}
 .sol-card:hover{border-color:var(--blue2);box-shadow:0 8px 28px rgba(0,59,122,.09);transform:translateY(-2px)}
-.sol-card::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,var(--blue),var(--blue2))}
+.sol-card::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:var(--blue)}
 .sol-num{font-family:'Outfit',sans-serif;font-size:.72rem;font-weight:800;letter-spacing:.1em;color:rgba(0,59,122,.3);text-transform:uppercase;margin-bottom:10px}
 .sol-card h3{font-size:1.05rem;font-weight:700;color:var(--blue);margin-bottom:10px}
 .sol-card p{font-size:.9rem;color:var(--muted);line-height:1.65}
@@ -180,7 +184,7 @@ details[open] summary::after{content:'−'}
 .fans{padding:0 22px 18px;font-size:.88rem;color:var(--muted);line-height:1.75}
 
 /* CTA FINAL */
-.ctafinal{background:linear-gradient(135deg,var(--ink) 0%,#001830 100%);color:#fff;text-align:center;padding:100px 5%}
+.ctafinal{background:#0a152a;color:#fff;text-align:center;padding:100px 5%}
 .ctafinal h2{font-size:clamp(1.9rem,4vw,3rem);font-weight:800;max-width:700px;margin:0 auto 20px;line-height:1.2}
 .ctafinal .hi{color:var(--accent)}
 .ctafinal p{font-size:1rem;color:rgba(255,255,255,.7);max-width:520px;margin:0 auto 18px;font-weight:300;line-height:1.7}

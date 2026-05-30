@@ -30,6 +30,10 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
 <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700;800;900&family=Mulish:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
 <style>
+body{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;text-rendering:optimizeLegibility}
+h1,h2,h3,h4,h5{text-wrap:balance}
+p{text-wrap:pretty}
+
 :root{--ink:#0c1a2e;--navy:#0d2144;--n2:#091830;--n3:#040d18;--blue:#1a4fd6;--b2:#2563eb;--ac:#f97316;--ach:#ea6c0a;--off:#f4f6fb;--w:#ffffff;--mu:#4a6178;--bd:#dae0ec;--gr:#10b981}
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
 html{scroll-behavior:smooth;font-size:16px}
@@ -74,7 +78,7 @@ nav{position:sticky;top:0;z-index:400;background:rgba(255,255,255,.97);backdrop-
 .article a{color:var(--b2);text-decoration:underline;text-underline-offset:2px}
 .article strong{color:var(--ink);font-weight:700}
 
-.callout{background:linear-gradient(135deg,var(--n3),var(--navy));border-radius:14px;padding:32px 28px;margin:32px 0;color:#fff}
+.callout{background:#0a152a;border-radius:14px;padding:32px 28px;margin:32px 0;color:#fff}
 .callout h3{color:var(--ac);margin:0 0 10px;font-size:1.1rem}
 .callout p{color:rgba(255,255,255,.88);margin-bottom:0}
 .callout .big{font-family:'Outfit',sans-serif;font-size:2.2rem;font-weight:900;color:var(--ac);line-height:1}
@@ -97,7 +101,7 @@ nav{position:sticky;top:0;z-index:400;background:rgba(255,255,255,.97);backdrop-
 .sf h4{font-family:'Outfit',sans-serif;font-size:.92rem;font-weight:700;color:var(--ink);margin-bottom:4px}
 .sf p{font-size:.82rem;color:var(--mu);line-height:1.5;margin:0}
 
-.ctaf{background:linear-gradient(135deg,var(--ink) 0%,var(--navy) 55%,#001428 100%);color:#fff;text-align:center;padding:72px 5%}
+.ctaf{background:#0a152a;color:#fff;text-align:center;padding:72px 5%}
 .ctaf h2{font-family:'Outfit',sans-serif;font-size:clamp(1.6rem,2.6vw,2.2rem);font-weight:900;max-width:620px;margin:0 auto 14px}
 .ctaf p{font-size:1rem;color:rgba(255,255,255,.85);max-width:520px;margin:0 auto 28px;line-height:1.7}
 .bp{background:var(--ac);color:#fff;padding:14px 30px;border-radius:8px;font-weight:700;font-size:1rem;font-family:'Outfit',sans-serif;transition:all .18s;display:inline-block}
