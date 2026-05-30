@@ -3,9 +3,55 @@ import glob
 import yaml
 import markdown
 import re
+import datetime
 
 TEMPLATE_PATH = "news-shopify-fulfillment-china.html"
 DRAFTS_PATH = "data/content/drafts/*.md"
+
+# Map a display category to the data-cat value blog.html's filters use.
+CAT_TO_FILTER = {
+    "Amazon FBA": "fba",
+    "eCommerce": "ecom",
+    "Crowdfunding": "ecom",
+    "Shipping": "shipping",
+    "Operations": "ops",
+    "Blog": "ecom",
+}
+
+
+def fmt_dates(value):
+    """Return (long, short) date strings from a frontmatter date.
+
+    long  -> 'June 2, 2026'  (article hero byline)
+    short -> 'June 2026'      (blog card)
+    Falls back to the raw value if it cannot be parsed.
+    """
+    if isinstance(value, (datetime.date, datetime.datetime)):
+        d = value
+    else:
+        try:
+            d = datetime.datetime.strptime(str(value), "%Y-%m-%d")
+        except (ValueError, TypeError):
+            return str(value), str(value)
+    return f"{d.strftime('%B')} {d.day}, {d.year}", f"{d.strftime('%B')} {d.year}"
+
+
+def resolve_category(meta, slug):
+    """Prefer an explicit frontmatter category; else infer from the slug."""
+    cat = meta.get("category")
+    if cat:
+        return cat
+    if "fba" in slug or "amazon" in slug:
+        return "Amazon FBA"
+    if "crowdfunding" in slug or "kickstarter" in slug or "indiegogo" in slug:
+        return "Crowdfunding"
+    if "de-minimis" in slug or "customs" in slug or "duty" in slug or "shipping" in slug:
+        return "Shipping"
+    if "kitting" in slug or "bundle" in slug or "packaging" in slug or "assembly" in slug:
+        return "Operations"
+    if "shopify" in slug or "d2c" in slug or "3pl" in slug or "ecommerce" in slug:
+        return "eCommerce"
+    return "Blog"
 
 def extract_template_parts():
     with open(TEMPLATE_PATH, "r", encoding="utf-8") as f:
@@ -101,11 +147,9 @@ def build_pages():
         new_html.append(f'<div class="bread"><a href="/">Home</a><span>›</span><a href="blog.html">Blog</a><span>›</span>{title}</div>\n')
         
         # Hero Section
-        cat = "Blog"
-        if "fba" in slug or "amazon" in slug: cat = "Amazon FBA"
-        elif "kickstarter" in slug: cat = "eCommerce"
-        elif "shopify" in slug: cat = "eCommerce"
-        
+        cat = resolve_category(meta, slug)
+        long_date, short_date = fmt_dates(meta.get("last_updated", ""))
+
         new_html.append(f'''
 <section class="art-hero">
   <div class="w">
@@ -113,7 +157,7 @@ def build_pages():
     <h1>{title}</h1>
     <div class="art-meta">
       <span>By <strong>{meta.get("author", "China Fulfillment")}</strong></span>
-      <span>Published May 16, 2026</span>
+      <span>Published {long_date}</span>
     </div>
     <div class="art-hero-img">
       <img src="{meta.get("images", {}).get("hero", "")}" alt="{meta.get("images", {}).get("hero_alt", "")}" width="1200" height="440" loading="eager" decoding="async"/>
@@ -150,7 +194,7 @@ def build_pages():
             "slug": slug,
             "img": meta.get("images", {}).get("hero", ""),
             "cat": cat,
-            "date": "May 2026"
+            "date": short_date
         })
 
     # Now update blog.html
@@ -163,7 +207,11 @@ def build_pages():
     if len(parts) == 2:
         new_links = []
         for p in posts_data:
-            data_cat = "fba" if p['cat'] == "Amazon FBA" else "ecom"
+            # Idempotency: never add a card for a post already in the grid.
+            if f'href="{p["slug"]}.html"' in blog_html:
+                print(f"Skipped blog.html card (already present): {p['slug']}")
+                continue
+            data_cat = CAT_TO_FILTER.get(p['cat'], "ecom")
             new_links.append(f'''
       <!-- NEW: {p['title']} -->
       <a href="{p['slug']}.html" class="post" data-cat="{data_cat}">
