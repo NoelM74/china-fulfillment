@@ -15,9 +15,9 @@ content_type: blog_post
 author: Noel Murphy
 last_updated: 2026-05-30
 images:
-  hero: /images/blog/crowdfunding-fulfillment-kickstarter-indiegogo-china.png
+  hero: /images/blog/crowdfunding-fulfillment-kickstarter-indiegogo-china.webp
   hero_alt: "Staging zones of Kickstarter backer rewards being packed in a Shenzhen warehouse for global crowdfunding fulfilment"
-og_image: /images/blog/crowdfunding-fulfillment-kickstarter-indiegogo-china.png
+og_image: /images/blog/crowdfunding-fulfillment-kickstarter-indiegogo-china.webp
 ---
 
 <script type="application/ld+json">
@@ -26,7 +26,7 @@ og_image: /images/blog/crowdfunding-fulfillment-kickstarter-indiegogo-china.png
   "@type": "Article",
   "headline": "Crowdfunding Fulfillment from China: Kickstarter & Indiegogo",
   "description": "Shipping thousands of Kickstarter or Indiegogo rewards worldwide? Fulfilling from China removes double-shipping. The blueprint for a clean global reward run.",
-  "image": "https://www.china-fulfillment.com/images/blog/crowdfunding-fulfillment-kickstarter-indiegogo-china.png",
+  "image": "https://www.china-fulfillment.com/images/blog/crowdfunding-fulfillment-kickstarter-indiegogo-china.webp",
   "author": {
     "@type": "Person",
     "name": "Noel Murphy",
@@ -101,7 +101,7 @@ og_image: /images/blog/crowdfunding-fulfillment-kickstarter-indiegogo-china.png
 
 # The Crowdfunding Logistics Blueprint: Mass Shipping Kickstarter and Indiegogo Rewards from China
 
-![Staging zones of Kickstarter backer rewards being packed in a Shenzhen warehouse for global crowdfunding fulfilment](/images/blog/crowdfunding-fulfillment-kickstarter-indiegogo-china.png)
+![Staging zones of Kickstarter backer rewards being packed in a Shenzhen warehouse for global crowdfunding fulfilment](/images/blog/crowdfunding-fulfillment-kickstarter-indiegogo-china.webp)
 
 A successful crowdfunding campaign produces the single hardest shipping problem in ecommerce: thousands of orders, dozens of reward tiers, and a backer list scattered across the entire planet, all needing to ship in one concentrated wave. It is the opposite of a steady Shopify trickle. It is a surge — global, lumpy, and unforgiving — and it is exactly the moment traditional domestic warehouses tend to buckle.
 

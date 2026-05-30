@@ -15,9 +15,9 @@ content_type: blog_post
 author: Noel Murphy
 last_updated: 2026-05-29
 images:
-  hero: /images/blog/source-side-kitting-bundle-assembly-china.png
+  hero: /images/blog/source-side-kitting-bundle-assembly-china.webp
   hero_alt: "Workers assembling branded product bundles and gift sets at a Shenzhen kitting station before international shipping"
-og_image: /images/blog/source-side-kitting-bundle-assembly-china.png
+og_image: /images/blog/source-side-kitting-bundle-assembly-china.webp
 ---
 
 <script type="application/ld+json">
@@ -26,7 +26,7 @@ og_image: /images/blog/source-side-kitting-bundle-assembly-china.png
   "@type": "Article",
   "headline": "Source-Side Kitting in China: Cut Bundle Costs 70%",
   "description": "Assembling bundles and gift sets in Shenzhen cuts kitting costs by around 70% and shrinks dimensional weight on every parcel. Here's how source-side kitting works.",
-  "image": "https://www.china-fulfillment.com/images/blog/source-side-kitting-bundle-assembly-china.png",
+  "image": "https://www.china-fulfillment.com/images/blog/source-side-kitting-bundle-assembly-china.webp",
   "author": {
     "@type": "Person",
     "name": "Noel Murphy",
@@ -101,7 +101,7 @@ og_image: /images/blog/source-side-kitting-bundle-assembly-china.png
 
 # Source-Side Bundle Assembly and Custom Branding: Slashing Kitting Costs by 70% in Shenzhen
 
-![Workers assembling branded product bundles and gift sets at a Shenzhen kitting station before international shipping](/images/blog/source-side-kitting-bundle-assembly-china.png)
+![Workers assembling branded product bundles and gift sets at a Shenzhen kitting station before international shipping](/images/blog/source-side-kitting-bundle-assembly-china.webp)
 
 Most brands assemble their bundles and gift sets in the wrong country. They ship loose, unbranded components from their Chinese factories to a Western warehouse, then pay Western hourly labour to build kits, fold tissue paper, and tape boxes shut. Every step of that assembly happens at the most expensive labour rates in the supply chain, in the country with the highest warehouse real estate costs, after the components have already each been shipped across an ocean.
 

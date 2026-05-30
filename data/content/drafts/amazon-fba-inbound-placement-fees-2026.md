@@ -15,9 +15,9 @@ content_type: blog_post
 author: Noel Murphy
 last_updated: 2026-05-26
 images:
-  hero: /images/blog/amazon-fba-inbound-placement-fees-2026.png
+  hero: /images/blog/amazon-fba-inbound-placement-fees-2026.webp
   hero_alt: "Pre-split FBA cartons in a Shenzhen warehouse routed to multiple US fulfilment centres to avoid Amazon inbound placement fees"
-og_image: /images/blog/amazon-fba-inbound-placement-fees-2026.png
+og_image: /images/blog/amazon-fba-inbound-placement-fees-2026.webp
 ---
 
 <script type="application/ld+json">
@@ -26,7 +26,7 @@ og_image: /images/blog/amazon-fba-inbound-placement-fees-2026.png
   "@type": "Article",
   "headline": "Amazon FBA Inbound Placement & Low-Inventory Fees: 2026 Guide",
   "description": "Amazon's 2026 inbound placement and low-inventory fees are draining seller margins. See how a Shenzhen buffer warehouse neutralises both before your cargo ships.",
-  "image": "https://www.china-fulfillment.com/images/blog/amazon-fba-inbound-placement-fees-2026.png",
+  "image": "https://www.china-fulfillment.com/images/blog/amazon-fba-inbound-placement-fees-2026.webp",
   "author": {
     "@type": "Person",
     "name": "Noel Murphy",
@@ -101,7 +101,7 @@ og_image: /images/blog/amazon-fba-inbound-placement-fees-2026.png
 
 # Amazon FBA Inbound Placement & Low-Inventory Fees: The 2026 Fee Shield
 
-![Pre-split FBA cartons in a Shenzhen warehouse routed to multiple US fulfilment centres to avoid Amazon inbound placement fees](/images/blog/amazon-fba-inbound-placement-fees-2026.png)
+![Pre-split FBA cartons in a Shenzhen warehouse routed to multiple US fulfilment centres to avoid Amazon inbound placement fees](/images/blog/amazon-fba-inbound-placement-fees-2026.webp)
 
 On January 15, 2026, Amazon raised its FBA inbound placement service fees again, and the increase landed hardest on the sellers who can least afford to absorb it: small and mid-sized brands sending standard-size goods to a single receiving location. The math is simple and unforgiving. Ship a full pallet of inventory to one warehouse and Amazon charges you a placement fee on every unit. Let Amazon scatter that same inventory across five or more regional fulfilment centres and the placement fee drops to zero.
 

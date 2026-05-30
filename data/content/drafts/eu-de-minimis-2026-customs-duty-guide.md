@@ -15,9 +15,9 @@ content_type: blog_post
 author: Noel Murphy
 last_updated: 2026-05-28
 images:
-  hero: /images/blog/eu-de-minimis-2026-customs-duty-guide.png
+  hero: /images/blog/eu-de-minimis-2026-customs-duty-guide.webp
   hero_alt: "Low-value parcel from China clearing EU customs under the July 2026 de minimis rules with a 3 euro per-item duty"
-og_image: /images/blog/eu-de-minimis-2026-customs-duty-guide.png
+og_image: /images/blog/eu-de-minimis-2026-customs-duty-guide.webp
 ---
 
 <script type="application/ld+json">
@@ -26,7 +26,7 @@ og_image: /images/blog/eu-de-minimis-2026-customs-duty-guide.png
   "@type": "Article",
   "headline": "EU De Minimis 2026: The €3 Customs Duty Survival Guide",
   "description": "From 1 July 2026 the EU scraps the €150 duty exemption and charges €3 per item category on low-value parcels. Here's the DDP and IOSS playbook to keep parcels clearing.",
-  "image": "https://www.china-fulfillment.com/images/blog/eu-de-minimis-2026-customs-duty-guide.png",
+  "image": "https://www.china-fulfillment.com/images/blog/eu-de-minimis-2026-customs-duty-guide.webp",
   "author": {
     "@type": "Person",
     "name": "Noel Murphy",
@@ -101,7 +101,7 @@ og_image: /images/blog/eu-de-minimis-2026-customs-duty-guide.png
 
 # The July 2026 EU De Minimis Survival Guide: Protecting Your D2C Brand from the €3 Per-Item Duty
 
-![Low-value parcel from China clearing EU customs under the July 2026 de minimis rules with a 3 euro per-item duty](/images/blog/eu-de-minimis-2026-customs-duty-guide.png)
+![Low-value parcel from China clearing EU customs under the July 2026 de minimis rules with a 3 euro per-item duty](/images/blog/eu-de-minimis-2026-customs-duty-guide.webp)
 
 On 1 July 2026, the rule that quietly underpinned a decade of cross-border ecommerce into Europe disappears. The European Union is abolishing the €150 customs duty-free threshold, and in its place comes a flat interim customs duty of €3 on the item categories inside every low-value parcel entering the bloc from outside it. The EU Council confirmed the framework in late 2025 and gave it final approval in early 2026, and it is the first hard step toward the full EU Customs reform scheduled to come fully online around 2028.
 

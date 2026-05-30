@@ -15,9 +15,9 @@ content_type: blog_post
 author: Noel Murphy
 last_updated: 2026-05-27
 images:
-  hero: /images/blog/direct-from-china-d2c-vs-us-3pl-2026.png
+  hero: /images/blog/direct-from-china-d2c-vs-us-3pl-2026.webp
   hero_alt: "A domestic US 3PL invoice stacked against direct-from-China D2C fulfilment from a Shenzhen warehouse"
-og_image: /images/blog/direct-from-china-d2c-vs-us-3pl-2026.png
+og_image: /images/blog/direct-from-china-d2c-vs-us-3pl-2026.webp
 ---
 
 <script type="application/ld+json">
@@ -26,7 +26,7 @@ og_image: /images/blog/direct-from-china-d2c-vs-us-3pl-2026.png
   "@type": "Article",
   "headline": "Direct-from-China D2C vs US 3PL: 2026 Profit Audit",
   "description": "A line-by-line cost audit of direct-from-China D2C versus a domestic US 3PL for Shopify brands. See where the hidden fees hide and how to protect 15-25% of margin.",
-  "image": "https://www.china-fulfillment.com/images/blog/direct-from-china-d2c-vs-us-3pl-2026.png",
+  "image": "https://www.china-fulfillment.com/images/blog/direct-from-china-d2c-vs-us-3pl-2026.webp",
   "author": {
     "@type": "Person",
     "name": "Noel Murphy",
@@ -101,7 +101,7 @@ og_image: /images/blog/direct-from-china-d2c-vs-us-3pl-2026.png
 
 # Direct-from-China D2C vs Domestic US 3PL: The 2026 Line-Item Profit Audit
 
-![A domestic US 3PL invoice stacked against direct-from-China D2C fulfilment from a Shenzhen warehouse](/images/blog/direct-from-china-d2c-vs-us-3pl-2026.png)
+![A domestic US 3PL invoice stacked against direct-from-China D2C fulfilment from a Shenzhen warehouse](/images/blog/direct-from-china-d2c-vs-us-3pl-2026.webp)
 
 Domestic US third-party logistics has quietly become one of the most expensive line items on a Shopify brand's P&L, and most founders cannot tell you exactly why. They see a single monthly fulfilment invoice, they assume it is the cost of doing business, and they never break it apart into the dozen separate fees buried inside it. Through 2025 and into 2026, US 3PLs pushed those fees up steadily to cover their own rising labour and warehouse real estate costs, and they passed every cent of it forward.
 
