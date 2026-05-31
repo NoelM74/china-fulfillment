@@ -102,202 +102,202 @@ img{max-width:100%;height:auto;display:block}
 @media(max-width:600px){.form-inner h1{font-size:1.55rem}.reg-form-side{padding:32px 5%}.row-2{grid-template-columns:1fr}.topbar-links .hide-mob{display:none}}
 /* mobile-readability */@media(max-width:768px){html{font-size:17.5px}}@media(max-width:360px){html{font-size:16.5px}}
 </style>
-  <link rel="stylesheet" href="global-nav-footer.css"/>
+ <link rel="stylesheet" href="global-nav-footer.css"/>
 </head>
 <body>
 
 <!-- ── TOP BAR ── -->
 <div class="topbar">
-  <a href="/" class="topbar-logo"><img src="images/site/new-cf-logo-no-bg.webp" alt="China Fulfillment International" width="180" height="50"/></a>
-  <div class="topbar-links">
-    <a href="/" class="home-link">&#8592; Back to Website</a>
-    <a href="Contact-Us.html" class="hide-mob">Need Help?</a>
-  </div>
+ <a href="/" class="topbar-logo"><img src="images/site/new-cf-logo-no-bg.webp" alt="China Fulfillment International" width="180" height="50"/></a>
+ <div class="topbar-links">
+ <a href="/" class="home-link">&#8592; Back to Website</a>
+ <a href="Contact-Us.html" class="hide-mob">Need Help?</a>
+ </div>
 </div>
 
 <!-- ── SPLIT LAYOUT ── -->
 <div class="reg-wrap">
 
-  <!-- LEFT: FORM -->
-  <div class="reg-form-side">
-    <div class="form-inner">
-      <div class="greeting">Get Started Free</div>
-      <h1>Create your account,<br/>it's <span>free</span></h1>
-      <p class="sub">No setup fees, no credit card, no minimum volumes. Register and start sending inventory to your Shenzhen warehouse within days.</p>
+ <!-- LEFT: FORM -->
+ <div class="reg-form-side">
+ <div class="form-inner">
+ <div class="greeting">Get Started Free</div>
+ <h1>Create your account,<br/>it's <span>free</span></h1>
+ <p class="sub">No setup fees, no credit card, no minimum volumes. Register and start sending inventory to your Shenzhen warehouse within days.</p>
 
-      <form action="/Manage/EnWebManage/NewRegister.aspx" method="POST">
+ <form action="/Manage/EnWebManage/NewRegister.aspx" method="POST">
 
-        <div class="row-2">
-          <div class="field">
-            <label>Customer Name <span class="req">*</span></label>
-            <input type="text" name="CustomerName" placeholder="Your full name" required autocomplete="name"/>
-          </div>
-          <div class="field">
-            <label>Email <span class="req">*</span></label>
-            <input type="email" name="Email" placeholder="you@company.com" required autocomplete="email"/>
-          </div>
-        </div>
+ <div class="row-2">
+ <div class="field">
+ <label>Customer Name <span class="req">*</span></label>
+ <input type="text" name="CustomerName" placeholder="Your full name" required autocomplete="name"/>
+ </div>
+ <div class="field">
+ <label>Email <span class="req">*</span></label>
+ <input type="email" name="Email" placeholder="you@company.com" required autocomplete="email"/>
+ </div>
+ </div>
 
-        <div class="row-2">
-          <div class="field">
-            <label>Password <span class="req">*</span></label>
-            <input type="password" name="Password" placeholder="Create a password" required autocomplete="new-password"/>
-          </div>
-          <div class="field">
-            <label>Confirm Password <span class="req">*</span></label>
-            <input type="password" name="ConfirmPassword" placeholder="Confirm password" required autocomplete="new-password"/>
-          </div>
-        </div>
+ <div class="row-2">
+ <div class="field">
+ <label>Password <span class="req">*</span></label>
+ <input type="password" name="Password" placeholder="Create a password" required autocomplete="new-password"/>
+ </div>
+ <div class="field">
+ <label>Confirm Password <span class="req">*</span></label>
+ <input type="password" name="ConfirmPassword" placeholder="Confirm password" required autocomplete="new-password"/>
+ </div>
+ </div>
 
-        <div class="row-2">
-          <div class="field">
-            <label>Phone <span class="opt">(optional)</span></label>
-            <input type="tel" name="Phone" placeholder="+1 555 000 0000" autocomplete="tel"/>
-          </div>
-          <div class="field">
-            <label>WhatsApp / Skype <span class="opt">(optional)</span></label>
-            <input type="text" name="WhatsApp" placeholder="WhatsApp or Skype ID"/>
-          </div>
-        </div>
+ <div class="row-2">
+ <div class="field">
+ <label>Phone <span class="opt">(optional)</span></label>
+ <input type="tel" name="Phone" placeholder="+1 555 000 0000" autocomplete="tel"/>
+ </div>
+ <div class="field">
+ <label>WhatsApp / Skype <span class="opt">(optional)</span></label>
+ <input type="text" name="WhatsApp" placeholder="WhatsApp or Skype ID"/>
+ </div>
+ </div>
 
-        <div class="row-2">
-          <div class="field">
-            <label>Country <span class="req">*</span></label>
-            <select name="Country" required>
-              <option value="" disabled selected>Select your country</option>
-              <option value="US">United States</option>
-              <option value="GB">United Kingdom</option>
-              <option value="DE">Germany</option>
-              <option value="FR">France</option>
-              <option value="AU">Australia</option>
-              <option value="CA">Canada</option>
-              <option value="IE">Ireland</option>
-              <option value="NL">Netherlands</option>
-              <option value="IT">Italy</option>
-              <option value="ES">Spain</option>
-              <option value="JP">Japan</option>
-              <option value="AE">United Arab Emirates</option>
-              <option value="SA">Saudi Arabia</option>
-              <option value="SG">Singapore</option>
-              <option value="MY">Malaysia</option>
-              <option value="TH">Thailand</option>
-              <option value="VN">Vietnam</option>
-              <option value="PH">Philippines</option>
-              <option value="ID">Indonesia</option>
-              <option value="HK">Hong Kong</option>
-              <option value="TW">Taiwan</option>
-              <option value="CN">China</option>
-              <option value="OTHER">Other</option>
-            </select>
-          </div>
-          <div class="field">
-            <label>Address <span class="req">*</span></label>
-            <input type="text" name="Address" placeholder="Your business address" required autocomplete="street-address"/>
-          </div>
-        </div>
+ <div class="row-2">
+ <div class="field">
+ <label>Country <span class="req">*</span></label>
+ <select name="Country" required>
+ <option value="" disabled selected>Select your country</option>
+ <option value="US">United States</option>
+ <option value="GB">United Kingdom</option>
+ <option value="DE">Germany</option>
+ <option value="FR">France</option>
+ <option value="AU">Australia</option>
+ <option value="CA">Canada</option>
+ <option value="IE">Ireland</option>
+ <option value="NL">Netherlands</option>
+ <option value="IT">Italy</option>
+ <option value="ES">Spain</option>
+ <option value="JP">Japan</option>
+ <option value="AE">United Arab Emirates</option>
+ <option value="SA">Saudi Arabia</option>
+ <option value="SG">Singapore</option>
+ <option value="MY">Malaysia</option>
+ <option value="TH">Thailand</option>
+ <option value="VN">Vietnam</option>
+ <option value="PH">Philippines</option>
+ <option value="ID">Indonesia</option>
+ <option value="HK">Hong Kong</option>
+ <option value="TW">Taiwan</option>
+ <option value="CN">China</option>
+ <option value="OTHER">Other</option>
+ </select>
+ </div>
+ <div class="field">
+ <label>Address <span class="req">*</span></label>
+ <input type="text" name="Address" placeholder="Your business address" required autocomplete="street-address"/>
+ </div>
+ </div>
 
-        <div class="section-label">Business Details (optional)</div>
+ <div class="section-label">Business Details (optional)</div>
 
-        <div class="row-2">
-          <div class="field">
-            <label>Company Type <span class="opt">(optional)</span></label>
-            <select name="CompanyProperty">
-              <option value="" selected>Select type</option>
-              <option value="Personal">Personal / Individual</option>
-              <option value="Company">Registered Company</option>
-              <option value="Startup">Startup</option>
-            </select>
-          </div>
-          <div class="field">
-            <label>Primary Service <span class="opt">(optional)</span></label>
-            <select name="LogisticsType">
-              <option value="" selected>What do you need?</option>
-              <option value="FBA">Amazon FBA Consolidation</option>
-              <option value="Ecommerce">eCommerce Fulfillment</option>
-              <option value="FBAPrep">FBA Prep &amp; Labelling</option>
-              <option value="Dropshipping">Dropshipping</option>
-              <option value="COD">Cash on Delivery (COD)</option>
-              <option value="Crowdfunding">Crowdfunding Fulfillment</option>
-              <option value="Express">International Express</option>
-              <option value="Freight">Sea / Air Freight</option>
-              <option value="Other">Other</option>
-            </select>
-          </div>
-        </div>
+ <div class="row-2">
+ <div class="field">
+ <label>Company Type <span class="opt">(optional)</span></label>
+ <select name="CompanyProperty">
+ <option value="" selected>Select type</option>
+ <option value="Personal">Personal / Individual</option>
+ <option value="Company">Registered Company</option>
+ <option value="Startup">Startup</option>
+ </select>
+ </div>
+ <div class="field">
+ <label>Primary Service <span class="opt">(optional)</span></label>
+ <select name="LogisticsType">
+ <option value="" selected>What do you need?</option>
+ <option value="FBA">Amazon FBA Consolidation</option>
+ <option value="Ecommerce">eCommerce Fulfillment</option>
+ <option value="FBAPrep">FBA Prep &amp; Labelling</option>
+ <option value="Dropshipping">Dropshipping</option>
+ <option value="COD">Cash on Delivery (COD)</option>
+ <option value="Crowdfunding">Crowdfunding Fulfillment</option>
+ <option value="Express">International Express</option>
+ <option value="Freight">Sea / Air Freight</option>
+ <option value="Other">Other</option>
+ </select>
+ </div>
+ </div>
 
-        <div class="row-2">
-          <div class="field">
-            <label>Sales Platform <span class="opt">(optional)</span></label>
-            <select name="SalesPlatform">
-              <option value="" selected>Where do you sell?</option>
-              <option value="Amazon">Amazon</option>
-              <option value="Shopify">Shopify</option>
-              <option value="WooCommerce">WooCommerce</option>
-              <option value="eBay">eBay</option>
-              <option value="Etsy">Etsy</option>
-              <option value="TikTokShop">TikTok Shop</option>
-              <option value="Own">Own Website</option>
-              <option value="Multiple">Multiple Platforms</option>
-              <option value="Other">Other</option>
-            </select>
-          </div>
-          <div class="field">
-            <label>Monthly Volume <span class="opt">(optional)</span></label>
-            <select name="Volume">
-              <option value="" selected>Approximate orders</option>
-              <option value="1-100">1 - 100 orders</option>
-              <option value="100-500">100 - 500 orders</option>
-              <option value="500-2000">500 - 2,000 orders</option>
-              <option value="2000-10000">2,000 - 10,000 orders</option>
-              <option value="10000+">10,000+ orders</option>
-            </select>
-          </div>
-        </div>
+ <div class="row-2">
+ <div class="field">
+ <label>Sales Platform <span class="opt">(optional)</span></label>
+ <select name="SalesPlatform">
+ <option value="" selected>Where do you sell?</option>
+ <option value="Amazon">Amazon</option>
+ <option value="Shopify">Shopify</option>
+ <option value="WooCommerce">WooCommerce</option>
+ <option value="eBay">eBay</option>
+ <option value="Etsy">Etsy</option>
+ <option value="TikTokShop">TikTok Shop</option>
+ <option value="Own">Own Website</option>
+ <option value="Multiple">Multiple Platforms</option>
+ <option value="Other">Other</option>
+ </select>
+ </div>
+ <div class="field">
+ <label>Monthly Volume <span class="opt">(optional)</span></label>
+ <select name="Volume">
+ <option value="" selected>Approximate orders</option>
+ <option value="1-100">1 - 100 orders</option>
+ <option value="100-500">100 - 500 orders</option>
+ <option value="500-2000">500 - 2,000 orders</option>
+ <option value="2000-10000">2,000 - 10,000 orders</option>
+ <option value="10000+">10,000+ orders</option>
+ </select>
+ </div>
+ </div>
 
-        <button type="submit" class="btn-register">Create My Free Account</button>
-      </form>
+ <button type="submit" class="btn-register">Create My Free Account</button>
+ </form>
 
-      <div class="login-prompt">Already have an account? <a href="login.html">Log in &rarr;</a></div>
-      <div class="terms-note">By registering, you agree to our <a href="terms-of-service.html">Terms of Service</a> and <a href="privacy-policy.html">Privacy Policy</a>.</div>
-    </div>
-  </div>
+ <div class="login-prompt">Already have an account? <a href="login.html">Log in &rarr;</a></div>
+ <div class="terms-note">By registering, you agree to our <a href="terms-of-service.html">Terms of Service</a> and <a href="privacy-policy.html">Privacy Policy</a>.</div>
+ </div>
+ </div>
 
-  <!-- RIGHT: VALUE PANEL -->
-  <div class="reg-value-side">
-    <div class="value-inner">
-      <h2>Start shipping from<br/><span>Shenzhen in days,</span><br/>not months.</h2>
-      <p>Your free account gives you access to our warehouse dashboard, store integrations, shipping rate calculator, and your dedicated account manager. No credit card required.</p>
+ <!-- RIGHT: VALUE PANEL -->
+ <div class="reg-value-side">
+ <div class="value-inner">
+ <h2>Start shipping from<br/><span>Shenzhen in days,</span><br/>not months.</h2>
+ <p>Your free account gives you access to our warehouse dashboard, store integrations, shipping rate calculator, and your dedicated account manager. No credit card required.</p>
 
-      <div class="checklist">
-        <div class="check-item"><div class="check-ico">&#10003;</div><div>30 days free warehouse storage on your first inventory</div></div>
-        <div class="check-item"><div class="check-ico">&#10003;</div><div>Zero receiving fees on every inbound delivery</div></div>
-        <div class="check-item"><div class="check-ico">&#10003;</div><div>$0.99 per order pick and pack, no minimums</div></div>
-        <div class="check-item"><div class="check-ico">&#10003;</div><div>Shopify, WooCommerce, Amazon integration included</div></div>
-        <div class="check-item"><div class="check-ico">&#10003;</div><div>Dedicated account manager from day one</div></div>
-        <div class="check-item"><div class="check-ico">&#10003;</div><div>Ship to 220+ countries via DHL, FedEx, UPS</div></div>
-      </div>
+ <div class="checklist">
+ <div class="check-item"><div class="check-ico">&#10003;</div><div>30 days free warehouse storage on your first inventory</div></div>
+ <div class="check-item"><div class="check-ico">&#10003;</div><div>Zero receiving fees on every inbound delivery</div></div>
+ <div class="check-item"><div class="check-ico">&#10003;</div><div>$0.99 per order pick and pack, no minimums</div></div>
+ <div class="check-item"><div class="check-ico">&#10003;</div><div>Shopify, WooCommerce, Amazon integration included</div></div>
+ <div class="check-item"><div class="check-ico">&#10003;</div><div>Dedicated account manager from day one</div></div>
+ <div class="check-item"><div class="check-ico">&#10003;</div><div>Ship to 220+ countries via DHL, FedEx, UPS</div></div>
+ </div>
 
-      <div class="value-stats">
-        <div class="vstat"><div class="n">15+</div><div class="l">Years Operating</div></div>
-        <div class="vstat"><div class="n">250K</div><div class="l">Sq Ft Warehouse</div></div>
-      </div>
+ <div class="value-stats">
+ <div class="vstat"><div class="n">15+</div><div class="l">Years Operating</div></div>
+ <div class="vstat"><div class="n">250K</div><div class="l">Sq Ft Warehouse</div></div>
+ </div>
 
-      <div class="testimonial">
-        <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-        <div class="quote">"Setting up took less than a week. My supplier delivered to their warehouse, I connected Shopify, and orders started flowing. The account manager handled everything I didn't understand."</div>
-        <div class="author">
-          <div class="avatar">SM</div>
-          <div><div class="name">Shopify Seller</div><div class="role">D2C Brand, UK-based</div></div>
-        </div>
-      </div>
-    </div>
-  </div>
+ <div class="testimonial">
+ <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+ <div class="quote">"Setting up took less than a week. My supplier delivered to their warehouse, I connected Shopify, and orders started flowing. The account manager handled everything I didn't understand."</div>
+ <div class="author">
+ <div class="avatar">SM</div>
+ <div><div class="name">Shopify Seller</div><div class="role">D2C Brand, UK-based</div></div>
+ </div>
+ </div>
+ </div>
+ </div>
 
 </div>
 
 <!-- ── FOOTER BAR ── -->
 <div class="reg-footer">
-  &copy; 2026 China Fulfillment International &middot; <a href="terms-of-service.html">Terms</a> &middot; <a href="privacy-policy.html">Privacy</a> &middot; <a href="https://beian.miit.gov.cn/">粤ICP备12013396号</a>
+ &copy; 2026 China Fulfillment International &middot; <a href="terms-of-service.html">Terms</a> &middot; <a href="privacy-policy.html">Privacy</a> &middot; <a href="https://beian.miit.gov.cn/">粤ICP备12013396号</a>
 </div>
 
 

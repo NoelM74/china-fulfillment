@@ -31,19 +31,19 @@ h1,h2,h3,h4,h5{text-wrap:balance}
 p{text-wrap:pretty}
 
 :root{
-  --ink:#0c1a2e;
-  --navy:#0d2144;
-  --blue:#1a4fd6;
-  --blue2:#2563eb;
-  --accent:#f97316;
-  --accentH:#ea6c0a;
-  --off:#f5f7fb;
-  --w:#ffffff;
-  --muted:#566779;
-  --border:#dde4ef;
-  --green:#10b981;
-  --red:#ef4444;
-  --yellow:#f59e0b;
+ --ink:#0c1a2e;
+ --navy:#0d2144;
+ --blue:#1a4fd6;
+ --blue2:#2563eb;
+ --accent:#f97316;
+ --accentH:#ea6c0a;
+ --off:#f5f7fb;
+ --w:#ffffff;
+ --muted:#566779;
+ --border:#dde4ef;
+ --green:#10b981;
+ --red:#ef4444;
+ --yellow:#f59e0b;
 }
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
 html{scroll-behavior:smooth}
@@ -262,141 +262,141 @@ details[open] summary::after{content:'−'}
 
 /* ── MOBILE FIRST RESPONSIVE ── */
 @media(max-width:900px){
-  .img-split{grid-template-columns:1fr}
-  .img-split-img{min-height:280px}
-  .img-split-copy{padding:36px 28px}
+ .img-split{grid-template-columns:1fr}
+ .img-split-img{min-height:280px}
+ .img-split-copy{padding:36px 28px}
 }
 @media(max-width:768px){
-  .drip-grid{grid-template-columns:1fr}
-  .cost-split{grid-template-columns:1fr}
-  .cost-arrow{display:none}
-  .how-steps{grid-template-columns:1fr 1fr}
-  .hw:not(:last-child)::after{display:none}
-  .dest-grid{grid-template-columns:repeat(3,1fr)}
-  .tbinner{gap:14px;justify-content:flex-start}
-  .img-cinematic{height:280px}
-  .img-split{grid-template-columns:1fr}
-  /* Offer bar stacks cleanly */
-  .offerbar em{display:block;margin-left:0;margin-top:2px}
-  /* Trust bar */
-  .ti{font-size:.84rem}
-  /* Hero stat labels */
-  .hp .stat-l{font-size:.76rem}
-  /* Scenario */
-  .sce-item p{font-size:.91rem}
-  .sce-close p{font-size:.97rem}
-  /* Cost section */
-  .cline{font-size:.9rem}
-  /* Service cards */
-  .sol-card p{font-size:.91rem}
-  .sol-result{font-size:.85rem}
-  /* Drip feed items */
-  .drip-item{font-size:.9rem}
-  .bar-label{font-size:.82rem}
-  /* How it works */
-  .hw h4{font-size:.95rem}
-  .hw p{font-size:.85rem}
-  /* Pricing */
-  .prc p{font-size:.88rem}
-  .prc h4{font-size:.8rem}
-  .prc .price-unit{font-size:.8rem}
-  /* Destination cards */
-  .dc h4{font-size:.86rem}
-  .dc p{font-size:.78rem}
-  /* Compare table */
-  .ctable td{font-size:.86rem;padding:11px 12px}
-  .ctable thead th{font-size:.82rem;padding:12px 12px}
-  .ctable td:first-child{padding-left:12px}
-  .ctable thead th:first-child{padding-left:12px}
-  /* FAQ */
-  summary{font-size:.91rem}
-  .fans{font-size:.9rem}
-  /* Img split copy */
-  .img-split-copy h3{font-size:1.2rem}
-  .img-split-copy p{font-size:.9rem}
-  .img-split-copy .stat-i .l{font-size:.76rem}
+ .drip-grid{grid-template-columns:1fr}
+ .cost-split{grid-template-columns:1fr}
+ .cost-arrow{display:none}
+ .how-steps{grid-template-columns:1fr 1fr}
+ .hw:not(:last-child)::after{display:none}
+ .dest-grid{grid-template-columns:repeat(3,1fr)}
+ .tbinner{gap:14px;justify-content:flex-start}
+ .img-cinematic{height:280px}
+ .img-split{grid-template-columns:1fr}
+ /* Offer bar stacks cleanly */
+ .offerbar em{display:block;margin-left:0;margin-top:2px}
+ /* Trust bar */
+ .ti{font-size:.84rem}
+ /* Hero stat labels */
+ .hp .stat-l{font-size:.76rem}
+ /* Scenario */
+ .sce-item p{font-size:.91rem}
+ .sce-close p{font-size:.97rem}
+ /* Cost section */
+ .cline{font-size:.9rem}
+ /* Service cards */
+ .sol-card p{font-size:.91rem}
+ .sol-result{font-size:.85rem}
+ /* Drip feed items */
+ .drip-item{font-size:.9rem}
+ .bar-label{font-size:.82rem}
+ /* How it works */
+ .hw h4{font-size:.95rem}
+ .hw p{font-size:.85rem}
+ /* Pricing */
+ .prc p{font-size:.88rem}
+ .prc h4{font-size:.8rem}
+ .prc .price-unit{font-size:.8rem}
+ /* Destination cards */
+ .dc h4{font-size:.86rem}
+ .dc p{font-size:.78rem}
+ /* Compare table */
+ .ctable td{font-size:.86rem;padding:11px 12px}
+ .ctable thead th{font-size:.82rem;padding:12px 12px}
+ .ctable td:first-child{padding-left:12px}
+ .ctable thead th:first-child{padding-left:12px}
+ /* FAQ */
+ summary{font-size:.91rem}
+ .fans{font-size:.9rem}
+ /* Img split copy */
+ .img-split-copy h3{font-size:1.2rem}
+ .img-split-copy p{font-size:.9rem}
+ .img-split-copy .stat-i .l{font-size:.76rem}
 }
 @media(max-width:600px){
-  /* Spacing */
-  .hero{padding:52px 5% 44px}
-  section{padding:48px 5%}
-  .ctafinal{padding:60px 5%}
-  /* Offer bar */
-  .offerbar{font-size:.82rem;padding:10px 4%}
-  /* Nav */
-  .navcta{padding:8px 16px;font-size:.82rem}
-  /* Hero */
-  .hbtns{flex-direction:column;gap:10px}
-  .bp,.bg{width:100%;text-align:center;padding:14px 20px}
-  .hproof{gap:18px}
-  .hp .stat-n{font-size:1.55rem}
-  .hp .stat-l{font-size:.74rem}
-  /* Cinematic height on small mobile */
-  .img-cinematic{height:210px}
-  /* Scenario */
-  .sce-item{gap:12px;padding:18px 0}
-  .sce-item h3{font-size:.95rem}
-  .sce-item p{font-size:.88rem;line-height:1.64}
-  .sce-close{padding:20px 18px}
-  .sce-close p{font-size:.9rem}
-  .sce-ico{font-size:1.3rem}
-  /* Cost section */
-  .cost-bad,.cost-good{padding:20px 16px}
-  .cost-bad h3,.cost-good h3{font-size:.9rem}
-  .cline{font-size:.84rem;gap:10px}
-  .cline:last-child{font-size:.86rem}
-  /* Service cards */
-  .sol-card{padding:22px 18px}
-  .sol-card h3{font-size:.98rem}
-  .sol-card p{font-size:.88rem;line-height:1.64}
-  .sol-result{font-size:.82rem}
-  /* Seller Central split */
-  .img-split-copy{padding:26px 20px}
-  .img-split-copy h3{font-size:1.1rem}
-  .img-split-copy p{font-size:.88rem}
-  .img-split-copy .stat-pair{gap:14px}
-  .img-split-copy .stat-i .n{font-size:1.5rem}
-  .img-split-copy .stat-i .l{font-size:.74rem}
-  /* Drip feed */
-  .drip-old,.drip-new{padding:18px 16px}
-  .drip-old h3,.drip-new h3{font-size:.92rem}
-  .drip-item{font-size:.87rem}
-  .drip-visual{padding:20px 16px}
-  .drip-visual h4{font-size:.88rem}
-  .bar-label{font-size:.8rem}
-  /* How it works */
-  .how-steps{grid-template-columns:1fr}
-  .hw{padding:14px 10px}
-  .hw-n{width:44px;height:44px;font-size:1rem}
-  .hw h4{font-size:.9rem}
-  .hw p{font-size:.83rem;line-height:1.6}
-  /* Pricing */
-  .pr-grid{grid-template-columns:1fr}
-  .prc{padding:20px 16px}
-  .prc .price-amount{font-size:1.7rem}
-  .prc p{font-size:.86rem}
-  .prc h4{font-size:.78rem}
-  .pr-note{padding:20px 16px}
-  .pr-note p{font-size:.87rem}
-  /* Destination grid */
-  .dest-grid{grid-template-columns:1fr 1fr}
-  .dc{padding:14px 10px}
-  .dc h4{font-size:.84rem}
-  .dc p{font-size:.76rem}
-  .df{font-size:22px}
-  /* Compare table */
-  .ctable td{font-size:.8rem;padding:9px 9px}
-  .ctable thead th{font-size:.77rem;padding:10px 9px}
-  /* FAQ */
-  summary{font-size:.88rem;padding:14px 16px;gap:10px}
-  .fans{font-size:.87rem;padding:0 16px 14px;line-height:1.72}
-  /* CTA */
-  .ctafinal .lead{font-size:.93rem}
-  .ctafinal .micro{font-size:.77rem}
-  .trust-row{gap:10px}
-  .tr-item{font-size:.76rem}
-  /* Sol grid single col already handled */
-  .sol-grid{grid-template-columns:1fr}
+ /* Spacing */
+ .hero{padding:52px 5% 44px}
+ section{padding:48px 5%}
+ .ctafinal{padding:60px 5%}
+ /* Offer bar */
+ .offerbar{font-size:.82rem;padding:10px 4%}
+ /* Nav */
+ .navcta{padding:8px 16px;font-size:.82rem}
+ /* Hero */
+ .hbtns{flex-direction:column;gap:10px}
+ .bp,.bg{width:100%;text-align:center;padding:14px 20px}
+ .hproof{gap:18px}
+ .hp .stat-n{font-size:1.55rem}
+ .hp .stat-l{font-size:.74rem}
+ /* Cinematic height on small mobile */
+ .img-cinematic{height:210px}
+ /* Scenario */
+ .sce-item{gap:12px;padding:18px 0}
+ .sce-item h3{font-size:.95rem}
+ .sce-item p{font-size:.88rem;line-height:1.64}
+ .sce-close{padding:20px 18px}
+ .sce-close p{font-size:.9rem}
+ .sce-ico{font-size:1.3rem}
+ /* Cost section */
+ .cost-bad,.cost-good{padding:20px 16px}
+ .cost-bad h3,.cost-good h3{font-size:.9rem}
+ .cline{font-size:.84rem;gap:10px}
+ .cline:last-child{font-size:.86rem}
+ /* Service cards */
+ .sol-card{padding:22px 18px}
+ .sol-card h3{font-size:.98rem}
+ .sol-card p{font-size:.88rem;line-height:1.64}
+ .sol-result{font-size:.82rem}
+ /* Seller Central split */
+ .img-split-copy{padding:26px 20px}
+ .img-split-copy h3{font-size:1.1rem}
+ .img-split-copy p{font-size:.88rem}
+ .img-split-copy .stat-pair{gap:14px}
+ .img-split-copy .stat-i .n{font-size:1.5rem}
+ .img-split-copy .stat-i .l{font-size:.74rem}
+ /* Drip feed */
+ .drip-old,.drip-new{padding:18px 16px}
+ .drip-old h3,.drip-new h3{font-size:.92rem}
+ .drip-item{font-size:.87rem}
+ .drip-visual{padding:20px 16px}
+ .drip-visual h4{font-size:.88rem}
+ .bar-label{font-size:.8rem}
+ /* How it works */
+ .how-steps{grid-template-columns:1fr}
+ .hw{padding:14px 10px}
+ .hw-n{width:44px;height:44px;font-size:1rem}
+ .hw h4{font-size:.9rem}
+ .hw p{font-size:.83rem;line-height:1.6}
+ /* Pricing */
+ .pr-grid{grid-template-columns:1fr}
+ .prc{padding:20px 16px}
+ .prc .price-amount{font-size:1.7rem}
+ .prc p{font-size:.86rem}
+ .prc h4{font-size:.78rem}
+ .pr-note{padding:20px 16px}
+ .pr-note p{font-size:.87rem}
+ /* Destination grid */
+ .dest-grid{grid-template-columns:1fr 1fr}
+ .dc{padding:14px 10px}
+ .dc h4{font-size:.84rem}
+ .dc p{font-size:.76rem}
+ .df{font-size:22px}
+ /* Compare table */
+ .ctable td{font-size:.8rem;padding:9px 9px}
+ .ctable thead th{font-size:.77rem;padding:10px 9px}
+ /* FAQ */
+ summary{font-size:.88rem;padding:14px 16px;gap:10px}
+ .fans{font-size:.87rem;padding:0 16px 14px;line-height:1.72}
+ /* CTA */
+ .ctafinal .lead{font-size:.93rem}
+ .ctafinal .micro{font-size:.77rem}
+ .trust-row{gap:10px}
+ .tr-item{font-size:.76rem}
+ /* Sol grid single col already handled */
+ .sol-grid{grid-template-columns:1fr}
 }
 /* mobile-readability */@media(max-width:768px){html{font-size:17.5px}}@media(max-width:360px){html{font-size:16.5px}}
 .hbyline{color:rgba(255,255,255,.62);font-size:.86rem;font-weight:500;font-family:'Outfit',sans-serif;margin:2px 0 20px;letter-spacing:.01em}.hbyline strong{color:rgba(255,255,255,.82);font-weight:600}
@@ -404,36 +404,36 @@ details[open] summary::after{content:'−'}
 </style>
 
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How is this different from just using a freight forwarder in China?","acceptedAnswer":{"@type":"Answer","text":"A freight forwarder's job ends at the port. Ours begins there. We receive goods from multiple suppliers, consolidate them, QC inspect, FBA prep (labels, poly bags, carton labels), handle all customs documentation, and automatically upload tracking nu"}},{"@type":"Question","name":"Will drip-feed shipping actually improve my IPI score?","acceptedAnswer":{"@type":"Answer","text":"In most cases, yes — significantly. IPI is affected by your excess inventory ratio and sell-through rate. When you maintain only 4–8 weeks of cover in Amazon instead of 5–6 months, your sell-through improves and your excess inventory drops. Many sell"}},{"@type":"Question","name":"What if one of my weekly shipments is delayed or lost?","acceptedAnswer":{"@type":"Answer","text":"This is exactly why drip-feed protects you better than bulk shipping. When you send weekly shipments, a single delay means your next shipment arrives 7 days later — not 3 months later. Additionally, all shipments through us are fully insured. If good"}},{"@type":"Question","name":"Can you handle FBA prep for products with complex requirements?","acceptedAnswer":{"@type":"Answer","text":"Yes. We regularly handle poly bagging for apparel and soft goods, bubble wrap for fragile items, suffocation warning labels, set and bundle creation, over-labelling, expiry date labelling, and custom carton dimensions for non-standard products. If yo"}},{"@type":"Question","name":"What does the 30-day free storage offer actually include?","acceptedAnswer":{"@type":"Answer","text":"When your first goods arrive at our Shenzhen facility, your 30-day free storage period begins and runs for exactly 30 days from that date. There are no storage charges during this period, no matter your volume. After 30 days, the standard rate of $0."}},{"@type":"Question","name":"Do you integrate with Amazon Seller Central directly?","acceptedAnswer":{"@type":"Answer","text":"Yes — full integration. Your product SKUs sync to our platform. When you create a shipment, it creates the corresponding shipping plan in Seller Central automatically. Carton labels are printed in our Shenzhen warehouse. Tracking numbers are uploaded"}}]}</script>
-  <link rel="stylesheet" href="global-nav-footer.css"/>
+ <link rel="stylesheet" href="global-nav-footer.css"/>
 </head>
 <body>
 
 <nav>
-  <a href="index.html" class="logo"><img src="images/site/new-cf-logo-no-bg.webp" alt="China Fulfillment International — Shenzhen 3PL and Amazon FBA consolidation" loading="eager" width="180" height="50"/></a>
-  <div class="nl">
-    <a href="amazon-fba-consolidation.html">FBA Consolidation</a>
-    <a href="china-consolidation.html">D2C Brands</a>
-    <a href="quality-control-fba-prep-china.html">QC &amp; Prep</a>
-    <a href="amazon-fba-prep-china.html">FBA Prep</a>
-    <a href="tariff-management-china.html">Tariffs</a>
-    <a href="international-freight-forwarding-china.html">Freight</a>
-    <a href="supplier-management-china.html">Suppliers</a>
-    <a class="ncta" href="Contact-Us.html">Get a Free Quote</a>
-  </div>
-  <div class="ham" id="ham" onclick="tM()"><span></span><span></span><span></span></div>
+ <a href="index.html" class="logo"><img src="images/site/new-cf-logo-no-bg.webp" alt="China Fulfillment International — Shenzhen 3PL and Amazon FBA consolidation" loading="eager" width="180" height="50"/></a>
+ <div class="nl">
+ <a href="amazon-fba-consolidation.html">FBA Consolidation</a>
+ <a href="china-consolidation.html">D2C Brands</a>
+ <a href="quality-control-fba-prep-china.html">QC &amp; Prep</a>
+ <a href="amazon-fba-prep-china.html">FBA Prep</a>
+ <a href="tariff-management-china.html">Tariffs</a>
+ <a href="international-freight-forwarding-china.html">Freight</a>
+ <a href="supplier-management-china.html">Suppliers</a>
+ <a class="ncta" href="Contact-Us.html">Get a Free Quote</a>
+ </div>
+ <div class="ham" id="ham" onclick="tM()"><span></span><span></span><span></span></div>
 </nav>
 <div class="mob" id="mob">
-  <a href="amazon-fba-consolidation.html">Amazon FBA Consolidation</a>
-  <a href="china-consolidation.html">D2C Brand Consolidation</a>
-  <a href="quality-control-fba-prep-china.html">QC &amp; FBA Prep</a>
-  <a href="amazon-fba-prep-china.html">Amazon FBA Prep Service</a>
-  <a href="tariff-management-china.html">Tariff Management</a>
-  <a href="international-freight-forwarding-china.html">Freight Forwarding</a>
-  <a href="supplier-management-china.html">Supplier Management</a>
-  <a href="ecommerce-fulfillment.html">eCommerce Fulfillment</a>
-  <a href="Contact-Us.html" class="mcta">Get a Free Quote — No Cost, No Commitment</a>
+ <a href="amazon-fba-consolidation.html">Amazon FBA Consolidation</a>
+ <a href="china-consolidation.html">D2C Brand Consolidation</a>
+ <a href="quality-control-fba-prep-china.html">QC &amp; FBA Prep</a>
+ <a href="amazon-fba-prep-china.html">Amazon FBA Prep Service</a>
+ <a href="tariff-management-china.html">Tariff Management</a>
+ <a href="international-freight-forwarding-china.html">Freight Forwarding</a>
+ <a href="supplier-management-china.html">Supplier Management</a>
+ <a href="ecommerce-fulfillment.html">eCommerce Fulfillment</a>
+ <a href="Contact-Us.html" class="mcta">Get a Free Quote — No Cost, No Commitment</a>
 </div>
-<div class="obar">&#127873; New Customers: <strong>30 Days FREE Warehouse Storage</strong><em> — No credit card. No minimums. No conditions.</em></div>
+<div class="obar"><svg class="i" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="8" width="18" height="4" rx="1"/><path d="M12 8v13"/><path d="M19 12v7a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2v-7"/><path d="M7.5 8a2.5 2.5 0 0 1 0-5A4.8 8 0 0 1 12 8a4.8 8 0 0 1 4.5-5 2.5 2.5 0 0 1 0 5"/></svg> New Customers: <strong>30 Days FREE Warehouse Storage</strong><em> — No credit card. No minimums. No conditions.</em></div>
 
 
 
@@ -445,471 +445,471 @@ details[open] summary::after{content:'−'}
 
 <!-- ═══ HERO ═══ -->
 <section class="hero">
-  <div class="hinner">
-    <div class="htag">Amazon FBA Consolidation · Shenzhen, China · 15 Years</div>
-    <h1>Amazon is quietly <span class="hi">charging you a fortune</span> to store inventory<br/><span class="dim">that was never meant to sit there.</span></h1>
-    <div class="hbyline">Updated <time datetime="2026-05-30">May 2026</time> &middot; By <strong>China Fulfillment International</strong>, Shenzhen</div>
-    <p class="hook">Bulk shipping to Amazon made sense once. But today, with storage fees spiking, IPI score limits, and US tariff uncertainty — the old way of doing things is silently eroding your margins with every quarter that passes.</p>
-    <p class="sub">China-Fulfillment.com is your Shenzhen consolidation hub. We receive from all your suppliers, FBA-prep everything to Amazon's exact spec, and drip-feed small shipments directly to fulfilment centres worldwide — on your schedule, not a container company's.</p>
-    <div class="hbtns">
-      <a class="bp" href="https://www.china-fulfillment.com/Contact-Us.html">Get a Free Quote →</a>
-      <a class="bg" href="https://www.china-fulfillment.com/Contact-Us.html">Talk to an Expert</a>
-    </div>
-    <div class="hproof">
-      <div class="hp"><div class="stat-n">15+</div><div class="stat-l">Years in Business</div></div>
-      <div class="hp"><div class="stat-n">200+</div><div class="stat-l">Countries & FBA Markets</div></div>
-      <div class="hp"><div class="stat-n">$0.49</div><div class="stat-l">Per CBM / Day Storage</div></div>
-      <div class="hp"><div class="stat-n">30</div><div class="stat-l">Days Free Storage</div></div>
-    </div>
-  </div>
+ <div class="hinner">
+ <div class="htag">Amazon FBA Consolidation · Shenzhen, China · 15 Years</div>
+ <h1>Amazon is quietly <span class="hi">charging you a fortune</span> to store inventory<br/><span class="dim">that was never meant to sit there.</span></h1>
+ <div class="hbyline">Updated <time datetime="2026-05-30">May 2026</time> &middot; By <strong>China Fulfillment International</strong>, Shenzhen</div>
+ <p class="hook">Bulk shipping to Amazon made sense once. But today, with storage fees spiking, IPI score limits, and US tariff uncertainty — the old way of doing things is silently eroding your margins with every quarter that passes.</p>
+ <p class="sub">China-Fulfillment.com is your Shenzhen consolidation hub. We receive from all your suppliers, FBA-prep everything to Amazon's exact spec, and drip-feed small shipments directly to fulfilment centres worldwide — on your schedule, not a container company's.</p>
+ <div class="hbtns">
+ <a class="bp" href="https://www.china-fulfillment.com/Contact-Us.html">Get a Free Quote →</a>
+ <a class="bg" href="https://www.china-fulfillment.com/Contact-Us.html">Talk to an Expert</a>
+ </div>
+ <div class="hproof">
+ <div class="hp"><div class="stat-n">15+</div><div class="stat-l">Years in Business</div></div>
+ <div class="hp"><div class="stat-n">200+</div><div class="stat-l">Countries & FBA Markets</div></div>
+ <div class="hp"><div class="stat-n">$0.49</div><div class="stat-l">Per CBM / Day Storage</div></div>
+ <div class="hp"><div class="stat-n">30</div><div class="stat-l">Days Free Storage</div></div>
+ </div>
+ </div>
 </section>
 
 <!-- ═══ HERO IMAGE ═══ -->
 <div class="img-cinematic">
-  <img src="images/site/amazon-fba-consolidation-china-warehouse-shenzhen.webp" alt="Amazon FBA consolidation warehouse Shenzhen China — PFC China Fulfillment" width="1200" height="480" loading="eager" fetchpriority="high" decoding="sync"/>
+ <img src="images/site/amazon-fba-consolidation-china-warehouse-shenzhen.webp" alt="Amazon FBA consolidation warehouse Shenzhen China — PFC China Fulfillment" width="1200" height="480" loading="eager" fetchpriority="high" decoding="sync"/>
 </div>
 
 <div class="tbar">
-  <div class="tbinner">
-    <div class="ti">Amazon Seller Central Integration</div>
-    <div class="ti">FNSKU Labelling & FBA Prep</div>
-    <div class="ti">Multi-Supplier Receiving</div>
-    <div class="ti">Fully Insured Shipments</div>
-    <div class="ti">Tariff & Customs Management</div>
-  </div>
+ <div class="tbinner">
+ <div class="ti">Amazon Seller Central Integration</div>
+ <div class="ti">FNSKU Labelling & FBA Prep</div>
+ <div class="ti">Multi-Supplier Receiving</div>
+ <div class="ti">Fully Insured Shipments</div>
+ <div class="ti">Tariff & Customs Management</div>
+ </div>
 </div>
 
 <!-- ═══ SCENARIO ═══ -->
 <section class="scenario">
-  <div class="wrap">
-    <div class="sce-inner">
-      <div class="sl">Does This Sound Like You?</div>
-      <h2 class="st">The Amazon seller supply chain problems nobody talks about publicly</h2>
-      <p class="ss">You're generating real sales on Amazon. But behind the numbers, the logistics setup is quietly eating your profit — and it gets worse every time Amazon changes its rules.</p>
-    </div>
-    <ul class="sce-list">
-      <li class="sce-item">
-        <div class="sce-ico"><svg class="i" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect width="20" height="12" x="2" y="6" rx="2"/><circle cx="12" cy="12" r="2"/><path d="M6 12h.01M18 12h.01"/></svg></div>
-        <div>
-          <h3>You're paying Amazon to store inventory that hasn't sold yet</h3>
-          <p>You sent 6 months of stock in a single container because the per-unit freight cost was lower. Smart at the time. But now Amazon is billing you $2.40 per cubic foot per month in Q4, your IPI score is under pressure, and half that stock is still sitting in a fulfilment centre. The freight "saving" evaporated weeks ago.</p>
-        </div>
-      </li>
-      <li class="sce-item">
-        <div class="sce-ico"><svg class="i" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 20a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8l-7 5V8l-7 5V4a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2Z"/><path d="M17 18h1"/><path d="M12 18h1"/><path d="M7 18h1"/></svg></div>
-        <div>
-          <h3>You've added a US 3PL to work around Amazon's storage limits — and now you're paying twice</h3>
-          <p>Receiving fees. Monthly storage. Pick and pack per pallet. Then another freight bill to move it from the 3PL into Amazon. At some point you stopped doing the maths because the answer was too uncomfortable. There has to be a better way.</p>
-        </div>
-      </li>
-      <li class="sce-item">
-        <div class="sce-ico"><svg class="i" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m7.5 4.27 9 5.15"/><path d="M21 8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16Z"/><path d="m3.3 7 8.7 5 8.7-5"/><path d="M12 22V12"/></svg></div>
-        <div>
-          <h3>You're coordinating 3, 5, or more suppliers in China with no central hub</h3>
-          <p>Factory A ships this week. Factory B ships next week. Factory C is still "almost ready." You're chasing separate tracking numbers, forwarding Amazon labels to multiple contacts, and hoping nobody screws up the prep. Meanwhile, your Seller Central dashboard shows mismatched inventory and Amazon is asking questions.</p>
-        </div>
-      </li>
-      <li class="sce-item">
-        <div class="sce-ico"><svg class="i" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12.586 2.586A2 2 0 0 0 11.172 2H4a2 2 0 0 0-2 2v7.172a2 2 0 0 0 .586 1.414l8.704 8.704a2.426 2.426 0 0 0 3.42 0l6.58-6.58a2.426 2.426 0 0 0 0-3.42z"/><circle cx="7.5" cy="7.5" r=".5" fill="currentColor"/></svg></div>
-        <div>
-          <h3>You've had an FBA prep rejection — and dealt with it remotely at full cost</h3>
-          <p>Wrong FNSKU label. Missing poly bag. Barcode covered by packaging. Amazon rejects the shipment or charges you a non-compliance fee. Fixing a prep error from 8,000 miles away is expensive, slow, and humiliating. And it usually happens when you're already out of stock on the listing.</p>
-        </div>
-      </li>
-      <li class="sce-item">
-        <div class="sce-ico"><svg class="i" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M16 17h6v-6"/><path d="m22 17-8.5-8.5-5 5L2 7"/></svg></div>
-        <div>
-          <h3>A delayed shipment has wiped out your ranking before</h3>
-          <p>You shipped everything in one container. It got held at port. Or weather delayed the sailing by 3 weeks. Suddenly you're out of stock, your ranking tanks, and rebuilding takes months of PPC spend you hadn't budgeted for. You promised yourself you'd never let it happen again — but the logistics setup hasn't changed.</p>
-        </div>
-      </li>
-      <li class="sce-item">
-        <div class="sce-ico"><svg class="i" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3"/><path d="M12 9v4"/><path d="M12 17h.01"/></svg></div>
-        <div>
-          <h3>Tariff changes keep landing on your P&L without warning</h3>
-          <p>First it was Section 301 tariffs. Then the rates changed. Now there's talk of more. Every time something shifts, you're scrambling to recalculate your landed cost, figure out if you're still profitable, and wonder whether your customs broker has you correctly classified. It's a distraction you can't afford.</p>
-        </div>
-      </li>
-    </ul>
-    <div class="sce-close">
-      <p>If three or more of those scenarios hit home, your current logistics setup is <strong>costing you more than the shipping bill shows</strong> — and we can fix it with one phone call.</p>
-    </div>
-  </div>
+ <div class="wrap">
+ <div class="sce-inner">
+ <div class="sl">Does This Sound Like You?</div>
+ <h2 class="st">The Amazon seller supply chain problems nobody talks about publicly</h2>
+ <p class="ss">You're generating real sales on Amazon. But behind the numbers, the logistics setup is quietly eating your profit — and it gets worse every time Amazon changes its rules.</p>
+ </div>
+ <ul class="sce-list">
+ <li class="sce-item">
+ <div class="sce-ico"><svg class="i" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect width="20" height="12" x="2" y="6" rx="2"/><circle cx="12" cy="12" r="2"/><path d="M6 12h.01M18 12h.01"/></svg></div>
+ <div>
+ <h3>You're paying Amazon to store inventory that hasn't sold yet</h3>
+ <p>You sent 6 months of stock in a single container because the per-unit freight cost was lower. Smart at the time. But now Amazon is billing you $2.40 per cubic foot per month in Q4, your IPI score is under pressure, and half that stock is still sitting in a fulfilment centre. The freight "saving" evaporated weeks ago.</p>
+ </div>
+ </li>
+ <li class="sce-item">
+ <div class="sce-ico"><svg class="i" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 20a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8l-7 5V8l-7 5V4a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2Z"/><path d="M17 18h1"/><path d="M12 18h1"/><path d="M7 18h1"/></svg></div>
+ <div>
+ <h3>You've added a US 3PL to work around Amazon's storage limits — and now you're paying twice</h3>
+ <p>Receiving fees. Monthly storage. Pick and pack per pallet. Then another freight bill to move it from the 3PL into Amazon. At some point you stopped doing the maths because the answer was too uncomfortable. There has to be a better way.</p>
+ </div>
+ </li>
+ <li class="sce-item">
+ <div class="sce-ico"><svg class="i" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m7.5 4.27 9 5.15"/><path d="M21 8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16Z"/><path d="m3.3 7 8.7 5 8.7-5"/><path d="M12 22V12"/></svg></div>
+ <div>
+ <h3>You're coordinating 3, 5, or more suppliers in China with no central hub</h3>
+ <p>Factory A ships this week. Factory B ships next week. Factory C is still "almost ready." You're chasing separate tracking numbers, forwarding Amazon labels to multiple contacts, and hoping nobody screws up the prep. Meanwhile, your Seller Central dashboard shows mismatched inventory and Amazon is asking questions.</p>
+ </div>
+ </li>
+ <li class="sce-item">
+ <div class="sce-ico"><svg class="i" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12.586 2.586A2 2 0 0 0 11.172 2H4a2 2 0 0 0-2 2v7.172a2 2 0 0 0 .586 1.414l8.704 8.704a2.426 2.426 0 0 0 3.42 0l6.58-6.58a2.426 2.426 0 0 0 0-3.42z"/><circle cx="7.5" cy="7.5" r=".5" fill="currentColor"/></svg></div>
+ <div>
+ <h3>You've had an FBA prep rejection — and dealt with it remotely at full cost</h3>
+ <p>Wrong FNSKU label. Missing poly bag. Barcode covered by packaging. Amazon rejects the shipment or charges you a non-compliance fee. Fixing a prep error from 8,000 miles away is expensive, slow, and humiliating. And it usually happens when you're already out of stock on the listing.</p>
+ </div>
+ </li>
+ <li class="sce-item">
+ <div class="sce-ico"><svg class="i" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M16 17h6v-6"/><path d="m22 17-8.5-8.5-5 5L2 7"/></svg></div>
+ <div>
+ <h3>A delayed shipment has wiped out your ranking before</h3>
+ <p>You shipped everything in one container. It got held at port. Or weather delayed the sailing by 3 weeks. Suddenly you're out of stock, your ranking tanks, and rebuilding takes months of PPC spend you hadn't budgeted for. You promised yourself you'd never let it happen again — but the logistics setup hasn't changed.</p>
+ </div>
+ </li>
+ <li class="sce-item">
+ <div class="sce-ico"><svg class="i" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3"/><path d="M12 9v4"/><path d="M12 17h.01"/></svg></div>
+ <div>
+ <h3>Tariff changes keep landing on your P&L without warning</h3>
+ <p>First it was Section 301 tariffs. Then the rates changed. Now there's talk of more. Every time something shifts, you're scrambling to recalculate your landed cost, figure out if you're still profitable, and wonder whether your customs broker has you correctly classified. It's a distraction you can't afford.</p>
+ </div>
+ </li>
+ </ul>
+ <div class="sce-close">
+ <p>If three or more of those scenarios hit home, your current logistics setup is <strong>costing you more than the shipping bill shows</strong> — and we can fix it with one phone call.</p>
+ </div>
+ </div>
 </section>
 
 <!-- ═══ COST REALITY ═══ -->
 <section class="cost">
-  <div class="wrap">
-    <div class="sl">Run the Numbers</div>
-    <h2 class="st">What you're actually paying vs what you should be paying</h2>
-    <p class="ss">Most Amazon sellers don't calculate their true supply chain cost because the invoices come from 4 different companies. When you put it all on one page, the picture is uncomfortable.</p>
-    <div class="cost-split">
-      <div class="cost-bad">
-        <h3><svg class="i" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="color:#ef4444"><circle cx="12" cy="12" r="10"/><path d="m15 9-6 6"/><path d="m9 9 6 6"/></svg> Typical Amazon seller — no consolidation</h3>
-        <div class="cline"><span>Amazon FBA storage, 10 CBM, Jan–Sep (×9 months)</span><span class="val bad">$2,762</span></div>
-        <div class="cline"><span>Amazon FBA storage, 10 CBM, Q4 (×3 months)</span><span class="val bad">$2,545</span></div>
-        <div class="cline"><span>US 3PL storage + receiving + P&P (overflow)</span><span class="val bad">$3,200+</span></div>
-        <div class="cline"><span>Separate freight per supplier (×4 shipments)</span><span class="val bad">$4,000+</span></div>
-        <div class="cline"><span>FBA rejection rework (1 incident)</span><span class="val bad">$800+</span></div>
-        <div class="cline"><span>Stockout PPC recovery (1 stockout event)</span><span class="val bad">$2,000+</span></div>
-        <div class="cline"><span>Total estimated annual cost</span><span class="val bad">$15,300+</span></div>
-      </div>
-      <div class="cost-arrow">→</div>
-      <div class="cost-good">
-        <h3><svg class="i" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="color:#10b981"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></svg> Same seller — consolidated through Shenzhen</h3>
-        <div class="cline"><span>China storage, 10 CBM × 12 months</span><span class="val good">~$1,786</span></div>
-        <div class="cline"><span>Q4 Amazon storage (lean stock only)</span><span class="val good">~$400</span></div>
-        <div class="cline"><span>US 3PL</span><span class="val good">$0</span></div>
-        <div class="cline"><span>One consolidated freight bill</span><span class="val good">~$1,200</span></div>
-        <div class="cline"><span>FBA rejections (QC catches issues in China)</span><span class="val good">$0</span></div>
-        <div class="cline"><span>Stockouts (weekly drip-feed = always in stock)</span><span class="val good">$0</span></div>
-        <div class="cline"><span>Total estimated annual cost</span><span class="val good">~$3,386</span></div>
-      </div>
-    </div>
-    <p style="color:rgba(255,255,255,.3);font-size:.76rem;margin-top:16px;text-align:right">* Illustrative model. Actual savings depend on your specific volumes, SKU mix, and markets. Based on standard Amazon storage rates Jan 2025.</p>
-    <div style="margin-top:44px">
-      <div class="img-full">
-        <img src="images/site/amazon-fba-storage-cost-china-vs-amazon-warehouse.webp" alt="Amazon FBA storage cost comparison — China warehouse vs Amazon FBA fees" width="1100" height="500" loading="lazy" fetchpriority="low" decoding="async"/>
-      </div>
-      <p style="color:rgba(255,255,255,.35);font-size:.78rem;margin-top:12px;text-align:center">Storing 20 CBM in Shenzhen vs Amazon FBA — the difference compounds dramatically in Q4</p>
-    </div>
-  </div>
+ <div class="wrap">
+ <div class="sl">Run the Numbers</div>
+ <h2 class="st">What you're actually paying vs what you should be paying</h2>
+ <p class="ss">Most Amazon sellers don't calculate their true supply chain cost because the invoices come from 4 different companies. When you put it all on one page, the picture is uncomfortable.</p>
+ <div class="cost-split">
+ <div class="cost-bad">
+ <h3><svg class="i" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="color:#ef4444"><circle cx="12" cy="12" r="10"/><path d="m15 9-6 6"/><path d="m9 9 6 6"/></svg> Typical Amazon seller — no consolidation</h3>
+ <div class="cline"><span>Amazon FBA storage, 10 CBM, Jan–Sep (×9 months)</span><span class="val bad">$2,762</span></div>
+ <div class="cline"><span>Amazon FBA storage, 10 CBM, Q4 (×3 months)</span><span class="val bad">$2,545</span></div>
+ <div class="cline"><span>US 3PL storage + receiving + P&P (overflow)</span><span class="val bad">$3,200+</span></div>
+ <div class="cline"><span>Separate freight per supplier (×4 shipments)</span><span class="val bad">$4,000+</span></div>
+ <div class="cline"><span>FBA rejection rework (1 incident)</span><span class="val bad">$800+</span></div>
+ <div class="cline"><span>Stockout PPC recovery (1 stockout event)</span><span class="val bad">$2,000+</span></div>
+ <div class="cline"><span>Total estimated annual cost</span><span class="val bad">$15,300+</span></div>
+ </div>
+ <div class="cost-arrow">→</div>
+ <div class="cost-good">
+ <h3><svg class="i" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="color:#10b981"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></svg> Same seller — consolidated through Shenzhen</h3>
+ <div class="cline"><span>China storage, 10 CBM × 12 months</span><span class="val good">~$1,786</span></div>
+ <div class="cline"><span>Q4 Amazon storage (lean stock only)</span><span class="val good">~$400</span></div>
+ <div class="cline"><span>US 3PL</span><span class="val good">$0</span></div>
+ <div class="cline"><span>One consolidated freight bill</span><span class="val good">~$1,200</span></div>
+ <div class="cline"><span>FBA rejections (QC catches issues in China)</span><span class="val good">$0</span></div>
+ <div class="cline"><span>Stockouts (weekly drip-feed = always in stock)</span><span class="val good">$0</span></div>
+ <div class="cline"><span>Total estimated annual cost</span><span class="val good">~$3,386</span></div>
+ </div>
+ </div>
+ <p style="color:rgba(255,255,255,.3);font-size:.76rem;margin-top:16px;text-align:right">* Illustrative model. Actual savings depend on your specific volumes, SKU mix, and markets. Based on standard Amazon storage rates Jan 2025.</p>
+ <div style="margin-top:44px">
+ <div class="img-full">
+ <img src="images/site/amazon-fba-storage-cost-china-vs-amazon-warehouse.webp" alt="Amazon FBA storage cost comparison — China warehouse vs Amazon FBA fees" width="1100" height="500" loading="lazy" fetchpriority="low" decoding="async"/>
+ </div>
+ <p style="color:rgba(255,255,255,.35);font-size:.78rem;margin-top:12px;text-align:center">Storing 20 CBM in Shenzhen vs Amazon FBA — the difference compounds dramatically in Q4</p>
+ </div>
+ </div>
 </section>
 
 <!-- ═══ THE FIX ═══ -->
 <section class="fix">
-  <div class="wrap">
-    <div class="fix-intro">
-      <div class="sl">The Solution</div>
-      <h2 class="st">One Shenzhen warehouse. Every FBA market worldwide. Total control.</h2>
-      <p class="ss" style="margin-bottom:0">Here's exactly what we do — and the specific outcome each service delivers for your Amazon business.</p>
-    </div>
-    <div class="sol-grid">
-      <div class="sol-card">
-        <div class="sol-num">Service 01</div>
-        <h3>Multi-Supplier Receiving & Consolidation</h3>
-        <p>All your Chinese factories deliver directly to our Shenzhen warehouse — no minimum volumes, zero receiving fees. We consolidate stock from unlimited suppliers under one roof, ready to prep and ship to Amazon on your timeline, not theirs.</p>
-        <div class="sol-result">✓ Eliminate supplier coordination chaos and fragmented freight bills</div>
-      </div>
-      <div class="sol-card">
-        <div class="sol-num">Service 02</div>
-        <h3>Quality Control Before It Leaves China</h3>
-        <p>Our team inspects every inbound shipment against your spec while goods are still in Shenzhen — and while you still have supplier leverage to demand rework for free. We catch the errors that would have become Amazon rejections, refunds, or one-star reviews.</p>
-        <div class="sol-result">✓ Zero FBA rejection incidents. Zero quality surprises at destination</div>
-      </div>
-      <div class="sol-card">
-        <div class="sol-num">Service 03</div>
-        <h3>Full Amazon FBA Prep & Labelling</h3>
-        <p>FNSKU labels, poly bagging, bubble wrap, suffocation warning labels, set and bundle creation, carton content labels — every single Amazon FBA compliance requirement handled correctly, in our Shenzhen warehouse, before shipment. We know Amazon's rules because we've been doing this for 15 years.</p>
-        <div class="sol-result">✓ Shipments accepted first time, every time — no rework, no rejection fees</div>
-      </div>
-      <div class="sol-card">
-        <div class="sol-num">Service 04</div>
-        <h3>Low-Cost Shenzhen Storage</h3>
-        <p>Store your inventory with us at $0.49 per CBM per day — saving between 52% and 83% compared to Amazon's own FBA storage fees depending on the month. Keep your bulk stock in China and only send Amazon what it needs. Your first 30 days are completely free.</p>
-        <div class="sol-result">✓ Free up capital. Eliminate punishing Q4 Amazon storage charges</div>
-      </div>
-      <div class="sol-card">
-        <div class="sol-num">Service 05</div>
-        <h3>Drip-Feed Shipping Directly to Amazon FBA</h3>
-        <p>Send small, frequent shipments straight to Amazon fulfilment centres — weekly, fortnightly, or on whatever cadence suits your velocity. This keeps your IPI score healthy, eliminates stockout risk, improves cash flow, and means a delayed single shipment never kills your ranking again.</p>
-        <div class="sol-result">✓ Higher IPI. No stockouts. Better cash flow. Lower risk per shipment</div>
-      </div>
-      <div class="sol-card">
-        <div class="sol-num">Service 06</div>
-        <h3>Tariff & Customs Management</h3>
-        <p>We manage all customs documentation, tariff classification, duty optimisation routing, and supply entry summary extracts for every consolidated shipment. Your dashboard holds complete audit-ready records. No more scrambling when the rules change — we've already modelled it.</p>
-        <div class="sol-result">✓ Stay compliant globally. Reduce duty exposure. Sleep better</div>
-      </div>
-    </div>
-  </div>
+ <div class="wrap">
+ <div class="fix-intro">
+ <div class="sl">The Solution</div>
+ <h2 class="st">One Shenzhen warehouse. Every FBA market worldwide. Total control.</h2>
+ <p class="ss" style="margin-bottom:0">Here's exactly what we do — and the specific outcome each service delivers for your Amazon business.</p>
+ </div>
+ <div class="sol-grid">
+ <div class="sol-card">
+ <div class="sol-num">Service 01</div>
+ <h3>Multi-Supplier Receiving & Consolidation</h3>
+ <p>All your Chinese factories deliver directly to our Shenzhen warehouse — no minimum volumes, zero receiving fees. We consolidate stock from unlimited suppliers under one roof, ready to prep and ship to Amazon on your timeline, not theirs.</p>
+ <div class="sol-result">✓ Eliminate supplier coordination chaos and fragmented freight bills</div>
+ </div>
+ <div class="sol-card">
+ <div class="sol-num">Service 02</div>
+ <h3>Quality Control Before It Leaves China</h3>
+ <p>Our team inspects every inbound shipment against your spec while goods are still in Shenzhen — and while you still have supplier leverage to demand rework for free. We catch the errors that would have become Amazon rejections, refunds, or one-star reviews.</p>
+ <div class="sol-result">✓ Zero FBA rejection incidents. Zero quality surprises at destination</div>
+ </div>
+ <div class="sol-card">
+ <div class="sol-num">Service 03</div>
+ <h3>Full Amazon FBA Prep & Labelling</h3>
+ <p>FNSKU labels, poly bagging, bubble wrap, suffocation warning labels, set and bundle creation, carton content labels — every single Amazon FBA compliance requirement handled correctly, in our Shenzhen warehouse, before shipment. We know Amazon's rules because we've been doing this for 15 years.</p>
+ <div class="sol-result">✓ Shipments accepted first time, every time — no rework, no rejection fees</div>
+ </div>
+ <div class="sol-card">
+ <div class="sol-num">Service 04</div>
+ <h3>Low-Cost Shenzhen Storage</h3>
+ <p>Store your inventory with us at $0.49 per CBM per day — saving between 52% and 83% compared to Amazon's own FBA storage fees depending on the month. Keep your bulk stock in China and only send Amazon what it needs. Your first 30 days are completely free.</p>
+ <div class="sol-result">✓ Free up capital. Eliminate punishing Q4 Amazon storage charges</div>
+ </div>
+ <div class="sol-card">
+ <div class="sol-num">Service 05</div>
+ <h3>Drip-Feed Shipping Directly to Amazon FBA</h3>
+ <p>Send small, frequent shipments straight to Amazon fulfilment centres — weekly, fortnightly, or on whatever cadence suits your velocity. This keeps your IPI score healthy, eliminates stockout risk, improves cash flow, and means a delayed single shipment never kills your ranking again.</p>
+ <div class="sol-result">✓ Higher IPI. No stockouts. Better cash flow. Lower risk per shipment</div>
+ </div>
+ <div class="sol-card">
+ <div class="sol-num">Service 06</div>
+ <h3>Tariff & Customs Management</h3>
+ <p>We manage all customs documentation, tariff classification, duty optimisation routing, and supply entry summary extracts for every consolidated shipment. Your dashboard holds complete audit-ready records. No more scrambling when the rules change — we've already modelled it.</p>
+ <div class="sol-result">✓ Stay compliant globally. Reduce duty exposure. Sleep better</div>
+ </div>
+ </div>
+ </div>
 </section>
 
 <!-- ═══ SELLER CENTRAL FEATURE ═══ -->
 <div style="padding:0 5%;background:var(--off);padding-bottom:80px">
-  <div class="wrap">
-    <div class="img-split">
-      <div class="img-split-img">
-        <img src="images/site/amazon-seller-inventory-management-dashboard-china.webp" alt="Amazon Seller Central inventory management dashboard — China FBA consolidation integration" width="550" height="320" loading="lazy" fetchpriority="low" decoding="async" style="width:100%;height:100%;object-fit:cover;display:block"/>
-      </div>
-      <div class="img-split-copy">
-        <div class="sl">Seller Central Integration</div>
-        <h3>Your entire FBA operation managed from one dashboard — not five.</h3>
-        <p>When you create a shipment through our platform, it simultaneously creates the shipping plan in Amazon Seller Central, prints carton labels in our Shenzhen warehouse, and auto-uploads tracking numbers the moment goods are dispatched. No manual steps. No downloading files and emailing them across time zones.</p>
-        <div class="stat-pair">
-          <div class="stat-i"><div class="n">5 min</div><div class="l">To create a shipment</div></div>
-          <div class="stat-i"><div class="n">0</div><div class="l">Manual label uploads</div></div>
-          <div class="stat-i"><div class="n">100%</div><div class="l">Seller Central sync</div></div>
-        </div>
-      </div>
-    </div>
-  </div>
+ <div class="wrap">
+ <div class="img-split">
+ <div class="img-split-img">
+ <img src="images/site/amazon-seller-inventory-management-dashboard-china.webp" alt="Amazon Seller Central inventory management dashboard — China FBA consolidation integration" width="550" height="320" loading="lazy" fetchpriority="low" decoding="async" style="width:100%;height:100%;object-fit:cover;display:block"/>
+ </div>
+ <div class="img-split-copy">
+ <div class="sl">Seller Central Integration</div>
+ <h3>Your entire FBA operation managed from one dashboard — not five.</h3>
+ <p>When you create a shipment through our platform, it simultaneously creates the shipping plan in Amazon Seller Central, prints carton labels in our Shenzhen warehouse, and auto-uploads tracking numbers the moment goods are dispatched. No manual steps. No downloading files and emailing them across time zones.</p>
+ <div class="stat-pair">
+ <div class="stat-i"><div class="n">5 min</div><div class="l">To create a shipment</div></div>
+ <div class="stat-i"><div class="n">0</div><div class="l">Manual label uploads</div></div>
+ <div class="stat-i"><div class="n">100%</div><div class="l">Seller Central sync</div></div>
+ </div>
+ </div>
+ </div>
+ </div>
 </div>
 
 <!-- ═══ DRIP FEED DEEP DIVE ═══ -->
 <section class="drip">
-  <div class="wrap">
-    <div class="sl">The Biggest Shift</div>
-    <h2 class="st">Why drip-feed shipping changes the economics of your Amazon business</h2>
-    <p class="ss">This is the strategy that experienced Amazon sellers adopt once they understand the full picture. Smaller, more frequent shipments aren't just operationally better — they're significantly more profitable.</p>
-    <div style="margin-top:36px;border-radius:14px;overflow:hidden;box-shadow:0 4px 28px rgba(0,0,0,.25)">
-      <img src="images/site/drip-feed-amazon-fba-shipments-china-weekly.webp" alt="Drip-feed Amazon FBA shipments from China — weekly small shipments strategy" width="1100" height="480" loading="lazy" fetchpriority="low" decoding="async" style="width:100%;display:block"/>
-    </div>
-    <div class="drip-grid">
-      <div class="drip-side">
-        <div class="drip-old">
-          <h3><svg class="i" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="color:#ef4444"><circle cx="12" cy="12" r="10"/><path d="m15 9-6 6"/><path d="m9 9 6 6"/></svg> The old way — bulk container shipping</h3>
-          <div class="drip-item"><span class="ico">→</span><span>Pay $18,000+ for a 40ft container. All eggs in one basket.</span></div>
-          <div class="drip-item"><span class="ico">→</span><span>6 months of stock lands in Amazon. Storage fees start immediately.</span></div>
-          <div class="drip-item"><span class="ico">→</span><span>IPI score drops as excess stock piles up. Amazon restricts space.</span></div>
-          <div class="drip-item"><span class="ico">→</span><span>Container delayed 3 weeks = stockout = ranking disaster.</span></div>
-          <div class="drip-item"><span class="ico">→</span><span>Capital locked up in transit and storage for months.</span></div>
-        </div>
-        <div class="drip-new">
-          <h3>✓ The new way — drip-feed from Shenzhen</h3>
-          <div class="drip-item"><span class="ico">→</span><span>Bulk stock sits in Shenzhen at $0.49/CBM/day. Almost nothing.</span></div>
-          <div class="drip-item"><span class="ico">→</span><span>Weekly shipments to Amazon — just 4–8 weeks of cover at a time.</span></div>
-          <div class="drip-item"><span class="ico">→</span><span>IPI stays healthy. Amazon never restricts your storage allocation.</span></div>
-          <div class="drip-item"><span class="ico">→</span><span>If one shipment is delayed, the next one lands 7 days later.</span></div>
-          <div class="drip-item"><span class="ico">→</span><span>Cash flow improves because you're paying for shipping in smaller instalments.</span></div>
-        </div>
-      </div>
-      <div class="drip-visual">
-        <h4>Annual storage cost comparison — 20 CBM of stock</h4>
-        <div class="bar-row">
-          <div class="bar-label"><span>Amazon FBA — Q4 rate</span><span style="color:#f87171;font-weight:700">$16,948/yr</span></div>
-          <div class="bar-track"><div class="bar-fill bad" style="width:100%"></div></div>
-        </div>
-        <div class="bar-row">
-          <div class="bar-label"><span>Amazon FBA — Jan–Sep rate</span><span style="color:#fcd34d;font-weight:700">$6,144/yr</span></div>
-          <div class="bar-track"><div class="bar-fill mid" style="width:36%"></div></div>
-        </div>
-        <div class="bar-row">
-          <div class="bar-label"><span>China-Fulfillment.com</span><span style="color:#34d399;font-weight:700">$3,572/yr</span></div>
-          <div class="bar-track"><div class="bar-fill good" style="width:21%"></div></div>
-        </div>
-        <p style="font-size:.75rem;color:rgba(255,255,255,.3);margin-top:18px">Based on 20 CBM = 706 cubic feet. Amazon standard-size rates. Our rate: $0.49/CBM/day.</p>
-        <div style="margin-top:24px;padding-top:20px;border-top:1px solid rgba(255,255,255,.1)">
-          <p style="font-size:.82rem;color:rgba(255,255,255,.55);line-height:1.6">Sellers storing 20 CBM save <strong style="color:#34d399">up to $13,376 per year</strong> by keeping bulk stock in Shenzhen and drip-feeding Amazon.</p>
-        </div>
-      </div>
-    </div>
-  </div>
+ <div class="wrap">
+ <div class="sl">The Biggest Shift</div>
+ <h2 class="st">Why drip-feed shipping changes the economics of your Amazon business</h2>
+ <p class="ss">This is the strategy that experienced Amazon sellers adopt once they understand the full picture. Smaller, more frequent shipments aren't just operationally better — they're significantly more profitable.</p>
+ <div style="margin-top:36px;border-radius:14px;overflow:hidden;box-shadow:0 4px 28px rgba(0,0,0,.25)">
+ <img src="images/site/drip-feed-amazon-fba-shipments-china-weekly.webp" alt="Drip-feed Amazon FBA shipments from China — weekly small shipments strategy" width="1100" height="480" loading="lazy" fetchpriority="low" decoding="async" style="width:100%;display:block"/>
+ </div>
+ <div class="drip-grid">
+ <div class="drip-side">
+ <div class="drip-old">
+ <h3><svg class="i" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="color:#ef4444"><circle cx="12" cy="12" r="10"/><path d="m15 9-6 6"/><path d="m9 9 6 6"/></svg> The old way — bulk container shipping</h3>
+ <div class="drip-item"><span class="ico">→</span><span>Pay $18,000+ for a 40ft container. All eggs in one basket.</span></div>
+ <div class="drip-item"><span class="ico">→</span><span>6 months of stock lands in Amazon. Storage fees start immediately.</span></div>
+ <div class="drip-item"><span class="ico">→</span><span>IPI score drops as excess stock piles up. Amazon restricts space.</span></div>
+ <div class="drip-item"><span class="ico">→</span><span>Container delayed 3 weeks = stockout = ranking disaster.</span></div>
+ <div class="drip-item"><span class="ico">→</span><span>Capital locked up in transit and storage for months.</span></div>
+ </div>
+ <div class="drip-new">
+ <h3>✓ The new way — drip-feed from Shenzhen</h3>
+ <div class="drip-item"><span class="ico">→</span><span>Bulk stock sits in Shenzhen at $0.49/CBM/day. Almost nothing.</span></div>
+ <div class="drip-item"><span class="ico">→</span><span>Weekly shipments to Amazon — just 4–8 weeks of cover at a time.</span></div>
+ <div class="drip-item"><span class="ico">→</span><span>IPI stays healthy. Amazon never restricts your storage allocation.</span></div>
+ <div class="drip-item"><span class="ico">→</span><span>If one shipment is delayed, the next one lands 7 days later.</span></div>
+ <div class="drip-item"><span class="ico">→</span><span>Cash flow improves because you're paying for shipping in smaller instalments.</span></div>
+ </div>
+ </div>
+ <div class="drip-visual">
+ <h4>Annual storage cost comparison — 20 CBM of stock</h4>
+ <div class="bar-row">
+ <div class="bar-label"><span>Amazon FBA — Q4 rate</span><span style="color:#f87171;font-weight:700">$16,948/yr</span></div>
+ <div class="bar-track"><div class="bar-fill bad" style="width:100%"></div></div>
+ </div>
+ <div class="bar-row">
+ <div class="bar-label"><span>Amazon FBA — Jan–Sep rate</span><span style="color:#fcd34d;font-weight:700">$6,144/yr</span></div>
+ <div class="bar-track"><div class="bar-fill mid" style="width:36%"></div></div>
+ </div>
+ <div class="bar-row">
+ <div class="bar-label"><span>China-Fulfillment.com</span><span style="color:#34d399;font-weight:700">$3,572/yr</span></div>
+ <div class="bar-track"><div class="bar-fill good" style="width:21%"></div></div>
+ </div>
+ <p style="font-size:.75rem;color:rgba(255,255,255,.3);margin-top:18px">Based on 20 CBM = 706 cubic feet. Amazon standard-size rates. Our rate: $0.49/CBM/day.</p>
+ <div style="margin-top:24px;padding-top:20px;border-top:1px solid rgba(255,255,255,.1)">
+ <p style="font-size:.82rem;color:rgba(255,255,255,.55);line-height:1.6">Sellers storing 20 CBM save <strong style="color:#34d399">up to $13,376 per year</strong> by keeping bulk stock in Shenzhen and drip-feeding Amazon.</p>
+ </div>
+ </div>
+ </div>
+ </div>
 </section>
 
 <!-- ═══ HOW IT WORKS ═══ -->
 <section class="how">
-  <div class="wrap">
-    <div class="sl">How It Works</div>
-    <h2 class="st">From your suppliers to Amazon FBA — 5 clean steps</h2>
-    <p class="ss">One partner replaces the freight forwarder, the US 3PL, the prep centre, and the customs broker. Here's how.</p>
-    <div class="how-steps">
-      <div class="hw"><div class="hw-n">1</div><h4>Suppliers Deliver to Us</h4><p>Your factories ship to our Shenzhen address — often cheaper than FOB port delivery for them.</p></div>
-      <div class="hw"><div class="hw-n">2</div><h4>We Inspect & QC</h4><p>Every inbound batch checked for defects, quantity accuracy, and packaging compliance before moving forward.</p></div>
-      <div class="hw"><div class="hw-n">3</div><h4>We FBA Prep</h4><p>FNSKU labels, poly bags, bubble wrap, carton labels — Amazon-compliant, every time.</p></div>
-      <div class="hw"><div class="hw-n">4</div><h4>You Click, We Ship</h4><p>Create Amazon shipments via our dashboard. We handle customs, tracking uploads to Seller Central, and delivery.</p></div>
-      <div class="hw"><div class="hw-n">5</div><h4>Repeat Weekly</h4><p>Drip-feed on your cadence — weekly, fortnightly, monthly. Always in stock. IPI always healthy.</p></div>
-    </div>
-  </div>
+ <div class="wrap">
+ <div class="sl">How It Works</div>
+ <h2 class="st">From your suppliers to Amazon FBA — 5 clean steps</h2>
+ <p class="ss">One partner replaces the freight forwarder, the US 3PL, the prep centre, and the customs broker. Here's how.</p>
+ <div class="how-steps">
+ <div class="hw"><div class="hw-n">1</div><h4>Suppliers Deliver to Us</h4><p>Your factories ship to our Shenzhen address — often cheaper than FOB port delivery for them.</p></div>
+ <div class="hw"><div class="hw-n">2</div><h4>We Inspect & QC</h4><p>Every inbound batch checked for defects, quantity accuracy, and packaging compliance before moving forward.</p></div>
+ <div class="hw"><div class="hw-n">3</div><h4>We FBA Prep</h4><p>FNSKU labels, poly bags, bubble wrap, carton labels — Amazon-compliant, every time.</p></div>
+ <div class="hw"><div class="hw-n">4</div><h4>You Click, We Ship</h4><p>Create Amazon shipments via our dashboard. We handle customs, tracking uploads to Seller Central, and delivery.</p></div>
+ <div class="hw"><div class="hw-n">5</div><h4>Repeat Weekly</h4><p>Drip-feed on your cadence — weekly, fortnightly, monthly. Always in stock. IPI always healthy.</p></div>
+ </div>
+ </div>
 </section>
 
 <!-- ═══ FREIGHT IMAGE ═══ -->
 <div class="img-cinematic">
-  <img src="images/site/china-to-amazon-fba-container-shipping-sea-freight.webp" alt="China to Amazon FBA container shipping sea freight — Shenzhen port to worldwide FBA centres" width="1200" height="480" loading="lazy" fetchpriority="low" decoding="async"/>
+ <img src="images/site/china-to-amazon-fba-container-shipping-sea-freight.webp" alt="China to Amazon FBA container shipping sea freight — Shenzhen port to worldwide FBA centres" width="1200" height="480" loading="lazy" fetchpriority="low" decoding="async"/>
 </div>
 
 <!-- ═══ PRICING ═══ -->
 <section class="pricing">
-  <div class="wrap">
-    <div class="sl">Transparent Pricing</div>
-    <h2 class="st">Straightforward rates. No nasty surprises.</h2>
-    <p class="ss">We publish our pricing because we're confident it's competitive. Volume sellers get custom discounted rates — contact us to discuss.</p>
-    <div class="pr-grid">
-      <div class="prc ft">
-        <div class="badge"><svg class="i" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="8" width="18" height="4" rx="1"/><path d="M12 8v13"/><path d="M19 12v7a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2v-7"/><path d="M7.5 8a2.5 2.5 0 0 1 0-5A4.8 8 0 0 1 12 8a4.8 8 0 0 1 4.5-5 2.5 2.5 0 0 1 0 5"/></svg> Free for 30 Days</div>
-        <h4>Warehouse Storage</h4>
-        <div class="price-amount">$0.49</div>
-        <div class="price-unit">per CBM / per day · after free period</div>
-        <p>Secure, fully tracked Shenzhen storage. No long-term commitment. No minimum. First 30 days free for new customers.</p>
-      </div>
-      <div class="prc">
-        <h4>Pick, Pack & FBA Prep</h4>
-        <div class="price-amount">$0.99</div>
-        <div class="price-unit">per carton (standard volume)</div>
-        <p>Includes FNSKU labelling, poly bagging, carton content labels, Amazon carton labels. Zero receiving fees. Volume pricing available.</p>
-      </div>
-      <div class="prc">
-        <h4>Quality Control</h4>
-        <div class="price-amount">Custom</div>
-        <div class="price-unit">based on SKU & inspection level</div>
-        <p>Tailored to your product category and risk profile. Detailed inspection reports with photos for every batch.</p>
-      </div>
-      <div class="prc">
-        <h4>Shipping to Amazon FBA</h4>
-        <div class="price-amount">Quote</div>
-        <div class="price-unit">consolidated competitive rates</div>
-        <p>Sea, air & express. Consolidated rates even for small shipments. All Amazon FBA markets worldwide. Get a quote in 24 hours.</p>
-      </div>
-    </div>
-    <div class="pr-note">
-      <p><strong>High-volume sellers get better rates.</strong>The more you ship through us, the lower your per-unit cost across storage, pick & pack, and freight. Contact us with your approximate monthly volumes for a custom pricing package.</p>
-      <a class="bp" href="https://www.china-fulfillment.com/Contact-Us.html" style="white-space:nowrap;flex-shrink:0">Request Volume Pricing →</a>
-    </div>
-  </div>
+ <div class="wrap">
+ <div class="sl">Transparent Pricing</div>
+ <h2 class="st">Straightforward rates. No nasty surprises.</h2>
+ <p class="ss">We publish our pricing because we're confident it's competitive. Volume sellers get custom discounted rates — contact us to discuss.</p>
+ <div class="pr-grid">
+ <div class="prc ft">
+ <div class="badge"><svg class="i" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="8" width="18" height="4" rx="1"/><path d="M12 8v13"/><path d="M19 12v7a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2v-7"/><path d="M7.5 8a2.5 2.5 0 0 1 0-5A4.8 8 0 0 1 12 8a4.8 8 0 0 1 4.5-5 2.5 2.5 0 0 1 0 5"/></svg> Free for 30 Days</div>
+ <h4>Warehouse Storage</h4>
+ <div class="price-amount">$0.49</div>
+ <div class="price-unit">per CBM / per day · after free period</div>
+ <p>Secure, fully tracked Shenzhen storage. No long-term commitment. No minimum. First 30 days free for new customers.</p>
+ </div>
+ <div class="prc">
+ <h4>Pick, Pack & FBA Prep</h4>
+ <div class="price-amount">$0.99</div>
+ <div class="price-unit">per carton (standard volume)</div>
+ <p>Includes FNSKU labelling, poly bagging, carton content labels, Amazon carton labels. Zero receiving fees. Volume pricing available.</p>
+ </div>
+ <div class="prc">
+ <h4>Quality Control</h4>
+ <div class="price-amount">Custom</div>
+ <div class="price-unit">based on SKU & inspection level</div>
+ <p>Tailored to your product category and risk profile. Detailed inspection reports with photos for every batch.</p>
+ </div>
+ <div class="prc">
+ <h4>Shipping to Amazon FBA</h4>
+ <div class="price-amount">Quote</div>
+ <div class="price-unit">consolidated competitive rates</div>
+ <p>Sea, air & express. Consolidated rates even for small shipments. All Amazon FBA markets worldwide. Get a quote in 24 hours.</p>
+ </div>
+ </div>
+ <div class="pr-note">
+ <p><strong>High-volume sellers get better rates.</strong>The more you ship through us, the lower your per-unit cost across storage, pick & pack, and freight. Contact us with your approximate monthly volumes for a custom pricing package.</p>
+ <a class="bp" href="https://www.china-fulfillment.com/Contact-Us.html" style="white-space:nowrap;flex-shrink:0">Request Volume Pricing →</a>
+ </div>
+ </div>
 </section>
 
 <!-- ═══ DESTINATIONS ═══ -->
 <section class="dest">
-  <div class="wrap">
-    <div class="sl">Global FBA Coverage</div>
-    <h2 class="st">Every Amazon marketplace. Worldwide.</h2>
-    <p class="ss">Most China consolidation warehouses only cover Amazon US. We ship to all active Amazon FBA marketplaces — plus 200+ countries for D2C and retail distribution.</p>
-    <div class="dest-grid">
-      <div class="dc"><div class="df">US</div><h4>United States</h4><p>Amazon.com FBA</p></div>
-      <div class="dc"><div class="df">UK</div><h4>United Kingdom</h4><p>Amazon.co.uk FBA</p></div>
-      <div class="dc"><div class="df">EU</div><h4>Germany / EU</h4><p>Pan-EU FBA</p></div>
-      <div class="dc"><div class="df">AU</div><h4>Australia</h4><p>Amazon.com.au FBA</p></div>
-      <div class="dc"><div class="df">CA</div><h4>Canada</h4><p>Amazon.ca FBA</p></div>
-      <div class="dc"><div class="df">JP</div><h4>Japan</h4><p>Amazon.co.jp FBA</p></div>
-      <div class="dc"><div class="df">EG</div><h4>Egypt</h4><p>Amazon.eg FBA</p></div>
-      <div class="dc more"><span>200+</span><p>Countries & Territories</p></div>
-    </div>
-  </div>
+ <div class="wrap">
+ <div class="sl">Global FBA Coverage</div>
+ <h2 class="st">Every Amazon marketplace. Worldwide.</h2>
+ <p class="ss">Most China consolidation warehouses only cover Amazon US. We ship to all active Amazon FBA marketplaces — plus 200+ countries for D2C and retail distribution.</p>
+ <div class="dest-grid">
+ <div class="dc"><div class="df">US</div><h4>United States</h4><p>Amazon.com FBA</p></div>
+ <div class="dc"><div class="df">UK</div><h4>United Kingdom</h4><p>Amazon.co.uk FBA</p></div>
+ <div class="dc"><div class="df">EU</div><h4>Germany / EU</h4><p>Pan-EU FBA</p></div>
+ <div class="dc"><div class="df">AU</div><h4>Australia</h4><p>Amazon.com.au FBA</p></div>
+ <div class="dc"><div class="df">CA</div><h4>Canada</h4><p>Amazon.ca FBA</p></div>
+ <div class="dc"><div class="df">JP</div><h4>Japan</h4><p>Amazon.co.jp FBA</p></div>
+ <div class="dc"><div class="df">EG</div><h4>Egypt</h4><p>Amazon.eg FBA</p></div>
+ <div class="dc more"><span>200+</span><p>Countries & Territories</p></div>
+ </div>
+ </div>
 </section>
 
 <!-- ═══ COMPARE ═══ -->
 <section class="compare">
-  <div class="wrap">
-    <div class="sl">How We Compare</div>
-    <h2 class="st">Why Amazon sellers choose China-Fulfillment.com</h2>
-    <p class="ss">There are other options. Here's an honest comparison of what you actually get.</p>
-    <div style="overflow-x:auto;-webkit-overflow-scrolling:touch;border-radius:14px"><table class="ctable" style="border-radius:0">
-      <thead>
-        <tr>
-          <th>Feature</th>
-          <th>China-Fulfillment.com</th>
-          <th>Typical China 3PL</th>
-          <th>US / UK 3PL</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr><td>Based in Shenzhen (major port access)</td><td class="yes">✓</td><td class="no">✗</td><td class="no">✗</td></tr>
-        <tr><td>Ships to all Amazon FBA markets</td><td class="yes">✓</td><td class="part">US only</td><td class="part">Limited</td></tr>
-        <tr><td>200+ country D2C shipping</td><td class="yes">✓</td><td class="no">✗</td><td class="part">Limited</td></tr>
-        <tr><td>30 days free storage</td><td class="yes">✓</td><td class="no">✗</td><td class="no">✗</td></tr>
-        <tr><td>Zero receiving fees</td><td class="yes">✓</td><td class="part">Sometimes</td><td class="no">✗</td></tr>
-        <tr><td>In-China QC inspection</td><td class="yes">✓</td><td class="part">Basic</td><td class="no">✗</td></tr>
-        <tr><td>Full Amazon FBA prep & labelling</td><td class="yes">✓</td><td class="part">Basic</td><td class="yes">✓</td></tr>
-        <tr><td>Amazon Seller Central integration</td><td class="yes">✓</td><td class="part">Rarely</td><td class="part">Sometimes</td></tr>
-        <tr><td>Tariff & customs management</td><td class="yes">✓</td><td class="no">✗</td><td class="part">Limited</td></tr>
-        <tr><td>Volume pricing</td><td class="yes">✓</td><td class="part">Rarely</td><td class="part">Sometimes</td></tr>
-        <tr><td>15+ years operational history</td><td class="yes">✓</td><td class="no">✗</td><td class="part">Varies</td></tr>
-      </tbody>
-    </table></div>
-  </div>
+ <div class="wrap">
+ <div class="sl">How We Compare</div>
+ <h2 class="st">Why Amazon sellers choose China-Fulfillment.com</h2>
+ <p class="ss">There are other options. Here's an honest comparison of what you actually get.</p>
+ <div style="overflow-x:auto;-webkit-overflow-scrolling:touch;border-radius:14px"><table class="ctable" style="border-radius:0">
+ <thead>
+ <tr>
+ <th>Feature</th>
+ <th>China-Fulfillment.com</th>
+ <th>Typical China 3PL</th>
+ <th>US / UK 3PL</th>
+ </tr>
+ </thead>
+ <tbody>
+ <tr><td>Based in Shenzhen (major port access)</td><td class="yes">✓</td><td class="no">✗</td><td class="no">✗</td></tr>
+ <tr><td>Ships to all Amazon FBA markets</td><td class="yes">✓</td><td class="part">US only</td><td class="part">Limited</td></tr>
+ <tr><td>200+ country D2C shipping</td><td class="yes">✓</td><td class="no">✗</td><td class="part">Limited</td></tr>
+ <tr><td>30 days free storage</td><td class="yes">✓</td><td class="no">✗</td><td class="no">✗</td></tr>
+ <tr><td>Zero receiving fees</td><td class="yes">✓</td><td class="part">Sometimes</td><td class="no">✗</td></tr>
+ <tr><td>In-China QC inspection</td><td class="yes">✓</td><td class="part">Basic</td><td class="no">✗</td></tr>
+ <tr><td>Full Amazon FBA prep & labelling</td><td class="yes">✓</td><td class="part">Basic</td><td class="yes">✓</td></tr>
+ <tr><td>Amazon Seller Central integration</td><td class="yes">✓</td><td class="part">Rarely</td><td class="part">Sometimes</td></tr>
+ <tr><td>Tariff & customs management</td><td class="yes">✓</td><td class="no">✗</td><td class="part">Limited</td></tr>
+ <tr><td>Volume pricing</td><td class="yes">✓</td><td class="part">Rarely</td><td class="part">Sometimes</td></tr>
+ <tr><td>15+ years operational history</td><td class="yes">✓</td><td class="no">✗</td><td class="part">Varies</td></tr>
+ </tbody>
+ </table></div>
+ </div>
 </section>
 
 <!-- ═══ FAQ ═══ -->
 <section class="faq">
-  <div class="wrap" style="text-align:center">
-    <div class="sl">FAQ</div>
-    <h2 class="st" style="margin:0 auto 8px">Questions Amazon sellers ask before switching</h2>
-  </div>
-  <div class="faqlist">
-    <details>
-      <summary>How is this different from just using a freight forwarder in China?</summary>
-      <div class="fans">A freight forwarder's job ends at the port. Ours begins there. We receive goods from multiple suppliers, consolidate them, QC inspect, FBA prep (labels, poly bags, carton labels), handle all customs documentation, and automatically upload tracking numbers to your Seller Central account. A freight forwarder hands you a container. We hand you stock that's already in Amazon's system.</div>
-    </details>
-    <details>
-      <summary>Will drip-feed shipping actually improve my IPI score?</summary>
-      <div class="fans">In most cases, yes — significantly. IPI is affected by your excess inventory ratio and sell-through rate. When you maintain only 4–8 weeks of cover in Amazon instead of 5–6 months, your sell-through improves and your excess inventory drops. Many sellers see their IPI rise 20–40 points within a quarter of switching to drip-feed. We can walk you through the maths for your specific situation.</div>
-    </details>
-    <details>
-      <summary>What if one of my weekly shipments is delayed or lost?</summary>
-      <div class="fans">This is exactly why drip-feed protects you better than bulk shipping. When you send weekly shipments, a single delay means your next shipment arrives 7 days later — not 3 months later. Additionally, all shipments through us are fully insured. If goods are lost or damaged in transit, we manage the claim and reimburse you. You're never one container away from a ranking-destroying stockout.</div>
-    </details>
-    <details>
-      <summary>Can you handle FBA prep for products with complex requirements?</summary>
-      <div class="fans">Yes. We regularly handle poly bagging for apparel and soft goods, bubble wrap for fragile items, suffocation warning labels, set and bundle creation, over-labelling, expiry date labelling, and custom carton dimensions for non-standard products. If your product has specific requirements, share the spec and we'll confirm feasibility before you commit.</div>
-    </details>
-    <details>
-      <summary>What does the 30-day free storage offer actually include?</summary>
-      <div class="fans">When your first goods arrive at our Shenzhen facility, your 30-day free storage period begins and runs for exactly 30 days from that date. There are no storage charges during this period, no matter your volume. After 30 days, the standard rate of $0.49 per CBM per day applies. No credit card required to start, no hidden fees, no automatic contract commitments.</div>
-    </details>
-    <details>
-      <summary>Do you integrate with Amazon Seller Central directly?</summary>
-      <div class="fans">Yes — full integration. Your product SKUs sync to our platform. When you create a shipment, it creates the corresponding shipping plan in Seller Central automatically. Carton labels are printed in our Shenzhen warehouse. Tracking numbers are uploaded to Seller Central the moment your shipment is dispatched. You manage the whole operation through a single dashboard without touching Seller Central's complex shipping workflow.</div>
-    </details>
-  </div>
+ <div class="wrap" style="text-align:center">
+ <div class="sl">FAQ</div>
+ <h2 class="st" style="margin:0 auto 8px">Questions Amazon sellers ask before switching</h2>
+ </div>
+ <div class="faqlist">
+ <details>
+ <summary>How is this different from just using a freight forwarder in China?</summary>
+ <div class="fans">A freight forwarder's job ends at the port. Ours begins there. We receive goods from multiple suppliers, consolidate them, QC inspect, FBA prep (labels, poly bags, carton labels), handle all customs documentation, and automatically upload tracking numbers to your Seller Central account. A freight forwarder hands you a container. We hand you stock that's already in Amazon's system.</div>
+ </details>
+ <details>
+ <summary>Will drip-feed shipping actually improve my IPI score?</summary>
+ <div class="fans">In most cases, yes — significantly. IPI is affected by your excess inventory ratio and sell-through rate. When you maintain only 4–8 weeks of cover in Amazon instead of 5–6 months, your sell-through improves and your excess inventory drops. Many sellers see their IPI rise 20–40 points within a quarter of switching to drip-feed. We can walk you through the maths for your specific situation.</div>
+ </details>
+ <details>
+ <summary>What if one of my weekly shipments is delayed or lost?</summary>
+ <div class="fans">This is exactly why drip-feed protects you better than bulk shipping. When you send weekly shipments, a single delay means your next shipment arrives 7 days later — not 3 months later. Additionally, all shipments through us are fully insured. If goods are lost or damaged in transit, we manage the claim and reimburse you. You're never one container away from a ranking-destroying stockout.</div>
+ </details>
+ <details>
+ <summary>Can you handle FBA prep for products with complex requirements?</summary>
+ <div class="fans">Yes. We regularly handle poly bagging for apparel and soft goods, bubble wrap for fragile items, suffocation warning labels, set and bundle creation, over-labelling, expiry date labelling, and custom carton dimensions for non-standard products. If your product has specific requirements, share the spec and we'll confirm feasibility before you commit.</div>
+ </details>
+ <details>
+ <summary>What does the 30-day free storage offer actually include?</summary>
+ <div class="fans">When your first goods arrive at our Shenzhen facility, your 30-day free storage period begins and runs for exactly 30 days from that date. There are no storage charges during this period, no matter your volume. After 30 days, the standard rate of $0.49 per CBM per day applies. No credit card required to start, no hidden fees, no automatic contract commitments.</div>
+ </details>
+ <details>
+ <summary>Do you integrate with Amazon Seller Central directly?</summary>
+ <div class="fans">Yes — full integration. Your product SKUs sync to our platform. When you create a shipment, it creates the corresponding shipping plan in Seller Central automatically. Carton labels are printed in our Shenzhen warehouse. Tracking numbers are uploaded to Seller Central the moment your shipment is dispatched. You manage the whole operation through a single dashboard without touching Seller Central's complex shipping workflow.</div>
+ </details>
+ </div>
 </section>
 
 <!-- ═══ FINAL CTA ═══ -->
 <section class="ctafinal">
-  <div class="wrap">
-    <h2>Stop letting your supply chain<br/><span class="hi">cap your Amazon growth.</span></h2>
-    <p class="lead">The sellers outperforming you aren't smarter or luckier. They've just built a logistics setup that keeps costs low, stock levels healthy, and risk spread across multiple small shipments instead of one enormous bet.</p>
-    <p class="micro">First 30 days free. No minimum volumes. No lock-in.</p>
-    <div class="ctabtns">
-      <a class="bp" href="https://www.china-fulfillment.com/Contact-Us.html">Get a Free Quote →</a>
-      <a class="bg" href="https://www.china-fulfillment.com/Contact-Us.html">Talk to an Expert</a>
-    </div>
-    <div class="trust-row">
-      <div class="tr-item">15 years in Shenzhen</div>
-      <div class="tr-item">All Amazon FBA markets</div>
-      <div class="tr-item">30 days free storage</div>
-      <div class="tr-item">Zero receiving fees</div>
-      <div class="tr-item">Fully insured shipments</div>
-      <div class="tr-item">Seller Central integration</div>
-    </div>
-  </div>
+ <div class="wrap">
+ <h2>Stop letting your supply chain<br/><span class="hi">cap your Amazon growth.</span></h2>
+ <p class="lead">The sellers outperforming you aren't smarter or luckier. They've just built a logistics setup that keeps costs low, stock levels healthy, and risk spread across multiple small shipments instead of one enormous bet.</p>
+ <p class="micro">First 30 days free. No minimum volumes. No lock-in.</p>
+ <div class="ctabtns">
+ <a class="bp" href="https://www.china-fulfillment.com/Contact-Us.html">Get a Free Quote →</a>
+ <a class="bg" href="https://www.china-fulfillment.com/Contact-Us.html">Talk to an Expert</a>
+ </div>
+ <div class="trust-row">
+ <div class="tr-item">15 years in Shenzhen</div>
+ <div class="tr-item">All Amazon FBA markets</div>
+ <div class="tr-item">30 days free storage</div>
+ <div class="tr-item">Zero receiving fees</div>
+ <div class="tr-item">Fully insured shipments</div>
+ <div class="tr-item">Seller Central integration</div>
+ </div>
+ </div>
 </section>
 
 <footer>
-  <div class="fg">
-    <div class="fb">
-      <a href="index.html"><img src="images/site/new-cf-logo-no-bg.webp" alt="China Fulfillment International" loading="lazy" width="160" height="44"/></a>
-      <p>Shenzhen-based Amazon FBA consolidation, D2C fulfilment, QC, freight and supplier management. Est. 2010.</p>
-    </div>
-    <div class="fc">
-      <h4>Core Services</h4>
-      <a href="amazon-fba-consolidation.html">FBA Consolidation</a>
-      <a href="china-consolidation.html">D2C Consolidation</a>
-      <a href="quality-control-fba-prep-china.html">QC &amp; FBA Prep</a>
-      <a href="amazon-fba-prep-china.html">Amazon FBA Prep Service</a>
-      <a href="tariff-management-china.html">Tariff Management</a>
-      <a href="international-freight-forwarding-china.html">Freight Forwarding</a>
-      <a href="supplier-management-china.html">Supplier Management</a>
-    </div>
-    <div class="fc">
-      <h4>More Services</h4>
-      <a href="ecommerce-fulfillment.html">eCommerce Fulfillment</a>
-      <a href="amazon-fulfillment.html">Amazon Fulfillment</a>
-      <a href="china-crowdfunding-fulfillment.html">Crowdfunding</a>
-      <a href="dropshipping-fulfillment.html">Drop Shipping</a>
-      <a href="express-international-shipping-china.html">Express Shipping</a>
-      <a href="cod-service.html">Cash on Delivery</a>
-    </div>
-    <div class="fc">
-      <h4>Getting Started</h4>
-      <a href="Contact-Us.html">Get a Free Quote</a>
-      <a href="register.html">Create an Account</a>
-      <a href="login.html">Member Login</a>
-      <a href="faq.html">FAQ</a>
-      <a href="easy-onboarding.html">How Onboarding Works</a>
-    </div>
-    <div class="fc">
-      <h4>Company</h4>
-      <a href="about-us.html">About Us</a>
-      <a href="blog.html">Blog &amp; Insights</a>
-      <a href="Contact-Us.html">Contact Us</a>
-      <a href="https://wa.me/353871187806">WhatsApp</a>
-      <a href="https://en.pfcexpress.com">PFC Express</a>
-    </div>
-  </div>
-  <div class="fbot">
-    <div class="fcopy">&copy; 2026 China Fulfillment International &middot; Shenzhen, China &middot; <a href="https://beian.miit.gov.cn/" style="color:inherit">粤ICP备12013396号</a></div>
-    <div class="flinks"><a href="terms-of-service.html">Terms</a><a href="privacy-policy.html">Privacy</a></div>
-  </div>
+ <div class="fg">
+ <div class="fb">
+ <a href="index.html"><img src="images/site/new-cf-logo-no-bg.webp" alt="China Fulfillment International" loading="lazy" width="160" height="44"/></a>
+ <p>Shenzhen-based Amazon FBA consolidation, D2C fulfilment, QC, freight and supplier management. Est. 2010.</p>
+ </div>
+ <div class="fc">
+ <h4>Core Services</h4>
+ <a href="amazon-fba-consolidation.html">FBA Consolidation</a>
+ <a href="china-consolidation.html">D2C Consolidation</a>
+ <a href="quality-control-fba-prep-china.html">QC &amp; FBA Prep</a>
+ <a href="amazon-fba-prep-china.html">Amazon FBA Prep Service</a>
+ <a href="tariff-management-china.html">Tariff Management</a>
+ <a href="international-freight-forwarding-china.html">Freight Forwarding</a>
+ <a href="supplier-management-china.html">Supplier Management</a>
+ </div>
+ <div class="fc">
+ <h4>More Services</h4>
+ <a href="ecommerce-fulfillment.html">eCommerce Fulfillment</a>
+ <a href="amazon-fulfillment.html">Amazon Fulfillment</a>
+ <a href="china-crowdfunding-fulfillment.html">Crowdfunding</a>
+ <a href="dropshipping-fulfillment.html">Drop Shipping</a>
+ <a href="express-international-shipping-china.html">Express Shipping</a>
+ <a href="cod-service.html">Cash on Delivery</a>
+ </div>
+ <div class="fc">
+ <h4>Getting Started</h4>
+ <a href="Contact-Us.html">Get a Free Quote</a>
+ <a href="register.html">Create an Account</a>
+ <a href="login.html">Member Login</a>
+ <a href="faq.html">FAQ</a>
+ <a href="easy-onboarding.html">How Onboarding Works</a>
+ </div>
+ <div class="fc">
+ <h4>Company</h4>
+ <a href="about-us.html">About Us</a>
+ <a href="blog.html">Blog &amp; Insights</a>
+ <a href="Contact-Us.html">Contact Us</a>
+ <a href="https://wa.me/353871187806">WhatsApp</a>
+ <a href="https://en.pfcexpress.com">PFC Express</a>
+ </div>
+ </div>
+ <div class="fbot">
+ <div class="fcopy">&copy; 2026 China Fulfillment International &middot; Shenzhen, China &middot; <a href="https://beian.miit.gov.cn/" style="color:inherit">粤ICP备12013396号</a></div>
+ <div class="flinks"><a href="terms-of-service.html">Terms</a><a href="privacy-policy.html">Privacy</a></div>
+ </div>
 </footer>
 
 

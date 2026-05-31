@@ -38,19 +38,19 @@ h1,h2,h3,h4,h5{text-wrap:balance}
 p{text-wrap:pretty}
 
 /* ═══════════════════════════════════════
-   ECOMMERCE FULFILLMENT — v2 Rebuild
-   Same design system as homepage
-   ═══════════════════════════════════════ */
+ ECOMMERCE FULFILLMENT — v2 Rebuild
+ Same design system as homepage
+ ═══════════════════════════════════════ */
 :root{
-  --ink:#0c1a2e;--navy:#0d2144;--n2:#091830;--n3:#040d18;
-  --blue:#1a4fd6;--b2:#2563eb;
-  --ac:#f97316;--ach:#ea6c0a;--acl:rgba(249,115,22,.12);
-  --off:#f4f6fb;--w:#ffffff;
-  --mu:#4a6178;--bd:#dae0ec;
-  --gr:#10b981;--gd:#fed7aa;
-  --dk-body:rgba(255,255,255,.88);
-  --dk-sub:rgba(255,255,255,.78);
-  --dk-muted:rgba(255,255,255,.68);
+ --ink:#0c1a2e;--navy:#0d2144;--n2:#091830;--n3:#040d18;
+ --blue:#1a4fd6;--b2:#2563eb;
+ --ac:#f97316;--ach:#ea6c0a;--acl:rgba(249,115,22,.12);
+ --off:#f4f6fb;--w:#ffffff;
+ --mu:#4a6178;--bd:#dae0ec;
+ --gr:#10b981;--gd:#fed7aa;
+ --dk-body:rgba(255,255,255,.88);
+ --dk-sub:rgba(255,255,255,.78);
+ --dk-muted:rgba(255,255,255,.68);
 }
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
 html{scroll-behavior:smooth;font-size:16px}
@@ -242,74 +242,75 @@ footer{background:var(--n3);border-top:1px solid rgba(255,255,255,.06);padding:5
 
 /* ═══ RESPONSIVE ═══ */
 @media(max-width:1024px){
-  .model-compare{grid-template-columns:1fr;gap:28px}
-  .sol-grid{grid-template-columns:1fr 1fr}
-  .persona-grid{grid-template-columns:1fr 1fr}
-  .trust-grid{grid-template-columns:1fr 1fr}
-  .fg{grid-template-columns:1fr 1fr 1fr;gap:28px}
+ .model-compare{grid-template-columns:1fr;gap:28px}
+ .sol-grid{grid-template-columns:1fr 1fr}
+ .persona-grid{grid-template-columns:1fr 1fr}
+ .trust-grid{grid-template-columns:1fr 1fr}
+ .fg{grid-template-columns:1fr 1fr 1fr;gap:28px}
 }
 @media(max-width:768px){
-  .nl{display:none}
-  .ham{display:flex}
-  .hero{padding:68px 5% 60px}
-  .sol-grid{grid-template-columns:1fr}
-  .persona-grid{grid-template-columns:1fr}
-  .trust-grid{grid-template-columns:1fr 1fr}
-  .fg{grid-template-columns:1fr 1fr;gap:24px}
-  .img-cin{max-height:280px}
-  .img-cin img{height:280px}
+ .nl{display:none}
+ .ham{display:flex}
+ .hero{padding:68px 5% 60px}
+ .sol-grid{grid-template-columns:1fr}
+ .persona-grid{grid-template-columns:1fr}
+ .trust-grid{grid-template-columns:1fr 1fr}
+ .fg{grid-template-columns:1fr 1fr;gap:24px}
+ .img-cin{max-height:280px}
+ .img-cin img{height:280px}
 }
 @media(max-width:600px){
-  section{padding:56px 5%}
-  .hero{padding:56px 5% 48px}
-  .hero h1{font-size:2rem}
-  .hbtns{flex-direction:column}
-  .hstats{gap:0}
-  .hs{padding:0 16px}
-  .hs .n{font-size:1.55rem}
-  .trust-grid{grid-template-columns:1fr}
-  .trust-band{padding:56px 5%}
-  .ctaf{padding:68px 5%}
-  .fg{grid-template-columns:1fr}
-  .img-cin{max-height:220px}
-  .img-cin img{height:220px}
-  .obar{font-size:.88rem}
-  .obar em{display:none}
+ section{padding:56px 5%}
+ .hero{padding:56px 5% 48px}
+ .hero h1{font-size:2rem}
+ .hbtns{flex-direction:column}
+ .hstats{gap:0}
+ .hs{padding:0 16px}
+ .hs .n{font-size:1.55rem}
+ .trust-grid{grid-template-columns:1fr}
+ .trust-band{padding:56px 5%}
+ .ctaf{padding:68px 5%}
+ .fg{grid-template-columns:1fr}
+ .img-cin{max-height:220px}
+ .img-cin img{height:220px}
+ .obar{font-size:.88rem}
+ .obar em{display:none}
 }
 /* mobile-readability */@media(max-width:768px){html{font-size:17.5px}}@media(max-width:360px){html{font-size:16.5px}}
 .hbyline{color:rgba(255,255,255,.62);font-size:.86rem;font-weight:500;font-family:'Outfit',sans-serif;margin:2px 0 20px;letter-spacing:.01em}.hbyline strong{color:rgba(255,255,255,.82);font-weight:600}
+.i{width:1em;height:1em;display:inline-block;vertical-align:-.125em;flex-shrink:0}
 </style>
-  <link rel="stylesheet" href="global-nav-footer.css"/>
+ <link rel="stylesheet" href="global-nav-footer.css"/>
 </head>
 <body>
 
 <!-- ── NAV (identical to homepage) ── -->
 <nav>
-  <a href="index.html" class="logo"><img src="images/site/new-cf-logo-no-bg.webp" alt="China Fulfillment International — Shenzhen 3PL and Amazon FBA consolidation" loading="eager" width="180" height="50"/></a>
-  <div class="nl">
-    <a href="amazon-fba-consolidation.html">FBA Consolidation</a>
-    <a href="china-consolidation.html">D2C Brands</a>
-    <a href="quality-control-fba-prep-china.html">QC &amp; Prep</a>
-    <a href="amazon-fba-prep-china.html">FBA Prep</a>
-    <a href="tariff-management-china.html">Tariffs</a>
-    <a href="international-freight-forwarding-china.html">Freight</a>
-    <a href="supplier-management-china.html">Suppliers</a>
-    <a class="ncta" href="Contact-Us.html">Get a Free Quote</a>
-  </div>
-  <div class="ham" id="ham" onclick="tM()"><span></span><span></span><span></span></div>
+ <a href="index.html" class="logo"><img src="images/site/new-cf-logo-no-bg.webp" alt="China Fulfillment International — Shenzhen 3PL and Amazon FBA consolidation" loading="eager" width="180" height="50"/></a>
+ <div class="nl">
+ <a href="amazon-fba-consolidation.html">FBA Consolidation</a>
+ <a href="china-consolidation.html">D2C Brands</a>
+ <a href="quality-control-fba-prep-china.html">QC &amp; Prep</a>
+ <a href="amazon-fba-prep-china.html">FBA Prep</a>
+ <a href="tariff-management-china.html">Tariffs</a>
+ <a href="international-freight-forwarding-china.html">Freight</a>
+ <a href="supplier-management-china.html">Suppliers</a>
+ <a class="ncta" href="Contact-Us.html">Get a Free Quote</a>
+ </div>
+ <div class="ham" id="ham" onclick="tM()"><span></span><span></span><span></span></div>
 </nav>
 <div class="mob" id="mob">
-  <a href="amazon-fba-consolidation.html">Amazon FBA Consolidation</a>
-  <a href="china-consolidation.html">D2C Brand Consolidation</a>
-  <a href="quality-control-fba-prep-china.html">QC &amp; FBA Prep</a>
-  <a href="amazon-fba-prep-china.html">Amazon FBA Prep Service</a>
-  <a href="tariff-management-china.html">Tariff Management</a>
-  <a href="international-freight-forwarding-china.html">Freight Forwarding</a>
-  <a href="supplier-management-china.html">Supplier Management</a>
-  <a href="ecommerce-fulfillment.html">eCommerce Fulfillment</a>
-  <a href="Contact-Us.html" class="mcta">Get a Free Quote — No Cost, No Commitment</a>
+ <a href="amazon-fba-consolidation.html">Amazon FBA Consolidation</a>
+ <a href="china-consolidation.html">D2C Brand Consolidation</a>
+ <a href="quality-control-fba-prep-china.html">QC &amp; FBA Prep</a>
+ <a href="amazon-fba-prep-china.html">Amazon FBA Prep Service</a>
+ <a href="tariff-management-china.html">Tariff Management</a>
+ <a href="international-freight-forwarding-china.html">Freight Forwarding</a>
+ <a href="supplier-management-china.html">Supplier Management</a>
+ <a href="ecommerce-fulfillment.html">eCommerce Fulfillment</a>
+ <a href="Contact-Us.html" class="mcta">Get a Free Quote — No Cost, No Commitment</a>
 </div>
-<div class="obar">&#127873; New Customers: <strong>30 Days FREE Warehouse Storage</strong><em> — No credit card. No minimums. No conditions.</em></div>
+<div class="obar"><svg class="i" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="8" width="18" height="4" rx="1"/><path d="M12 8v13"/><path d="M19 12v7a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2v-7"/><path d="M7.5 8a2.5 2.5 0 0 1 0-5A4.8 8 0 0 1 12 8a4.8 8 0 0 1 4.5-5 2.5 2.5 0 0 1 0 5"/></svg> New Customers: <strong>30 Days FREE Warehouse Storage</strong><em> — No credit card. No minimums. No conditions.</em></div>
 
 
 
@@ -322,285 +323,285 @@ footer{background:var(--n3);border-top:1px solid rgba(255,255,255,.06);padding:5
 
 
 <!-- ═══════════════════════════════════════
-     HERO
+ HERO
 ═══════════════════════════════════════ -->
 <section class="hero">
-  <div class="hglow"></div>
-  <div class="hi-wrap">
-    <div class="htag"><span class="htag-d"></span>Direct eCommerce Fulfillment &middot; Shopify &amp; D2C &middot; Est. 2010</div>
-    <h1>You ordered 4 months of stock in July.<br/><span class="hi">Your cash won't come back until November.</span></h1>
-    <div class="hbyline">Updated <time datetime="2026-05-30">May 2026</time> &middot; By <strong>China Fulfillment International</strong>, Shenzhen</div>
-    <p class="hero-body">The traditional model forces you to commit capital months before a single order arrives — then lock it further inside a container, a port, a freight forwarder, and a <strong>US 3PL you're paying to hold stock your customers haven't bought yet</strong>.</p>
-    <p class="hero-sub">Direct fulfilment from China changes the equation entirely. Your products ship from our Shenzhen warehouse to your customers' doors — days after production, not months. Your cash stays liquid for the things that actually grow your brand.</p>
-    <div class="hbtns">
-      <a class="bp" href="Contact-Us.html">Start Fulfilling Direct from China &rarr;</a>
-      <a class="bg" href="#how-it-works">See How the Model Works</a>
-    </div>
-    <div class="hstats">
-      <div class="hs"><div class="n">15+</div><div class="l">Years<br/>Operating</div></div>
-      <div class="hs"><div class="n">$0.99</div><div class="l">Pick &amp; Pack<br/>Per Order</div></div>
-      <div class="hs"><div class="n">$0</div><div class="l">Receiving<br/>Fees. Ever.</div></div>
-      <div class="hs"><div class="n">30</div><div class="l">Days Free<br/>Storage</div></div>
-    </div>
-  </div>
+ <div class="hglow"></div>
+ <div class="hi-wrap">
+ <div class="htag"><span class="htag-d"></span>Direct eCommerce Fulfillment &middot; Shopify &amp; D2C &middot; Est. 2010</div>
+ <h1>You ordered 4 months of stock in July.<br/><span class="hi">Your cash won't come back until November.</span></h1>
+ <div class="hbyline">Updated <time datetime="2026-05-30">May 2026</time> &middot; By <strong>China Fulfillment International</strong>, Shenzhen</div>
+ <p class="hero-body">The traditional model forces you to commit capital months before a single order arrives — then lock it further inside a container, a port, a freight forwarder, and a <strong>US 3PL you're paying to hold stock your customers haven't bought yet</strong>.</p>
+ <p class="hero-sub">Direct fulfilment from China changes the equation entirely. Your products ship from our Shenzhen warehouse to your customers' doors — days after production, not months. Your cash stays liquid for the things that actually grow your brand.</p>
+ <div class="hbtns">
+ <a class="bp" href="Contact-Us.html">Start Fulfilling Direct from China &rarr;</a>
+ <a class="bg" href="#how-it-works">See How the Model Works</a>
+ </div>
+ <div class="hstats">
+ <div class="hs"><div class="n">15+</div><div class="l">Years<br/>Operating</div></div>
+ <div class="hs"><div class="n">$0.99</div><div class="l">Pick &amp; Pack<br/>Per Order</div></div>
+ <div class="hs"><div class="n">$0</div><div class="l">Receiving<br/>Fees. Ever.</div></div>
+ <div class="hs"><div class="n">30</div><div class="l">Days Free<br/>Storage</div></div>
+ </div>
+ </div>
 </section>
 
 <!-- ── TRUST BAR ── -->
 <div class="tbar" role="list"><div class="tbi">
-  <div class="ti" role="listitem">Shopify &amp; WooCommerce Integration</div>
-  <div class="ti" role="listitem">Branded Custom Packaging</div>
-  <div class="ti" role="listitem">Individual Order Fulfilment</div>
-  <div class="ti" role="listitem">Zero Receiving Fees</div>
-  <div class="ti" role="listitem">DDP Shipping Available</div>
-  <div class="ti" role="listitem">30 Days Free Storage</div>
-  <div class="ti" role="listitem">200+ Countries</div>
+ <div class="ti" role="listitem">Shopify &amp; WooCommerce Integration</div>
+ <div class="ti" role="listitem">Branded Custom Packaging</div>
+ <div class="ti" role="listitem">Individual Order Fulfilment</div>
+ <div class="ti" role="listitem">Zero Receiving Fees</div>
+ <div class="ti" role="listitem">DDP Shipping Available</div>
+ <div class="ti" role="listitem">30 Days Free Storage</div>
+ <div class="ti" role="listitem">200+ Countries</div>
 </div></div>
 
 <!-- ── CINEMATIC IMAGE ── -->
 <div class="img-cin">
-  <img src="images/site/ecommerce-fulfillment-shopify-order-packing-china-warehouse.webp" alt="China eCommerce fulfillment warehouse in Shenzhen — D2C order processing, branded packaging and international dispatch for Shopify brands" width="1200" height="420" loading="lazy" decoding="async" fetchpriority="low"/>
+ <img src="images/site/ecommerce-fulfillment-shopify-order-packing-china-warehouse.webp" alt="China eCommerce fulfillment warehouse in Shenzhen — D2C order processing, branded packaging and international dispatch for Shopify brands" width="1200" height="420" loading="lazy" decoding="async" fetchpriority="low"/>
 </div>
 
 <!-- ═══════════════════════════════════════
-     OLD MODEL vs NEW MODEL
+ OLD MODEL vs NEW MODEL
 ═══════════════════════════════════════ -->
 <section id="how-it-works" style="background:var(--off)">
-  <div class="w">
-    <div class="sl">Why the Traditional Model Breaks Your Cash Flow</div>
-    <h2 class="st">Two eCommerce fulfillment models. One holds your cash hostage for months. One doesn't.</h2>
-    <p class="ss" style="max-width:660px">Most D2C brands accept the bulk-shipping model as the only option. It isn't. Here's what you're actually choosing between — and what each choice costs you.</p>
+ <div class="w">
+ <div class="sl">Why the Traditional Model Breaks Your Cash Flow</div>
+ <h2 class="st">Two eCommerce fulfillment models. One holds your cash hostage for months. One doesn't.</h2>
+ <p class="ss" style="max-width:660px">Most D2C brands accept the bulk-shipping model as the only option. It isn't. Here's what you're actually choosing between — and what each choice costs you.</p>
 
-    <div class="model-compare">
-      <div class="old">
-        <div class="model-col-head">&#10060; The Old Model</div>
-        <div class="ms-list">
-          <div class="ms-item"><div class="ms-dot">1</div><div class="ms-body"><h4>Forecast demand 3–4 months out</h4><p>You guess how much you'll sell in Q4 before Q2 is over — based on trend data, gut feel, and hope.</p><div class="ms-flag">&#9888; Capital committed before a single order exists</div></div></div>
-          <div class="ms-item"><div class="ms-dot">2</div><div class="ms-body"><h4>Pay for a full container. Wait 4–6 weeks.</h4><p>Tens of thousands leave your account. Your goods are on a ship. Your cash is in a box on the ocean.</p><div class="ms-flag">&#9888; Cash locked in transit — not working</div></div></div>
-          <div class="ms-item"><div class="ms-dot">3</div><div class="ms-body"><h4>Goods arrive at an overseas 3PL</h4><p>Receiving fees. Monthly storage. Pick and pack surcharges. More cost stacking before your first order ships.</p><div class="ms-flag">&#9888; Another invoice before revenue starts</div></div></div>
-          <div class="ms-item"><div class="ms-dot">4</div><div class="ms-body"><h4>Inventory slowly converts to revenue — over months</h4><p>Capital recovery is spread over the entire sell-through period. Overstock means more fees. Understock means a stockout at peak.</p><div class="ms-flag">&#9888; No winning the forecasting game at scale</div></div></div>
-        </div>
-        <div class="model-verdict bad">Production payment to meaningful cash recovery: <strong>4–6 months</strong>. You forecasted all of it before you had a real demand signal.</div>
-      </div>
+ <div class="model-compare">
+ <div class="old">
+ <div class="model-col-head"><svg class="i" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="color:#ef4444"><circle cx="12" cy="12" r="10"/><path d="m15 9-6 6"/><path d="m9 9 6 6"/></svg> The Old Model</div>
+ <div class="ms-list">
+ <div class="ms-item"><div class="ms-dot">1</div><div class="ms-body"><h4>Forecast demand 3–4 months out</h4><p>You guess how much you'll sell in Q4 before Q2 is over — based on trend data, gut feel, and hope.</p><div class="ms-flag">&#9888; Capital committed before a single order exists</div></div></div>
+ <div class="ms-item"><div class="ms-dot">2</div><div class="ms-body"><h4>Pay for a full container. Wait 4–6 weeks.</h4><p>Tens of thousands leave your account. Your goods are on a ship. Your cash is in a box on the ocean.</p><div class="ms-flag">&#9888; Cash locked in transit — not working</div></div></div>
+ <div class="ms-item"><div class="ms-dot">3</div><div class="ms-body"><h4>Goods arrive at an overseas 3PL</h4><p>Receiving fees. Monthly storage. Pick and pack surcharges. More cost stacking before your first order ships.</p><div class="ms-flag">&#9888; Another invoice before revenue starts</div></div></div>
+ <div class="ms-item"><div class="ms-dot">4</div><div class="ms-body"><h4>Inventory slowly converts to revenue — over months</h4><p>Capital recovery is spread over the entire sell-through period. Overstock means more fees. Understock means a stockout at peak.</p><div class="ms-flag">&#9888; No winning the forecasting game at scale</div></div></div>
+ </div>
+ <div class="model-verdict bad">Production payment to meaningful cash recovery: <strong>4–6 months</strong>. You forecasted all of it before you had a real demand signal.</div>
+ </div>
 
-      <div class="new">
-        <div class="model-col-head">&#10003; The Direct Fulfilment Model</div>
-        <div class="ms-list">
-          <div class="ms-item"><div class="ms-dot">1</div><div class="ms-body"><h4>Order a smarter, smaller batch</h4><p>4–6 weeks of stock instead of 4 months. Less capital at risk. Less forecasting uncertainty.</p><div class="ms-flag">&#10003; 80% less capital committed upfront</div></div></div>
-          <div class="ms-item"><div class="ms-dot">2</div><div class="ms-body"><h4>Goods arrive at our warehouse — days after production</h4><p>No container wait. No transatlantic freight. Your inventory is pick-ready within days of leaving the factory.</p><div class="ms-flag">&#10003; Days to pick-ready — not weeks</div></div></div>
-          <div class="ms-item"><div class="ms-dot">3</div><div class="ms-body"><h4>Customer orders. We pick, pack, dispatch same day.</h4><p>Order syncs from Shopify. Packed in your branded packaging. Dispatched before 3pm cut-off. Full tracking.</p><div class="ms-flag">&#10003; Revenue before your next production run</div></div></div>
-          <div class="ms-item"><div class="ms-dot">4</div><div class="ms-body"><h4>Reorder based on real data — not 3-month-old forecasts</h4><p>Actual sell-through tells you exactly what and when to reorder. Your supplier is days away. Lead times are short.</p><div class="ms-flag">&#10003; React to demand — stop predicting it</div></div></div>
-        </div>
-        <div class="model-verdict good">Production to cash recovery: <strong>under 3 weeks</strong>. You only order what you need. Your cash is liquid the whole time.</div>
-      </div>
-    </div>
-  </div>
+ <div class="new">
+ <div class="model-col-head">&#10003; The Direct Fulfilment Model</div>
+ <div class="ms-list">
+ <div class="ms-item"><div class="ms-dot">1</div><div class="ms-body"><h4>Order a smarter, smaller batch</h4><p>4–6 weeks of stock instead of 4 months. Less capital at risk. Less forecasting uncertainty.</p><div class="ms-flag">&#10003; 80% less capital committed upfront</div></div></div>
+ <div class="ms-item"><div class="ms-dot">2</div><div class="ms-body"><h4>Goods arrive at our warehouse — days after production</h4><p>No container wait. No transatlantic freight. Your inventory is pick-ready within days of leaving the factory.</p><div class="ms-flag">&#10003; Days to pick-ready — not weeks</div></div></div>
+ <div class="ms-item"><div class="ms-dot">3</div><div class="ms-body"><h4>Customer orders. We pick, pack, dispatch same day.</h4><p>Order syncs from Shopify. Packed in your branded packaging. Dispatched before 3pm cut-off. Full tracking.</p><div class="ms-flag">&#10003; Revenue before your next production run</div></div></div>
+ <div class="ms-item"><div class="ms-dot">4</div><div class="ms-body"><h4>Reorder based on real data — not 3-month-old forecasts</h4><p>Actual sell-through tells you exactly what and when to reorder. Your supplier is days away. Lead times are short.</p><div class="ms-flag">&#10003; React to demand — stop predicting it</div></div></div>
+ </div>
+ <div class="model-verdict good">Production to cash recovery: <strong>under 3 weeks</strong>. You only order what you need. Your cash is liquid the whole time.</div>
+ </div>
+ </div>
+ </div>
 </section>
 
 <!-- INFOGRAPHIC: Global Fulfilment Process Map -->
 <div style="background:var(--w);padding:40px 5% 0;text-align:center">
-  <div style="max-width:900px;margin:0 auto">
-    <p class="sl">How It All Connects</p>
-    <img src="images/site/global-e-commerce-fulfilment-process-map.webp" alt="Global eCommerce fulfillment process map — order flow from Chinese supplier through Shenzhen warehouse to customer delivery in 200+ countries, showing QC, pick-pack, shipping and tracking stages" width="900" height="600" style="width:100%;height:auto;border-radius:14px;border:1px solid var(--bd);box-shadow:0 6px 24px rgba(0,0,0,.08)" loading="lazy" decoding="async" fetchpriority="low"/>
-  </div>
+ <div style="max-width:900px;margin:0 auto">
+ <p class="sl">How It All Connects</p>
+ <img src="images/site/global-e-commerce-fulfilment-process-map.webp" alt="Global eCommerce fulfillment process map — order flow from Chinese supplier through Shenzhen warehouse to customer delivery in 200+ countries, showing QC, pick-pack, shipping and tracking stages" width="900" height="600" style="width:100%;height:auto;border-radius:14px;border:1px solid var(--bd);box-shadow:0 6px 24px rgba(0,0,0,.08)" loading="lazy" decoding="async" fetchpriority="low"/>
+ </div>
 </div>
 
 <!-- ═══════════════════════════════════════
-     PAIN — Hidden costs
+ PAIN — Hidden costs
 ═══════════════════════════════════════ -->
 <section>
-  <div class="w">
-    <div class="sce-inner">
-      <div class="sl">What the Old Model Quietly Costs You</div>
-      <h2 class="st">The old eCommerce fulfillment model is slow, yes. But the real problem is structural cost you can't see on any single invoice.</h2>
-      <p class="ss">Cash flow is the obvious problem. But the traditional bulk-shipping model extracts cost at every stage — most of it invisible until you add it up.</p>
-    </div>
-    <ul class="sce-list">
-      <li class="sce-item"><div class="sce-ico">&#128184;</div><div><h3>You're paying a US 3PL to hold inventory that never needed to leave China</h3><p>The entire purpose of your overseas 3PL is to store goods closer to your customers. But if your customers are global — or if delivery speed from China is competitive — you're paying rent on a warehouse you don't need, in a country you don't sell enough into to justify it.</p></div></li>
-      <li class="sce-item"><div class="sce-ico">&#128200;</div><div><h3>Dead stock doesn't just cost storage — it blocks capital from your next winner</h3><p>Overordering one SKU means underordering the next. The capital locked in slow-moving stock is capital you can't deploy into marketing, product development, or the product that's actually selling. Smaller, more frequent orders reduce this structural problem permanently.</p></div></li>
-      <li class="sce-item"><div class="sce-ico">&#128666;</div><div><h3>Shipping a container is the most expensive way to test a new market</h3><p>Launching into a new country with container volumes means huge upfront commitment to an unproven market. Direct fulfilment from China lets you test any market with minimal inventory — and scale only the ones that perform.</p></div></li>
-      <li class="sce-item"><div class="sce-ico">&#128587;</div><div><h3>Your brand experience ends where your fulfilment partner takes over</h3><p>If your 3PL doesn't support custom packaging, branded inserts, or personalised packing — your unboxing experience is generic. We pack in your branded materials at the standard $0.99 per order rate. No surcharges. No compromise.</p></div></li>
-      <li class="sce-item"><div class="sce-ico">&#9203;</div><div><h3>12-hour time zone gaps make every issue a multi-day problem</h3><p>Your supply chain is in China. Your 3PL is in the US. Your freight forwarder is in a third time zone. Every coordination email loses a business day. When your fulfilment partner is in the same city as your suppliers, problems get resolved in hours — not a week of relay emails.</p></div></li>
-    </ul>
-  </div>
+ <div class="w">
+ <div class="sce-inner">
+ <div class="sl">What the Old Model Quietly Costs You</div>
+ <h2 class="st">The old eCommerce fulfillment model is slow, yes. But the real problem is structural cost you can't see on any single invoice.</h2>
+ <p class="ss">Cash flow is the obvious problem. But the traditional bulk-shipping model extracts cost at every stage — most of it invisible until you add it up.</p>
+ </div>
+ <ul class="sce-list">
+ <li class="sce-item"><div class="sce-ico"><svg class="i" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect width="20" height="12" x="2" y="6" rx="2"/><circle cx="12" cy="12" r="2"/><path d="M6 12h.01M18 12h.01"/></svg></div><div><h3>You're paying a US 3PL to hold inventory that never needed to leave China</h3><p>The entire purpose of your overseas 3PL is to store goods closer to your customers. But if your customers are global — or if delivery speed from China is competitive — you're paying rent on a warehouse you don't need, in a country you don't sell enough into to justify it.</p></div></li>
+ <li class="sce-item"><div class="sce-ico"><svg class="i" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M16 7h6v6"/><path d="m22 7-8.5 8.5-5-5L2 17"/></svg></div><div><h3>Dead stock doesn't just cost storage — it blocks capital from your next winner</h3><p>Overordering one SKU means underordering the next. The capital locked in slow-moving stock is capital you can't deploy into marketing, product development, or the product that's actually selling. Smaller, more frequent orders reduce this structural problem permanently.</p></div></li>
+ <li class="sce-item"><div class="sce-ico"><svg class="i" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 18V6a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v11a1 1 0 0 0 1 1h2"/><path d="M15 18H9"/><path d="M19 18h2a1 1 0 0 0 1-1v-3.65a1 1 0 0 0-.22-.624l-3.48-4.35A1 1 0 0 0 17.52 8H14"/><circle cx="17" cy="18" r="2"/><circle cx="7" cy="18" r="2"/></svg></div><div><h3>Shipping a container is the most expensive way to test a new market</h3><p>Launching into a new country with container volumes means huge upfront commitment to an unproven market. Direct fulfilment from China lets you test any market with minimal inventory — and scale only the ones that perform.</p></div></li>
+ <li class="sce-item"><div class="sce-ico"><svg class="i" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg></div><div><h3>Your brand experience ends where your fulfilment partner takes over</h3><p>If your 3PL doesn't support custom packaging, branded inserts, or personalised packing — your unboxing experience is generic. We pack in your branded materials at the standard $0.99 per order rate. No surcharges. No compromise.</p></div></li>
+ <li class="sce-item"><div class="sce-ico">&#9203;</div><div><h3>12-hour time zone gaps make every issue a multi-day problem</h3><p>Your supply chain is in China. Your 3PL is in the US. Your freight forwarder is in a third time zone. Every coordination email loses a business day. When your fulfilment partner is in the same city as your suppliers, problems get resolved in hours — not a week of relay emails.</p></div></li>
+ </ul>
+ </div>
 </section>
 
 <!-- ═══════════════════════════════════════
-     SERVICES — What we handle
+ SERVICES — What we handle
 ═══════════════════════════════════════ -->
 <section style="background:var(--off)">
-  <div class="w">
-    <div class="sh">
-      <div class="sl">What We Handle</div>
-      <h2 class="st">How our China eCommerce fulfillment service works, from factory floor to front door</h2>
-      <p class="ss">Each stage is managed in-house in our Shenzhen warehouse. No handoffs to third parties. No coordination gaps. One team, one system, one invoice.</p>
-    </div>
-    <div class="sol-grid">
-      <article class="sol-card">
-        <div class="sol-img"><img src="images/site/multi-supplier-receiving-dock-shenzhen-warehouse.webp" alt="Multi-supplier receiving dock at Shenzhen fulfillment warehouse — workers unloading cartons from multiple factory deliveries for QC inspection" width="400" height="160" loading="lazy" decoding="async" fetchpriority="low"/></div>
-        <div class="sol-body"><div class="sol-num">Step 01</div><h3>Supplier Receiving &amp; QC</h3><p>Your suppliers deliver directly to our Shenzhen warehouse. Every delivery is counted against your PO, inspected against your spec sheet, and any discrepancies photographed and documented within 24 hours.</p><div class="sol-result">&#10003; Zero receiving fees — always</div></div>
-      </article>
-      <article class="sol-card">
-        <div class="sol-img"><img src="images/site/branded-packaging-custom-unboxing-china-fulfillment-d2c.webp" alt="Custom branded packaging for D2C eCommerce fulfillment — tissue paper, thank you cards and branded poly mailers at Shenzhen packing station" width="400" height="160" loading="lazy" decoding="async" fetchpriority="low"/></div>
-        <div class="sol-body"><div class="sol-num">Step 02</div><h3>Branded Pick &amp; Pack</h3><p>Your branded boxes, poly mailers, tissue paper, inserts, and stickers applied to every outbound order as standard. No surcharge for branded packaging vs plain outer. Same $0.99 rate either way.</p><div class="sol-result">&#10003; $0.99 per order — branded packaging included</div></div>
-      </article>
-      <article class="sol-card">
-        <div class="sol-img"><img src="images/site/shenzhen-yantian-port-container-terminal-aerial.webp" alt="Aerial view of Shenzhen Yantian port — container terminal providing direct shipping access for eCommerce fulfillment and DDP delivery worldwide" width="400" height="160" loading="lazy" decoding="async" fetchpriority="low"/></div>
-        <div class="sol-body"><div class="sol-num">Step 03</div><h3>Global Shipping &amp; DDP</h3><p>Express air freight to the US in 5–8 days, UK in 5–7 days. DDP options mean your customers never see surprise duty charges. Tracking auto-uploads to your Shopify store at dispatch.</p><div class="sol-result">&#10003; 200+ countries. DDP available.</div></div>
-      </article>
-      <article class="sol-card">
-        <div class="sol-img"><img src="images/site/shopify-order-dashboard-wms-china-fulfillment-integration.webp" alt="Shopify order dashboard and warehouse management system — real-time order sync, inventory tracking and shipping label generation for China eCommerce fulfillment" width="400" height="160" loading="lazy" decoding="async" fetchpriority="low"/></div>
-        <div class="sol-body"><div class="sol-num">Step 04</div><h3>Shopify &amp; Platform Integration</h3><p>Orders flow from your store automatically. We pick, pack, and dispatch. Tracking numbers upload back to Shopify and trigger your customer's shipping confirmation. No manual exports or emails required.</p><div class="sol-result">&#10003; 3–5 day setup. Fully automated.</div></div>
-      </article>
-      <article class="sol-card">
-        <div class="sol-img"><img src="images/site/shenzhen-warehouse-interior-panoramic-ecommerce-fulfillment.webp" alt="China Fulfillment Shenzhen warehouse interior — organised racking systems with labelled eCommerce inventory stored at $0.49 per CBM per day" width="400" height="160" loading="lazy" decoding="async" fetchpriority="low"/></div>
-        <div class="sol-body"><div class="sol-num">Step 05</div><h3>Inventory Storage &amp; Management</h3><p>Real-time stock levels across every SKU. Low-stock alerts. Location tracking. Store at $0.49/CBM/day — a fraction of US or UK warehouse rates. First 30 days free for new customers.</p><div class="sol-result">&#10003; $0.49/CBM/day. 30 days free.</div></div>
-      </article>
-      <article class="sol-card">
-        <div class="sol-img"><img src="images/site/ecommerce-order-pick-pack-individual-shopify-china.webp" alt="Individual eCommerce order being picked and packed — worker scanning barcode on single-unit Shopify order with branded packaging ready for dispatch" width="400" height="160" loading="lazy" decoding="async" fetchpriority="low"/></div>
-        <div class="sol-body"><div class="sol-num">Step 06</div><h3>Returns &amp; After-Sales</h3><p>Local returns address batching, direct-to-China returns for high-value items, or disposal arrangements for low-value returns. Every approach designed around your brand's economics and customer experience.</p><div class="sol-result">&#10003; Flexible returns designed during onboarding</div></div>
-      </article>
-    </div>
-  </div>
+ <div class="w">
+ <div class="sh">
+ <div class="sl">What We Handle</div>
+ <h2 class="st">How our China eCommerce fulfillment service works, from factory floor to front door</h2>
+ <p class="ss">Each stage is managed in-house in our Shenzhen warehouse. No handoffs to third parties. No coordination gaps. One team, one system, one invoice.</p>
+ </div>
+ <div class="sol-grid">
+ <article class="sol-card">
+ <div class="sol-img"><img src="images/site/multi-supplier-receiving-dock-shenzhen-warehouse.webp" alt="Multi-supplier receiving dock at Shenzhen fulfillment warehouse — workers unloading cartons from multiple factory deliveries for QC inspection" width="400" height="160" loading="lazy" decoding="async" fetchpriority="low"/></div>
+ <div class="sol-body"><div class="sol-num">Step 01</div><h3>Supplier Receiving &amp; QC</h3><p>Your suppliers deliver directly to our Shenzhen warehouse. Every delivery is counted against your PO, inspected against your spec sheet, and any discrepancies photographed and documented within 24 hours.</p><div class="sol-result">&#10003; Zero receiving fees — always</div></div>
+ </article>
+ <article class="sol-card">
+ <div class="sol-img"><img src="images/site/branded-packaging-custom-unboxing-china-fulfillment-d2c.webp" alt="Custom branded packaging for D2C eCommerce fulfillment — tissue paper, thank you cards and branded poly mailers at Shenzhen packing station" width="400" height="160" loading="lazy" decoding="async" fetchpriority="low"/></div>
+ <div class="sol-body"><div class="sol-num">Step 02</div><h3>Branded Pick &amp; Pack</h3><p>Your branded boxes, poly mailers, tissue paper, inserts, and stickers applied to every outbound order as standard. No surcharge for branded packaging vs plain outer. Same $0.99 rate either way.</p><div class="sol-result">&#10003; $0.99 per order — branded packaging included</div></div>
+ </article>
+ <article class="sol-card">
+ <div class="sol-img"><img src="images/site/shenzhen-yantian-port-container-terminal-aerial.webp" alt="Aerial view of Shenzhen Yantian port — container terminal providing direct shipping access for eCommerce fulfillment and DDP delivery worldwide" width="400" height="160" loading="lazy" decoding="async" fetchpriority="low"/></div>
+ <div class="sol-body"><div class="sol-num">Step 03</div><h3>Global Shipping &amp; DDP</h3><p>Express air freight to the US in 5–8 days, UK in 5–7 days. DDP options mean your customers never see surprise duty charges. Tracking auto-uploads to your Shopify store at dispatch.</p><div class="sol-result">&#10003; 200+ countries. DDP available.</div></div>
+ </article>
+ <article class="sol-card">
+ <div class="sol-img"><img src="images/site/shopify-order-dashboard-wms-china-fulfillment-integration.webp" alt="Shopify order dashboard and warehouse management system — real-time order sync, inventory tracking and shipping label generation for China eCommerce fulfillment" width="400" height="160" loading="lazy" decoding="async" fetchpriority="low"/></div>
+ <div class="sol-body"><div class="sol-num">Step 04</div><h3>Shopify &amp; Platform Integration</h3><p>Orders flow from your store automatically. We pick, pack, and dispatch. Tracking numbers upload back to Shopify and trigger your customer's shipping confirmation. No manual exports or emails required.</p><div class="sol-result">&#10003; 3–5 day setup. Fully automated.</div></div>
+ </article>
+ <article class="sol-card">
+ <div class="sol-img"><img src="images/site/shenzhen-warehouse-interior-panoramic-ecommerce-fulfillment.webp" alt="China Fulfillment Shenzhen warehouse interior — organised racking systems with labelled eCommerce inventory stored at $0.49 per CBM per day" width="400" height="160" loading="lazy" decoding="async" fetchpriority="low"/></div>
+ <div class="sol-body"><div class="sol-num">Step 05</div><h3>Inventory Storage &amp; Management</h3><p>Real-time stock levels across every SKU. Low-stock alerts. Location tracking. Store at $0.49/CBM/day — a fraction of US or UK warehouse rates. First 30 days free for new customers.</p><div class="sol-result">&#10003; $0.49/CBM/day. 30 days free.</div></div>
+ </article>
+ <article class="sol-card">
+ <div class="sol-img"><img src="images/site/ecommerce-order-pick-pack-individual-shopify-china.webp" alt="Individual eCommerce order being picked and packed — worker scanning barcode on single-unit Shopify order with branded packaging ready for dispatch" width="400" height="160" loading="lazy" decoding="async" fetchpriority="low"/></div>
+ <div class="sol-body"><div class="sol-num">Step 06</div><h3>Returns &amp; After-Sales</h3><p>Local returns address batching, direct-to-China returns for high-value items, or disposal arrangements for low-value returns. Every approach designed around your brand's economics and customer experience.</p><div class="sol-result">&#10003; Flexible returns designed during onboarding</div></div>
+ </article>
+ </div>
+ </div>
 </section>
 
 <!-- ═══════════════════════════════════════
-     PERSONAS — Who this is for
+ PERSONAS — Who this is for
 ═══════════════════════════════════════ -->
 <section class="personas">
-  <div class="w">
-    <div class="sl">Who This Is For</div>
-    <h2 class="st" style="max-width:660px">Three founders. Three supply chain headaches. One solution that fits all of them.</h2>
-    <div class="persona-grid">
-      <div class="persona">
-        <div class="persona-avatar">&#128104;&#8205;&#128187;</div>
-        <h3>The Scaling DTC Founder</h3>
-        <div class="role">Shopify &middot; Beauty &middot; Homeware</div>
-        <p>"I'm doing 200 orders a month and I know I need a proper fulfilment setup. But every US 3PL wants a minimum commitment I can't justify yet. I need something that works at 200 orders and still works at 2,000."</p>
-      </div>
-      <div class="persona">
-        <div class="persona-avatar">&#127757;</div>
-        <h3>The Multi-Market Operator</h3>
-        <div class="role">EU &middot; US &middot; UK &middot; Australia</div>
-        <p>"I sell into 6 countries and I have inventory in 3 warehouses. The coordination is killing me. I want one origin point, one partner, and one system that routes to wherever the customer happens to be."</p>
-      </div>
-      <div class="persona">
-        <div class="persona-avatar">&#128640;</div>
-        <h3>The Product Launcher</h3>
-        <div class="role">New SKUs &middot; Crowdfunding &middot; Subscription boxes</div>
-        <p>"We launch new products constantly and we can't afford a $15,000 container commitment to test each one. I want a setup where I can ship 100 units of a new product within days, learn fast, and scale the ones that work."</p>
-      </div>
-    </div>
-  </div>
+ <div class="w">
+ <div class="sl">Who This Is For</div>
+ <h2 class="st" style="max-width:660px">Three founders. Three supply chain headaches. One solution that fits all of them.</h2>
+ <div class="persona-grid">
+ <div class="persona">
+ <div class="persona-avatar"><svg class="i" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>&#8205;<svg class="i" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect width="20" height="14" x="2" y="3" rx="2"/><path d="M8 21h8"/><path d="M12 17v4"/></svg></div>
+ <h3>The Scaling DTC Founder</h3>
+ <div class="role">Shopify &middot; Beauty &middot; Homeware</div>
+ <p>"I'm doing 200 orders a month and I know I need a proper fulfilment setup. But every US 3PL wants a minimum commitment I can't justify yet. I need something that works at 200 orders and still works at 2,000."</p>
+ </div>
+ <div class="persona">
+ <div class="persona-avatar"><svg class="i" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/><path d="M2 12h20"/></svg></div>
+ <h3>The Multi-Market Operator</h3>
+ <div class="role">EU &middot; US &middot; UK &middot; Australia</div>
+ <p>"I sell into 6 countries and I have inventory in 3 warehouses. The coordination is killing me. I want one origin point, one partner, and one system that routes to wherever the customer happens to be."</p>
+ </div>
+ <div class="persona">
+ <div class="persona-avatar"><svg class="i" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09z"/><path d="m12 15-3-3a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.35 22.35 0 0 1-4 2z"/><path d="M9 12H4s.55-3.03 2-4c1.62-1.08 5 0 5 0"/><path d="M12 15v5s3.03-.55 4-2c1.08-1.62 0-5 0-5"/></svg></div>
+ <h3>The Product Launcher</h3>
+ <div class="role">New SKUs &middot; Crowdfunding &middot; Subscription boxes</div>
+ <p>"We launch new products constantly and we can't afford a $15,000 container commitment to test each one. I want a setup where I can ship 100 units of a new product within days, learn fast, and scale the ones that work."</p>
+ </div>
+ </div>
+ </div>
 </section>
 
 <!-- ═══════════════════════════════════════
-     TRUST BAND — 15 years
+ TRUST BAND — 15 years
 ═══════════════════════════════════════ -->
 <section class="trust-band">
-  <div class="w" style="position:relative;z-index:1">
-    <div class="sl">Why Experience Is Your Most Important Due-Diligence Question</div>
-    <h2 class="st" style="max-width:700px">Most China fulfilment companies were founded after 2020. We started in 2010.</h2>
-    <p class="ss" style="max-width:660px">The direct China fulfillment market is crowded with well-funded startups building fast. But fast-growing companies carry a specific risk: your orders are the ones affected when their systems strain, their carrier relationships haven't been tested through a real disruption, or their team hits a scenario they haven't solved before.</p>
-    <div class="trust-grid">
-      <div class="trust-card"><div class="tc-n">15+</div><div class="tc-l">Years Operating</div><p>Processes, carrier contracts, and operational playbooks refined across 15 years of real-world edge cases, disruptions, and scale.</p></div>
-      <div class="trust-card"><div class="tc-n">200+</div><div class="tc-l">Countries Served</div><p>Navigating customs requirements, carrier constraints, and address formats that only come from years of actual volume across diverse destinations.</p></div>
-      <div class="trust-card"><div class="tc-n">$0</div><div class="tc-l">Receiving Fees. Always.</div><p>Not a promotion. Our operating model. Charging you to receive your own stock makes no sense in a genuine long-term partnership.</p></div>
-      <div class="trust-card"><div class="tc-n">Full</div><div class="tc-l">Supply Chain, One Roof</div><p>Unlike fulfilment-only operators, we also handle supplier coordination, QC, consolidation, tariff management, and international freight.</p></div>
-    </div>
-  </div>
+ <div class="w" style="position:relative;z-index:1">
+ <div class="sl">Why Experience Is Your Most Important Due-Diligence Question</div>
+ <h2 class="st" style="max-width:700px">Most China fulfilment companies were founded after 2020. We started in 2010.</h2>
+ <p class="ss" style="max-width:660px">The direct China fulfillment market is crowded with well-funded startups building fast. But fast-growing companies carry a specific risk: your orders are the ones affected when their systems strain, their carrier relationships haven't been tested through a real disruption, or their team hits a scenario they haven't solved before.</p>
+ <div class="trust-grid">
+ <div class="trust-card"><div class="tc-n">15+</div><div class="tc-l">Years Operating</div><p>Processes, carrier contracts, and operational playbooks refined across 15 years of real-world edge cases, disruptions, and scale.</p></div>
+ <div class="trust-card"><div class="tc-n">200+</div><div class="tc-l">Countries Served</div><p>Navigating customs requirements, carrier constraints, and address formats that only come from years of actual volume across diverse destinations.</p></div>
+ <div class="trust-card"><div class="tc-n">$0</div><div class="tc-l">Receiving Fees. Always.</div><p>Not a promotion. Our operating model. Charging you to receive your own stock makes no sense in a genuine long-term partnership.</p></div>
+ <div class="trust-card"><div class="tc-n">Full</div><div class="tc-l">Supply Chain, One Roof</div><p>Unlike fulfilment-only operators, we also handle supplier coordination, QC, consolidation, tariff management, and international freight.</p></div>
+ </div>
+ </div>
 </section>
 
 <!-- ═══════════════════════════════════════
-     FAQ
+ FAQ
 ═══════════════════════════════════════ -->
 <section class="faq">
-  <div class="w">
-    <div class="sh">
-      <div class="sl">Frequently Asked</div>
-      <h2 class="st">Questions D2C founders ask before switching models</h2>
-    </div>
-    <div class="faqlist">
-      <details><summary>How long does delivery from China to the US or UK actually take?</summary><div class="fans">Using our express air freight routes, delivery to the US typically takes 5–8 business days from dispatch. UK delivery is typically 5–7 business days. Economy tracked services are available for price-sensitive routes. Tracking numbers are generated at dispatch and automatically uploaded to your Shopify store.</div></details>
-      <details><summary>Will my customers know the package was shipped from China?</summary><div class="fans">Not if you choose otherwise. We partner with carriers who inject packages directly into domestic delivery networks — in the US this typically means USPS last-mile delivery with a US-format tracking number, so the experience is indistinguishable from a domestic shipment. Combined with your branded packaging, the origin is not visible to your customer.</div></details>
-      <details><summary>Can you use my branded packaging for every order?</summary><div class="fans">Yes — and no additional per-order charge for using your branded packaging vs a plain outer. Ship your branded boxes, poly mailers, tissue paper, inserts, or stickers to us once and we apply them to every outbound order as standard. Same $0.99 pick and pack rate either way.</div></details>
-      <details><summary>What about customs duties — will my customers get unexpected charges?</summary><div class="fans">DDP (Delivered Duty Paid) shipping is available on major routes including the US and UK, meaning all duties are settled before delivery and your customer receives their package with no surprise charges. We advise on the most duty-efficient carrier and declaration approach for your specific product category.</div></details>
-      <details><summary>How does the Shopify integration actually work in practice?</summary><div class="fans">Once onboarded, your Shopify store connects to our fulfilment system. Every order placed flows through automatically — no manual export or email required. We pick, pack, and dispatch. Tracking numbers upload back to Shopify and trigger your standard customer shipping confirmation. Setup typically takes 3–5 business days.</div></details>
-      <details><summary>Is there a minimum order volume?</summary><div class="fans">No minimum. We work with brands processing 50 orders per month and brands processing 5,000. New customers receive 30 days of free warehouse storage — no credit card, no commitment. If direct China fulfilment isn't the right fit after testing it, you've lost nothing but a conversation.</div></details>
-      <details><summary>What product types work best with this model?</summary><div class="fans">Lightweight to medium products — typically under 1.5–2kg per order — where the air freight cost is proportionate to the product value. Items with an average order value above $25–$30 tend to work best. Top categories: beauty, skincare, accessories, homeware, small electronics accessories, stationery, supplements, and apparel.</div></details>
-      <details><summary>Can you handle customer returns?</summary><div class="fans">Yes. We design a returns process around your brand's economics — local returns address that batches back to us, direct-to-China returns for higher-value items, or disposal for low-value returns where shipping cost outweighs recovery value. We agree on the approach during onboarding.</div></details>
-    </div>
-  </div>
+ <div class="w">
+ <div class="sh">
+ <div class="sl">Frequently Asked</div>
+ <h2 class="st">Questions D2C founders ask before switching models</h2>
+ </div>
+ <div class="faqlist">
+ <details><summary>How long does delivery from China to the US or UK actually take?</summary><div class="fans">Using our express air freight routes, delivery to the US typically takes 5–8 business days from dispatch. UK delivery is typically 5–7 business days. Economy tracked services are available for price-sensitive routes. Tracking numbers are generated at dispatch and automatically uploaded to your Shopify store.</div></details>
+ <details><summary>Will my customers know the package was shipped from China?</summary><div class="fans">Not if you choose otherwise. We partner with carriers who inject packages directly into domestic delivery networks — in the US this typically means USPS last-mile delivery with a US-format tracking number, so the experience is indistinguishable from a domestic shipment. Combined with your branded packaging, the origin is not visible to your customer.</div></details>
+ <details><summary>Can you use my branded packaging for every order?</summary><div class="fans">Yes — and no additional per-order charge for using your branded packaging vs a plain outer. Ship your branded boxes, poly mailers, tissue paper, inserts, or stickers to us once and we apply them to every outbound order as standard. Same $0.99 pick and pack rate either way.</div></details>
+ <details><summary>What about customs duties — will my customers get unexpected charges?</summary><div class="fans">DDP (Delivered Duty Paid) shipping is available on major routes including the US and UK, meaning all duties are settled before delivery and your customer receives their package with no surprise charges. We advise on the most duty-efficient carrier and declaration approach for your specific product category.</div></details>
+ <details><summary>How does the Shopify integration actually work in practice?</summary><div class="fans">Once onboarded, your Shopify store connects to our fulfilment system. Every order placed flows through automatically — no manual export or email required. We pick, pack, and dispatch. Tracking numbers upload back to Shopify and trigger your standard customer shipping confirmation. Setup typically takes 3–5 business days.</div></details>
+ <details><summary>Is there a minimum order volume?</summary><div class="fans">No minimum. We work with brands processing 50 orders per month and brands processing 5,000. New customers receive 30 days of free warehouse storage — no credit card, no commitment. If direct China fulfilment isn't the right fit after testing it, you've lost nothing but a conversation.</div></details>
+ <details><summary>What product types work best with this model?</summary><div class="fans">Lightweight to medium products — typically under 1.5–2kg per order — where the air freight cost is proportionate to the product value. Items with an average order value above $25–$30 tend to work best. Top categories: beauty, skincare, accessories, homeware, small electronics accessories, stationery, supplements, and apparel.</div></details>
+ <details><summary>Can you handle customer returns?</summary><div class="fans">Yes. We design a returns process around your brand's economics — local returns address that batches back to us, direct-to-China returns for higher-value items, or disposal for low-value returns where shipping cost outweighs recovery value. We agree on the approach during onboarding.</div></details>
+ </div>
+ </div>
 </section>
 
 <!-- ── FINAL CTA ── -->
 <section class="ctaf">
-  <div class="w">
-    <div class="sl">Ready When You Are</div>
-    <h2>Stop letting months of capital sit in transit<br/><span class="hi">while your competitors stay lean.</span></h2>
-    <p class="lead">Your products are made in China. Fulfilling them from China — directly to your customers — is faster, leaner, and cheaper than the model you're running today.</p>
-    <p class="micro">30 days free storage. Zero receiving fees. No minimum volumes. No commitment required.</p>
-    <div class="ctabtns">
-      <a class="bp" href="Contact-Us.html">Start Fulfilling Direct from China &rarr;</a>
-      <a class="bg" href="Contact-Us.html">Get a Free Consultation</a>
-    </div>
-    <div class="trow">
-      <div class="tri">15 years in operation</div>
-      <div class="tri">$0.99 pick &amp; pack</div>
-      <div class="tri">Zero receiving fees</div>
-      <div class="tri">Shopify integration</div>
-      <div class="tri">Branded packaging included</div>
-      <div class="tri">30 days free storage</div>
-    </div>
-  </div>
+ <div class="w">
+ <div class="sl">Ready When You Are</div>
+ <h2>Stop letting months of capital sit in transit<br/><span class="hi">while your competitors stay lean.</span></h2>
+ <p class="lead">Your products are made in China. Fulfilling them from China — directly to your customers — is faster, leaner, and cheaper than the model you're running today.</p>
+ <p class="micro">30 days free storage. Zero receiving fees. No minimum volumes. No commitment required.</p>
+ <div class="ctabtns">
+ <a class="bp" href="Contact-Us.html">Start Fulfilling Direct from China &rarr;</a>
+ <a class="bg" href="Contact-Us.html">Get a Free Consultation</a>
+ </div>
+ <div class="trow">
+ <div class="tri">15 years in operation</div>
+ <div class="tri">$0.99 pick &amp; pack</div>
+ <div class="tri">Zero receiving fees</div>
+ <div class="tri">Shopify integration</div>
+ <div class="tri">Branded packaging included</div>
+ <div class="tri">30 days free storage</div>
+ </div>
+ </div>
 </section>
 
 <!-- ── FOOTER (identical to homepage) ── -->
 <footer>
-  <div class="fg">
-    <div class="fb">
-      <a href="index.html"><img src="images/site/new-cf-logo-no-bg.webp" alt="China Fulfillment International" loading="lazy" width="160" height="44"/></a>
-      <p>Shenzhen-based Amazon FBA consolidation, D2C fulfilment, QC, freight and supplier management. Est. 2010.</p>
-    </div>
-    <div class="fc">
-      <h4>Core Services</h4>
-      <a href="amazon-fba-consolidation.html">FBA Consolidation</a>
-      <a href="china-consolidation.html">D2C Consolidation</a>
-      <a href="quality-control-fba-prep-china.html">QC &amp; FBA Prep</a>
-      <a href="amazon-fba-prep-china.html">Amazon FBA Prep Service</a>
-      <a href="tariff-management-china.html">Tariff Management</a>
-      <a href="international-freight-forwarding-china.html">Freight Forwarding</a>
-      <a href="supplier-management-china.html">Supplier Management</a>
-    </div>
-    <div class="fc">
-      <h4>More Services</h4>
-      <a href="ecommerce-fulfillment.html">eCommerce Fulfillment</a>
-      <a href="amazon-fulfillment.html">Amazon Fulfillment</a>
-      <a href="china-crowdfunding-fulfillment.html">Crowdfunding</a>
-      <a href="dropshipping-fulfillment.html">Drop Shipping</a>
-      <a href="express-international-shipping-china.html">Express Shipping</a>
-      <a href="cod-service.html">Cash on Delivery</a>
-    </div>
-    <div class="fc">
-      <h4>Getting Started</h4>
-      <a href="Contact-Us.html">Get a Free Quote</a>
-      <a href="register.html">Create an Account</a>
-      <a href="login.html">Member Login</a>
-      <a href="faq.html">FAQ</a>
-      <a href="easy-onboarding.html">How Onboarding Works</a>
-    </div>
-    <div class="fc">
-      <h4>Company</h4>
-      <a href="about-us.html">About Us</a>
-      <a href="blog.html">Blog &amp; Insights</a>
-      <a href="Contact-Us.html">Contact Us</a>
-      <a href="https://wa.me/353871187806">WhatsApp</a>
-      <a href="https://en.pfcexpress.com">PFC Express</a>
-    </div>
-  </div>
-  <div class="fbot">
-    <div class="fcopy">&copy; 2026 China Fulfillment International &middot; Shenzhen, China &middot; <a href="https://beian.miit.gov.cn/" style="color:inherit">粤ICP备12013396号</a></div>
-    <div class="flinks"><a href="terms-of-service.html">Terms</a><a href="privacy-policy.html">Privacy</a></div>
-  </div>
+ <div class="fg">
+ <div class="fb">
+ <a href="index.html"><img src="images/site/new-cf-logo-no-bg.webp" alt="China Fulfillment International" loading="lazy" width="160" height="44"/></a>
+ <p>Shenzhen-based Amazon FBA consolidation, D2C fulfilment, QC, freight and supplier management. Est. 2010.</p>
+ </div>
+ <div class="fc">
+ <h4>Core Services</h4>
+ <a href="amazon-fba-consolidation.html">FBA Consolidation</a>
+ <a href="china-consolidation.html">D2C Consolidation</a>
+ <a href="quality-control-fba-prep-china.html">QC &amp; FBA Prep</a>
+ <a href="amazon-fba-prep-china.html">Amazon FBA Prep Service</a>
+ <a href="tariff-management-china.html">Tariff Management</a>
+ <a href="international-freight-forwarding-china.html">Freight Forwarding</a>
+ <a href="supplier-management-china.html">Supplier Management</a>
+ </div>
+ <div class="fc">
+ <h4>More Services</h4>
+ <a href="ecommerce-fulfillment.html">eCommerce Fulfillment</a>
+ <a href="amazon-fulfillment.html">Amazon Fulfillment</a>
+ <a href="china-crowdfunding-fulfillment.html">Crowdfunding</a>
+ <a href="dropshipping-fulfillment.html">Drop Shipping</a>
+ <a href="express-international-shipping-china.html">Express Shipping</a>
+ <a href="cod-service.html">Cash on Delivery</a>
+ </div>
+ <div class="fc">
+ <h4>Getting Started</h4>
+ <a href="Contact-Us.html">Get a Free Quote</a>
+ <a href="register.html">Create an Account</a>
+ <a href="login.html">Member Login</a>
+ <a href="faq.html">FAQ</a>
+ <a href="easy-onboarding.html">How Onboarding Works</a>
+ </div>
+ <div class="fc">
+ <h4>Company</h4>
+ <a href="about-us.html">About Us</a>
+ <a href="blog.html">Blog &amp; Insights</a>
+ <a href="Contact-Us.html">Contact Us</a>
+ <a href="https://wa.me/353871187806">WhatsApp</a>
+ <a href="https://en.pfcexpress.com">PFC Express</a>
+ </div>
+ </div>
+ <div class="fbot">
+ <div class="fcopy">&copy; 2026 China Fulfillment International &middot; Shenzhen, China &middot; <a href="https://beian.miit.gov.cn/" style="color:inherit">粤ICP备12013396号</a></div>
+ <div class="flinks"><a href="terms-of-service.html">Terms</a><a href="privacy-policy.html">Privacy</a></div>
+ </div>
 </footer>
 
 <script>
