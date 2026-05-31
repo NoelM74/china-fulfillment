@@ -196,7 +196,7 @@ section{padding:80px 5%}
 .dest-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(148px,1fr));gap:12px;margin-top:40px}
 .dc{background:var(--w);border:1px solid var(--border);border-radius:10px;padding:18px 14px;text-align:center;transition:all .2s}
 .dc:hover{border-color:var(--blue);box-shadow:0 4px 12px rgba(26,79,214,.08)}
-.df{font-size:28px;margin-bottom:7px}
+.df{display:inline-flex;align-items:center;justify-content:center;min-width:46px;height:30px;padding:0 10px;margin-bottom:10px;background:var(--off);border:1px solid var(--border);border-radius:7px;font-family:'Outfit',sans-serif;font-weight:800;font-size:.82rem;letter-spacing:.06em;color:var(--blue)}
 .dc h4{font-size:.88rem;font-weight:700;color:var(--ink);font-family:'Outfit',sans-serif}
 .dc p{font-size:.74rem;color:var(--muted);margin-top:2px}
 .dc.more{background:var(--ink);border-color:var(--ink);display:flex;flex-direction:column;align-items:center;justify-content:center}
@@ -400,6 +400,7 @@ details[open] summary::after{content:'−'}
 }
 /* mobile-readability */@media(max-width:768px){html{font-size:17.5px}}@media(max-width:360px){html{font-size:16.5px}}
 .hbyline{color:rgba(255,255,255,.62);font-size:.86rem;font-weight:500;font-family:'Outfit',sans-serif;margin:2px 0 20px;letter-spacing:.01em}.hbyline strong{color:rgba(255,255,255,.82);font-weight:600}
+.i{width:1em;height:1em;display:inline-block;vertical-align:-.125em;flex-shrink:0}.sce-ico,.mode-icon,.adv-ico,.doc-ico,.ph-icon,.persona-avatar{color:var(--accent)}.tl-dot{color:#fff}
 </style>
 
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How is this different from just using a freight forwarder in China?","acceptedAnswer":{"@type":"Answer","text":"A freight forwarder's job ends at the port. Ours begins there. We receive goods from multiple suppliers, consolidate them, QC inspect, FBA prep (labels, poly bags, carton labels), handle all customs documentation, and automatically upload tracking nu"}},{"@type":"Question","name":"Will drip-feed shipping actually improve my IPI score?","acceptedAnswer":{"@type":"Answer","text":"In most cases, yes — significantly. IPI is affected by your excess inventory ratio and sell-through rate. When you maintain only 4–8 weeks of cover in Amazon instead of 5–6 months, your sell-through improves and your excess inventory drops. Many sell"}},{"@type":"Question","name":"What if one of my weekly shipments is delayed or lost?","acceptedAnswer":{"@type":"Answer","text":"This is exactly why drip-feed protects you better than bulk shipping. When you send weekly shipments, a single delay means your next shipment arrives 7 days later — not 3 months later. Additionally, all shipments through us are fully insured. If good"}},{"@type":"Question","name":"Can you handle FBA prep for products with complex requirements?","acceptedAnswer":{"@type":"Answer","text":"Yes. We regularly handle poly bagging for apparel and soft goods, bubble wrap for fragile items, suffocation warning labels, set and bundle creation, over-labelling, expiry date labelling, and custom carton dimensions for non-standard products. If yo"}},{"@type":"Question","name":"What does the 30-day free storage offer actually include?","acceptedAnswer":{"@type":"Answer","text":"When your first goods arrive at our Shenzhen facility, your 30-day free storage period begins and runs for exactly 30 days from that date. There are no storage charges during this period, no matter your volume. After 30 days, the standard rate of $0."}},{"@type":"Question","name":"Do you integrate with Amazon Seller Central directly?","acceptedAnswer":{"@type":"Answer","text":"Yes — full integration. Your product SKUs sync to our platform. When you create a shipment, it creates the corresponding shipping plan in Seller Central automatically. Carton labels are printed in our Shenzhen warehouse. Tracking numbers are uploaded"}}]}</script>
@@ -488,42 +489,42 @@ details[open] summary::after{content:'−'}
     </div>
     <ul class="sce-list">
       <li class="sce-item">
-        <div class="sce-ico">💸</div>
+        <div class="sce-ico"><svg class="i" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect width="20" height="12" x="2" y="6" rx="2"/><circle cx="12" cy="12" r="2"/><path d="M6 12h.01M18 12h.01"/></svg></div>
         <div>
           <h3>You're paying Amazon to store inventory that hasn't sold yet</h3>
           <p>You sent 6 months of stock in a single container because the per-unit freight cost was lower. Smart at the time. But now Amazon is billing you $2.40 per cubic foot per month in Q4, your IPI score is under pressure, and half that stock is still sitting in a fulfilment centre. The freight "saving" evaporated weeks ago.</p>
         </div>
       </li>
       <li class="sce-item">
-        <div class="sce-ico">🏭</div>
+        <div class="sce-ico"><svg class="i" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 20a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8l-7 5V8l-7 5V4a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2Z"/><path d="M17 18h1"/><path d="M12 18h1"/><path d="M7 18h1"/></svg></div>
         <div>
           <h3>You've added a US 3PL to work around Amazon's storage limits — and now you're paying twice</h3>
           <p>Receiving fees. Monthly storage. Pick and pack per pallet. Then another freight bill to move it from the 3PL into Amazon. At some point you stopped doing the maths because the answer was too uncomfortable. There has to be a better way.</p>
         </div>
       </li>
       <li class="sce-item">
-        <div class="sce-ico">📦</div>
+        <div class="sce-ico"><svg class="i" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m7.5 4.27 9 5.15"/><path d="M21 8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16Z"/><path d="m3.3 7 8.7 5 8.7-5"/><path d="M12 22V12"/></svg></div>
         <div>
           <h3>You're coordinating 3, 5, or more suppliers in China with no central hub</h3>
           <p>Factory A ships this week. Factory B ships next week. Factory C is still "almost ready." You're chasing separate tracking numbers, forwarding Amazon labels to multiple contacts, and hoping nobody screws up the prep. Meanwhile, your Seller Central dashboard shows mismatched inventory and Amazon is asking questions.</p>
         </div>
       </li>
       <li class="sce-item">
-        <div class="sce-ico">🏷️</div>
+        <div class="sce-ico"><svg class="i" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12.586 2.586A2 2 0 0 0 11.172 2H4a2 2 0 0 0-2 2v7.172a2 2 0 0 0 .586 1.414l8.704 8.704a2.426 2.426 0 0 0 3.42 0l6.58-6.58a2.426 2.426 0 0 0 0-3.42z"/><circle cx="7.5" cy="7.5" r=".5" fill="currentColor"/></svg></div>
         <div>
           <h3>You've had an FBA prep rejection — and dealt with it remotely at full cost</h3>
           <p>Wrong FNSKU label. Missing poly bag. Barcode covered by packaging. Amazon rejects the shipment or charges you a non-compliance fee. Fixing a prep error from 8,000 miles away is expensive, slow, and humiliating. And it usually happens when you're already out of stock on the listing.</p>
         </div>
       </li>
       <li class="sce-item">
-        <div class="sce-ico">📉</div>
+        <div class="sce-ico"><svg class="i" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M16 17h6v-6"/><path d="m22 17-8.5-8.5-5 5L2 7"/></svg></div>
         <div>
           <h3>A delayed shipment has wiped out your ranking before</h3>
           <p>You shipped everything in one container. It got held at port. Or weather delayed the sailing by 3 weeks. Suddenly you're out of stock, your ranking tanks, and rebuilding takes months of PPC spend you hadn't budgeted for. You promised yourself you'd never let it happen again — but the logistics setup hasn't changed.</p>
         </div>
       </li>
       <li class="sce-item">
-        <div class="sce-ico">😰</div>
+        <div class="sce-ico"><svg class="i" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3"/><path d="M12 9v4"/><path d="M12 17h.01"/></svg></div>
         <div>
           <h3>Tariff changes keep landing on your P&L without warning</h3>
           <p>First it was Section 301 tariffs. Then the rates changed. Now there's talk of more. Every time something shifts, you're scrambling to recalculate your landed cost, figure out if you're still profitable, and wonder whether your customs broker has you correctly classified. It's a distraction you can't afford.</p>
@@ -544,7 +545,7 @@ details[open] summary::after{content:'−'}
     <p class="ss">Most Amazon sellers don't calculate their true supply chain cost because the invoices come from 4 different companies. When you put it all on one page, the picture is uncomfortable.</p>
     <div class="cost-split">
       <div class="cost-bad">
-        <h3>🔴 Typical Amazon seller — no consolidation</h3>
+        <h3><svg class="i" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="color:#ef4444"><circle cx="12" cy="12" r="10"/><path d="m15 9-6 6"/><path d="m9 9 6 6"/></svg> Typical Amazon seller — no consolidation</h3>
         <div class="cline"><span>Amazon FBA storage, 10 CBM, Jan–Sep (×9 months)</span><span class="val bad">$2,762</span></div>
         <div class="cline"><span>Amazon FBA storage, 10 CBM, Q4 (×3 months)</span><span class="val bad">$2,545</span></div>
         <div class="cline"><span>US 3PL storage + receiving + P&P (overflow)</span><span class="val bad">$3,200+</span></div>
@@ -555,7 +556,7 @@ details[open] summary::after{content:'−'}
       </div>
       <div class="cost-arrow">→</div>
       <div class="cost-good">
-        <h3>🟢 Same seller — consolidated through Shenzhen</h3>
+        <h3><svg class="i" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="color:#10b981"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></svg> Same seller — consolidated through Shenzhen</h3>
         <div class="cline"><span>China storage, 10 CBM × 12 months</span><span class="val good">~$1,786</span></div>
         <div class="cline"><span>Q4 Amazon storage (lean stock only)</span><span class="val good">~$400</span></div>
         <div class="cline"><span>US 3PL</span><span class="val good">$0</span></div>
@@ -657,7 +658,7 @@ details[open] summary::after{content:'−'}
     <div class="drip-grid">
       <div class="drip-side">
         <div class="drip-old">
-          <h3>❌ The old way — bulk container shipping</h3>
+          <h3><svg class="i" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="color:#ef4444"><circle cx="12" cy="12" r="10"/><path d="m15 9-6 6"/><path d="m9 9 6 6"/></svg> The old way — bulk container shipping</h3>
           <div class="drip-item"><span class="ico">→</span><span>Pay $18,000+ for a 40ft container. All eggs in one basket.</span></div>
           <div class="drip-item"><span class="ico">→</span><span>6 months of stock lands in Amazon. Storage fees start immediately.</span></div>
           <div class="drip-item"><span class="ico">→</span><span>IPI score drops as excess stock piles up. Amazon restricts space.</span></div>
@@ -725,7 +726,7 @@ details[open] summary::after{content:'−'}
     <p class="ss">We publish our pricing because we're confident it's competitive. Volume sellers get custom discounted rates — contact us to discuss.</p>
     <div class="pr-grid">
       <div class="prc ft">
-        <div class="badge">🎁 Free for 30 Days</div>
+        <div class="badge"><svg class="i" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="8" width="18" height="4" rx="1"/><path d="M12 8v13"/><path d="M19 12v7a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2v-7"/><path d="M7.5 8a2.5 2.5 0 0 1 0-5A4.8 8 0 0 1 12 8a4.8 8 0 0 1 4.5-5 2.5 2.5 0 0 1 0 5"/></svg> Free for 30 Days</div>
         <h4>Warehouse Storage</h4>
         <div class="price-amount">$0.49</div>
         <div class="price-unit">per CBM / per day · after free period</div>
@@ -764,13 +765,13 @@ details[open] summary::after{content:'−'}
     <h2 class="st">Every Amazon marketplace. Worldwide.</h2>
     <p class="ss">Most China consolidation warehouses only cover Amazon US. We ship to all active Amazon FBA marketplaces — plus 200+ countries for D2C and retail distribution.</p>
     <div class="dest-grid">
-      <div class="dc"><div class="df">🇺🇸</div><h4>United States</h4><p>Amazon.com FBA</p></div>
-      <div class="dc"><div class="df">🇬🇧</div><h4>United Kingdom</h4><p>Amazon.co.uk FBA</p></div>
-      <div class="dc"><div class="df">🇩🇪</div><h4>Germany / EU</h4><p>Pan-EU FBA</p></div>
-      <div class="dc"><div class="df">🇦🇺</div><h4>Australia</h4><p>Amazon.com.au FBA</p></div>
-      <div class="dc"><div class="df">🇨🇦</div><h4>Canada</h4><p>Amazon.ca FBA</p></div>
-      <div class="dc"><div class="df">🇯🇵</div><h4>Japan</h4><p>Amazon.co.jp FBA</p></div>
-      <div class="dc"><div class="df">🇪🇬</div><h4>Egypt</h4><p>Amazon.eg FBA</p></div>
+      <div class="dc"><div class="df">US</div><h4>United States</h4><p>Amazon.com FBA</p></div>
+      <div class="dc"><div class="df">UK</div><h4>United Kingdom</h4><p>Amazon.co.uk FBA</p></div>
+      <div class="dc"><div class="df">EU</div><h4>Germany / EU</h4><p>Pan-EU FBA</p></div>
+      <div class="dc"><div class="df">AU</div><h4>Australia</h4><p>Amazon.com.au FBA</p></div>
+      <div class="dc"><div class="df">CA</div><h4>Canada</h4><p>Amazon.ca FBA</p></div>
+      <div class="dc"><div class="df">JP</div><h4>Japan</h4><p>Amazon.co.jp FBA</p></div>
+      <div class="dc"><div class="df">EG</div><h4>Egypt</h4><p>Amazon.eg FBA</p></div>
       <div class="dc more"><span>200+</span><p>Countries & Territories</p></div>
     </div>
   </div>
