@@ -271,6 +271,14 @@ footer{background:var(--n3);border-top:1px solid rgba(255,255,255,.06);padding:5
 <p>The most expensive mistake in crowdfunding fulfilment is shipping to the wrong address, and it is shockingly common, because the gap between when a backer pledges and when their reward ships can be months or even years. People move. Addresses go stale. Ship against the pledge-time address and a meaningful slice of a 4,000-order run goes to homes the backers no longer live in, generating returns, reshipments, and a wave of frustrated "where is my reward" messages.</p>
 <p>The defence is a final address lock, synced as late as possible. Backer management tools like BackerKit collect and update shipping addresses right up to fulfilment, allowing backers to correct details before their reward goes out. The critical step is connecting that current address data to the warehouse at the last possible moment, not weeks ahead.</p>
 <p>Our system syncs with backer management tools immediately before final fulfilment, pulling the freshest confirmed addresses so that last-minute changes are captured rather than missed. Each reward ships to the address the backer confirmed most recently, not the one they entered when they pledged. That single discipline — locking the address at the moment of dispatch rather than at the moment of pledge — drives missing and returned packages toward near-zero, which on a global run of thousands of parcels is the difference between a clean delivery report and weeks of reshipment cleanup.</p>
+<h2>Customs, DDP, and the backer experience</h2>
+<p>The damage a surprise customs charge does to a crowdfunding campaign is disproportionate to the amount involved. Backers fund campaigns because they believe in a product. When a reward arrives with a duty bill attached, the feeling is not inconvenience — it is betrayal. The backer pledged a specific amount and expects their reward to arrive at that price. A doorstep duty charge turns a brand advocate into someone posting a refund demand on your update comments.</p>
+<p>The answer is DDP, Delivered Duty Paid, where all import duties and taxes are calculated and covered before the parcel ships. Our <a href="/express-international-shipping.html">international shipping network</a> operates DDP across 200-plus countries. Duties are calculated per destination country per product category at the point of dispatch and covered in the shipping cost, not passed to the recipient. For campaigns shipping into the EU after July 2026, this includes the new per-category interim customs duty under the updated EU de minimis rules. For backers in Canada, Australia, and the UK, DDP handles those markets too.</p>
+<p>DAP, Delivered At Place, where the carrier presents a duty bill to the backer before release, is actively dangerous on a crowdfunding campaign at scale. A backer who refuses a parcel because of an unexpected charge generates a return, a reshipment cost, a delay, and a public complaint on your campaign page. On a run of thousands of parcels into multiple markets, the refusal rate on DAP shipments can quietly erase the apparent postage saving. DDP removes that variable. Every parcel clears. Every backer receives their reward. Your comments page stays clean.</p>
+<h2>Late add-ons, pledge managers, and the post-campaign long tail</h2>
+<p>Most Kickstarter campaigns do not end when funding closes. Pledge managers like BackerKit and Crowdox extend the window: backers can upgrade their tier, add supplementary items, or update payment and shipping details after the main campaign. These post-campaign add-ons are a significant revenue opportunity and a real fulfilment complexity that catches unprepared warehouses off guard.</p>
+<p>The problem is that add-ons may differ from the core reward tier in component mix, packaging, or weight. A backer who pledged for the standard unit and then added a limited-edition accessory through BackerKit now has a custom kit that does not map to any pre-staged zone. If the fulfilment partner cannot handle that variability cleanly, those orders get manually processed at high cost or, worse, missed entirely and discovered weeks later in a support queue.</p>
+<p>Our staging model builds the late-variant zones into the manifest alongside the core tier zones from the start. Pledge manager exports sync directly to the pick-and-pack queue so add-on orders feed the same workflow as core rewards rather than falling into a manual exception bucket. Backers who upgraded through the pledge manager ship at the same time as the main wave, with the same tracking quality and the same DDP promise. The post-campaign long tail, which can run for months, is handled as an ongoing replenishment run from the same Shenzhen base rather than as a separate domestic fulfilment problem.</p>
 <h2>Why creators should plan logistics before they launch</h2>
 <p>The throughline across all three systems is that crowdfunding logistics is a planning problem disguised as a shipping problem. The bottleneck, the manifest, and the address lock all have to be designed before the surge hits, because once the wave arrives there is no time to architect a solution. The campaigns that fulfil cleanly are the ones that decided where and how they would ship before they ever pressed launch.</p>
 <p>A Shenzhen hub fits the shape of the problem. The inventory starts beside the factories, so there is no double-shipping. The staging-zone manifest matches the repetitive-but-varied structure of reward tiers. The address lock catches the address drift that months of delay create. Crowdfunding fulfilment will always be a surge, but a surge into a system built for it is a routine run rather than the disaster that sinks so many otherwise successful campaigns. Backers remember a clean, fast, surprise-free delivery, and that memory is what brings them back for your next campaign.</p>
@@ -282,6 +290,32 @@ footer{background:var(--n3);border-top:1px solid rgba(255,255,255,.06);padding:5
  <p>$0.99 per order pick and pack. DHL/FedEx/UPS to 200+ countries. Tracking auto-syncs to Shopify. DDP so your customers never see a duty charge. 30 days free storage.</p>
  <a class="bp" href="ecommerce-fulfillment.html">See eCommerce Fulfillment &rarr;</a>
 </div>
+
+<section class="faq">
+ <div class="w">
+ <h2>Frequently Asked Questions</h2>
+ <details>
+ <summary>Why fulfil Kickstarter and Indiegogo rewards from China?</summary>
+ <p>Because the components are already made in China. Fulfilling from a Shenzhen hub removes the double-shipping of importing the full production run to a domestic warehouse and then re-exporting it to international backers. Rewards ship from the source directly to backers worldwide on a single international leg, DDP, so backers are not ambushed with a duty charge at the door.</p>
+ </details>
+ <details>
+ <summary>What is the multi-country shipping bottleneck in crowdfunding?</summary>
+ <p>Most backers on a strong campaign are international. Fulfilling from a domestic 3PL means importing the whole production run from China, then exporting each overseas reward back across a border — so most rewards are double-shipped over two international legs instead of one. Fulfilling from China removes that round trip entirely.</p>
+ </details>
+ <details>
+ <summary>How do you ship thousands of different reward tiers accurately?</summary>
+ <p>With a pre-kitting manifest. Before fulfilment begins, the warehouse maps physical staging zones to each reward tier. Components flow into the correct zones and bulk assembly lines process thousands of identical combinations rapidly. Instead of treating 4,000 orders as 4,000 unique problems, the manifest treats them as a set of repeated builds at high volume.</p>
+ </details>
+ <details>
+ <summary>How do you avoid shipping rewards to outdated backer addresses?</summary>
+ <p>With a final address lock synced as late as possible. Backer management tools like BackerKit collect updated addresses right up to fulfilment. Our system pulls the freshest confirmed addresses immediately before dispatch, so each reward ships to the address the backer confirmed most recently — not the one they entered when they pledged months earlier.</p>
+ </details>
+ <details>
+ <summary>How fast and how widely can rewards ship from China?</summary>
+ <p>Rewards ship from Shenzhen to backers in 200-plus countries. Transit times run roughly 6 to 10 days to the US and 5 to 8 days to the UK, all DDP with end-to-end tracking, on a single international leg rather than a double-shipped round trip.</p>
+ </details>
+ </div>
+</section>
 
 <footer>
  <div class="fg">

@@ -272,6 +272,13 @@ footer{background:var(--n3);border-top:1px solid rgba(255,255,255,.06);padding:5
 <h2>Automated IOSS integration from Shenzhen</h2>
 <p>The mechanism that keeps this from becoming chaos is IOSS, the Import One-Stop Shop. IOSS lets an overseas seller collect VAT, and now the interim duty, at the point of sale and remit it centrally, so the parcel clears EU customs in a single scan rather than getting routed into slow, expensive brokerage. An inactive or missing IOSS registration is the difference between a green-channel clearance and a parcel stuck in manual customs handling with the customer footing a surprise bill.</p>
 <p>Our <a href="/ecommerce-fulfillment.html">fulfilment platform</a> is built to handle this at the source. It maps the correct HS code to each SKU at checkout, calculates the duty and VAT upfront so the true landed cost is shown and collected before the order ships, and applies the correct IOSS token to each parcel so it arrives at EU customs pre-declared. The duty math, the per-category counting, and the IOSS tokenisation all happen in Shenzhen before wheels-up, which is the only place the work is cheap and the only point in the chain early enough to prevent the doorstep surprise. For high-value or bulk consignments, our <a href="/tariff-management-china.html">tariff and customs team</a> handles the classification and documentation directly.</p>
+<h2>The UK comparison and what it means for cross-border sellers</h2>
+<p>The UK moved first. The UK abolished its own £135 low-value consignment relief for direct B2C imports in January 2021, pivoting to a model where overseas sellers collect and remit UK VAT at checkout. Any brand already shipping compliantly into the UK has been living in a post-de-minimis world for five years. The EU is catching up with the same logic, using its own interim mechanics.</p>
+<p>The practical takeaway for multi-market sellers is that the EU rules should sit alongside the UK framework rather than replace it. You are not redesigning your entire customs infrastructure — you are extending an existing DDP and VAT-at-checkout model to add EU-specific mechanics: the €3 per-category interim duty, IOSS remittance for EU VAT, and the national surcharges stacking on top in France, Romania, and Italy. A brand already correctly set up for UK-compliant shipping needs to layer the EU rules on top of the same foundation, not rebuild from scratch.</p>
+<p>The warning is for brands that took shortcuts in the UK transition and relied on their carrier's simplified scheme to handle UK VAT without properly integrating it into their checkout. Those shortcuts produce VAT reconciliation problems every quarter. The same shortcut applied to the EU will produce the same problem at scale. Integrate IOSS natively at checkout, push the token at the parcel level, and keep your duty calculation in your checkout engine, not delegated to the carrier.</p>
+<h2>Carrier implications and the green-channel advantage</h2>
+<p>Not every carrier is IOSS-ready, and the ones that are not will cost you more than the ones that are. A carrier with native IOSS integration uses your registered token to route the parcel through EU customs in the green channel: a single-scan clearance that takes seconds. A carrier without it falls back to legacy customs brokerage, which takes days, costs more, and presents a bill to your customer rather than clearing pre-paid.</p>
+<p>Our Shenzhen fulfilment operation works with carriers that have EU green-channel IOSS routing built into their parcel data flows. The IOSS token is transmitted electronically with the parcel manifest before departure, so each parcel hits EU customs pre-declared. Confirm this capability explicitly with your carrier before July — ask to see a test parcel tracked through an EU hub with the IOSS token present on the customs declaration. If they cannot demonstrate it, they are not ready, and your customers will bear the cost after the deadline lands.</p>
 <h2>The step-by-step compliance checklist</h2>
 <p>This is the sequence to hand your operations team. Miss a step and parcels get held or returned at EU entry hubs.</p>
 <ol>
@@ -289,6 +296,32 @@ footer{background:var(--n3);border-top:1px solid rgba(255,255,255,.06);padding:5
  <p>$0.99 per order pick and pack. DHL/FedEx/UPS to 200+ countries. Tracking auto-syncs to Shopify. DDP so your customers never see a duty charge. 30 days free storage.</p>
  <a class="bp" href="ecommerce-fulfillment.html">See eCommerce Fulfillment &rarr;</a>
 </div>
+
+<section class="faq">
+ <div class="w">
+ <h2>Frequently Asked Questions</h2>
+ <details>
+ <summary>When does the EU €150 de minimis exemption end?</summary>
+ <p>The EU Council agreed to remove the €150 customs duty exemption and levy a flat interim customs duty on low-value parcels from 1 July 2026, running until the full EU customs reform around 2028. The framework was agreed in late 2025 and given final approval in early 2026.</p>
+ </details>
+ <details>
+ <summary>How is the €3 EU customs duty calculated?</summary>
+ <p>The €3 interim duty applies per customs declaration line item, meaning per distinct tariff (HS code) classification inside the parcel, not once per parcel. Two identical t-shirts count as one line and carry one €3 charge. One t-shirt plus one cap is two classifications and carries €6. The duty is also added to the taxable value before import VAT is calculated, so VAT is charged on the higher combined total.</p>
+ </details>
+ <details>
+ <summary>Why is DAP shipping risky after July 2026?</summary>
+ <p>Under DAP (Delivered At Place) the carrier presents the duty and VAT bill to your customer before release. With every low-value parcel now carrying duty and VAT, DAP produces delivery rejections, carrier handling penalties, and chargebacks from buyers hit with a surprise doorstep charge. DDP (Delivered Duty Paid), where every cost is collected at checkout, is the only safe model.</p>
+ </details>
+ <details>
+ <summary>What is IOSS and why does it matter for EU parcels?</summary>
+ <p>IOSS (Import One-Stop Shop) lets an overseas seller collect VAT and the interim duty at the point of sale and remit it centrally, so the parcel clears EU customs in a single scan rather than being routed into slow, expensive brokerage. An inactive or missing IOSS registration forces a fallback to legacy customs handling, with the customer footing a surprise bill.</p>
+ </details>
+ <details>
+ <summary>How do I prepare my D2C brand for the July 2026 EU rules?</summary>
+ <p>Assign precise HS codes to every SKU, validate and re-link an active IOSS registration, switch your Shopify or WooCommerce checkout from DAP to a hard DDP model that injects the per-line duty into the customer's total, and transmit digital product identifiers plus the IOSS token on every parcel so it arrives pre-declared and clears in the green channel. All of this needs to be live before 1 July 2026.</p>
+ </details>
+ </div>
+</section>
 
 <footer>
  <div class="fg">

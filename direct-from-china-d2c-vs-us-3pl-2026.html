@@ -280,6 +280,14 @@ footer{background:var(--n3);border-top:1px solid rgba(255,255,255,.06);padding:5
 <h2>What the audit usually reveals</h2>
 <p>Run a real mid-sized Shopify catalogue through this audit and the same pattern tends to emerge. The bulk of order volume comes from light, high-margin SKUs that are ideal for direct shipping. Those orders carry $5 to $8 of domestic overhead that direct-from-China fulfilment cuts to roughly $0.99 plus DDP postage. Across thousands of orders a month, that gap is the 15% to 25% of net margin the headline promised.</p>
 <p>The brands leaving that margin on the table are usually not doing it deliberately. They are doing it because the domestic 3PL invoice arrives as one number, the line items stay hidden, and nobody ever ran the audit. Run it once and the decision tends to make itself.</p>
+<h2>Returns, tariff exposure, and the 2026 policy landscape</h2>
+<p>Returns from a direct-from-China shipment do not route back to Shenzhen. They route to a domestic address you control — a US, UK, or EU returns address — and are processed there. Our system integrates returns as a domestic leg: the parcel arrives at a local returns address, the return is logged and photographed, and the item is either restocked domestically or forwarded to Shenzhen in a consolidated batch depending on the economics of that SKU. This is not meaningfully different from a domestic 3PL returns flow, because the return leg is domestic in both models.</p>
+<p>The tariff question has become sharper in 2026. The key distinction is between B2B cargo and B2C small parcels. Most tariff policy targets commercial import shipments — containers, pallets, consignments arriving above de minimis thresholds — rather than individual consumer parcels below the threshold. Direct-to-consumer small parcels from China in many categories ship under different customs treatment than a container of wholesale goods. The correct answer depends on your specific HS codes, your origin, and the destination country, and that answer has been in motion. Confirm the current applicable rules with your freight forwarder and fulfilment operator before you commit to a route, because getting this wrong on volume is expensive.</p>
+<p>For brands shipping into Europe, the EU de minimis reform effective from 1 July 2026 adds a new layer: a flat interim duty per product category on every low-value parcel from outside the EU, replacing the previous €150 duty-free threshold. The correct response is DDP checkout and active IOSS registration — not DAP. A Shenzhen-based fulfilment operation with integrated IOSS calculates and collects the duty at checkout and transmits the IOSS token with each parcel so it clears EU customs without a doorstep charge. If Europe is a significant market for you, confirm your fulfilment partner's IOSS capability before July rather than after it.</p>
+<h2>The operational realities of switching</h2>
+<p>Switching from a domestic 3PL to direct-from-China fulfilment is not a one-day change, but it is not a six-month project either. A well-run transition takes four to six weeks: SKU onboarding and photography, integration with your Shopify or WooCommerce store for order routing and automated tracking sync, DDP configuration for your key markets, and a test batch to validate packing specification, transit times, and tracking quality before full volume goes live.</p>
+<p>The brands that have done this consistently report the same thing: the transition itself is the easy part. The audit that reveals the margin gap is the harder conversation. Most founders have been running on the domestic 3PL invoice as a single number for years. Splitting it into receiving, pick-and-pack, additional-unit escalators, storage, kitting, and return-processing fees is the work that has to happen first, and it is work that takes a spreadsheet and a few hours, not a logistics consultant. Run it once and the per-order math becomes clear.</p>
+<p>One further consideration: your domestic 3PL contract. Many contracts have minimum monthly spend clauses or termination notice requirements, typically 30 to 90 days. Factor that timeline into your switch. A phased approach — launching direct-from-China on new SKUs or new market routes while running existing inventory through the domestic 3PL in parallel — is often the cleanest way to transition without penalty and without a gap in fulfilment during the change.</p>
 <p>Want the audit run on your own catalogue? <a href="/Contact-Us.html">Send us your SKU list and order mix</a> and we will model your direct-from-China landed cost against what you pay now.</p>
  </div>
 </div>
@@ -288,6 +296,32 @@ footer{background:var(--n3);border-top:1px solid rgba(255,255,255,.06);padding:5
  <p>$0.99 per order pick and pack. DHL/FedEx/UPS to 200+ countries. Tracking auto-syncs to Shopify. DDP so your customers never see a duty charge. 30 days free storage.</p>
  <a class="bp" href="ecommerce-fulfillment.html">See eCommerce Fulfillment &rarr;</a>
 </div>
+
+<section class="faq">
+ <div class="w">
+ <h2>Frequently Asked Questions</h2>
+ <details>
+ <summary>What does a US 3PL actually cost in 2026?</summary>
+ <p>Most brands only quote the pick-and-pack rate, which is the smallest part of the bill. The full 2026 stack includes receiving fees ($25 to $50 per pallet, up to ~$500 per container), additional-unit pick fees ($0.30 to $0.75 each), per-pallet or per-cubic-foot storage, split-inventory tracking, account minimums, special-handling, kitting at US labour rates, and return processing. A typical three-item order often carries $5 to $8 of domestic handling and storage overhead before postage.</p>
+ </details>
+ <details>
+ <summary>How much cheaper is fulfilling direct from China?</summary>
+ <p>Through a Shenzhen hub the receiving fee is zero, base pick-and-pack is a flat $0.99 per order, and storage is about $0.49 per CBM per day (roughly $14.70 per CBM per month) versus $30 to $85 per CBM per month in the US. Paying Chinese operational rates for receiving, handling, kitting and storage can protect 15% to 25% of net margin depending on product weight and order mix.</p>
+ </details>
+ <details>
+ <summary>How fast is direct-from-China shipping to customers?</summary>
+ <p>Modern cross-border networks move a parcel from Shenzhen to a US customer in 6 to 10 days, to the UK in 5 to 8 days, and across the EU in 6 to 14 days, with full end-to-end tracking. Shipments move DDP (Delivered Duty Paid), so duties and taxes are covered before dispatch and the customer never faces a surprise charge at the door.</p>
+ </details>
+ <details>
+ <summary>Which products are right for direct-from-China D2C?</summary>
+ <p>High-margin SKUs under roughly 5 lbs are strong candidates: apparel, accessories, beauty, small electronics, supplements and jewellery absorb international parcel postage comfortably and benefit fully from the deleted domestic overhead. The further a SKU drifts from that profile, the weaker the case becomes.</p>
+ </details>
+ <details>
+ <summary>Should heavy products ship direct from China too?</summary>
+ <p>Often not. On heavy or bulky items the international parcel postage can erase the handling savings, so they usually belong on local freight and domestic distribution. Many brands run a hybrid: light, high-margin hero SKUs ship direct from Shenzhen while heavy or low-margin items stay domestic. A per-SKU landed-cost audit tells you which is which.</p>
+ </details>
+ </div>
+</section>
 
 <footer>
  <div class="fg">

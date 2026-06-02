@@ -279,6 +279,11 @@ footer{background:var(--n3);border-top:1px solid rgba(255,255,255,.06);padding:5
 <p>This creates a vicious trap. To dodge placement fees and high FBA storage costs, the instinct is to keep FBA stock lean. But keep it too lean and you trip the low-inventory penalty. Amazon has effectively built a corridor: too much stock in FBA and you pay storage, especially the brutal Q4 rate; too little and you pay the low-inventory fee.</p>
 <p>A Shenzhen buffer warehouse lets you live inside that corridor on purpose. You hold the bulk of your inventory in Shenzhen at <a href="/china-consolidation.html">$0.49 per CBM per day</a>, which works out to $14.70 per CBM per month. Amazon charges around $30 per CBM per month from January through September and roughly $85 per CBM per month in Q4. On a 40-foot container's worth of stock, about 58 CBM, the storage differential alone is in the region of $20,000 a year.</p>
 <p>With the bulk held cheaply offshore, you drip-feed FBA exactly the supply it needs to stay above the threshold without overshooting into expensive storage. The replenishment is one-click: an order triggers an automated shipping plan, labels print, tracking uploads. You keep your inventory health metric green, you avoid the low-inventory fee, and you never let Amazon's Q4 storage rate touch the stock you are not actively selling.</p>
+<h2>IPI score, ASIN-level health, and the redistribution delay</h2>
+<p>Amazon's Inventory Performance Index governs how much storage capacity Amazon allocates to your account. Above 400 and you have uncapped storage. Below 400 and Amazon caps your inbound volume, which is a supply-chain problem disguised as a dashboard metric. The low-inventory fee does not just cost money per unit sold. It signals a low-stock pattern that pulls your IPI down, restricts your restock capacity, and makes the next stockout more likely. The loop feeds itself.</p>
+<p>Predictable inbound flow breaks it. With the bulk of your inventory held in Shenzhen and one-click replenishment routing to Amazon, you set restock triggers at a consistent days-of-supply threshold rather than reacting to low-stock alerts that arrive too late to prevent the fee. Your IPI stabilises because the inventory flow is engineered, not reactive.</p>
+<p>The 2026 shift from parent-ASIN to individual FNSKU-level tracking for the low-inventory fee has a concrete implication most sellers miss. A parent ASIN with five child variations is now five separate inventory health problems. A best-selling colourway can sit at 45 days of supply while a slow variant is at eight days, and Amazon assesses the fee against the slow FNSKU regardless of the parent-level picture. The correct response is to stagger replenishment by variation based on individual sell-through rate, not blended parent velocity. A Shenzhen buffer makes that practical — pulling the right FNSKU batch for the right variation against actual depletion signals rather than a blanket replenishment schedule.</p>
+<p>There is also the redistribution delay to account for. Minimal-split shipments arrive at one Amazon receiving location, after which Amazon internally redistributes your stock across its regional network. During that move, the units are in Amazon's system but not available to purchase. They count toward your long-term storage calculation but do not show as sellable inventory. Sellers on minimal splits occasionally discover that their 45-day placement fee has landed, their inventory is still between Amazon centres, and their in-stock metric looks wrong for another week or more. Pre-splitting in Shenzhen removes this entirely. The inventory arrives at its correct destination from the start and becomes available the moment it is checked in, with no redistribution leg required.</p>
 <h2>Putting the shield together</h2>
 <p>The 2026 fee structure punishes two behaviours: shipping to one location, and holding either too much or too little stock in Amazon's network. A source-side buffer answers both at once. Pre-splitting in Shenzhen converts the minimal-split fee into a zero optimized-split fee. Cheap offshore storage plus drip-fed replenishment keeps you above the low-inventory threshold while keeping the bulk of your capital out of Amazon's storage meter entirely. And because the placement decision is made before cargo ships rather than discovered 45 days after receipt, the cash-flow trap never springs.</p>
 <p>The brands that come out of 2026 with their margins intact are not the ones who found a loophole. They are the ones who moved the decision point upstream to Shenzhen, where labour is cheaper, the split is easy, and the fee shield is built into the route itself.</p>
@@ -290,6 +295,32 @@ footer{background:var(--n3);border-top:1px solid rgba(255,255,255,.06);padding:5
  <p>$0.99 per order pick and pack. DHL/FedEx/UPS to 200+ countries. Tracking auto-syncs to Shopify. DDP so your customers never see a duty charge. 30 days free storage.</p>
  <a class="bp" href="ecommerce-fulfillment.html">See eCommerce Fulfillment &rarr;</a>
 </div>
+
+<section class="faq">
+ <div class="w">
+ <h2>Frequently Asked Questions</h2>
+ <details>
+ <summary>What is the Amazon FBA inbound placement fee in 2026?</summary>
+ <p>It is the fee Amazon charges for choosing where your inventory lands. Send everything to one location (Minimal Shipment Splits) and you pay the full per-unit fee, which for standard-size goods runs from a few cents up to roughly $2.30 per unit after the January 15, 2026 increase. Choose Amazon-Optimized Splits across five or more regional centres and the placement fee drops to $0, because you are doing the regional distribution work yourself.</p>
+ </details>
+ <details>
+ <summary>When does Amazon charge the inbound placement fee?</summary>
+ <p>Amazon bills the inbound placement service fee about 45 days after your shipment is received, not when it is created or delivered. That delay catches sellers who reorder against clean-looking inbound costs before the placement fees from the previous shipment have hit their ledger.</p>
+ </details>
+ <details>
+ <summary>What is the Amazon low-inventory-level fee in 2026?</summary>
+ <p>Amazon charges the low-inventory-level fee, roughly $0.30 to $0.90 per unit sold, when your available stock falls below about 28 days of supply relative to demand. In 2026 the calculation moved from the parent-ASIN level down to the individual FNSKU, so one child variation dipping below the threshold triggers the fee on that SKU even if the rest of your catalogue is healthy.</p>
+ </details>
+ <details>
+ <summary>How do you avoid Amazon FBA placement fees from China?</summary>
+ <p>Consolidate your factory cargo in a Shenzhen warehouse and pre-split it into the carton batches that map to Amazon's nominated regional centres before it ships. Because the inventory already arrives in the Amazon-Optimized configuration, you select the optimized-split option in Seller Central and the placement fee drops to zero. The carton prep that enables this costs about $0.99 per carton in Shenzhen, versus $3.50 to $5.00 at a typical US prep house.</p>
+ </details>
+ <details>
+ <summary>How much cheaper is storing FBA inventory in China than at Amazon?</summary>
+ <p>Storage in Shenzhen runs about $0.49 per CBM per day, around $14.70 per CBM per month. Amazon charges roughly $30 per CBM per month from January to September and around $85 per CBM per month in Q4. On a 40-foot container's worth of stock, about 58 CBM, the annual storage difference is in the region of $20,000.</p>
+ </details>
+ </div>
+</section>
 
 <footer>
  <div class="fg">
