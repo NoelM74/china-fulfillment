@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+<title>IT Integration &amp; API — Connect Your Store to Our China Fulfillment WMS</title>
+<meta name="description" content="Connect Shopify, WooCommerce, Amazon or any platform to our Shenzhen warehouse via API, FTP, CSV, XML, or XLS. Real-time order sync, tracking feeds, parcel status, and sales analytics included."/>
+<meta name="keywords" content="china fulfillment api, shopify china warehouse integration, woocommerce china 3pl, china wms api, order management china, fulfillment system integration, china 3pl api access"/>
+<link rel="canonical" href="https://www.china-fulfillment.com/it-integration"/>
+<meta property="og:title" content="IT Integration &amp; API — China Fulfillment International"/>
+<meta property="og:description" content="API, FTP, CSV, XML — any connection method. Real-time order sync, parcel status feeds, payment data, and sales analytics. Shopify, WooCommerce, Amazon, eBay and custom platforms."/>
+<meta property="og:type" content="website"/>
+<meta property="og:url" content="https://www.china-fulfillment.com/it-integration"/>
+
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","name":"IT Integration & API — China Fulfillment International","description":"Connect your eCommerce store to our China WMS via API, FTP, CSV, XML or XLS. Shopify, WooCommerce, Amazon Seller Central, eBay and custom platforms supported. Full operational reporting, parcel status feeds, and sales analytics included.","url":"https://www.china-fulfillment.com/it-integration"}
+</script>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How long does the integration setup take?","acceptedAnswer":{"@type":"Answer","text":"For Shopify and WooCommerce, most connections are live within 1-2 business days once you share your store credentials. Amazon Seller Central connections typically take 2-3 days including SP-API authorization. Custom API integrations depend on your team's availability — we provide full technical documentation and our team supports you through testing."}},{"@type":"Question","name":"Do you support API access for custom platforms?","acceptedAnswer":{"@type":"Answer","text":"Yes. Our REST API covers order creation, inventory queries, parcel status retrieval, tracking number lookup, and inbound shipment creation. Full API documentation is available to clients on request. We support authentication via API key."}},{"@type":"Question","name":"Can I upload orders by file if I don't want to use an API?","acceptedAnswer":{"@type":"Answer","text":"Yes. Our web interface accepts CSV, XML, XLS, DBF, and MDB files. You can upload manually or configure an automated FTP push on your chosen schedule. For crowdfunding campaigns, most clients upload a single CSV of backer addresses and we handle all fulfillment from there."}},{"@type":"Question","name":"How do tracking numbers get back to my customers?","acceptedAnswer":{"@type":"Answer","text":"For direct platform integrations (Shopify, WooCommerce, Amazon), tracking numbers write back to your store automatically as soon as we dispatch the order. Your customer receives their shipping confirmation from your own store. For API and file-based setups, tracking numbers are available via API query or included in your daily status export file."}}]}
+</script>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.china-fulfillment.com/"},{"@type":"ListItem","position":2,"name":"IT Integration & API","item":"https://www.china-fulfillment.com/it-integration"}]}
+</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700;800;900&family=Mulish:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+<style>
+:root{--ink:#0c1a2e;--navy:#0d2144;--n2:#091830;--n3:#040d18;--blue:#1a4fd6;--b2:#2563eb;--ac:#f97316;--ach:#ea6c0a;--acl:rgba(249,115,22,.12);--off:#f4f6fb;--w:#ffffff;--mu:#4a6178;--bd:#dae0ec;--gr:#10b981;--dk-body:rgba(255,255,255,.88);--dk-sub:rgba(255,255,255,.78);--dk-muted:rgba(255,255,255,.68)}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;font-size:16px}
+body{font-family:'Mulish',system-ui,sans-serif;color:var(--ink);background:var(--w);line-height:1.7;overflow-x:hidden}
+h1,h2,h3,h4,h5{font-family:'Outfit',system-ui,sans-serif;line-height:1.15}
+a{text-decoration:none;color:inherit}
+img{max-width:100%;height:auto;display:block}
+nav{position:sticky;top:0;z-index:400;background:rgba(255,255,255,.97);backdrop-filter:blur(10px);border-bottom:1px solid var(--bd);height:66px;display:flex;align-items:center;justify-content:space-between;padding:0 5%;box-shadow:0 2px 16px rgba(0,0,0,.06)}
+.logo img{height:36px;display:block;width:auto}
+.nl{display:flex;gap:2px;align-items:center}
+.nl a{font-size:.88rem;font-weight:600;color:var(--mu);padding:7px 11px;border-radius:6px;transition:all .14s;font-family:'Outfit',sans-serif;white-space:nowrap}
+.nl a:hover{color:var(--ink);background:var(--off)}
+.ncta{background:var(--ac)!important;color:#fff!important;padding:9px 20px!important;border-radius:6px;font-weight:700!important;transition:background .16s!important}
+.ncta:hover{background:var(--ach)!important}
+.ham{display:none;flex-direction:column;gap:5px;cursor:pointer;padding:5px}
+.ham span{width:22px;height:2px;background:var(--ink);border-radius:2px;display:block;transition:all .22s}
+.ham.o span:nth-child(1){transform:rotate(45deg) translate(5px,5px)}
+.ham.o span:nth-child(2){opacity:0}
+.ham.o span:nth-child(3){transform:rotate(-45deg) translate(5px,-5px)}
+.mob{display:none;position:fixed;top:66px;left:0;right:0;bottom:0;background:var(--w);z-index:399;padding:20px 5% 40px;overflow-y:auto;border-top:3px solid var(--ac)}
+.mob.o{display:block}
+.mob a{display:flex;justify-content:space-between;align-items:center;padding:16px 0;font-size:1rem;font-weight:600;color:var(--ink);border-bottom:1px solid var(--bd);font-family:'Outfit',sans-serif}
+.mob a::after{content:'›';color:var(--ac);font-size:1.2rem;font-weight:700}
+.mob .mcta{background:var(--ac)!important;color:#fff!important;padding:16px 20px!important;border-radius:10px;margin-top:24px;text-align:center;display:block!important;font-size:1rem!important}
+.mob .mcta::after{display:none!important}
+.obar{background:var(--ac);color:#fff;text-align:center;padding:11px 5%;font-size:.92rem;font-weight:700;font-family:'Outfit',sans-serif;line-height:1.45}
+.obar em{font-style:normal;opacity:.9;font-weight:500;margin-left:5px}
+.bp{background:var(--ac);color:#fff;padding:14px 30px;border-radius:8px;font-weight:700;font-size:1rem;font-family:'Outfit',sans-serif;transition:all .18s;display:inline-block;cursor:pointer}
+.bp:hover{background:var(--ach);transform:translateY(-2px);box-shadow:0 8px 24px rgba(249,115,22,.32)}
+.bg-light{border:2px solid var(--bd);color:var(--ink);padding:12px 28px;border-radius:8px;font-weight:600;font-size:1rem;font-family:'Outfit',sans-serif;transition:all .18s;display:inline-block}
+.bg-light:hover{border-color:var(--ac);color:var(--ac)}
+.bg{border:2px solid rgba(255,255,255,.5);color:#fff;padding:12px 28px;border-radius:8px;font-weight:600;font-size:1rem;font-family:'Outfit',sans-serif;transition:all .18s;display:inline-block}
+.bg:hover{border-color:#fff;background:rgba(255,255,255,.1)}
+
+section{padding:88px 5%}
+.w{max-width:1100px;margin:0 auto}
+.sl{font-size:.88rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--ac);margin-bottom:10px;font-family:'Outfit',sans-serif}
+.st{font-size:clamp(1.7rem,2.7vw,2.45rem);font-weight:800;color:var(--ink);margin-bottom:16px;line-height:1.17;letter-spacing:-.018em}
+.ss{font-size:1rem;color:var(--mu);font-weight:400;line-height:1.76}
+.sh{text-align:center;max-width:760px;margin:0 auto 52px}
+.sh .st{margin:0 auto 14px}
+.sh .ss{margin:0 auto}
+
+/* ── HERO ── */
+.hero{background:var(--off);padding:80px 5% 56px;border-bottom:1px solid var(--bd)}
+.hero .w{max-width:820px}
+.hero h1{font-size:clamp(2.1rem,3.8vw,3rem);font-weight:900;color:var(--ink);line-height:1.1;letter-spacing:-.026em;margin-bottom:18px}
+.hero .hi{color:var(--ac)}
+.hero p{font-size:1.08rem;color:var(--mu);max-width:640px;line-height:1.76;margin-bottom:12px}
+.hero .sub{font-size:.95rem;color:var(--mu);margin-bottom:30px}
+.hbtns{display:flex;gap:14px;flex-wrap:wrap;margin-bottom:40px}
+.stat-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
+.stat-box{background:var(--w);border:1px solid var(--bd);border-radius:10px;padding:16px 14px;text-align:center}
+.stat-box .n{font-family:'Outfit',sans-serif;font-size:1.5rem;font-weight:900;color:var(--ac);line-height:1}
+.stat-box .l{font-size:.82rem;color:var(--mu);margin-top:4px;text-transform:uppercase;letter-spacing:.06em;font-weight:600}
+
+/* ── PLATFORMS ── */
+.plat-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;margin-top:40px}
+.plat-card{background:var(--w);border:1px solid var(--bd);border-radius:14px;padding:28px 24px;transition:border-color .18s,box-shadow .18s}
+.plat-card:hover{border-color:rgba(26,79,214,.3);box-shadow:0 6px 24px rgba(37,99,235,.08)}
+.plat-card .ico{width:48px;height:48px;border-radius:11px;background:rgba(26,79,214,.08);display:flex;align-items:center;justify-content:center;margin-bottom:16px}
+.plat-card .ico svg{width:24px;height:24px;stroke:var(--blue);fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.plat-card h3{font-family:'Outfit',sans-serif;font-size:1rem;font-weight:800;color:var(--ink);margin-bottom:8px}
+.plat-card p{font-size:.92rem;color:var(--mu);line-height:1.65}
+.plat-card .badge{display:inline-block;background:rgba(16,185,129,.12);color:#047857;font-size:.8rem;font-weight:700;padding:3px 10px;border-radius:20px;font-family:'Outfit',sans-serif;margin-top:12px}
+
+/* ── DATA TRANSFER ── */
+.flow-grid{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:start}
+.flow-left h3{font-family:'Outfit',sans-serif;font-size:1.15rem;font-weight:800;color:var(--ink);margin-bottom:10px}
+.flow-left p{font-size:1rem;color:var(--mu);line-height:1.76;margin-bottom:18px}
+.format-pills{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:24px}
+.fpill{background:var(--off);border:1px solid var(--bd);border-radius:6px;padding:7px 14px;font-size:.88rem;font-weight:700;color:var(--ink);font-family:'Outfit',sans-serif}
+.fpill.p{background:rgba(26,79,214,.07);border-color:rgba(26,79,214,.2);color:var(--blue)}
+.flow-modes{display:flex;flex-direction:column;gap:14px}
+.fmode{background:var(--w);border:1px solid var(--bd);border-radius:12px;padding:18px 20px;display:flex;align-items:flex-start;gap:14px}
+.fmode-ico{width:38px;height:38px;border-radius:8px;background:linear-gradient(135deg,var(--navy),var(--blue));display:flex;align-items:center;justify-content:center;flex-shrink:0}
+.fmode-ico svg{width:19px;height:19px;stroke:#fff;fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.fmode-body h4{font-family:'Outfit',sans-serif;font-size:.95rem;font-weight:800;color:var(--ink);margin-bottom:4px}
+.fmode-body p{font-size:.88rem;color:var(--mu);line-height:1.6}
+
+/* ── REPORTING ── */
+.report-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:22px;margin-top:40px}
+.report-card{background:var(--w);border:1px solid var(--bd);border-radius:14px;padding:28px 24px}
+.report-card .ico{width:48px;height:48px;border-radius:11px;background:rgba(26,79,214,.08);display:flex;align-items:center;justify-content:center;margin-bottom:16px}
+.report-card .ico svg{width:24px;height:24px;stroke:var(--blue);fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.report-card h3{font-family:'Outfit',sans-serif;font-size:1rem;font-weight:800;color:var(--ink);margin-bottom:10px}
+.report-card p{font-size:.93rem;color:var(--mu);line-height:1.68;margin-bottom:14px}
+.report-card ul{list-style:none;display:flex;flex-direction:column;gap:7px}
+.report-card li{font-size:.88rem;color:var(--mu);padding-left:20px;position:relative;line-height:1.55}
+.report-card li::before{content:'✓';color:var(--gr);font-weight:800;position:absolute;left:0;top:0}
+
+/* ── TRANSPARENCY ── */
+.trans-section{background:linear-gradient(135deg,var(--ink) 0%,var(--navy) 55%,#001428 100%);color:#fff;padding:88px 5%}
+.trans-section .sl{color:#fed7aa}
+.trans-section .st{color:#fff}
+.trans-section .ss{color:var(--dk-body)}
+.trans-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;margin-top:44px}
+.trans-card{background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.12);border-radius:14px;padding:28px 22px}
+.trans-card .ico{width:48px;height:48px;border-radius:11px;background:rgba(249,115,22,.15);display:flex;align-items:center;justify-content:center;margin-bottom:16px}
+.trans-card .ico svg{width:24px;height:24px;stroke:var(--ac);fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.trans-card h3{font-family:'Outfit',sans-serif;font-size:.98rem;font-weight:800;color:#fff;margin-bottom:8px}
+.trans-card p{font-size:.9rem;color:var(--dk-body);line-height:1.65}
+
+/* ── FAQ ── */
+.faq{background:var(--off)}
+.faqlist{max-width:800px;margin:44px auto 0}
+details{background:var(--w);border:1px solid var(--bd);border-radius:12px;margin-bottom:10px;transition:border-color .18s,box-shadow .18s}
+details[open]{border-color:rgba(37,99,235,.3);box-shadow:0 4px 20px rgba(37,99,235,.07)}
+summary{padding:20px 24px;cursor:pointer;font-family:'Outfit',sans-serif;font-weight:700;font-size:1rem;color:var(--ink);display:flex;justify-content:space-between;align-items:center;list-style:none;gap:14px;line-height:1.35}
+summary::-webkit-details-marker{display:none}
+summary::after{content:'+';font-size:1.5rem;color:var(--ac);font-weight:300;flex-shrink:0;line-height:1}
+details[open] summary::after{content:'−'}
+.fans{padding:0 24px 20px;font-size:.97rem;color:var(--mu);line-height:1.76;font-weight:400}
+
+/* ── CTA FINAL ── */
+.ctaf{background:linear-gradient(135deg,var(--ink) 0%,var(--navy) 55%,#001428 100%);color:#fff;text-align:center;padding:96px 5%}
+.ctaf .sl{color:#fed7aa}
+.ctaf h2{font-size:clamp(2rem,3.6vw,2.9rem);font-weight:900;max-width:720px;margin:0 auto 16px;line-height:1.15;letter-spacing:-.022em}
+.ctaf .lead{font-size:1.05rem;color:var(--dk-body);max-width:520px;margin:0 auto 10px;font-weight:400;line-height:1.72}
+.ctaf .micro{font-size:.88rem;color:var(--dk-muted);margin-bottom:36px}
+.ctabtns{display:flex;gap:14px;justify-content:center;flex-wrap:wrap}
+.trow{display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:32px}
+.tri{font-size:.88rem;color:var(--dk-muted);display:flex;align-items:center;gap:6px;font-weight:500}
+.tri::before{content:'✓';color:var(--gr);font-weight:800}
+
+footer{background:var(--n3);border-top:1px solid rgba(255,255,255,.06);padding:56px 5% 24px}
+.fg{display:grid;grid-template-columns:1.3fr 1fr 1fr 1fr 1fr;gap:32px;max-width:1100px;margin:0 auto 44px}
+.fb img{height:36px;margin-bottom:16px;display:block}
+.fb p{font-size:.92rem;color:rgba(255,255,255,.86);line-height:1.68;max-width:200px;font-weight:400}
+.fc h4{font-family:'Outfit',sans-serif;font-size:.82rem;font-weight:700;color:rgba(255,255,255,.80);text-transform:uppercase;letter-spacing:.1em;margin-bottom:15px}
+.fc a{display:block;font-size:.88rem;color:rgba(255,255,255,.86);margin-bottom:10px;transition:color .15s;font-weight:400}
+.fc a:hover{color:#fff}
+.fbot{max-width:1100px;margin:0 auto;padding-top:22px;border-top:1px solid rgba(255,255,255,.06);display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px}
+.fcopy{font-size:.88rem;color:rgba(255,255,255,.80)}
+.flinks{display:flex;gap:20px}
+.flinks a{font-size:.88rem;color:rgba(255,255,255,.80);transition:color .15s}
+
+@media(max-width:900px){.plat-grid{grid-template-columns:1fr 1fr}.trans-grid{grid-template-columns:1fr 1fr}.fg{grid-template-columns:1fr 1fr;gap:24px}}
+@media(max-width:768px){.nl{display:none}.ham{display:flex}.hero{padding:60px 5% 40px}.stat-grid{grid-template-columns:1fr 1fr}.flow-grid{grid-template-columns:1fr}.report-grid{grid-template-columns:1fr}}
+@media(max-width:600px){section{padding:56px 5%}.hero h1{font-size:2rem}.hbtns{flex-direction:column}.plat-grid{grid-template-columns:1fr}.trans-grid{grid-template-columns:1fr}.ctaf{padding:68px 5%}.fg{grid-template-columns:1fr}}
+</style>
+  <link rel="stylesheet" href="global-nav-footer.css"/>
+</head>
+<body>
+
+<nav>
+  <a href="https://www.china-fulfillment.com/" class="logo"><img src="https://i.ibb.co/PZL7NXzY/New-CF-Logo-No-BG.png" alt="China Fulfillment International — Shenzhen 3PL and Amazon FBA consolidation" loading="eager" width="180" height="50"/></a>
+  <div class="nl">
+    <a href="amazon-fba-consolidation.html">FBA Consolidation</a>
+    <a href="china-consolidation.html">D2C Brands</a>
+    <a href="quality-control-fba-prep-china.html">QC &amp; Prep</a>
+    <a href="amazon-fba-prep-china.html">FBA Prep</a>
+    <a href="tariff-management-china.html">Tariffs</a>
+    <a href="international-freight-forwarding-china.html">Freight</a>
+    <a href="supplier-management-china.html">Suppliers</a>
+    <a class="ncta" href="Contact-Us.html">Get a Free Quote</a>
+  </div>
+  <div class="ham" id="ham" onclick="tM()"><span></span><span></span><span></span></div>
+</nav>
+<div class="mob" id="mob">
+  <a href="amazon-fba-consolidation.html">Amazon FBA Consolidation</a>
+  <a href="china-consolidation.html">D2C Brand Consolidation</a>
+  <a href="quality-control-fba-prep-china.html">QC &amp; FBA Prep</a>
+  <a href="amazon-fba-prep-china.html">Amazon FBA Prep Service</a>
+  <a href="tariff-management-china.html">Tariff Management</a>
+  <a href="international-freight-forwarding-china.html">Freight Forwarding</a>
+  <a href="supplier-management-china.html">Supplier Management</a>
+  <a href="ecommerce-fulfillment.html">eCommerce Fulfillment</a>
+  <a href="Contact-Us.html" class="mcta">Get a Free Quote — No Cost, No Commitment</a>
+</div>
+<div class="obar">&#127873; New Customers: <strong>30 Days FREE Warehouse Storage</strong><em> — No credit card. No minimums. No conditions.</em></div>
+
+
+<!-- ═══ HERO ═══ -->
+<section class="hero">
+  <div class="w">
+    <div class="sl">IT Integration &amp; API</div>
+    <h1>Connect your store.<br/><span class="hi">Your orders flow automatically.</span></h1>
+    <p>Our warehouse management system connects to Shopify, WooCommerce, Amazon Seller Central, eBay, and any custom platform via API, FTP, HTTPS, or batch file. Pick the method that fits your setup — from a simple CSV upload to fully automated bidirectional data exchange.</p>
+    <p class="sub">Order data in. Tracking numbers, parcel statuses, and payment data out. Daily reports or real-time feeds, your choice.</p>
+    <div class="hbtns">
+      <a class="bp" href="Contact-Us.html">Discuss Your Integration &#8594;</a>
+      <a class="bg-light" href="easy-onboarding.html">How Onboarding Works</a>
+    </div>
+    <div class="stat-grid">
+      <div class="stat-box"><div class="n">6+</div><div class="l">Platforms</div></div>
+      <div class="stat-box"><div class="n">API</div><div class="l">Direct access</div></div>
+      <div class="stat-box"><div class="n">5</div><div class="l">File formats</div></div>
+      <div class="stat-box"><div class="n">24h</div><div class="l">Status updates</div></div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ═══ PLATFORM INTEGRATIONS ═══ -->
+<section>
+  <div class="w">
+    <div class="sh">
+      <div class="sl">Platform Connections</div>
+      <h2 class="st">Works with your eCommerce platform from day one</h2>
+      <p class="ss">Every major platform has a direct connection. For anything custom, our API handles it. Orders sync to our warehouse the moment they are placed — no manual steps on your end.</p>
+    </div>
+    <div class="plat-grid">
+      <div class="plat-card">
+        <div class="ico"><svg viewBox="0 0 24 24"><circle cx="8" cy="21" r="1"/><circle cx="19" cy="21" r="1"/><path d="M2.05 2.05h2l2.66 12.42a2 2 0 0 0 2 1.58h9.78a2 2 0 0 0 1.95-1.57l1.65-7.43H5.12"/></svg></div>
+        <h3>Shopify</h3>
+        <p>Connect via our Shopify app or direct API. New orders push to us automatically. Tracking numbers write back to Shopify and your customers get their shipping confirmation without any action from you.</p>
+        <span class="badge">App or API</span>
+      </div>
+      <div class="plat-card">
+        <div class="ico"><svg viewBox="0 0 24 24"><path d="m2 7 4.41-4.41A2 2 0 0 1 7.83 2h8.34a2 2 0 0 1 1.42.59L22 7"/><path d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8"/><path d="M2 7h20"/><path d="M22 7v3a2 2 0 0 1-2 2 2.7 2.7 0 0 1-1.59-.63.7.7 0 0 0-.82 0A2.7 2.7 0 0 1 16 12a2.7 2.7 0 0 1-1.59-.63.7.7 0 0 0-.82 0A2.7 2.7 0 0 1 12 12a2.7 2.7 0 0 1-1.59-.63.7.7 0 0 0-.82 0A2.7 2.7 0 0 1 8 12a2.7 2.7 0 0 1-1.59-.63.7.7 0 0 0-.82 0A2.7 2.7 0 0 1 4 12a2 2 0 0 1-2-2V7"/></svg></div>
+        <h3>WooCommerce</h3>
+        <p>Our WooCommerce plugin pulls orders directly from your store and sends back order statuses and tracking numbers. No CSV export required from your team at any point.</p>
+        <span class="badge">Plugin or API</span>
+      </div>
+      <div class="plat-card">
+        <div class="ico"><svg viewBox="0 0 24 24"><path d="m7.5 4.27 9 5.15"/><path d="M21 8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16Z"/><path d="m3.3 7 8.7 5 8.7-5"/><path d="M12 22V12"/></svg></div>
+        <h3>Amazon Seller Central</h3>
+        <p>FBA shipment creation, prep coordination, and Seller Central status updates managed through the integration. Covers US, UK, EU, and Canadian marketplaces from a single connection.</p>
+        <span class="badge">MWS / SP-API</span>
+      </div>
+      <div class="plat-card">
+        <div class="ico"><svg viewBox="0 0 24 24"><path d="M12.586 2.586A2 2 0 0 0 11.172 2H4a2 2 0 0 0-2 2v7.172a2 2 0 0 0 .586 1.414l8.704 8.704a2.426 2.426 0 0 0 3.42 0l6.58-6.58a2.426 2.426 0 0 0 0-3.42z"/><circle cx="7.5" cy="7.5" r=".5" fill="currentColor" stroke="none"/></svg></div>
+        <h3>eBay</h3>
+        <p>eBay orders sync to our WMS for pick, pack, and dispatch. Tracking numbers push back automatically. Supports multiple eBay seller accounts from the same client dashboard.</p>
+        <span class="badge">eBay API</span>
+      </div>
+      <div class="plat-card">
+        <div class="ico"><svg viewBox="0 0 24 24"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg></div>
+        <h3>Custom Platform or ERP</h3>
+        <p>If your platform is not on this list, our REST API handles order creation, stock queries, status polling, and tracking retrieval. Full technical documentation available on request.</p>
+        <span class="badge">REST API</span>
+      </div>
+      <div class="plat-card">
+        <div class="ico"><svg viewBox="0 0 24 24"><path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z"/><path d="M14 2v4a2 2 0 0 0 2 2h4"/><path d="M16 13H8"/><path d="M16 17H8"/><path d="M10 9H8"/></svg></div>
+        <h3>Batch File Upload</h3>
+        <p>Prefer not to use an API? Upload orders via CSV, XML, XLS, DBF, or MDB. Scheduled uploads run automatically on your agreed timetable. A good fit for crowdfunding campaigns with a fixed backer list.</p>
+        <span class="badge">CSV &middot; XML &middot; XLS</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ═══ DATA TRANSFER ═══ -->
+<section style="background:var(--off)">
+  <div class="w">
+    <div class="sh">
+      <div class="sl">Data Exchange</div>
+      <h2 class="st">Transfer data your way — file, API, or secure tunnel</h2>
+      <p class="ss">We support every common data transfer method. Connect over HTTPS, push files via FTP, route through a VPN for closed-network environments, or use our REST API for live bidirectional data exchange.</p>
+    </div>
+    <div class="flow-grid">
+      <div class="flow-left">
+        <h3>Supported file formats</h3>
+        <p>Our system reads and writes all standard commercial file formats. If your ERP or order management system exports in any of these, we receive it without conversion on your side.</p>
+        <div class="format-pills">
+          <div class="fpill p">CSV</div>
+          <div class="fpill p">XML</div>
+          <div class="fpill p">XLS</div>
+          <div class="fpill p">DBF</div>
+          <div class="fpill p">MDB</div>
+          <div class="fpill">FTP</div>
+          <div class="fpill">HTTPS</div>
+          <div class="fpill">VPN</div>
+          <div class="fpill">REST API</div>
+        </div>
+        <h3>Transfer schedule options</h3>
+        <p>Transfers run on whatever cadence your business requires. High-volume shops typically use continuous background sync. Smaller operations often batch once or twice per day. Both are fully supported.</p>
+      </div>
+      <div class="flow-modes">
+        <div class="fmode">
+          <div class="fmode-ico"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg></div>
+          <div class="fmode-body">
+            <h4>Scheduled transfers</h4>
+            <p>Runs at a fixed time you define — hourly, twice daily, nightly. Common for batch order uploads and daily reporting exports.</p>
+          </div>
+        </div>
+        <div class="fmode">
+          <div class="fmode-ico"><svg viewBox="0 0 24 24"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg></div>
+          <div class="fmode-body">
+            <h4>Condition-based triggers</h4>
+            <p>Data transfers when something happens: a new order, a status change, a low-stock threshold. No polling required on your side.</p>
+          </div>
+        </div>
+        <div class="fmode">
+          <div class="fmode-ico"><svg viewBox="0 0 24 24"><path d="M3 12a9 9 0 0 1 9-9 9.75 9.75 0 0 1 6.74 2.74L21 8"/><path d="M21 3v5h-5"/><path d="M21 12a9 9 0 0 1-9 9 9.75 9.75 0 0 1-6.74-2.74L3 16"/><path d="M8 16H3v5"/></svg></div>
+          <div class="fmode-body">
+            <h4>Background continuous sync</h4>
+            <p>Fully automated, always-on exchange. Orders arrive in real time, statuses update immediately. Built for high-volume shops processing hundreds of orders per day.</p>
+          </div>
+        </div>
+        <div class="fmode">
+          <div class="fmode-ico"><svg viewBox="0 0 24 24"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="17 8 12 3 7 8"/><line x1="12" y1="3" x2="12" y2="15"/></svg></div>
+          <div class="fmode-body">
+            <h4>Manual web interface upload</h4>
+            <p>No technical setup required. Log in, upload your order file, confirm. Suited for crowdfunding campaigns and one-off batch shipments.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ═══ REPORTING ═══ -->
+<section>
+  <div class="w">
+    <div class="sh">
+      <div class="sl">Reporting</div>
+      <h2 class="st">Every report your business and your accountant needs</h2>
+      <p class="ss">Our standard report set covers statutory accounting requirements and gives your finance team the data they need for GAAP reporting. Marketing and sales reports come included — no separate BI tool required.</p>
+    </div>
+    <div class="report-grid">
+      <div class="report-card">
+        <div class="ico"><svg viewBox="0 0 24 24"><rect width="8" height="4" x="8" y="2" rx="1" ry="1"/><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"/><path d="M12 11h4"/><path d="M12 16h4"/><path d="M8 11h.01"/><path d="M8 16h.01"/></svg></div>
+        <h3>Operational Reports</h3>
+        <p>Day-to-day visibility of your fulfillment operation. Updated daily, accessible from your account dashboard or pushed to you on your chosen schedule.</p>
+        <ul>
+          <li>Orders dispatched by day, carrier, and destination</li>
+          <li>Inventory levels by SKU in real time</li>
+          <li>Inbound shipment receipts with count confirmation</li>
+          <li>Returns received and status by return reason</li>
+          <li>Pick and pack performance and accuracy</li>
+        </ul>
+      </div>
+      <div class="report-card">
+        <div class="ico"><svg viewBox="0 0 24 24"><path d="M4 2v20l2-1 2 1 2-1 2 1 2-1 2 1 2-1 2 1V2l-2 1-2-1-2 1-2-1-2 1-2-1-2 1Z"/><path d="M16 8h-6a2 2 0 1 0 0 4h4a2 2 0 1 1 0 4H8"/><path d="M12 17.5v-11"/></svg></div>
+        <h3>Accounting &amp; Compliance Reports</h3>
+        <p>Full set of reports matching local statutory requirements and accounting rules. Data formatted to support GAAP reporting for brands with US or international finance teams.</p>
+        <ul>
+          <li>Service fee statements by period</li>
+          <li>Customs documentation per shipment</li>
+          <li>VAT and duty summaries by country</li>
+          <li>Storage charges by CBM per period</li>
+          <li>GAAP-compatible data export on request</li>
+        </ul>
+      </div>
+      <div class="report-card">
+        <div class="ico"><svg viewBox="0 0 24 24"><polyline points="22 7 13.5 15.5 8.5 10.5 2 17"/><polyline points="16 7 22 7 22 13"/></svg></div>
+        <h3>Marketing &amp; Sales Reports</h3>
+        <p>Sales, payments, and returns broken down by region, city, delivery method, and date range. Over 10 return reason codes. Identify which markets return most, and why.</p>
+        <ul>
+          <li>Sales by region and city for any date range</li>
+          <li>Payments by delivery method — courier, parcel shop, post</li>
+          <li>Return reasons by delivery method, date, and city</li>
+          <li>Carrier performance comparison</li>
+          <li>Custom report specs built to your requirements</li>
+        </ul>
+      </div>
+      <div class="report-card">
+        <div class="ico"><svg viewBox="0 0 24 24"><path d="M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9"/><path d="M10.3 21a1.94 1.94 0 0 0 3.4 0"/></svg></div>
+        <h3>Parcel Status &amp; Payment Data</h3>
+        <p>Current parcel statuses and payment reconciliation data delivered daily or on any agreed schedule. Returns data available the same day the return arrives at our warehouse.</p>
+        <ul>
+          <li>Full parcel status feed — in transit, delivered, failed</li>
+          <li>Payment reconciliation data per order</li>
+          <li>Returns confirmed same day of arrival</li>
+          <li>Tracking numbers pushed to your platform automatically</li>
+          <li>Delivery failure alerts with reason codes</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ═══ TRANSPARENCY ═══ -->
+<section class="trans-section">
+  <div class="w">
+    <div class="sh" style="text-align:center;max-width:760px;margin:0 auto 52px">
+      <div class="sl">Our Approach</div>
+      <h2 class="st">Your fulfillment operation should not be a black box</h2>
+      <p class="ss">Most 3PLs hand you a tracking number and an invoice. Our platform converts your delivery, call center, and fulfillment operation into a process you can see, measure, and improve at whatever level of detail suits your business.</p>
+    </div>
+    <div class="trans-grid">
+      <div class="trans-card">
+        <div class="ico"><svg viewBox="0 0 24 24"><path d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z"/><circle cx="12" cy="12" r="3"/></svg></div>
+        <h3>Full operational visibility</h3>
+        <p>Every order, every carton, every parcel — visible in your account from the moment it enters our warehouse to the moment it arrives with your customer. No surprises, no guessing.</p>
+      </div>
+      <div class="trans-card">
+        <div class="ico"><svg viewBox="0 0 24 24"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg></div>
+        <h3>Customer data you can actually use</h3>
+        <p>Our IT system surfaces customer delivery data that most brands never see: delivery windows, failed delivery reasons, customer location patterns. Import it directly from our reports into your own systems.</p>
+      </div>
+      <div class="trans-card">
+        <div class="ico"><svg viewBox="0 0 24 24"><path d="M17.5 19H9a7 7 0 1 1 6.71-9h1.79a4.5 4.5 0 1 1 0 9Z"/></svg></div>
+        <h3>Modern cloud infrastructure</h3>
+        <p>Our WMS runs on cloud infrastructure with 99.9% uptime. API access, real-time status webhooks, and dashboard access from any device. Your team and ours can see the same data at the same time.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ═══ FAQ ═══ -->
+<section class="faq">
+  <div class="w">
+    <div class="sh">
+      <div class="sl">Integration FAQ</div>
+      <h2 class="st">Common questions before connecting</h2>
+    </div>
+    <div class="faqlist">
+      <details>
+        <summary>How long does the integration setup take?</summary>
+        <div class="fans">For Shopify and WooCommerce, most connections are live within 1&#8211;2 business days once you share your store credentials. Amazon Seller Central connections typically take 2&#8211;3 days including SP-API authorization. Custom API integrations depend on your team's availability &#8212; we provide full technical documentation and our team supports you through testing.</div>
+      </details>
+      <details>
+        <summary>Do you support API access for custom platforms?</summary>
+        <div class="fans">Yes. Our REST API covers order creation, inventory queries, parcel status retrieval, tracking number lookup, and inbound shipment creation. Full API documentation is available to clients on request. We support authentication via API key. Our technical team answers questions during your integration build.</div>
+      </details>
+      <details>
+        <summary>Can I upload orders by file if I don't want to use an API?</summary>
+        <div class="fans">Yes. Our web interface accepts CSV, XML, XLS, DBF, and MDB files. You can upload manually or configure an automated FTP push on your chosen schedule. For crowdfunding campaigns, most clients upload a single CSV of backer addresses and we handle all fulfillment from there.</div>
+      </details>
+      <details>
+        <summary>How do tracking numbers get back to my customers?</summary>
+        <div class="fans">For direct platform integrations (Shopify, WooCommerce, Amazon), tracking numbers write back to your store automatically as soon as we dispatch the order. Your customer receives their shipping confirmation from your own store. For API and file-based setups, tracking numbers are available via API query or included in your daily status export file.</div>
+      </details>
+      <details>
+        <summary>How often do parcel statuses update?</summary>
+        <div class="fans">Parcel status updates are available daily as standard. For API-connected clients, you can query status in real time. We also support webhook notifications &#8212; we send a push to your endpoint when an order status changes, so you don't need to poll. The exact setup depends on your integration method.</div>
+      </details>
+      <details>
+        <summary>Can you build custom reports to match our internal format?</summary>
+        <div class="fans">Yes. Our standard report set covers most operational and accounting requirements. If you need a report in a specific format &#8212; to feed into your ERP, match your internal template, or combine data in a way our standard reports don't &#8212; we build that to your specification. Discuss it with your account manager during onboarding.</div>
+      </details>
+      <details>
+        <summary>Is the connection secure? What about VPN access?</summary>
+        <div class="fans">All API connections run over HTTPS with API key authentication. For clients with closed-network environments or compliance requirements, we support VPN-based connections for file transfer. FTP over TLS is also available. Speak to our team if you have specific security requirements and we'll confirm what we can accommodate.</div>
+      </details>
+    </div>
+  </div>
+</section>
+
+
+<!-- ═══ CTA ═══ -->
+<section class="ctaf">
+  <div class="w">
+    <div class="sl">Get Connected</div>
+    <h2>Tell us your platform.<br/><span style="color:var(--ac)">We'll have you live in days.</span></h2>
+    <p class="lead">Share your eCommerce platform and rough order volume. We'll confirm the right integration method and walk you through setup step by step.</p>
+    <p class="micro">No setup fees. No minimum volumes. No lock-in contracts. 30 days free storage for new clients.</p>
+    <div class="ctabtns">
+      <a class="bp" href="Contact-Us.html">Start the Conversation &#8594;</a>
+      <a class="bg" href="easy-onboarding.html">See the Onboarding Process</a>
+    </div>
+    <div class="trow">
+      <div class="tri">Shopify, WooCommerce, Amazon, eBay</div>
+      <div class="tri">API or batch file — your choice</div>
+      <div class="tri">Live in 1&#8211;3 days</div>
+      <div class="tri">Dedicated account manager</div>
+    </div>
+  </div>
+</section>
+
+
+<footer>
+  <div class="fg">
+    <div class="fb">
+      <a href="/"><img src="https://i.ibb.co/PZL7NXzY/New-CF-Logo-No-BG.png" alt="China Fulfillment International" loading="lazy" width="160" height="44"/></a>
+      <p>Shenzhen-based Amazon FBA consolidation, D2C fulfilment, QC, freight and supplier management. Est. 2010.</p>
+    </div>
+    <div class="fc">
+      <h4>Core Services</h4>
+      <a href="amazon-fba-consolidation.html">FBA Consolidation</a>
+      <a href="china-consolidation.html">D2C Consolidation</a>
+      <a href="quality-control-fba-prep-china.html">QC &amp; FBA Prep</a>
+      <a href="amazon-fba-prep-china.html">Amazon FBA Prep Service</a>
+      <a href="tariff-management-china.html">Tariff Management</a>
+      <a href="international-freight-forwarding-china.html">Freight Forwarding</a>
+      <a href="supplier-management-china.html">Supplier Management</a>
+    </div>
+    <div class="fc">
+      <h4>More Services</h4>
+      <a href="ecommerce-fulfillment.html">eCommerce Fulfillment</a>
+      <a href="amazon-fulfillment.html">Amazon Fulfillment</a>
+      <a href="china-crowdfunding-fulfillment.html">Crowdfunding</a>
+      <a href="dropshipping-fulfillment.html">Drop Shipping</a>
+      <a href="express-international-shipping-china.html">Express Shipping</a>
+      <a href="cod-service.html">Cash on Delivery</a>
+    </div>
+    <div class="fc">
+      <h4>Getting Started</h4>
+      <a href="Contact-Us.html">Get a Free Quote</a>
+      <a href="register.html">Create an Account</a>
+      <a href="login.html">Member Login</a>
+      <a href="faq.html">FAQ</a>
+      <a href="easy-onboarding.html">How Onboarding Works</a>
+    </div>
+    <div class="fc">
+      <h4>Company</h4>
+      <a href="about-us.html">About Us</a>
+      <a href="blog.html">Blog &amp; Insights</a>
+      <a href="Contact-Us.html">Contact Us</a>
+      <a href="https://wa.me/353871187806">WhatsApp</a>
+      <a href="https://en.pfcexpress.com">PFC Express</a>
+    </div>
+  </div>
+  <div class="fbot">
+    <div class="fcopy">&copy; 2026 China Fulfillment International &middot; Shenzhen, China &middot; <a href="https://beian.miit.gov.cn/" style="color:inherit">粤ICP备12013396号</a></div>
+    <div class="flinks"><a href="terms-of-service.html">Terms</a><a href="privacy-policy.html">Privacy</a></div>
+  </div>
+</footer>
+
+<script>
+function tM(){document.getElementById('mob').classList.toggle('o');document.getElementById('ham').classList.toggle('o')}
+document.querySelectorAll('#mob a').forEach(function(a){a.addEventListener('click',function(){document.getElementById('mob').classList.remove('o');document.getElementById('ham').classList.remove('o')})});
+</script>
+</body>
+</html>
