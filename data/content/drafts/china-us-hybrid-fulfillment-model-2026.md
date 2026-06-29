@@ -13,7 +13,7 @@ audience: shopify
 geo: us
 content_type: blog_post
 author: Noel Murphy
-last_updated: 2026-06-29
+last_updated: 2026-07-10
 images:
   hero: /images/blog/china-us-hybrid-fulfillment-model-2026.webp
   hero_alt: "Diagram of a hybrid fulfillment model with bestselling SKUs in a US warehouse and long-tail SKUs shipping from a Shenzhen warehouse in 2026"
@@ -41,8 +41,8 @@ og_image: /images/blog/china-us-hybrid-fulfillment-model-2026.webp
       "url": "https://www.china-fulfillment.com/logo.png"
     }
   },
-  "datePublished": "2026-06-29",
-  "dateModified": "2026-06-29",
+  "datePublished": "2026-07-10",
+  "dateModified": "2026-07-10",
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "https://www.china-fulfillment.com/china-us-hybrid-fulfillment-model-2026.html"

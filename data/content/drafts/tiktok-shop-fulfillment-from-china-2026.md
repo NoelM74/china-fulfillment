@@ -13,7 +13,7 @@ audience: shopify
 geo: us
 content_type: blog_post
 author: Noel Murphy
-last_updated: 2026-06-29
+last_updated: 2026-07-08
 images:
   hero: /images/blog/tiktok-shop-fulfillment-from-china-2026.webp
   hero_alt: "TikTok Shop cross-border orders being picked and packed for US buyers in a Shenzhen 3PL warehouse in 2026"
@@ -41,8 +41,8 @@ og_image: /images/blog/tiktok-shop-fulfillment-from-china-2026.webp
       "url": "https://www.china-fulfillment.com/logo.png"
     }
   },
-  "datePublished": "2026-06-29",
-  "dateModified": "2026-06-29",
+  "datePublished": "2026-07-08",
+  "dateModified": "2026-07-08",
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "https://www.china-fulfillment.com/tiktok-shop-fulfillment-from-china-2026.html"

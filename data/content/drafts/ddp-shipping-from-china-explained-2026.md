@@ -13,7 +13,7 @@ audience: shopify
 geo: global
 content_type: blog_post
 author: Noel Murphy
-last_updated: 2026-06-29
+last_updated: 2026-07-03
 images:
   hero: /images/blog/ddp-shipping-from-china-explained-2026.webp
   hero_alt: "DDP parcel from China being delivered to a customer's door with all duties and taxes already paid in 2026"
@@ -41,8 +41,8 @@ og_image: /images/blog/ddp-shipping-from-china-explained-2026.webp
       "url": "https://www.china-fulfillment.com/logo.png"
     }
   },
-  "datePublished": "2026-06-29",
-  "dateModified": "2026-06-29",
+  "datePublished": "2026-07-03",
+  "dateModified": "2026-07-03",
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "https://www.china-fulfillment.com/ddp-shipping-from-china-explained-2026.html"

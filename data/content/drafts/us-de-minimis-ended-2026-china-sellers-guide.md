@@ -13,7 +13,7 @@ audience: amazon_fba
 geo: us
 content_type: blog_post
 author: Noel Murphy
-last_updated: 2026-06-29
+last_updated: 2026-07-01
 images:
   hero: /images/blog/us-de-minimis-ended-2026-china-sellers-guide.webp
   hero_alt: "Parcels from China being held for formal US customs entry after the $800 de minimis exemption was suspended in 2026"
@@ -41,8 +41,8 @@ og_image: /images/blog/us-de-minimis-ended-2026-china-sellers-guide.webp
       "url": "https://www.china-fulfillment.com/logo.png"
     }
   },
-  "datePublished": "2026-06-29",
-  "dateModified": "2026-06-29",
+  "datePublished": "2026-07-01",
+  "dateModified": "2026-07-01",
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "https://www.china-fulfillment.com/us-de-minimis-ended-2026-china-sellers-guide.html"
