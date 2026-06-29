@@ -3,7 +3,50 @@ import glob
 import yaml
 import markdown
 import re
+import json
 import datetime
+from html import escape
+
+
+def build_faq_section(scripts):
+    """Render a visible FAQ accordion from the post's FAQPage JSON-LD.
+
+    Google requires FAQ rich-result content to be visible on the page, not
+    schema-only. We mirror the existing site markup: a <section class="faq">
+    with one <details>/<summary> per question, placed just before the footer.
+    Returns "" if the draft has no FAQPage block.
+    """
+    for s in scripts:
+        if '"FAQPage"' not in s:
+            continue
+        m = re.search(r'<script[^>]*>(.*?)</script>', s, flags=re.DOTALL)
+        if not m:
+            continue
+        try:
+            data = json.loads(m.group(1))
+        except json.JSONDecodeError:
+            return ""
+        rows = []
+        for qa in data.get("mainEntity", []):
+            q = qa.get("name", "")
+            a = qa.get("acceptedAnswer", {}).get("text", "")
+            if not q or not a:
+                continue
+            rows.append(
+                "    <details>\n"
+                f"     <summary>{escape(q)}</summary>\n"
+                f"     <p>{escape(a)}</p>\n"
+                "    </details>"
+            )
+        if not rows:
+            return ""
+        return (
+            '\n<section class="faq">\n  <div class="w">\n'
+            "    <h2>Frequently Asked Questions</h2>\n"
+            + "\n".join(rows)
+            + "\n  </div>\n</section>\n"
+        )
+    return ""
 
 TEMPLATE_PATH = "news-shopify-fulfillment-china.html"
 DRAFTS_PATH = "data/content/drafts/*.md"
@@ -179,7 +222,14 @@ def build_pages():
             clean_footer = footer_parts[0] + "<footer>" + footer_parts[1].split('<footer>')[1]
         else:
             clean_footer = footer
-            
+
+        # Inject a visible, page-specific FAQ accordion (from the FAQPage
+        # JSON-LD) just before the footer, so the structured data is backed
+        # by visible content and eligible for FAQ rich results.
+        faq_html = build_faq_section(scripts)
+        if faq_html:
+            clean_footer = clean_footer.replace("<footer>", faq_html + "<footer>", 1)
+
         new_html.append(clean_footer)
         
         out_filename = f"{slug}.html"
