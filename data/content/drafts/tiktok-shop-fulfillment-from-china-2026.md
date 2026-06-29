@@ -119,6 +119,8 @@ A **cross-border (CBT) store** dispatches from an overseas warehouse straight to
 
 If you manufacture in China and sell to US buyers, the cross-border model is almost always your route. The rest of this guide is about running it well.
 
+![TikTok Shop local store versus cross-border CBT store compared, showing dispatch origin, shipping rules, and who fulfils the order in 2026](/images/blog/infographic-tiktok-local-vs-cbt.webp)
+
 ## Origin checks: the thing that flags accounts
 
 The single most important compliance rule in cross-border fulfilment is this: **ship from the origin you declared.**

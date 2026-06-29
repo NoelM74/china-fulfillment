@@ -132,6 +132,8 @@ The dividing line is sales velocity and how predictable that velocity is.
 | Delivery expectation | Standard international | 2 to 4 days |
 | Capital exposure | Low, pay to ship what sells | Higher, duty paid upfront |
 
+![Split-by-velocity decision guide showing slow-moving long-tail SKUs kept in China and fast-moving bestsellers moved to a US warehouse](/images/blog/infographic-hybrid-split.webp)
+
 A typical brand ends up with a small number of hero SKUs in the US doing the bulk of revenue at domestic speed, and a long tail of everything else served cost-effectively from [Shenzhen](/ecommerce-fulfillment.html).
 
 ## China as your product lab

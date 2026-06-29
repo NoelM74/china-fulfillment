@@ -135,6 +135,8 @@ Here is the part that catches sellers out. The duty itself is survivable. The *e
 
 Every individual parcel now needs to be entered. Filing a customs entry for each one adds roughly $4 to $25 per package in entry, brokerage, and bond costs, on top of the duty, and adds two to five days of clearance time. On a $25 phone case, paying $8 or $9 in duty plus $15 in entry overhead turns a healthy product into a loss. Multiply that across a thousand orders a week and the direct-small-parcel route into the US is simply uneconomic.
 
+![Cost of one $25 order shipped from China to a US customer before and after de minimis, showing product cost plus full duty plus the per-parcel customs entry fee](/images/blog/infographic-de-minimis-cost-stack.webp)
+
 The structural fix is to stop entering parcels one at a time.
 
 ## The fix for the US market: consolidate and import in bulk
