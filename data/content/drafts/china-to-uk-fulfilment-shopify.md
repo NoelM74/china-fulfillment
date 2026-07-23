@@ -1,5 +1,6 @@
 ---
 title: "China to UK Fulfilment for Shopify & Amazon Sellers: DDP, VAT and No Customs Surprises (2026)"
+seo_title: "China to UK Fulfilment (2026): DDP, VAT & No Surprises"
 meta_description: "Shipping from China to UK customers in 2026? Here's the £135 VAT rule, when you need a UK VAT number, how DDP removes doorstep customs bills, and real delivery times from Shenzhen."
 slug: china-to-uk-fulfilment-shopify
 target_keyword: china to uk fulfilment

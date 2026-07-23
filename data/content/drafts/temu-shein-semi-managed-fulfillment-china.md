@@ -1,5 +1,6 @@
 ---
 title: "Selling on Temu or Shein Semi-Managed? How to Fulfil from Your Own China Warehouse"
+seo_title: "Temu & Shein Semi-Managed: Fulfil from Your China Warehouse"
 meta_description: "Temu and Shein's semi-managed model hands you fulfilment, and the SLAs that come with it. Here's how a Shenzhen 3PL hits the 0-2 day dispatch window, ships DDP after de minimis, and handles returns."
 slug: temu-shein-semi-managed-fulfillment-china
 target_keyword: temu semi-managed fulfillment
@@ -127,9 +128,9 @@ Hitting a 0-2 day dispatch window is an operations problem, not a shipping-rate 
 
 There are two honest routes, and the right one depends on the lane and the SLA.
 
-**Route 1 — DDP express direct from Shenzhen.** On destinations where express can land inside the delivery window, you fulfil straight from China. We pick, pack and label same-day and ship [DDP express](/express-international-shipping.html), so the order moves fast and clears customs with duty prepaid. This keeps your capital in China and works well for markets within express reach of Shenzhen.
+**Route 1, DDP express direct from Shenzhen.** On destinations where express can land inside the delivery window, you fulfil straight from China. We pick, pack and label same-day and ship [DDP express](/express-international-shipping.html), so the order moves fast and clears customs with duty prepaid. This keeps your capital in China and works well for markets within express reach of Shenzhen.
 
-**Route 2 — consolidate and feed an in-market warehouse.** Where the SLA is too tight for direct express, or your volume makes local stock cheaper, the answer is to hold inventory in-market and fulfil locally. We [consolidate your suppliers in Shenzhen](/china-consolidation.html), run quality control, and ship the stock in bulk on one customs entry to your US, UK or EU warehouse, so you fulfil same-country and hit the 5-7 day promise comfortably. This mirrors the [hybrid model](/china-us-hybrid-fulfillment-model-2026.html): proven volume sits in-market, the rest stays light in China.
+**Route 2, consolidate and feed an in-market warehouse.** Where the SLA is too tight for direct express, or your volume makes local stock cheaper, the answer is to hold inventory in-market and fulfil locally. We [consolidate your suppliers in Shenzhen](/china-consolidation.html), run quality control, and ship the stock in bulk on one customs entry to your US, UK or EU warehouse, so you fulfil same-country and hit the 5-7 day promise comfortably. This mirrors the [hybrid model](/china-us-hybrid-fulfillment-model-2026.html): proven volume sits in-market, the rest stays light in China.
 
 Most semi-managed sellers end up running both, direct express for some lanes and SKUs, local stock for others. A single Shenzhen operation can drive either, which is the point.
 

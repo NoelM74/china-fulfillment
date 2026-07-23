@@ -1,5 +1,6 @@
 ---
 title: "US De Minimis Is Gone: The 2026 Survival Guide for Sellers Shipping from China"
+seo_title: "US De Minimis Is Gone: 2026 Survival Guide for Sellers"
 meta_description: "The $800 US de minimis exemption is suspended for good. Every parcel from China now needs a customs entry and full duty. Here's the bulk-import and DDP playbook that keeps your margin intact."
 slug: us-de-minimis-ended-2026-china-sellers-guide
 target_keyword: us de minimis ended 2026
@@ -113,9 +114,9 @@ If your model was "make it in Shenzhen, ship it straight to the customer's door,
 
 There were three moves, not one, and the dates matter because suppliers and forwarders still quote the old rules.
 
-- **2 May 2025** — duty-free de minimis ended for goods from China and Hong Kong.
-- **29 August 2025** — the suspension was extended to low-value shipments from all countries.
-- **28 February 2026** — for international postal shipments, the temporary flat "specific duty" option ended. From that date, postal parcels are charged on an ad-valorem basis, meaning a percentage of the declared value at the country-of-origin tariff rate.
+- **2 May 2025**, duty-free de minimis ended for goods from China and Hong Kong.
+- **29 August 2025**, the suspension was extended to low-value shipments from all countries.
+- **28 February 2026**, for international postal shipments, the temporary flat "specific duty" option ended. From that date, postal parcels are charged on an ad-valorem basis, meaning a percentage of the declared value at the country-of-origin tariff rate.
 
 The headline takeaway from US Customs and Border Protection is simple: a shipment being low value no longer makes it duty-free or paperwork-free. Every commercial shipment needs a customs entry, a 10-digit HS classification, and full duty payment.
 
@@ -123,8 +124,8 @@ The headline takeaway from US Customs and Border Protection is simple: a shipmen
 
 Three layers stack on every Chinese-made parcel:
 
-1. **The base HS duty** — the normal Harmonized System rate for the product, often in the low single digits but anywhere from 0% to over 30% depending on the category.
-2. **Section 301 tariffs** — the China-specific tariffs, commonly 25% on Lists 1 to 3 and 7.5% on List 4A, with higher rates on targeted sectors.
+1. **The base HS duty**, the normal Harmonized System rate for the product, often in the low single digits but anywhere from 0% to over 30% depending on the category.
+2. **Section 301 tariffs**, the China-specific tariffs, commonly 25% on Lists 1 to 3 and 7.5% on List 4A, with higher rates on targeted sectors.
 3. **The across-the-board surcharge** in force at the time of entry.
 
 As of mid-2026, a typical consumer good made in China lands around a 35% combined rate. Be careful with that figure: the top layer has changed repeatedly. The "reciprocal" tariffs introduced in 2025 were restructured into a flat surcharge in early 2026, and that surcharge has its own expiry on the calendar. Tariff policy in this corridor has moved several times a year. Never hard-code a rate. Classify each SKU and confirm the live duty for that HS code before you set a price. Our [tariff and customs team](/tariff-management-china.html) does this classification at the source, and our [2026 landed-cost guide](/news-import-duties-tariffs-landed-cost-china-2026.html) walks through the full calculation.

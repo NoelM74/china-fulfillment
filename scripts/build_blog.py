@@ -170,10 +170,14 @@ def build_pages():
         
         slug = meta.get('slug', os.path.basename(draft).replace('.md', ''))
         
+        # SERP <title> can differ from the on-page H1: use an optional shorter
+        # `seo_title` (<=60 chars, keyword-first) when present, else the H1 title.
+        seo_title = meta.get('seo_title', title)
+
         # Build new HTML
         new_html = []
         new_html.append(head_top)
-        new_html.append(f'<title>{title}</title>\n')
+        new_html.append(f'<title>{seo_title}</title>\n')
         new_html.append(f'<meta name="description" content="{meta.get("meta_description", "")}"/>\n')
         new_html.append(f'<link rel="canonical" href="https://www.china-fulfillment.com/{slug}.html"/>\n')
         new_html.append(f'<meta property="og:title" content="{title}"/>\n')

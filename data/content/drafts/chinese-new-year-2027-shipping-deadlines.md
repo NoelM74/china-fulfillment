@@ -1,5 +1,6 @@
 ---
 title: "Chinese New Year 2027 Shipping Deadlines: The Cut-Off Dates That Protect Your Q1"
+seo_title: "Chinese New Year 2027 Shipping Deadlines & Cut-Off Dates"
 meta_description: "Chinese New Year 2027 falls on 6 February. Here are the production and shipping cut-off dates, how long factories really close, and the inventory plan to keep selling through the 6-8 week disruption."
 slug: chinese-new-year-2027-shipping-deadlines
 target_keyword: chinese new year 2027 shipping

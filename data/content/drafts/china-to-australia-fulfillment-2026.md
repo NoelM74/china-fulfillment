@@ -1,5 +1,6 @@
 ---
 title: "China to Australia Fulfilment (2026): GST, the A$1,000 Threshold and Real Delivery Times"
+seo_title: "China to Australia Fulfilment (2026): GST & Delivery Times"
 meta_description: "Shipping from China to Australian customers in 2026? Here's the A$1,000 GST threshold, when you must register for Australian GST, how DDP avoids doorstep bills, and real delivery times from Shenzhen."
 slug: china-to-australia-fulfillment-2026
 target_keyword: china to australia fulfillment

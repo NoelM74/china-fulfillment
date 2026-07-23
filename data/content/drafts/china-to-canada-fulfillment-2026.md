@@ -1,5 +1,6 @@
 ---
 title: "China to Canada Fulfilment (2026): Duties, CARM and the CAD$20 Reality"
+seo_title: "China to Canada Fulfilment (2026): Duties, CARM & CAD$20"
 meta_description: "Shipping from China to Canadian customers in 2026? The CAD$20 de minimis reality, what CARM means for importers, how much duty and GST buyers pay, and real delivery times from Shenzhen."
 slug: china-to-canada-fulfillment-2026
 target_keyword: china to canada fulfillment

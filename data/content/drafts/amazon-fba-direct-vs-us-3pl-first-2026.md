@@ -1,5 +1,6 @@
 ---
 title: "Ship Direct to Amazon FBA or Stage at a US 3PL First? The 2026 Tariff Math"
+seo_title: "Ship Direct to Amazon FBA or US 3PL First? 2026 Tariff Math"
 meta_description: "Should your China inventory go straight to Amazon FBA or via a US 3PL transload first? The 2026 math, after FBA prep ended, placement fees, low-inventory fees and tariffs, with the Shenzhen-side fix."
 slug: amazon-fba-direct-vs-us-3pl-first-2026
 target_keyword: ship to amazon fba direct vs 3pl 2026
