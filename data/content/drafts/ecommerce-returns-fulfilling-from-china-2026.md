@@ -14,7 +14,7 @@ audience: shopify
 geo: global
 content_type: blog_post
 author: Noel Murphy
-last_updated: 2026-08-18
+last_updated: 2026-08-27
 images:
   hero: /images/blog/ecommerce-returns-fulfilling-from-china-2026.webp
   hero_alt: "Cross-border ecommerce returns being received and sorted at a local return hub instead of being shipped back to China in 2026"
@@ -42,8 +42,8 @@ og_image: /images/blog/ecommerce-returns-fulfilling-from-china-2026.webp
       "url": "https://www.china-fulfillment.com/logo.png"
     }
   },
-  "datePublished": "2026-08-18",
-  "dateModified": "2026-08-18",
+  "datePublished": "2026-08-27",
+  "dateModified": "2026-08-27",
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "https://www.china-fulfillment.com/ecommerce-returns-fulfilling-from-china-2026.html"

@@ -14,7 +14,7 @@ audience: shopify
 geo: us
 content_type: blog_post
 author: Noel Murphy
-last_updated: 2026-08-12
+last_updated: 2026-08-15
 images:
   hero: /images/blog/china-to-us-fulfilment-beauty-skincare-brands.webp
   hero_alt: "Beauty and skincare products being kitted and packed with branded unboxing in a Shenzhen warehouse for DDP shipping to US customers in 2026"
@@ -42,8 +42,8 @@ og_image: /images/blog/china-to-us-fulfilment-beauty-skincare-brands.webp
       "url": "https://www.china-fulfillment.com/logo.png"
     }
   },
-  "datePublished": "2026-08-12",
-  "dateModified": "2026-08-12",
+  "datePublished": "2026-08-15",
+  "dateModified": "2026-08-15",
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "https://www.china-fulfillment.com/china-to-us-fulfilment-beauty-skincare-brands.html"

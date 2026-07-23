@@ -14,7 +14,7 @@ audience: shopify
 geo: ca
 content_type: blog_post
 author: Noel Murphy
-last_updated: 2026-09-04
+last_updated: 2026-08-17
 images:
   hero: /images/blog/china-to-canada-fulfillment-2026.webp
   hero_alt: "Parcels shipped DDP from a Shenzhen warehouse to Canadian customers clearing customs with duty and GST prepaid under CARM in 2026"
@@ -42,8 +42,8 @@ og_image: /images/blog/china-to-canada-fulfillment-2026.webp
       "url": "https://www.china-fulfillment.com/logo.png"
     }
   },
-  "datePublished": "2026-09-04",
-  "dateModified": "2026-09-04",
+  "datePublished": "2026-08-17",
+  "dateModified": "2026-08-17",
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "https://www.china-fulfillment.com/china-to-canada-fulfillment-2026.html"

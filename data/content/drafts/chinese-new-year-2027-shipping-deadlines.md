@@ -14,7 +14,7 @@ audience: amazon_fba
 geo: global
 content_type: blog_post
 author: Noel Murphy
-last_updated: 2026-10-06
+last_updated: 2026-08-03
 images:
   hero: /images/blog/chinese-new-year-2027-shipping-deadlines.webp
   hero_alt: "A Shenzhen warehouse dispatching stock ahead of the Chinese New Year 2027 shutdown so sellers keep selling through the February disruption"
@@ -42,8 +42,8 @@ og_image: /images/blog/chinese-new-year-2027-shipping-deadlines.webp
       "url": "https://www.china-fulfillment.com/logo.png"
     }
   },
-  "datePublished": "2026-10-06",
-  "dateModified": "2026-10-06",
+  "datePublished": "2026-08-03",
+  "dateModified": "2026-08-03",
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "https://www.china-fulfillment.com/chinese-new-year-2027-shipping-deadlines.html"

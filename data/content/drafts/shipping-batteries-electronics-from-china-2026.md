@@ -14,7 +14,7 @@ audience: shopify
 geo: global
 content_type: blog_post
 author: Noel Murphy
-last_updated: 2026-10-20
+last_updated: 2026-08-23
 images:
   hero: /images/blog/shipping-batteries-electronics-from-china-2026.webp
   hero_alt: "Battery-powered electronics packed as Class 9 dangerous goods with UN38.3 documentation in a Shenzhen warehouse for compliant shipping in 2026"
@@ -42,8 +42,8 @@ og_image: /images/blog/shipping-batteries-electronics-from-china-2026.webp
       "url": "https://www.china-fulfillment.com/logo.png"
     }
   },
-  "datePublished": "2026-10-20",
-  "dateModified": "2026-10-20",
+  "datePublished": "2026-08-23",
+  "dateModified": "2026-08-23",
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "https://www.china-fulfillment.com/shipping-batteries-electronics-from-china-2026.html"

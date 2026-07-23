@@ -14,7 +14,7 @@ audience: shopify
 geo: us
 content_type: blog_post
 author: Noel Murphy
-last_updated: 2026-07-15
+last_updated: 2026-08-05
 images:
   hero: /images/blog/temu-shein-semi-managed-fulfillment-china.webp
   hero_alt: "Temu and Shein semi-managed orders being picked, packed and labelled for dispatch in a Shenzhen 3PL warehouse in 2026"
@@ -42,8 +42,8 @@ og_image: /images/blog/temu-shein-semi-managed-fulfillment-china.webp
       "url": "https://www.china-fulfillment.com/logo.png"
     }
   },
-  "datePublished": "2026-07-15",
-  "dateModified": "2026-07-15",
+  "datePublished": "2026-08-05",
+  "dateModified": "2026-08-05",
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "https://www.china-fulfillment.com/temu-shein-semi-managed-fulfillment-china.html"

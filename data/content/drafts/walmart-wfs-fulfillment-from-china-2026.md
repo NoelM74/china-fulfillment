@@ -14,7 +14,7 @@ audience: amazon_fba
 geo: US
 content_type: blog_post
 author: Noel Murphy
-last_updated: 2026-10-13
+last_updated: 2026-08-09
 images:
   hero: /images/blog/walmart-wfs-fulfillment-from-china-2026.webp
   hero_alt: "Cartons prepped and consolidated in a Shenzhen warehouse for import into Walmart Fulfillment Services from China in 2026"
@@ -42,8 +42,8 @@ og_image: /images/blog/walmart-wfs-fulfillment-from-china-2026.webp
       "url": "https://www.china-fulfillment.com/logo.png"
     }
   },
-  "datePublished": "2026-10-13",
-  "dateModified": "2026-10-13",
+  "datePublished": "2026-08-09",
+  "dateModified": "2026-08-09",
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "https://www.china-fulfillment.com/walmart-wfs-fulfillment-from-china-2026.html"

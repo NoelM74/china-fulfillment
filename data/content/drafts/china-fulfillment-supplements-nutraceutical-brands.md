@@ -14,7 +14,7 @@ audience: shopify
 geo: us
 content_type: blog_post
 author: Noel Murphy
-last_updated: 2026-09-09
+last_updated: 2026-08-25
 images:
   hero: /images/blog/china-fulfillment-supplements-nutraceutical-brands.webp
   hero_alt: "Supplement and nutraceutical products being lot-tracked, batch-controlled and packed in a Shenzhen warehouse for DDP shipping to US customers in 2026"
@@ -42,8 +42,8 @@ og_image: /images/blog/china-fulfillment-supplements-nutraceutical-brands.webp
       "url": "https://www.china-fulfillment.com/logo.png"
     }
   },
-  "datePublished": "2026-09-09",
-  "dateModified": "2026-09-09",
+  "datePublished": "2026-08-25",
+  "dateModified": "2026-08-25",
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "https://www.china-fulfillment.com/china-fulfillment-supplements-nutraceutical-brands.html"

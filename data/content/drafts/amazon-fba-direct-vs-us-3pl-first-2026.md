@@ -14,7 +14,7 @@ audience: amazon_fba
 geo: us
 content_type: blog_post
 author: Noel Murphy
-last_updated: 2026-07-17
+last_updated: 2026-08-07
 images:
   hero: /images/blog/amazon-fba-direct-vs-us-3pl-first-2026.webp
   hero_alt: "Decision between shipping inventory direct from China to Amazon FBA versus staging at a US 3PL transload warehouse first in 2026"
@@ -42,8 +42,8 @@ og_image: /images/blog/amazon-fba-direct-vs-us-3pl-first-2026.webp
       "url": "https://www.china-fulfillment.com/logo.png"
     }
   },
-  "datePublished": "2026-07-17",
-  "dateModified": "2026-07-17",
+  "datePublished": "2026-08-07",
+  "dateModified": "2026-08-07",
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "https://www.china-fulfillment.com/amazon-fba-direct-vs-us-3pl-first-2026.html"

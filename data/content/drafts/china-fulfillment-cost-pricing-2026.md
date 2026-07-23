@@ -13,7 +13,7 @@ audience: shopify
 geo: global
 content_type: blog_post
 author: Noel Murphy
-last_updated: 2026-10-23
+last_updated: 2026-08-29
 images:
   hero: /images/blog/china-fulfillment-cost-pricing-2026.webp
   hero_alt: "A cost breakdown of China fulfilment in 2026 covering pick and pack, storage, prep and shipping, mapped against a Shenzhen warehouse operation"
@@ -41,8 +41,8 @@ og_image: /images/blog/china-fulfillment-cost-pricing-2026.webp
       "url": "https://www.china-fulfillment.com/logo.png"
     }
   },
-  "datePublished": "2026-10-23",
-  "dateModified": "2026-10-23",
+  "datePublished": "2026-08-29",
+  "dateModified": "2026-08-29",
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "https://www.china-fulfillment.com/china-fulfillment-cost-pricing-2026.html"

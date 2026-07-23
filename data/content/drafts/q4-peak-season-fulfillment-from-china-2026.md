@@ -14,7 +14,7 @@ audience: amazon_fba
 geo: us
 content_type: blog_post
 author: Noel Murphy
-last_updated: 2026-08-04
+last_updated: 2026-08-01
 images:
   hero: /images/blog/q4-peak-season-fulfillment-from-china-2026.webp
   hero_alt: "Q4 peak season shipping from China in 2026 with containers loading ahead of Golden Week and holiday cut-off dates"
@@ -42,8 +42,8 @@ og_image: /images/blog/q4-peak-season-fulfillment-from-china-2026.webp
       "url": "https://www.china-fulfillment.com/logo.png"
     }
   },
-  "datePublished": "2026-08-04",
-  "dateModified": "2026-08-04",
+  "datePublished": "2026-08-01",
+  "dateModified": "2026-08-01",
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "https://www.china-fulfillment.com/q4-peak-season-fulfillment-from-china-2026.html"

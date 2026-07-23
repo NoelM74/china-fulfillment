@@ -14,7 +14,7 @@ audience: shopify
 geo: eu
 content_type: blog_post
 author: Noel Murphy
-last_updated: 2026-10-01
+last_updated: 2026-08-11
 images:
   hero: /images/blog/china-to-germany-fulfillment-2026.webp
   hero_alt: "Parcels shipped DDP with IOSS VAT prepaid from a Shenzhen warehouse to German and EU customers after the 2026 de minimis change"
@@ -42,8 +42,8 @@ og_image: /images/blog/china-to-germany-fulfillment-2026.webp
       "url": "https://www.china-fulfillment.com/logo.png"
     }
   },
-  "datePublished": "2026-10-01",
-  "dateModified": "2026-10-01",
+  "datePublished": "2026-08-11",
+  "dateModified": "2026-08-11",
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "https://www.china-fulfillment.com/china-to-germany-fulfillment-2026.html"

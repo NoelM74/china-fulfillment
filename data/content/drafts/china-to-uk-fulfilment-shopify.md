@@ -14,7 +14,7 @@ audience: shopify
 geo: uk
 content_type: blog_post
 author: Noel Murphy
-last_updated: 2026-08-07
+last_updated: 2026-08-13
 images:
   hero: /images/blog/china-to-uk-fulfilment-shopify.webp
   hero_alt: "Parcels shipped DDP from a Shenzhen warehouse to UK customers clearing customs with VAT and duty prepaid in 2026"
@@ -42,8 +42,8 @@ og_image: /images/blog/china-to-uk-fulfilment-shopify.webp
       "url": "https://www.china-fulfillment.com/logo.png"
     }
   },
-  "datePublished": "2026-08-07",
-  "dateModified": "2026-08-07",
+  "datePublished": "2026-08-13",
+  "dateModified": "2026-08-13",
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "https://www.china-fulfillment.com/china-to-uk-fulfilment-shopify.html"

@@ -14,7 +14,7 @@ audience: shopify
 geo: au
 content_type: blog_post
 author: Noel Murphy
-last_updated: 2026-09-02
+last_updated: 2026-08-19
 images:
   hero: /images/blog/china-to-australia-fulfillment-2026.webp
   hero_alt: "Parcels shipped DDP from a Shenzhen warehouse to Australian customers with GST collected at checkout in 2026"
@@ -42,8 +42,8 @@ og_image: /images/blog/china-to-australia-fulfillment-2026.webp
       "url": "https://www.china-fulfillment.com/logo.png"
     }
   },
-  "datePublished": "2026-09-02",
-  "dateModified": "2026-09-02",
+  "datePublished": "2026-08-19",
+  "dateModified": "2026-08-19",
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "https://www.china-fulfillment.com/china-to-australia-fulfillment-2026.html"
