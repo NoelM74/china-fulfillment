@@ -1,7 +1,7 @@
 ---
 title: "China-to-US Fulfilment for Beauty & Skincare Brands (2026): MoCRA, Unboxing and Batch Control"
 seo_title: "China-to-US Fulfilment for Beauty & Skincare Brands (2026)"
-meta_description: "Shipping a beauty or skincare brand from China to US customers? What MoCRA requires before your product ships, who owns compliance, and how batch tracking, unboxing and DDP fulfilment work from Shenzhen."
+meta_description: "Shipping a beauty or skincare brand from China to the US? What MoCRA requires, who owns compliance, and how batch tracking, unboxing and DDP work from Shenzhen."
 slug: china-to-us-fulfilment-beauty-skincare-brands
 target_keyword: fulfillment for beauty brands from china
 secondary_keywords:

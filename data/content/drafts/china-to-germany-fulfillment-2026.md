@@ -1,7 +1,7 @@
 ---
 title: "China to Germany & EU Fulfilment (2026): The €3 Fee, IOSS and How to Ship Clean"
 seo_title: "China to Germany & EU Fulfilment (2026): €3 Fee & IOSS"
-meta_description: "Shipping from China to Germany and the EU after the €150 de minimis change? The new €3 customs fee, how IOSS VAT works, why non-EU sellers need an intermediary, and how to fulfil cleanly from Shenzhen."
+meta_description: "Shipping from China to Germany and the EU after the €150 de minimis change? The new €3 fee, how IOSS VAT works, and why non-EU sellers need an intermediary."
 slug: china-to-germany-fulfillment-2026
 target_keyword: china to germany fulfillment
 secondary_keywords:

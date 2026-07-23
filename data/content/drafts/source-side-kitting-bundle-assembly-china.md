@@ -1,6 +1,6 @@
 ---
 title: "Source-Side Kitting in China: Cut Bundle Costs 70%"
-meta_description: "Assembling bundles and gift sets in Shenzhen cuts kitting costs by around 70% and shrinks dimensional weight on every parcel. Here's how source-side kitting works."
+meta_description: "Assembling bundles and gift sets in Shenzhen cuts kitting costs by around 70% and shrinks dimensional weight on every parcel. How source-side kitting works."
 slug: source-side-kitting-bundle-assembly-china
 target_keyword: source side kitting china
 secondary_keywords:

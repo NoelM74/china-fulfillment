@@ -1,7 +1,7 @@
 ---
 title: "Shipping Batteries & Electronics from China (2026): The Lithium & Dangerous-Goods Guide"
 seo_title: "Shipping Batteries & Electronics from China (2026 Guide)"
-meta_description: "Fulfilling battery-powered electronics from China in 2026? The new 30% state-of-charge rule, UN38.3, MSDS and Class 9 requirements, IMDG Amendment 42-24, and how to ship lithium products compliantly from Shenzhen."
+meta_description: "Shipping battery-powered electronics from China in 2026: the 30% state-of-charge rule, UN38.3, MSDS, Class 9 and IMDG 42-24, done compliantly from Shenzhen."
 slug: shipping-batteries-electronics-from-china-2026
 target_keyword: shipping lithium batteries from china
 secondary_keywords:

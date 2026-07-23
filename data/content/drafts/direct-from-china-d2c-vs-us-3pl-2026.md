@@ -1,6 +1,6 @@
 ---
 title: "Direct-from-China D2C vs US 3PL: 2026 Profit Audit"
-meta_description: "A line-by-line cost audit of direct-from-China D2C versus a domestic US 3PL for Shopify brands. See where the hidden fees hide and how to protect 15-25% of margin."
+meta_description: "A line-by-line cost audit of direct-from-China D2C versus a domestic US 3PL for Shopify brands: where the hidden fees hide and how to protect 15-25% of margin."
 slug: direct-from-china-d2c-vs-us-3pl-2026
 target_keyword: direct from china d2c vs us 3pl
 secondary_keywords:

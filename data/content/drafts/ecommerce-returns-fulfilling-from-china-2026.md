@@ -1,7 +1,7 @@
 ---
 title: "Handling Ecommerce Returns When You Fulfil from China: The 2026 Reverse-Logistics Playbook"
 seo_title: "Ecommerce Returns When You Fulfil from China (2026 Guide)"
-meta_description: "Returns are the biggest objection to fulfilling from China, and the most solvable. Local return hubs, the restock-vs-write-off math, duty drawback on returns, and when a returnless refund wins in 2026."
+meta_description: "Returns are the biggest objection to fulfilling from China, and the most solvable. Local return hubs, restock-vs-write-off math and returnless refunds."
 slug: ecommerce-returns-fulfilling-from-china-2026
 target_keyword: ecommerce returns when fulfilling from china
 secondary_keywords:

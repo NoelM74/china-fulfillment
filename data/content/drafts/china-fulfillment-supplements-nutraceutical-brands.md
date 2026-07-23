@@ -1,7 +1,7 @@
 ---
 title: "China Fulfilment for Supplement & Nutraceutical Brands (2026): FDA, FSVP and Batch Control"
 seo_title: "China Fulfilment for Supplement Brands (2026): FDA & FSVP"
-meta_description: "Fulfilling a supplement or nutraceutical brand from China to the US? What FDA facility registration and FSVP require before you ship, who owns compliance, and how lot tracking, expiry and DDP work from Shenzhen."
+meta_description: "Fulfilling a supplement brand from China to the US? What FDA registration and FSVP require, who owns compliance, and how lot tracking and DDP work."
 slug: china-fulfillment-supplements-nutraceutical-brands
 target_keyword: supplement fulfillment from china
 secondary_keywords:

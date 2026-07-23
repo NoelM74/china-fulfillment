@@ -1,7 +1,7 @@
 ---
 title: "US De Minimis Is Gone: The 2026 Survival Guide for Sellers Shipping from China"
 seo_title: "US De Minimis Is Gone: 2026 Survival Guide for Sellers"
-meta_description: "The $800 US de minimis exemption is suspended for good. Every parcel from China now needs a customs entry and full duty. Here's the bulk-import and DDP playbook that keeps your margin intact."
+meta_description: "The $800 US de minimis exemption is suspended for good. Every parcel from China now needs a customs entry and full duty. The bulk-import and DDP playbook."
 slug: us-de-minimis-ended-2026-china-sellers-guide
 target_keyword: us de minimis ended 2026
 secondary_keywords:

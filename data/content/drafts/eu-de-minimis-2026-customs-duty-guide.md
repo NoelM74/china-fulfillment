@@ -1,6 +1,6 @@
 ---
 title: "EU De Minimis 2026: The €3 Customs Duty Survival Guide"
-meta_description: "From 1 July 2026 the EU scraps the €150 duty exemption and charges €3 per item category on low-value parcels. Here's the DDP and IOSS playbook to keep parcels clearing."
+meta_description: "From 1 July 2026 the EU scraps the €150 duty exemption and charges €3 per item category on low-value parcels. The DDP and IOSS playbook to keep parcels moving."
 slug: eu-de-minimis-2026-customs-duty-guide
 target_keyword: eu de minimis 2026
 secondary_keywords:

@@ -1,7 +1,7 @@
 ---
 title: "Q4 Peak Season Fulfilment from China (2026): Cut-Off Dates, Surcharges and the Inventory Plan"
 seo_title: "Q4 Peak Season Fulfilment from China (2026): Cut-Offs & Fees"
-meta_description: "Golden Week, peak-season surcharges and Q4 storage fees can put your freight 15-40% over budget. The 2026 China shipping calendar, the cut-off dates that matter, and how to plan inventory now."
+meta_description: "Golden Week, peak-season surcharges and Q4 storage fees can put freight 15-40% over budget. The 2026 China shipping calendar and the cut-off dates that matter."
 slug: q4-peak-season-fulfillment-from-china-2026
 target_keyword: peak season shipping from china 2026
 secondary_keywords:

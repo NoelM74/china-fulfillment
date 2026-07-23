@@ -1,6 +1,6 @@
 ---
 title: "How Much Does China Fulfilment Cost? The 2026 Pricing Guide"
-meta_description: "What does China fulfilment actually cost in 2026? A clear breakdown of pick-and-pack, storage, prep and shipping fees, how China compares with Western 3PLs, and the hidden costs to watch."
+meta_description: "What does China fulfilment actually cost in 2026? A clear breakdown of pick-and-pack, storage, prep and shipping fees, and how China compares with Western 3PLs."
 slug: china-fulfillment-cost-pricing-2026
 target_keyword: china fulfillment cost
 secondary_keywords:

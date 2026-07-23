@@ -1,7 +1,7 @@
 ---
 title: "Selling on Temu or Shein Semi-Managed? How to Fulfil from Your Own China Warehouse"
 seo_title: "Temu & Shein Semi-Managed: Fulfil from Your China Warehouse"
-meta_description: "Temu and Shein's semi-managed model hands you fulfilment, and the SLAs that come with it. Here's how a Shenzhen 3PL hits the 0-2 day dispatch window, ships DDP after de minimis, and handles returns."
+meta_description: "Temu and Shein's semi-managed model hands you fulfilment and its SLAs. How a Shenzhen 3PL hits the 0-2 day dispatch window, ships DDP, and handles returns."
 slug: temu-shein-semi-managed-fulfillment-china
 target_keyword: temu semi-managed fulfillment
 secondary_keywords:

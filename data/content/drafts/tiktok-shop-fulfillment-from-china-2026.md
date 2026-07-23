@@ -1,7 +1,7 @@
 ---
 title: "TikTok Shop Fulfillment from China: The 2026 Cross-Border Seller's Playbook"
 seo_title: "TikTok Shop Fulfillment from China: 2026 Playbook"
-meta_description: "TikTok Shop changed its US logistics rules in 2026. Here's how cross-border (CBT) sellers fulfil from a Shenzhen warehouse, pass origin checks, hit the SLAs, and ship DDP after de minimis."
+meta_description: "TikTok Shop changed its US logistics rules in 2026. How cross-border (CBT) sellers fulfil from a Shenzhen warehouse, pass origin checks and ship DDP."
 slug: tiktok-shop-fulfillment-from-china-2026
 target_keyword: tiktok shop fulfillment from china
 secondary_keywords:
