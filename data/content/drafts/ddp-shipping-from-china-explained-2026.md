@@ -1,6 +1,7 @@
 ---
 title: "DDP Shipping from China, Explained: Who Actually Pays the Duty in 2026"
-meta_description: "DDP means Delivered Duty Paid: the seller covers freight, customs, and import duty so your customer pays nothing at the door. Here's how it works from China, DDP vs DAP, and why it matters after de minimis."
+seo_title: "DDP Shipping from China Explained: Who Pays the Duty in 2026"
+meta_description: "DDP means Delivered Duty Paid: the seller covers freight, customs and duty so your customer pays nothing at the door. How it works from China, and DDP vs DAP."
 slug: ddp-shipping-from-china-explained-2026
 target_keyword: ddp shipping from china meaning
 secondary_keywords:

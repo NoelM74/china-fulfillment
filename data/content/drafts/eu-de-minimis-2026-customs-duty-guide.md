@@ -1,6 +1,6 @@
 ---
 title: "EU De Minimis 2026: The €3 Customs Duty Survival Guide"
-meta_description: "From 1 July 2026 the EU scraps the €150 duty exemption and charges €3 per item category on low-value parcels. Here's the DDP and IOSS playbook to keep parcels clearing."
+meta_description: "From 1 July 2026 the EU scraps the €150 duty exemption and charges €3 per item category on low-value parcels. The DDP and IOSS playbook to keep parcels moving."
 slug: eu-de-minimis-2026-customs-duty-guide
 target_keyword: eu de minimis 2026
 secondary_keywords:
@@ -109,11 +109,11 @@ If you sell direct to consumer into Europe from China, this is not a minor compl
 
 ## The €3 fee is per item category, not per parcel
 
-This is the single most misunderstood mechanic, and getting it wrong will quietly double or triple your duty exposure. The €3 duty does not apply once per parcel. It applies per customs declaration line item, which means per distinct tariff classification — the HS code sub-heading — inside the parcel.
+This is the single most misunderstood mechanic, and getting it wrong will quietly double or triple your duty exposure. The €3 duty does not apply once per parcel. It applies per customs declaration line item, which means per distinct tariff classification, the HS code sub-heading, inside the parcel.
 
 Two identical items count as one line. A parcel containing two identical cotton t-shirts is a single tariff classification, so it carries one €3 duty. But a parcel containing one cotton t-shirt and one polyester cap contains two distinct tariff classifications, so it carries €6: two lines at €3 each. This holds regardless of the order's total value. A mixed cart worth €30 with three different product categories inside it carries €9 of duty, even though the entire order would have entered duty-free the day before.
 
-There is a second compounding effect that catches brands off guard. The €3 interim duty is applied before import VAT. The duty is added to the taxable value of the goods, and then VAT is levied on the new, higher total. So you do not just pay €3 per category — you pay VAT on top of that €3 as well.
+There is a second compounding effect that catches brands off guard. The €3 interim duty is applied before import VAT. The duty is added to the taxable value of the goods, and then VAT is levied on the new, higher total. So you do not just pay €3 per category, you pay VAT on top of that €3 as well.
 
 A worked example makes the impact concrete. Take a Shopify apparel brand shipping a silk blouse at €22 plus a leather belt at €12, total €34, to a customer in France. Before 1 July, the parcel was duty-exempt and the only regulatory cost was French import VAT at 20% on €34, about €6.80. After 1 July, the two distinct HS codes attract €6 in EU duty, any national parcel tax adds more on top, and VAT is now charged on the value plus the duty. The regulatory overhead on that single €34 order roughly doubles. Ship it without the duty prepaid and the customer is asked to hand over a sizeable charge at their doorstep to collect a €34 purchase. That delivery gets refused, and the chargeback follows.
 
@@ -142,7 +142,7 @@ This is the sequence to hand your operations team. Miss a step and parcels get h
 1. **Run an HS code harmonisation and line audit now.** Move past generic four-digit codes and assign precise six or eight-digit Harmonized System codes to every SKU. Group products that share a sub-heading so multi-item carts collapse into fewer dutiable lines wherever that is genuinely accurate, since every distinct line is another €3.
 2. **Validate and re-link your IOSS registration before mid-June.** Confirm the IOSS ID is active and natively integrated with your fulfilment dashboard. The interim duty is processed through the IOSS mechanism, and an inactive ID forces an immediate fallback to legacy customs brokerage.
 3. **Reconfigure your checkout tax and duty engine by late June.** Switch your Shopify or WooCommerce setup from a DAP framework to a hard DDP model. Program the backend to inject the €3 per-line duty and the relevant national surcharges into the customer's final checkout total, so the price they pay is the price that clears customs.
-4. **Deploy origin-side customs manifests for the go-live.** Every small-parcel label must transmit its digital product identifiers — GTIN, EAN or UPC — along with the IOSS token to the carrier before departure, so each parcel hits EU customs fully pre-declared and clears single-scan in the green channel.
+4. **Deploy origin-side customs manifests for the go-live.** Every small-parcel label must transmit its digital product identifiers, GTIN, EAN or UPC, along with the IOSS token to the carrier before departure, so each parcel hits EU customs fully pre-declared and clears single-scan in the green channel.
 
 ## The window is now
 

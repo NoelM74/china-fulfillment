@@ -1,6 +1,6 @@
 ---
 title: "Direct-from-China D2C vs US 3PL: 2026 Profit Audit"
-meta_description: "A line-by-line cost audit of direct-from-China D2C versus a domestic US 3PL for Shopify brands. See where the hidden fees hide and how to protect 15-25% of margin."
+meta_description: "A line-by-line cost audit of direct-from-China D2C versus a domestic US 3PL for Shopify brands: where the hidden fees hide and how to protect 15-25% of margin."
 slug: direct-from-china-d2c-vs-us-3pl-2026
 target_keyword: direct from china d2c vs us 3pl
 secondary_keywords:
@@ -139,7 +139,7 @@ A 6 to 10 day window changes the entire premise of the domestic warehouse. The r
 
 Direct-from-China D2C is not right for every product, and pretending otherwise would be dishonest. The deciding factor is the relationship between margin and weight, because international parcel cost rises with weight while your margin headroom is fixed by your pricing.
 
-The simple test most founders can apply: a SKU is a strong candidate for direct-from-China D2C if it is high-margin and under roughly 5 lbs. Light, high-value goods — apparel, accessories, beauty, small electronics, supplements, jewellery — absorb international parcel postage comfortably and benefit fully from the deleted domestic overhead.
+The simple test most founders can apply: a SKU is a strong candidate for direct-from-China D2C if it is high-margin and under roughly 5 lbs. Light, high-value goods, apparel, accessories, beauty, small electronics, supplements, jewellery, absorb international parcel postage comfortably and benefit fully from the deleted domestic overhead.
 
 The further a SKU drifts from that profile, the weaker the case. A heavy or dense item often still belongs on local freight and domestic distribution, because the postage on a heavy direct parcel can erase the handling savings. A useful working rule: calculate your fully landed direct-from-China cost per order, including DDP duties and international postage, and compare it against your current domestic landed cost including the full line-item stack above. If the direct number is lower and the SKU is under 5 lbs, it is a candidate. If the item is heavy and the postage swamps the savings, keep it domestic.
 

@@ -1,6 +1,6 @@
 ---
 title: "Source-Side Kitting in China: Cut Bundle Costs 70%"
-meta_description: "Assembling bundles and gift sets in Shenzhen cuts kitting costs by around 70% and shrinks dimensional weight on every parcel. Here's how source-side kitting works."
+meta_description: "Assembling bundles and gift sets in Shenzhen cuts kitting costs by around 70% and shrinks dimensional weight on every parcel. How source-side kitting works."
 slug: source-side-kitting-bundle-assembly-china
 target_keyword: source side kitting china
 secondary_keywords:
@@ -129,7 +129,7 @@ Here is the saving brands almost never account for, and it is often larger than 
 
 When a kit is assembled at the destination using a generic stock box, that box almost always contains dead air around the products. Every cubic centimetre of that void inflates the dimensional weight and the freight cost on the most expensive leg of the journey. Because the box was chosen for general use rather than for this specific finished kit, the waste is built in.
 
-Assembling source-side flips this. Because the kit is built in Shenzhen, the packaging can be tailored to the exact millimetre dimensions of the finished assembled bundle before it ever enters an international lane. A custom box sized to the kit eliminates the void, which shrinks the parcel's volumetric profile, which lowers the dimensional weight the carrier bills you on. You are not just paying less for assembly labour — you are flying a smaller parcel. On high-volume international [air express](/express-international-shipping.html), trimming dead space out of every parcel compounds into a freight saving that frequently rivals or exceeds the kitting labour saving itself.
+Assembling source-side flips this. Because the kit is built in Shenzhen, the packaging can be tailored to the exact millimetre dimensions of the finished assembled bundle before it ever enters an international lane. A custom box sized to the kit eliminates the void, which shrinks the parcel's volumetric profile, which lowers the dimensional weight the carrier bills you on. You are not just paying less for assembly labour, you are flying a smaller parcel. On high-volume international [air express](/express-international-shipping.html), trimming dead space out of every parcel compounds into a freight saving that frequently rivals or exceeds the kitting labour saving itself.
 
 ## How the 70% saving adds up
 

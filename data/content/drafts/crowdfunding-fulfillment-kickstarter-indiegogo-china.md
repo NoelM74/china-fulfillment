@@ -103,7 +103,7 @@ og_image: /images/blog/crowdfunding-fulfillment-kickstarter-indiegogo-china.webp
 
 ![Staging zones of Kickstarter backer rewards being packed in a Shenzhen warehouse for global crowdfunding fulfilment](/images/blog/crowdfunding-fulfillment-kickstarter-indiegogo-china.webp)
 
-A successful crowdfunding campaign produces the single hardest shipping problem in ecommerce: thousands of orders, dozens of reward tiers, and a backer list scattered across the entire planet, all needing to ship in one concentrated wave. It is the opposite of a steady Shopify trickle. It is a surge — global, lumpy, and unforgiving — and it is exactly the moment traditional domestic warehouses tend to buckle.
+A successful crowdfunding campaign produces the single hardest shipping problem in ecommerce: thousands of orders, dozens of reward tiers, and a backer list scattered across the entire planet, all needing to ship in one concentrated wave. It is the opposite of a steady Shopify trickle. It is a surge, global, lumpy, and unforgiving, and it is exactly the moment traditional domestic warehouses tend to buckle.
 
 Creators routinely underestimate this. The campaign funds, the celebration happens, and then reality arrives: 4,000 backers in forty countries, fifteen reward tiers with different component combinations, and a domestic 3PL that was never built to push that volume across borders. This blueprint lays out why a [Shenzhen hub is purpose-built for international reward distribution](/china-crowdfunding-fulfillment.html), and the three operational systems that turn a fulfilment surge from a crisis into a routine run.
 
@@ -115,7 +115,7 @@ The components were almost certainly manufactured in China. To fulfil from a dom
 
 The friction is not only financial. Domestic warehouses optimised for domestic last-mile delivery are often slow and clumsy at high-volume international export, with limited carrier options, weak international tracking, and no source-side customs expertise. A surge of thousands of cross-border parcels is precisely the workload they handle worst.
 
-Fulfilling from Shenzhen removes the double-shipping entirely. The components are already in China. They never make a pointless round trip. Rewards ship from the source directly to backers worldwide — [6 to 10 days to the US, 5 to 8 days to the UK](/express-international-shipping.html), across 200-plus countries, on a single international leg, DDP so backers are not ambushed with duty at the door. The bottleneck disappears because the inventory starts where it should: next to the factories, pointed outward at the world.
+Fulfilling from Shenzhen removes the double-shipping entirely. The components are already in China. They never make a pointless round trip. Rewards ship from the source directly to backers worldwide, [6 to 10 days to the US, 5 to 8 days to the UK](/express-international-shipping.html), across 200-plus countries, on a single international leg, DDP so backers are not ambushed with duty at the door. The bottleneck disappears because the inventory starts where it should: next to the factories, pointed outward at the world.
 
 ## The pre-kitting manifest strategy
 
@@ -131,7 +131,7 @@ The most expensive mistake in crowdfunding fulfilment is shipping to the wrong a
 
 The defence is a final address lock, synced as late as possible. Backer management tools like BackerKit collect and update shipping addresses right up to fulfilment, allowing backers to correct details before their reward goes out. The critical step is connecting that current address data to the warehouse at the last possible moment, not weeks ahead.
 
-Our system syncs with backer management tools immediately before final fulfilment, pulling the freshest confirmed addresses so that last-minute changes are captured rather than missed. Each reward ships to the address the backer confirmed most recently, not the one they entered when they pledged. That single discipline — locking the address at the moment of dispatch rather than at the moment of pledge — drives missing and returned packages toward near-zero, which on a global run of thousands of parcels is the difference between a clean delivery report and weeks of reshipment cleanup.
+Our system syncs with backer management tools immediately before final fulfilment, pulling the freshest confirmed addresses so that last-minute changes are captured rather than missed. Each reward ships to the address the backer confirmed most recently, not the one they entered when they pledged. That single discipline, locking the address at the moment of dispatch rather than at the moment of pledge, drives missing and returned packages toward near-zero, which on a global run of thousands of parcels is the difference between a clean delivery report and weeks of reshipment cleanup.
 
 ## Why creators should plan logistics before they launch
 

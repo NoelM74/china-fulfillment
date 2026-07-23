@@ -1,6 +1,7 @@
 ---
 title: "Amazon FBA Inbound Placement & Low-Inventory Fees: 2026 Guide"
-meta_description: "Amazon's 2026 inbound placement and low-inventory fees are draining seller margins. See how a Shenzhen buffer warehouse neutralises both before your cargo ships."
+seo_title: "Amazon FBA Inbound Placement & Low-Inventory Fees (2026)"
+meta_description: "Amazon's 2026 inbound placement and low-inventory fees are draining seller margins. See how a Shenzhen buffer warehouse neutralises both before cargo ships."
 slug: amazon-fba-inbound-placement-fees-2026
 target_keyword: amazon fba inbound placement fee 2026
 secondary_keywords:
