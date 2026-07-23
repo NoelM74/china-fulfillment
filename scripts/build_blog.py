@@ -180,6 +180,8 @@ def build_pages():
         new_html.append(f'<meta property="og:description" content="{meta.get("meta_description", "")}"/>\n')
         new_html.append(f'<meta property="og:image" content="https://www.china-fulfillment.com{meta.get("og_image", "")}"/>\n')
         new_html.append(f'<meta property="og:type" content="article"/>\n')
+        new_html.append(f'<meta name="twitter:card" content="summary_large_image"/>\n')
+        new_html.append(f'<meta name="twitter:image" content="https://www.china-fulfillment.com{meta.get("og_image", "")}"/>\n')
         new_html.append(f'<meta property="og:url" content="https://www.china-fulfillment.com/{slug}.html"/>\n')
         new_html.append(f'<meta property="article:published_time" content="{meta.get("last_updated", "")}"/>\n')
         
