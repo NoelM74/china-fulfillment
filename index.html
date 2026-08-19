@@ -36,7 +36,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700;800;900&family=Mulish:wght@300;400;500;600&display=swap" rel="stylesheet"/>
 <link rel="preload" as="image" href="images/site/shenzhen-warehouse-interior-panoramic-ecommerce-fulfillment.webp" fetchpriority="high"/>
 <style>
-:root{--ink:#0c1a2e;--navy:#0d2144;--n2:#091830;--n3:#040d18;--blue:#1a4fd6;--b2:#2563eb;--ac:#f97316;--ach:#ea6c0a;--acl:rgba(249,115,22.12);--off:#f4f6fb;--w:#ffffff;--mu:#4a6178;--bd:#dae0ec;--gr:#10b981;--dk-body:rgba(255,255,255.88);--dk-sub:rgba(255,255,255.78);--dk-muted:rgba(255,255,255.68)}
+:root{--ink:#0c1a2e;--navy:#0d2144;--n2:#091830;--n3:#040d18;--blue:#1a4fd6;--b2:#2563eb;--ac:#f97316;--acd:#c25205;--acdh:#ae4a04;--ach:#ea6c0a;--acl:rgba(249,115,22.12);--off:#f4f6fb;--w:#ffffff;--mu:#4a6178;--bd:#dae0ec;--gr:#10b981;--dk-body:rgba(255,255,255.88);--dk-sub:rgba(255,255,255.78);--dk-muted:rgba(255,255,255.68)}
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
 html{scroll-behavior:smooth;font-size:16px;overflow-x:hidden}
 body{font-family:'Mulish',system-ui,sans-serif;color:var(--ink);background:var(--w);line-height:1.7;overflow-x:hidden;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;text-rendering:optimizeLegibility}
@@ -65,8 +65,8 @@ nav{position:sticky;top:0;z-index:400;background:rgba(255,255,255.97);backdrop-f
 .mob .mcta::after{display:none!important}
 .obar{background:var(--ac);color:#fff;text-align:center;padding:11px 5%;font-size:.92rem;font-weight:700;font-family:'Outfit',sans-serif;line-height:1.45}
 .obar em{font-style:normal;opacity:.9;font-weight:500;margin-left:5px}
-.bp{background:var(--ac);color:#fff;padding:14px 30px;border-radius:9px;font-weight:700;font-size:1rem;font-family:'Outfit',sans-serif;transition:background .18s,transform .14s,box-shadow .18s;display:inline-block;cursor:pointer;box-shadow:0 1px 2px rgba(180,83,9.28),0 6px 16px rgba(249,115,22.22)}
-.bp:hover{background:var(--ach);transform:translateY(-2px);box-shadow:0 2px 4px rgba(180,83,9.3),0 12px 28px rgba(249,115,22.3)}
+.bp{background:var(--acd);color:#fff;padding:14px 30px;border-radius:9px;font-weight:700;font-size:1rem;font-family:'Outfit',sans-serif;transition:background .18s,transform .14s,box-shadow .18s;display:inline-block;cursor:pointer;box-shadow:0 1px 2px rgba(180,83,9.28),0 6px 16px rgba(249,115,22.22)}
+.bp:hover{background:var(--acdh);transform:translateY(-2px);box-shadow:0 2px 4px rgba(180,83,9.3),0 12px 28px rgba(249,115,22.3)}
 .bp:active{transform:translateY(0) scale(.97)}
 .bg{border:1.5px solid rgba(255,255,255.45);color:#fff;padding:12.5px 28px;border-radius:9px;font-weight:600;font-size:1rem;font-family:'Outfit',sans-serif;transition:border-color .18s,background .18s,transform .14s;display:inline-block}
 .bg:hover{border-color:#fff;background:rgba(255,255,255.08)}
@@ -328,6 +328,18 @@ footer{background:var(--n3);border-top:1px solid rgba(255,255,255.06);padding:56
 /* mobile-readability */@media(max-width:768px){html{font-size:17.5px}}@media(max-width:360px){html{font-size:16.5px}}
 .i{width:1em;height:1em;display:inline-block;vertical-align:-.125em;flex-shrink:0}
 .hc-ico .i{color:var(--ac)}.ddp-ico .i{color:#fff}.wp-ico .i{color:var(--ac)}.pf-ico .i{color:var(--ac)}.ship-flag .i{color:rgba(255,255,255.68)}
+</style>
+<style>/* a11y: WCAG AA contrast + responsive tables */
+html body a.bp,html body a.ncta,html body a.mcta,html body .mob a.mcta,html body nav a.ncta,html body .bp{background:#c25205!important;color:#fff!important}
+html body a.bp:hover,html body a.ncta:hover,html body a.mcta:hover,html body .mob a.mcta:hover{background:#ae4a04!important}
+.art-cat{background:#d1fae5!important;color:#065f46!important}
+.article table{width:100%;border-collapse:collapse;margin:0;font-size:.93rem}
+.article th{background:#0d2144;color:#fff;font-family:'Outfit',sans-serif;font-weight:700;padding:12px 14px;text-align:left;font-size:.86rem;line-height:1.35}
+.article td{padding:12px 14px;border-bottom:1px solid #dae0ec;color:#334155;line-height:1.5}
+.article tbody tr:nth-child(even) td{background:#f4f6fb}
+.article .tw{overflow-x:auto;-webkit-overflow-scrolling:touch;margin:24px 0 32px;border-radius:10px;border:1px solid #dae0ec}
+
+.obar{background:#c25205!important;color:#fff!important}
 </style>
 </head>
 <body>

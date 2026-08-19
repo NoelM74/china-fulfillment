@@ -14,7 +14,7 @@ audience: shopify
 geo: JP
 content_type: blog_post
 author: Noel Murphy
-last_updated: 2026-08-31
+last_updated: 2026-09-29
 images:
   hero: /images/blog/china-to-japan-fulfillment-2026.webp
   hero_alt: "Parcels dispatched from a Shenzhen warehouse to Japanese customers on short sea and air lanes as the consumption tax treatment of low-value imports changes"
@@ -42,8 +42,8 @@ og_image: /images/blog/china-to-japan-fulfillment-2026.webp
       "url": "https://www.china-fulfillment.com/logo.png"
     }
   },
-  "datePublished": "2026-08-31",
-  "dateModified": "2026-08-31",
+  "datePublished": "2026-09-29",
+  "dateModified": "2026-09-29",
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "https://www.china-fulfillment.com/china-to-japan-fulfillment-2026.html"
@@ -61,7 +61,7 @@ og_image: /images/blog/china-to-japan-fulfillment-2026.webp
       "name": "Is there still a de minimis threshold for shipping to Japan?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Japan has long exempted imported goods under a customs value of 10,000 yen from consumption tax, and that exemption is being withdrawn. Japan's ruling party proposed in December 2025 that all imported low-value goods be subject to the 10 percent consumption tax, and the change was taken forward through the FY2026 tax reform. The direction of travel is settled, but implementation is phased and some elements run to 2028, so treat any specific date as provisional and confirm the current position with a Japanese tax adviser before you price it in. This reflects the position as at August 2026."
+        "text": "Japan has long exempted imported goods under a customs value of 10,000 yen from consumption tax, and that exemption is being withdrawn. Japan's ruling party proposed in December 2025 that all imported low-value goods be subject to the 10 percent consumption tax, and the change was taken forward through the FY2026 tax reform. The direction of travel is settled, but implementation is phased and some elements run to 2028, so treat any specific date as provisional and confirm the current position with a Japanese tax adviser before you price it in. This reflects the position as at September 2026."
       }
     },
     {
@@ -108,7 +108,7 @@ Japan is the large developed ecommerce market that most cross-border sellers ski
 
 The thing that has changed is tax. Japan is doing what the United States and the European Union have already done: closing the gap that let small imported parcels arrive without the tax a domestic retailer would have charged. If you sell into Japan, or you are thinking about it, that is the part to understand before you build your pricing.
 
-> **Quick answer:** Japan's long-standing exemption for imported goods under 10,000 yen is being withdrawn, with the ruling party proposing in December 2025 that all imported low-value goods carry the 10 percent consumption tax, taken forward through the FY2026 tax reform. Liability moves from the consumer at the border onto the overseas seller, and onto the platform operator where the sale runs through a large marketplace, reported at an annual threshold of 5 billion yen. JCT is charged on CIF value plus duty, so freight sits inside the taxable base. Transit is short: roughly one to three days by air, and three to seven days port to port by sea depending on the lane. This is the position as at August 2026 and it is still phasing in.
+> **Quick answer:** Japan's long-standing exemption for imported goods under 10,000 yen is being withdrawn, with the ruling party proposing in December 2025 that all imported low-value goods carry the 10 percent consumption tax, taken forward through the FY2026 tax reform. Liability moves from the consumer at the border onto the overseas seller, and onto the platform operator where the sale runs through a large marketplace, reported at an annual threshold of 5 billion yen. JCT is charged on CIF value plus duty, so freight sits inside the taxable base. Transit is short: roughly one to three days by air, and three to seven days port to port by sea depending on the lane. This is the position as at September 2026 and it is still phasing in.
 
 ## What is actually changing
 
@@ -122,7 +122,7 @@ Two mechanics are worth knowing beyond the headline.
 
 **Liability moves upstream.** Rather than customs charging the Japanese consumer at the border, the overseas seller of low-value goods carries the JCT liability. Where the sale runs through a digital platform, it lands on the **platform operator** instead, subject to an annual sales threshold reported at **5 billion yen**. Registration obligations for suppliers of low-value consignments are reported as phasing in from around **April 2028**.
 
-This is a live reform with phased elements, so treat every date here as the position as at August 2026 and confirm the current detail with a Japanese tax adviser before you build it into your prices.
+This is a live reform with phased elements, so treat every date here as the position as at September 2026 and confirm the current detail with a Japanese tax adviser before you build it into your prices.
 
 ## How Japanese import tax is calculated
 

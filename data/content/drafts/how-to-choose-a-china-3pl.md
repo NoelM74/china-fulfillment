@@ -14,7 +14,7 @@ audience: shopify
 geo: global
 content_type: blog_post
 author: Noel Murphy
-last_updated: 2026-08-20
+last_updated: 2026-09-02
 images:
   hero: /images/blog/how-to-choose-a-china-3pl.webp
   hero_alt: "A seller comparing China fulfilment providers against a Shenzhen warehouse operation, weighing pricing, integrations and quality control before signing"
@@ -42,8 +42,8 @@ og_image: /images/blog/how-to-choose-a-china-3pl.webp
       "url": "https://www.china-fulfillment.com/logo.png"
     }
   },
-  "datePublished": "2026-08-20",
-  "dateModified": "2026-08-20",
+  "datePublished": "2026-09-02",
+  "dateModified": "2026-09-02",
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "https://www.china-fulfillment.com/how-to-choose-a-china-3pl.html"

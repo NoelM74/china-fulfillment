@@ -14,7 +14,7 @@ audience: shopify
 geo: global
 content_type: blog_post
 author: Noel Murphy
-last_updated: 2026-08-22
+last_updated: 2026-09-08
 images:
   hero: /images/blog/incoterms-china-imports-exw-fob-cif-ddp.webp
   hero_alt: "The handover points for EXW, FOB, CIF and DDP mapped across a China export journey from factory gate to port to the buyer's door"
@@ -42,8 +42,8 @@ og_image: /images/blog/incoterms-china-imports-exw-fob-cif-ddp.webp
       "url": "https://www.china-fulfillment.com/logo.png"
     }
   },
-  "datePublished": "2026-08-22",
-  "dateModified": "2026-08-22",
+  "datePublished": "2026-09-08",
+  "dateModified": "2026-09-08",
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "https://www.china-fulfillment.com/incoterms-china-imports-exw-fob-cif-ddp.html"

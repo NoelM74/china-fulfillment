@@ -351,7 +351,7 @@
     "status": "published",
     "draft_path": "data/content/drafts/how-to-choose-a-china-3pl.md",
     "created_at": "2026-08-19",
-    "published_at": "2026-08-20",
+    "published_at": "2026-09-02",
     "notes": "Content-gap audit P0. Bottom-funnel commercial. Grounded in Market Intelligence notebook (win/loss factors, buyer journey, competitor set). Published with hero + infographic."
   },
   {
@@ -364,7 +364,7 @@
     "status": "published",
     "draft_path": "data/content/drafts/incoterms-china-imports-exw-fob-cif-ddp.md",
     "created_at": "2026-08-19",
-    "published_at": "2026-08-22",
+    "published_at": "2026-09-08",
     "notes": "Content-gap audit P0. Converts the DDP post into an Incoterms cluster hub. Published with hero + infographic."
   },
   {
@@ -377,7 +377,7 @@
     "status": "published",
     "draft_path": "data/content/drafts/dim-weight-packaging-optimisation-2026.md",
     "created_at": "2026-08-19",
-    "published_at": "2026-08-25",
+    "published_at": "2026-09-15",
     "notes": "Content-gap audit P1, time-sensitive. Hook: USPS divisor 166 to 139 from 12 Jul 2026, fractions round up, applies above 1 cu ft. Published with hero + infographic."
   },
   {
@@ -390,7 +390,7 @@
     "status": "published",
     "draft_path": "data/content/drafts/product-compliance-importing-from-china-2026.md",
     "created_at": "2026-08-19",
-    "published_at": "2026-08-27",
+    "published_at": "2026-09-22",
     "notes": "Content-gap audit P1. Hook: CPSC mandatory eFiling from 8 Jul 2026, FTZ from 8 Jan 2027; UK indefinite CE recognition. Guardrail: labs test, seller certifies, 3PL does neither. Published with hero + infographic."
   },
   {
@@ -403,7 +403,7 @@
     "status": "published",
     "draft_path": "data/content/drafts/china-to-japan-fulfillment-2026.md",
     "created_at": "2026-08-19",
-    "published_at": "2026-08-31",
+    "published_at": "2026-09-29",
     "notes": "Content-gap audit P1. Completes the corridor cluster. Hook: 10,000 yen exemption withdrawn, JCT on CIF+duty, platform liability above 5bn yen, phasing to 2028. Published with hero + infographic."
   }
 ]

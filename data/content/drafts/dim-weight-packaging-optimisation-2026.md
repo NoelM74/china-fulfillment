@@ -14,7 +14,7 @@ audience: shopify
 geo: global
 content_type: blog_post
 author: Noel Murphy
-last_updated: 2026-08-25
+last_updated: 2026-09-15
 images:
   hero: /images/blog/dim-weight-packaging-optimisation-2026.webp
   hero_alt: "Right-sizing a parcel at the packing bench so billable dimensional weight drops, after the July 2026 USPS divisor change from 166 to 139"
@@ -42,8 +42,8 @@ og_image: /images/blog/dim-weight-packaging-optimisation-2026.webp
       "url": "https://www.china-fulfillment.com/logo.png"
     }
   },
-  "datePublished": "2026-08-25",
-  "dateModified": "2026-08-25",
+  "datePublished": "2026-09-15",
+  "dateModified": "2026-09-15",
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "https://www.china-fulfillment.com/dim-weight-packaging-optimisation-2026.html"
@@ -142,7 +142,7 @@ Two things, and the second gets less attention than it deserves.
 
 The change applies to Priority Mail Express, Priority Mail, USPS Ground Advantage and Parcel Select, and only to packages **larger than one cubic foot**, which is 1,728 cubic inches. Below that threshold, USPS dimensional pricing does not kick in, which makes the one-cubic-foot line a genuinely useful target to design packaging around.
 
-Carrier rules change and this one is recent, so treat these figures as the position as at August 2026 and confirm the current terms with your carrier before you rebuild your pricing on them.
+Carrier rules change and this one is recent, so treat these figures as the position as at September 2026 and confirm the current terms with your carrier before you rebuild your pricing on them.
 
 The categories hit hardest are predictable: light and bulky. Apparel, bedding, soft furnishings, toys, pet products, anything sold as a multipack, and anything shipped in a box chosen for looks rather than fit.
 

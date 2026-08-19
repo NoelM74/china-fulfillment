@@ -36,7 +36,7 @@ body{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;text-r
 h1,h2,h3,h4,h5{text-wrap:balance}
 p{text-wrap:pretty}
 
-:root{--ink:#0c1a2e;--navy:#0d2144;--n2:#091830;--n3:#040d18;--blue:#1a4fd6;--b2:#2563eb;--ac:#f97316;--ach:#ea6c0a;--acl:rgba(249,115,22.12);--off:#f4f6fb;--w:#ffffff;--mu:#4a6178;--bd:#dae0ec;--gr:#10b981;--dk-body:rgba(255,255,255.88);--dk-sub:rgba(255,255,255.78);--dk-muted:rgba(255,255,255.68)}
+:root{--ink:#0c1a2e;--navy:#0d2144;--n2:#091830;--n3:#040d18;--blue:#1a4fd6;--b2:#2563eb;--ac:#f97316;--acd:#c25205;--acdh:#ae4a04;--ach:#ea6c0a;--acl:rgba(249,115,22.12);--off:#f4f6fb;--w:#ffffff;--mu:#4a6178;--bd:#dae0ec;--gr:#10b981;--dk-body:rgba(255,255,255.88);--dk-sub:rgba(255,255,255.78);--dk-muted:rgba(255,255,255.68)}
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
 html{scroll-behavior:smooth;font-size:16px}
 body{font-family:'Mulish',system-ui,sans-serif;color:var(--ink);background:var(--w);line-height:1.7;overflow-x:hidden}
@@ -58,13 +58,13 @@ nav{position:sticky;top:0;z-index:400;background:rgba(255,255,255.97);backdrop-f
 .mob{display:none;position:fixed;top:66px;left:0;right:0;bottom:0;background:var(--w);z-index:399;padding:20px 5% 40px;overflow-y:auto;border-top:3px solid var(--ac)}
 .mob.o{display:block}
 .mob a{display:flex;justify-content:space-between;align-items:center;padding:16px 0;font-size:1rem;font-weight:600;color:var(--ink);border-bottom:1px solid var(--bd);font-family:'Outfit',sans-serif}
-.mob a::after{content:'›';color:var(--ac);font-size:1.2rem;font-weight:700}
+.mob a::after{content:'›';color:var(--acd);font-size:1.2rem;font-weight:700}
 .mob .mcta{background:var(--ac)!important;color:#fff!important;padding:16px 20px!important;border-radius:10px;margin-top:24px;text-align:center;display:block!important;font-size:1rem!important}
 .mob .mcta::after{display:none!important}
 .obar{background:var(--ac);color:#fff;text-align:center;padding:11px 5%;font-size:.92rem;font-weight:700;font-family:'Outfit',sans-serif;line-height:1.45}
 .obar em{font-style:normal;opacity:.9;font-weight:500;margin-left:5px}
-.bp{background:var(--ac);color:#fff;padding:14px 30px;border-radius:8px;font-weight:700;font-size:1rem;font-family:'Outfit',sans-serif;transition:all .18s;display:inline-block;cursor:pointer}
-.bp:hover{background:var(--ach);transform:translateY(-2px);box-shadow:0 8px 24px rgba(249,115,22.32)}
+.bp{background:var(--acd);color:#fff;padding:14px 30px;border-radius:8px;font-weight:700;font-size:1rem;font-family:'Outfit',sans-serif;transition:all .18s;display:inline-block;cursor:pointer}
+.bp:hover{background:var(--acdh);transform:translateY(-2px);box-shadow:0 8px 24px rgba(249,115,22.32)}
 .bg-light{border:2px solid var(--bd);color:var(--ink);padding:12px 28px;border-radius:8px;font-weight:600;font-size:1rem;font-family:'Outfit',sans-serif;transition:all .18s;display:inline-block}
 .bg-light:hover{border-color:var(--ac);color:var(--ac)}
 .bg{border:2px solid rgba(255,255,255.5);color:#fff;padding:12px 28px;border-radius:8px;font-weight:600;font-size:1rem;font-family:'Outfit',sans-serif;transition:all .18s;display:inline-block}
@@ -159,6 +159,18 @@ footer{background:var(--n3);border-top:1px solid rgba(255,255,255.06);padding:56
 .i{width:1em;height:1em;display:inline-block;vertical-align:-.125em;flex-shrink:0}
 </style>
  <link rel="stylesheet" href="global-nav-footer.css"/>
+<style>/* a11y: WCAG AA contrast + responsive tables */
+html body a.bp,html body a.ncta,html body a.mcta,html body .mob a.mcta,html body nav a.ncta,html body .bp{background:#c25205!important;color:#fff!important}
+html body a.bp:hover,html body a.ncta:hover,html body a.mcta:hover,html body .mob a.mcta:hover{background:#ae4a04!important}
+.art-cat{background:#d1fae5!important;color:#065f46!important}
+.article table{width:100%;border-collapse:collapse;margin:0;font-size:.93rem}
+.article th{background:#0d2144;color:#fff;font-family:'Outfit',sans-serif;font-weight:700;padding:12px 14px;text-align:left;font-size:.86rem;line-height:1.35}
+.article td{padding:12px 14px;border-bottom:1px solid #dae0ec;color:#334155;line-height:1.5}
+.article tbody tr:nth-child(even) td{background:#f4f6fb}
+.article .tw{overflow-x:auto;-webkit-overflow-scrolling:touch;margin:24px 0 32px;border-radius:10px;border:1px solid #dae0ec}
+
+.obar{background:#c25205!important;color:#fff!important}
+</style>
 </head>
 <body>
 

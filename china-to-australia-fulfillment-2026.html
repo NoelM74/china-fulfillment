@@ -100,7 +100,7 @@ body{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;text-r
 h1,h2,h3,h4,h5{text-wrap:balance}
 p{text-wrap:pretty}
 
-:root{--ink:#0c1a2e;--navy:#0d2144;--n2:#091830;--n3:#040d18;--blue:#1a4fd6;--b2:#2563eb;--ac:#f97316;--ach:#ea6c0a;--off:#f4f6fb;--w:#ffffff;--mu:#4a6178;--bd:#dae0ec;--gr:#10b981}
+:root{--ink:#0c1a2e;--navy:#0d2144;--n2:#091830;--n3:#040d18;--blue:#1a4fd6;--b2:#2563eb;--ac:#f97316;--acd:#c25205;--acdh:#ae4a04;--ach:#ea6c0a;--off:#f4f6fb;--w:#ffffff;--mu:#4a6178;--bd:#dae0ec;--gr:#10b981}
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
 html{scroll-behavior:smooth;font-size:16px}
 body{font-family:'Mulish',system-ui,sans-serif;color:var(--ink);background:var(--w);line-height:1.7;overflow-x:hidden}
@@ -122,7 +122,7 @@ nav{position:sticky;top:0;z-index:400;background:rgba(255,255,255.97);backdrop-f
 .mob{display:none;position:fixed;top:66px;left:0;right:0;bottom:0;background:var(--w);z-index:399;padding:20px 5% 40px;overflow-y:auto;border-top:3px solid var(--ac)}
 .mob.o{display:block}
 .mob a{display:flex;justify-content:space-between;align-items:center;padding:16px 0;font-size:1rem;font-weight:600;color:var(--ink);border-bottom:1px solid var(--bd);font-family:'Outfit',sans-serif}
-.mob a::after{content:'›';color:var(--ac);font-size:1.2rem;font-weight:700}
+.mob a::after{content:'›';color:var(--acd);font-size:1.2rem;font-weight:700}
 .mob .mcta{background:var(--ac)!important;color:#fff!important;padding:16px 20px!important;border-radius:10px;margin-top:24px;text-align:center;display:block!important;font-size:1rem!important}
 .mob .mcta::after{display:none!important}
 .bread{background:var(--off);border-bottom:1px solid var(--bd);padding:12px 5%;font-size:.85rem;color:var(--mu);font-family:'Outfit',sans-serif}
@@ -145,7 +145,7 @@ nav{position:sticky;top:0;z-index:400;background:rgba(255,255,255.97);backdrop-f
 .article strong{color:var(--ink);font-weight:700}
 .article ul.article ol{margin:0 0 18px 0;padding-left:26px;color:#334155}
 .article li{font-size:1.02rem;line-height:1.82;margin-bottom:9px}
-.article li::marker{color:var(--ac)}
+.article li::marker{color:var(--acd)}
 .article li strong{color:var(--ink)}
 
 .ctable{width:100%;border-collapse:collapse;margin:24px 0 32px;font-size:.93rem;border-radius:12px;overflow:hidden;box-shadow:0 2px 12px rgba(0,0,0.06)}
@@ -170,15 +170,15 @@ nav{position:sticky;top:0;z-index:400;background:rgba(255,255,255.97);backdrop-f
 .ctaf{background:#0a152a;color:#fff;text-align:center;padding:72px 5%}
 .ctaf h2{font-family:'Outfit',sans-serif;font-size:clamp(1.6rem,2.6vw,2.2rem);font-weight:900;max-width:620px;margin:0 auto 14px}
 .ctaf p{font-size:1rem;color:rgba(255,255,255.85);max-width:520px;margin:0 auto 28px;line-height:1.7}
-.bp{background:var(--ac);color:#fff;padding:14px 30px;border-radius:8px;font-weight:700;font-size:1rem;font-family:'Outfit',sans-serif;transition:all .18s;display:inline-block}
-.bp:hover{background:var(--ach);transform:translateY(-2px);box-shadow:0 8px 24px rgba(249,115,22.32);text-decoration:none}
+.bp{background:var(--acd);color:#fff;padding:14px 30px;border-radius:8px;font-weight:700;font-size:1rem;font-family:'Outfit',sans-serif;transition:all .18s;display:inline-block}
+.bp:hover{background:var(--acdh);transform:translateY(-2px);box-shadow:0 8px 24px rgba(249,115,22.32);text-decoration:none}
 
 .faq{padding:56px 5% 72px}
 .faq .w{max-width:760px;margin:0 auto}
 .faq h2{font-family:'Outfit',sans-serif;font-size:1.45rem;font-weight:800;color:var(--ink);margin-bottom:24px}
 details{border-bottom:1px solid var(--bd)}
 summary{padding:18px 0;font-family:'Outfit',sans-serif;font-size:1rem;font-weight:700;color:var(--ink);cursor:pointer;list-style:none;display:flex;justify-content:space-between;align-items:center}
-summary::after{content:'+';font-size:1.3rem;color:var(--ac);font-weight:700;transition:transform .2s}
+summary::after{content:'+';font-size:1.3rem;color:var(--acd);font-weight:700;transition:transform .2s}
 details[open] summary::after{content:'-'}
 details p{padding:0 0 18px;font-size:.97rem;color:var(--mu);line-height:1.78}
 
@@ -200,6 +200,18 @@ footer{background:var(--n3);border-top:1px solid rgba(255,255,255.06);padding:56
 .i{width:1em;height:1em;display:inline-block;vertical-align:-.125em;flex-shrink:0}
 </style>
  <link rel="stylesheet" href="global-nav-footer.css"/>
+<style>/* a11y: WCAG AA contrast + responsive tables */
+html body a.bp,html body a.ncta,html body a.mcta,html body .mob a.mcta,html body nav a.ncta,html body .bp{background:#c25205!important;color:#fff!important}
+html body a.bp:hover,html body a.ncta:hover,html body a.mcta:hover,html body .mob a.mcta:hover{background:#ae4a04!important}
+.art-cat{background:#d1fae5!important;color:#065f46!important}
+.article table{width:100%;border-collapse:collapse;margin:0;font-size:.93rem}
+.article th{background:#0d2144;color:#fff;font-family:'Outfit',sans-serif;font-weight:700;padding:12px 14px;text-align:left;font-size:.86rem;line-height:1.35}
+.article td{padding:12px 14px;border-bottom:1px solid #dae0ec;color:#334155;line-height:1.5}
+.article tbody tr:nth-child(even) td{background:#f4f6fb}
+.article .tw{overflow-x:auto;-webkit-overflow-scrolling:touch;margin:24px 0 32px;border-radius:10px;border:1px solid #dae0ec}
+
+.obar{background:#c25205!important;color:#fff!important}
+</style>
 </head>
 <body>
 
@@ -268,7 +280,7 @@ footer{background:var(--n3);border-top:1px solid rgba(255,255,255.06);padding:56
 <h2>Do you need to register for Australian GST?</h2>
 <p>The trigger is turnover, not a single sale. You are generally required to register for Australian GST once your Australia-connected sales reach <strong>A$75,000 or more in a 12-month period</strong>. Below that, registration may be optional, though many sellers register anyway so they can collect and remit correctly from the start.</p>
 <p>This is the seller's responsibility, not the fulfilment warehouse's. Registration, and getting the GST collection set up in your Shopify or marketplace checkout, is something to confirm with an Australian tax adviser. What we handle is the physical side: getting the parcel to Australia, cleared, with any border charges settled so nothing lands on your customer.</p>
-<p><img alt="How Australia's A$1,000 GST threshold works: for orders at or under A$1,000 a GST-registered seller charges 10% GST at checkout with no duty, while orders above A$1,000 have GST and duty assessed at the border, all prepaid under DDP" src="/images/blog/infographic-australia-gst-threshold.webp" /></p>
+<p><img src="/images/blog/infographic-australia-gst-threshold.webp" alt="How Australia's A$1,000 GST threshold works: for orders at or under A$1,000 a GST-registered seller charges 10% GST at checkout with no duty, while orders above A$1,000 have GST and duty assessed at the border, all prepaid under DDP" width="1200" height="1500" loading="lazy" decoding="async"/></p>
 <h2>Why DDP still matters here</h2>
 <p>Even with GST handled at checkout, <a href="/ddp-shipping-from-china-explained-2026.html">DDP</a> is the right way to ship direct-to-consumer into Australia. On the low-value orders that make up most of your volume, DDP ensures the parcel clears without the customer being asked for anything. On the occasional order above A$1,000, DDP is essential, because it means the border GST and duty are prepaid rather than presented to your customer by the courier with a handling fee attached. Either way, the Australian buyer gets one price and a clean delivery. We ship <a href="/express-international-shipping.html">DDP express and parcel</a> into Australia as standard.</p>
 <h2>Delivery from Shenzhen: one of the faster long lanes</h2>

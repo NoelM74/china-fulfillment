@@ -14,7 +14,7 @@ audience: amazon_fba
 geo: global
 content_type: blog_post
 author: Noel Murphy
-last_updated: 2026-08-27
+last_updated: 2026-09-22
 images:
   hero: /images/blog/product-compliance-importing-from-china-2026.webp
   hero_alt: "Compliance documents and test reports checked alongside China-made goods before export, covering CPC, FCC, CE and UKCA requirements in 2026"
@@ -42,8 +42,8 @@ og_image: /images/blog/product-compliance-importing-from-china-2026.webp
       "url": "https://www.china-fulfillment.com/logo.png"
     }
   },
-  "datePublished": "2026-08-27",
-  "dateModified": "2026-08-27",
+  "datePublished": "2026-09-22",
+  "dateModified": "2026-09-22",
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "https://www.china-fulfillment.com/product-compliance-importing-from-china-2026.html"
@@ -160,7 +160,7 @@ If you are shipping into the EU you also have VAT and IOSS obligations that sit 
 
 This one has moved several times, and a lot of advice online is out of date.
 
-The short version as at August 2026: **the UK recognises CE marking indefinitely for most goods**. The Product Safety and Metrology etc (Amendment) Regulations 2024 made that recognition permanent across a large set of product regulations, which means a CE-marked product can generally be placed on the Great Britain market without applying a separate UKCA mark.
+The short version as at September 2026: **the UK recognises CE marking indefinitely for most goods**. The Product Safety and Metrology etc (Amendment) Regulations 2024 made that recognition permanent across a large set of product regulations, which means a CE-marked product can generally be placed on the Great Britain market without applying a separate UKCA mark.
 
 UKCA is still required for the categories left outside that recognition, which include **medical devices, construction products, marine equipment, rail products, cableways, transportable pressure equipment and unmanned aircraft systems**. Medical devices in particular remain in flux, with the MHRA having consulted in early 2026 on whether to make CE recognition indefinite there too.
 
