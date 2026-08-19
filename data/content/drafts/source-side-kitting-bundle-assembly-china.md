@@ -125,7 +125,7 @@ This matters more for kits than for single items, because a kit aggregates the r
 
 ## Dimensional weight reduction
 
-Here is the saving brands almost never account for, and it is often larger than the labour saving. International express and air freight do not bill purely on actual weight. They bill on dimensional weight, also called volumetric weight, which converts a parcel's size into a chargeable weight. A light but bulky parcel is billed on its volume, not its mass. Empty space inside a box is space you pay to fly across the world.
+Here is the saving brands almost never account for, and it is often larger than the labour saving. International express and air freight do not bill purely on actual weight. They bill on [dimensional weight](/dim-weight-packaging-optimisation-2026.html), also called volumetric weight, which converts a parcel's size into a chargeable weight. A light but bulky parcel is billed on its volume, not its mass. Empty space inside a box is space you pay to fly across the world.
 
 When a kit is assembled at the destination using a generic stock box, that box almost always contains dead air around the products. Every cubic centimetre of that void inflates the dimensional weight and the freight cost on the most expensive leg of the journey. Because the box was chosen for general use rather than for this specific finished kit, the waste is built in.
 

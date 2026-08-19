@@ -140,7 +140,7 @@ No battery ships without paperwork, and missing or invalid documentation is the 
 - **Safety Data Sheet (SDS/MSDS).** The hazard and handling data for the specific battery.
 - **Safe Transport Certificate**, where required, plus correct **Class 9 labels** and mode-specific dangerous-goods declarations.
 
-Here is the honest division of labour: **these documents originate with your battery cell or product manufacturer, not with us.** The UN38.3 testing is done at the manufacturing stage; a fulfilment warehouse cannot create a test report for a cell it did not make. What you must do is get valid, current documentation from your supplier for every battery variant before goods ship. What we do is verify it is present and correct, pack and label to the dangerous-goods standard, prepare the declarations, and book the shipment on a carrier and lane that accepts it.
+Here is the honest division of labour: **these documents originate with your battery cell or product manufacturer, not with us.** That is the same boundary that applies to [product certification generally](/product-compliance-importing-from-china-2026.html). The UN38.3 testing is done at the manufacturing stage; a fulfilment warehouse cannot create a test report for a cell it did not make. What you must do is get valid, current documentation from your supplier for every battery variant before goods ship. What we do is verify it is present and correct, pack and label to the dangerous-goods standard, prepare the declarations, and book the shipment on a carrier and lane that accepts it.
 
 ## Can it go by air? Often no
 

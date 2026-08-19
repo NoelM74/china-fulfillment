@@ -130,9 +130,9 @@ Nobody can give you a single, honest "shipping from China costs $X" number, and 
 
 - **Express courier** (DHL, FedEx, UPS) for fast direct-to-consumer parcels. We pass on carrier discounts of up to 40% on standard rates.
 - **Air freight** for faster bulk movements, from roughly $4.50 to $8.50 per kg depending on lane and service. Our [air vs sea vs express comparison](/news-shipping-times-costs-china-2026.html) sets out when each mode makes sense.
-- **Sea freight** for bulk inventory, with less-than-container-load from around $300 per CBM and full containers from approximately $1,800 for a 20-foot container to the US.
+- **Sea freight** for bulk inventory, with less-than-container-load from around $300 per CBM and full containers from approximately $1,800 for a 20-foot container to the US. Which of those legs you pay for depends on [the Incoterm you buy on](/incoterms-china-imports-exw-fob-cif-ddp.html).
 
-A light, small item ships cheaply by express; a heavy or bulky one may only make economic sense by sea. This is why a real quote beats a headline number: the same $0.99 pick and pack sits in front of wildly different shipping costs depending on what you sell and where it goes. Our [express and freight options](/express-international-shipping.html) are quoted per shipment for exactly this reason.
+A light, small item ships cheaply by express; a heavy or bulky one may only make economic sense by sea, and [dimensional weight](/dim-weight-packaging-optimisation-2026.html) means bulk costs you even when the scale says otherwise. This is why a real quote beats a headline number: the same $0.99 pick and pack sits in front of wildly different shipping costs depending on what you sell and where it goes. Our [express and freight options](/express-international-shipping.html) are quoted per shipment for exactly this reason.
 
 ![China fulfilment cost stack for 2026: low fixed handling (pick and pack $0.99, storage $0.49 per CBM per day, zero receiving fees) plus variable shipping quoted by weight and destination, versus higher Western 3PL handling rates](/images/blog/infographic-china-fulfillment-cost-stack.webp)
 
@@ -144,7 +144,7 @@ On **handling and storage, China is generally cheaper**, and the reason is simpl
 
 ## The hidden costs that make a cheap rate expensive
 
-A low pick-and-pack headline can hide the lines that actually cost you money. When you compare providers, ask about these:
+A low pick-and-pack headline can hide the lines that actually cost you money. When you [compare providers](/how-to-choose-a-china-3pl.html), ask about these:
 
 - **Receiving fees.** Some charge to book your stock in. Ours are zero.
 - **Storage after any free period, and long-term penalties.** A free first month means little if the ongoing rate is high or penalties bite. Ours is $0.49 per CBM per day with no long-term penalties.

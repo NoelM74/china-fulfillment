@@ -119,7 +119,7 @@ But here you are.
 
 Your supplier in Shenzhen ships to your apartment. You repack everything into mailers. You queue at the post office. And every time an order spikes over the weekend, Monday morning feels like a logistics disaster.
 
-At some point, every Shopify seller sourcing from China hits the same fork in the road: keep doing this yourself, or hand fulfilment to a **China 3PL** (third-party logistics provider) that does it for a living.
+At some point, every Shopify seller sourcing from China hits the same fork in the road: keep doing this yourself, or hand fulfilment to a **China 3PL** (third-party logistics provider) that does it for a living. If you have already made that call and are now [choosing between providers](/how-to-choose-a-china-3pl.html), that is a different question with its own answers.
 
 This guide breaks down the real differences between **China 3PL vs self fulfilment**, the costs most people forget to count, the speed difference your customers actually notice, and the honest inflection point where switching makes financial sense.
 

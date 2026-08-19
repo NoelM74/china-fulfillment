@@ -148,4 +148,4 @@ For most brands, shipping direct from Shenzhen DDP is the right way to enter the
 
 ## The bottom line
 
-Australia is one of the cleaner markets to sell into from China: a high, simple A$1,000 threshold, GST collected at checkout once you are registered, fast delivery, and no duty on the low-value orders that make up most of your sales. Register for GST when you cross A$75,000, ship DDP so no customer sees a bill, and you have a smooth lane from Shenzhen to Sydney. [Tell us your Australian volume and we'll map the setup](/Contact-Us.html).
+Australia is one of the cleaner markets to sell into from China: a high, simple A$1,000 threshold, GST collected at checkout once you are registered, fast delivery, and no duty on the low-value orders that make up most of your sales. Register for GST when you cross A$75,000, ship DDP so no customer sees a bill, and you have a smooth lane from Shenzhen to Sydney. If you are expanding across Asia-Pacific, [Japan is the next corridor worth reading](/china-to-japan-fulfillment-2026.html). [Tell us your Australian volume and we'll map the setup](/Contact-Us.html).

@@ -104,7 +104,7 @@ og_image: /images/blog/ddp-shipping-from-china-explained-2026.webp
 
 ![DDP parcel from China being delivered to a customer's door with all duties and taxes already paid in 2026](/images/blog/ddp-shipping-from-china-explained-2026.webp)
 
-DDP is one of those three-letter shipping terms that gets used constantly and explained rarely. If you sell physical products from China, it is also the single most important Incoterm to understand in 2026, because the duty exemptions that used to make it irrelevant for small parcels are gone. Get the term right and your customer receives a clean delivery. Get it wrong and they get ambushed by a courier asking for money before they can open the box.
+DDP is one of those three-letter shipping terms that gets used constantly and explained rarely. If you sell physical products from China, it is also the single most important [Incoterm](/incoterms-china-imports-exw-fob-cif-ddp.html) to understand in 2026, because the duty exemptions that used to make it irrelevant for small parcels are gone. Get the term right and your customer receives a clean delivery. Get it wrong and they get ambushed by a courier asking for money before they can open the box.
 
 Here is exactly what DDP means, who pays what, how it differs from the alternative, and why it went from a nice-to-have to a non-negotiable this year.
 
@@ -157,7 +157,7 @@ That role is the **importer of record**, and under DDP it sits with the seller, 
 
 For years, the choice of Incoterm barely touched the customer on small parcels, because low-value shipments cleared duty-free under de minimis thresholds. If little or no duty was owed, DDP and DAP felt almost the same at the door.
 
-That world is gone. The US [suspended its $800 de minimis exemption](/us-de-minimis-ended-2026-china-sellers-guide.html) in 2025, the [EU is removing its €150 threshold](/eu-de-minimis-2026-customs-duty-guide.html) from July 2026, and other markets are tightening too. Now nearly every parcel owes something. That single change is what promoted DDP from a nice-to-have to the default safe model. When every parcel carries duty, DDP is the only Incoterm that keeps your customer from being the one who gets the bill.
+That world is gone. The US [suspended its $800 de minimis exemption](/us-de-minimis-ended-2026-china-sellers-guide.html) in 2025, the [EU is removing its €150 threshold](/eu-de-minimis-2026-customs-duty-guide.html) from July 2026, and [other markets including Japan](/china-to-japan-fulfillment-2026.html) are tightening too. Now nearly every parcel owes something. That single change is what promoted DDP from a nice-to-have to the default safe model. When every parcel carries duty, DDP is the only Incoterm that keeps your customer from being the one who gets the bill.
 
 ## How we run DDP from Shenzhen
 

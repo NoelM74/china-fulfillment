@@ -125,7 +125,7 @@ This guide covers the most common reasons Amazon rejects shipments from China, w
 
 ## Why FBA Prep Rejections Are Getting Worse
 
-Amazon has been tightening inbound compliance rules steadily since 2024. Their fulfilment centres process millions of units per day, and they have zero tolerance for shipments that slow down their intake process.
+Amazon has been tightening inbound compliance rules steadily since 2024, and that sits on top of the [product compliance obligations](/product-compliance-importing-from-china-2026.html) you already carry. Their fulfilment centres process millions of units per day, and they have zero tolerance for shipments that slow down their intake process.
 
 In 2025, Amazon rolled out stricter inbound placement fees and updated their prep requirements for several product categories. In 2026, sellers are reporting even more granular enforcement, including rejections for minor label positioning errors that would have been overlooked two years ago.
 
