@@ -118,7 +118,7 @@ Australia splits imports at one figure: **A$1,000**.
 
 **Above A$1,000.** The shipment is treated as a taxable import. GST, any applicable customs duty, and border processing charges are assessed on import, and someone has to settle them before the goods are released.
 
-This is a similar shape to the UK system but with a much higher, rounder threshold, which is good news: the vast majority of direct-to-consumer orders fall under A$1,000 and are handled cleanly at checkout.
+This is a similar shape to the [UK system](/china-to-uk-fulfilment-shopify.html) but with a much higher, rounder threshold, which is good news: the vast majority of direct-to-consumer orders fall under A$1,000 and are handled cleanly at checkout.
 
 ## Do you need to register for Australian GST?
 

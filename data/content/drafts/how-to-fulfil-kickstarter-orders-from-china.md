@@ -94,7 +94,7 @@ og_image: /images/blog/hero-kickstarter-fulfillment.png
       "name": "What if some of my backer addresses are wrong?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "A professional fulfilment centre validates addresses before shipping and flags any that look incomplete or incorrect. You then contact those backers for updated addresses. This is far better than shipping to a bad address and dealing with returns, which are expensive on international parcels."
+        "text": "A professional fulfilment centre validates addresses before shipping and flags any that look incomplete or incorrect. You then contact those backers for updated addresses. This is far better than shipping to a bad address and dealing with [returns](/ecommerce-returns-fulfilling-from-china-2026.html), which are expensive on international parcels."
       }
     },
     {
@@ -238,7 +238,7 @@ Note: de minimis rules vary by country and are subject to change. The US thresho
 
 ### DDP vs DDU, and why it matters for backer experience
 
-**DDP (Delivered Duty Paid)** means all customs duties and taxes are paid before the parcel reaches the backer. The backer receives their reward with no surprise charges at the door.
+**[DDP (Delivered Duty Paid)](/ddp-shipping-from-china-explained-2026.html)** means all customs duties and taxes are paid before the parcel reaches the backer. The backer receives their reward with no surprise charges at the door.
 
 **DDU (Delivered Duty Unpaid)** means the backer may be asked to pay import taxes or customs fees before receiving their parcel. In many EU countries, this is common, and backers absolutely hate it.
 

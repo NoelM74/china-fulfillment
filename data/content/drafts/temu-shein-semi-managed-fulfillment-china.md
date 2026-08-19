@@ -144,7 +144,7 @@ For a model judged on customer experience, that makes [DDP](/ddp-shipping-from-c
 
 ## Plan returns before your first order
 
-Under semi-managed, returns are yours, not the platform's, and ignored returns count against your score. Shipping every returned item back to China one at a time is slow and uneconomic. The workable pattern is an in-market return address that receives, inspects, and either restocks locally or batches items for consolidated return. Decide this before you scale, not after returns start piling up. If you are already feeding an in-market warehouse under Route 2, that same location handles returns.
+Under semi-managed, [returns](/ecommerce-returns-fulfilling-from-china-2026.html) are yours, not the platform's, and ignored returns count against your score. Shipping every returned item back to China one at a time is slow and uneconomic. The workable pattern is an in-market return address that receives, inspects, and either restocks locally or batches items for consolidated return. Decide this before you scale, not after returns start piling up. If you are already feeding an in-market warehouse under Route 2, that same location handles returns.
 
 ## Make the packaging work for you
 

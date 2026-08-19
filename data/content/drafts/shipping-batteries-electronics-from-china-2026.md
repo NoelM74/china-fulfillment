@@ -146,7 +146,7 @@ Here is the honest division of labour: **these documents originate with your bat
 
 Sellers used to fast air express are frequently surprised here. **Air transport of lithium batteries is tightly restricted.** Some batteries above certain watt-hour or lithium-content thresholds cannot travel by passenger air at all, standalone batteries are refused on many express lanes, and whether a given product can fly depends on the specific battery, how it is packed with the device, and the destination country's rules.
 
-For many larger or higher-capacity battery products, **sea freight as properly declared dangerous goods is the compliant route**, not air express. Planning around that from the start, rather than discovering it when an express booking is rejected, is part of fulfilling this category well. Our [freight team](/international-freight-forwarding-china.html) books dangerous-goods sea and, where the product and destination allow, compliant [express](/express-international-shipping.html) lanes.
+For many larger or higher-capacity battery products, **sea freight as properly declared dangerous goods is the compliant route**, not air express. Our [air vs sea vs express guide](/news-shipping-times-costs-china-2026.html) compares the modes on cost and transit time. Planning around that from the start, rather than discovering it when an express booking is rejected, is part of fulfilling this category well. Our [freight team](/international-freight-forwarding-china.html) books dangerous-goods sea and, where the product and destination allow, compliant [express](/express-international-shipping.html) lanes.
 
 ## How we fulfil battery products from Shenzhen
 

@@ -131,7 +131,7 @@ The reason this matters for margin rather than just cost is that fulfilment over
 
 The historical objection to shipping direct from China was always speed. Customers expect fast delivery, and the assumption was that a parcel from China meant weeks of waiting and opaque tracking. That assumption is out of date.
 
-Modern cross-border postal and express networks now move a parcel from Shenzhen to a US customer's door in [6 to 10 days, to the UK in 5 to 8 days, and across the EU in 6 to 14 days](/express-international-shipping.html), with full end-to-end tracking the whole way. These shipments move DDP, Delivered Duty Paid, so all import duties and taxes are calculated and covered before the parcel ships and the customer never faces a surprise charge at the door.
+Modern cross-border postal and express networks now move a parcel from Shenzhen to a US customer's door in [6 to 10 days, to the UK in 5 to 8 days, and across the EU in 6 to 14 days](/express-international-shipping.html), with full end-to-end tracking the whole way. These shipments move [DDP, Delivered Duty Paid](/ddp-shipping-from-china-explained-2026.html), so all import duties and taxes are calculated and covered before the parcel ships and the customer never faces a surprise charge at the door.
 
 A 6 to 10 day window changes the entire premise of the domestic warehouse. The reason brands hold inventory in expensive US regional facilities is to compress last-mile delivery time. But if a direct shipment arrives in under ten days with clean tracking and no duty surprise, you are paying to warehouse capital in the US to save a delivery window your customers no longer require for most product categories.
 

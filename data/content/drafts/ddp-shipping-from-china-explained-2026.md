@@ -145,7 +145,7 @@ Almost every cross-border decision comes down to DDP versus DAP, Delivered At Pl
 
 ![DDP versus DAP at the door, showing the customer paying nothing under DDP and facing a surprise courier duty bill under DAP](/images/blog/infographic-ddp-vs-dap.webp)
 
-Under DAP, the carrier presents the duty and tax bill to your customer before releasing the parcel. With a B2B buyer who has their own customs broker, that is fine. With a consumer who ordered a $40 product and is now asked for an unexpected payment to receive it, it is a refused delivery, a chargeback, and a one-star review. For D2C, DDP wins almost every time.
+Under DAP, the carrier presents the duty and tax bill to your customer before releasing the parcel. With a B2B buyer who has their own customs broker, that is fine. With a consumer who ordered a $40 product and is now asked for an unexpected payment to receive it, it is a refused delivery, a chargeback, and a one-star review. For D2C, DDP wins almost every time. The exception is markets where paying at the door is the norm rather than a shock: in [cash-on-delivery markets across Southeast Asia](/news-cod-ecommerce-southeast-asia.html), collection at handover is how most buyers expect to pay.
 
 ## The importer of record question
 

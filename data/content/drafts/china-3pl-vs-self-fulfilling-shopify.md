@@ -135,7 +135,7 @@ But "full control" has a price that rarely shows up on a spreadsheet.
 
 **Time.** The biggest cost of self-fulfilment is not money, it is your time. Every hour you spend printing labels, taping boxes, and driving to the post office is an hour you are not spending on product development, marketing, or customer acquisition. For a solo founder doing 5–10 orders a day, fulfilment can easily eat 2–3 hours. At 50 orders a day, it becomes a full-time job.
 
-**Shipping rates.** Individual parcels from China cost significantly more per unit than bulk-negotiated rates. A China 3PL shipping thousands of parcels per day through dedicated freight lines typically achieves rates 20–40% lower than what you can negotiate alone. That gap compounds fast.
+**Shipping rates.** Individual parcels from China cost significantly more per unit than bulk-negotiated rates. Our [China fulfilment pricing guide](/china-fulfillment-cost-pricing-2026.html) breaks down every line, and the [returns playbook](/ecommerce-returns-fulfilling-from-china-2026.html) covers the other big objection. A China 3PL shipping thousands of parcels per day through dedicated freight lines typically achieves rates 20–40% lower than what you can negotiate alone. That gap compounds fast.
 
 **Error rates.** When you are packing at midnight because a sale went better than expected, mistakes happen. Wrong SKU. Missing insert. Label on the wrong parcel. Each error costs you a return, a replacement shipment, and, worst of all, a customer who does not come back.
 

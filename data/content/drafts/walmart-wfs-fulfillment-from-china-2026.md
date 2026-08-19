@@ -136,7 +136,7 @@ The honest line: **the selling account, WFS enrollment and the customs setup are
 
 With the account and customs side yours, the China work is where a fulfilment partner earns its place.
 
-**Prep to WFS specification.** Walmart's barcoding, labelling, poly-bagging and carton rules are its own and differ in the detail from Amazon's. Prep to the wrong marketplace's spec and you get rejections and chargebacks. We prep to the current Walmart specification you provide, the same discipline we apply to [FBA prep](/amazon-fba-prep-china.html), so cartons arrive compliant.
+**Prep to WFS specification.** Walmart's barcoding, labelling, poly-bagging and carton rules are its own and differ in the detail from Amazon's. Prep to the wrong marketplace's spec and you get [rejections and chargebacks](/avoid-amazon-fba-prep-rejections-china.html). We prep to the current Walmart specification you provide, the same discipline we apply to [FBA prep](/amazon-fba-prep-china.html), so cartons arrive compliant.
 
 **Quality control before it ships.** A defect caught on our bench in Shenzhen is a cheap fix; the same defect caught at a US fulfilment centre, or by a customer, is an expensive one. Our [inspection process](/quality-control-fba-prep-china.html) checks condition, counts and labelling before anything is loaded.
 

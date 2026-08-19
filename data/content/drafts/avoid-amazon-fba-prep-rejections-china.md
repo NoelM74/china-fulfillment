@@ -115,7 +115,7 @@ og_image: /images/blog/hero-fba-prep-rejections.png
 
 Amazon does not care how long your shipment took to get there. They do not care how much you paid for freight. And they definitely do not care that your supplier swore the labels were correct.
 
-If your inbound shipment does not meet Amazon's prep requirements, down to the barcode, the poly bag, and the weight of each carton, it gets rejected. Full stop.
+If your inbound shipment does not meet Amazon's prep requirements, down to the barcode, the poly bag, and the weight of each carton, it gets rejected. The same prep discipline applies on [Walmart WFS](/walmart-wfs-fulfillment-from-china-2026.html), though the spec differs in the detail. Full stop.
 
 That rejection means your inventory sits in limbo at a third-party receiving facility (at your expense), your listing goes out of stock, your Best Seller Rank tanks, and you spend the next two weeks scrambling to fix a problem that should never have happened.
 
@@ -283,7 +283,7 @@ Yes. A full-service prep and forwarding provider can ship to Amazon fulfilment c
 
 Every FBA prep rejection is a tax on poor process, and it compounds. You lose money on the return. You lose sales while out of stock. You lose ranking that took months to build. And you lose sleep wondering if the next shipment will make it through.
 
-The fix is not complicated. Move your prep from your manufacturer to a dedicated facility in China that lives and breathes Amazon compliance. Let them inspect, label, bag, box, and ship, so that when your inventory arrives at an Amazon FC, the only thing that happens is a clean check-in.
+The fix is not complicated. Move your prep from your manufacturer to a dedicated facility in China that lives and breathes Amazon compliance. Let them inspect, label, bag, box, and ship, so that when your inventory arrives at an Amazon FC, the only thing that happens is a clean check-in. Our [source-side quality control process](/news-quality-control-china-supplier.html) covers how defects are caught before they ship, and Amazon's [FNSKU commingling changes](/news-amazon-fnsku-commingling-changes-march-2026.html) affect whether you need labels at all.
 
 **Want to eliminate FBA prep rejections from your supply chain?** [Get a quote for FBA prep and forwarding from China](https://www.china-fulfillment.com/), we handle labelling, inspection, carton prep, and direct shipping to Amazon FCs in the US, UK, EU, and Canada.
 
