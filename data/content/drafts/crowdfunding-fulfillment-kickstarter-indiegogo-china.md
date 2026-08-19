@@ -119,7 +119,7 @@ Fulfilling from Shenzhen removes the double-shipping entirely. The components ar
 
 ## The pre-kitting manifest strategy
 
-Crowdfunding fulfilment is unusual in that the work is highly repetitive and highly varied at the same time. There might be only fifteen distinct reward configurations, but thousands of backers each map to one of them. That structure is a gift to a well-organised warehouse, and the way to exploit it is the pre-kitting manifest.
+Crowdfunding fulfilment is unusual in that the work is highly repetitive and highly varied at the same time. There might be only fifteen distinct reward configurations, but thousands of backers each map to one of them. That structure is a gift to a well-organised warehouse, and the way to exploit it is the pre-kitting manifest, built on the same [source-side kitting](/source-side-kitting-bundle-assembly-china.html) we run for every brand. For the full campaign walkthrough, see [how to ship Kickstarter backer rewards from China](/how-to-fulfil-kickstarter-orders-from-china.html), and ship [DDP](/ddp-shipping-from-china-explained-2026.html) so no backer is billed at the door.
 
 Before fulfilment begins, the warehouse maps physical staging zones to backer reward tiers. The early-bird single-unit tier gets its zone, the deluxe bundle with three add-ons gets its zone, the collector edition with exclusive extras gets its zone, and so on across every tier in the campaign. Components flow into the correct zones, and bulk [assembly lines](/branded-packaging-kitting.html) then process thousands of identical combinations rapidly, because within any one zone every kit is the same build repeated.
 

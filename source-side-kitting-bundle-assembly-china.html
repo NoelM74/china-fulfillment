@@ -100,14 +100,14 @@ body{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;text-r
 h1,h2,h3,h4,h5{text-wrap:balance}
 p{text-wrap:pretty}
 
-:root{--ink:#0c1a2e;--navy:#0d2144;--n2:#091830;--n3:#040d18;--blue:#1a4fd6;--b2:#2563eb;--ac:#f97316;--ach:#ea6c0a;--off:#f4f6fb;--w:#ffffff;--mu:#4a6178;--bd:#dae0ec;--gr:#10b981}
+:root{--ink:#0c1a2e;--navy:#0d2144;--n2:#091830;--n3:#040d18;--blue:#1a4fd6;--b2:#2563eb;--ac:#f97316;--acd:#c25205;--acdh:#ae4a04;--ach:#ea6c0a;--off:#f4f6fb;--w:#ffffff;--mu:#4a6178;--bd:#dae0ec;--gr:#10b981}
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
 html{scroll-behavior:smooth;font-size:16px}
 body{font-family:'Mulish',system-ui,sans-serif;color:var(--ink);background:var(--w);line-height:1.7;overflow-x:hidden}
 h1,h2,h3,h4{font-family:'Outfit',system-ui,sans-serif;line-height:1.15}
 a{text-decoration:none;color:inherit}
 img{max-width:100%;height:auto;display:block}
-nav{position:sticky;top:0;z-index:400;background:rgba(255,255,255.97);backdrop-filter:blur(10px);border-bottom:1px solid var(--bd);height:66px;display:flex;align-items:center;justify-content:space-between;padding:0 5%;box-shadow:0 2px 16px rgba(0,0,0.06)}
+nav{position:sticky;top:0;z-index:400;background:rgba(255,255,255,.97);backdrop-filter:blur(10px);border-bottom:1px solid var(--bd);height:66px;display:flex;align-items:center;justify-content:space-between;padding:0 5%;box-shadow:0 2px 16px rgba(0,0,0,.06)}
 .logo img{height:36px;display:block;width:auto}
 .nl{display:flex;gap:2px;align-items:center}
 .nl a{font-size:.88rem;font-weight:600;color:var(--mu);padding:7px 11px;border-radius:6px;transition:all .14s;font-family:'Outfit',sans-serif;white-space:nowrap}
@@ -122,7 +122,7 @@ nav{position:sticky;top:0;z-index:400;background:rgba(255,255,255.97);backdrop-f
 .mob{display:none;position:fixed;top:66px;left:0;right:0;bottom:0;background:var(--w);z-index:399;padding:20px 5% 40px;overflow-y:auto;border-top:3px solid var(--ac)}
 .mob.o{display:block}
 .mob a{display:flex;justify-content:space-between;align-items:center;padding:16px 0;font-size:1rem;font-weight:600;color:var(--ink);border-bottom:1px solid var(--bd);font-family:'Outfit',sans-serif}
-.mob a::after{content:'›';color:var(--ac);font-size:1.2rem;font-weight:700}
+.mob a::after{content:'›';color:var(--acd);font-size:1.2rem;font-weight:700}
 .mob .mcta{background:var(--ac)!important;color:#fff!important;padding:16px 20px!important;border-radius:10px;margin-top:24px;text-align:center;display:block!important;font-size:1rem!important}
 .mob .mcta::after{display:none!important}
 .bread{background:var(--off);border-bottom:1px solid var(--bd);padding:12px 5%;font-size:.85rem;color:var(--mu);font-family:'Outfit',sans-serif}
@@ -130,11 +130,11 @@ nav{position:sticky;top:0;z-index:400;background:rgba(255,255,255.97);backdrop-f
 .bread span{margin:0 6px;opacity:.5}
 .art-hero{padding:56px 5% 0}
 .art-hero .w{max-width:760px;margin:0 auto}
-.art-cat{display:inline-block;background:rgba(16,185,129.1);color:#047857;font-size:.82rem;font-weight:800;padding:5px 14px;border-radius:20px;text-transform:uppercase;letter-spacing:.07em;font-family:'Outfit',sans-serif;margin-bottom:16px}
+.art-cat{display:inline-block;background:rgba(16,185,129,.1);color:#047857;font-size:.82rem;font-weight:800;padding:5px 14px;border-radius:20px;text-transform:uppercase;letter-spacing:.07em;font-family:'Outfit',sans-serif;margin-bottom:16px}
 .art-hero h1{font-size:clamp(1.8rem,3.6vw,2.6rem);font-weight:900;color:var(--ink);line-height:1.15;margin-bottom:16px;letter-spacing:-.02em}
 .art-meta{display:flex;flex-wrap:wrap;gap:16px;align-items:center;font-size:.9rem;color:var(--mu);margin-bottom:28px}
 .art-meta strong{color:var(--ink);font-weight:700}
-.art-hero-img{border-radius:14px;overflow:hidden;line-height:0;box-shadow:0 8px 32px rgba(0,0,0.1);margin-bottom:48px}
+.art-hero-img{border-radius:14px;overflow:hidden;line-height:0;box-shadow:0 8px 32px rgba(0,0,0,.1);margin-bottom:48px}
 .art-hero-img img{width:100%;height:auto;display:block;max-height:440px;object-fit:cover}
 .article{padding:0 5% 72px}
 .article .w{max-width:760px;margin:0 auto}
@@ -145,10 +145,10 @@ nav{position:sticky;top:0;z-index:400;background:rgba(255,255,255.97);backdrop-f
 .article strong{color:var(--ink);font-weight:700}
 .article ul.article ol{margin:0 0 18px 0;padding-left:26px;color:#334155}
 .article li{font-size:1.02rem;line-height:1.82;margin-bottom:9px}
-.article li::marker{color:var(--ac)}
+.article li::marker{color:var(--acd)}
 .article li strong{color:var(--ink)}
 
-.ctable{width:100%;border-collapse:collapse;margin:24px 0 32px;font-size:.93rem;border-radius:12px;overflow:hidden;box-shadow:0 2px 12px rgba(0,0,0.06)}
+.ctable{width:100%;border-collapse:collapse;margin:24px 0 32px;font-size:.93rem;border-radius:12px;overflow:hidden;box-shadow:0 2px 12px rgba(0,0,0,.06)}
 .ctable th{background:var(--navy);color:#fff;font-family:'Outfit',sans-serif;font-weight:700;padding:14px 16px;text-align:left;font-size:.88rem;text-transform:uppercase;letter-spacing:.04em}
 .ctable td{padding:13px 16px;border-bottom:1px solid var(--bd);color:#334155}
 .ctable tr:nth-child(even){background:var(--off)}
@@ -169,30 +169,30 @@ nav{position:sticky;top:0;z-index:400;background:rgba(255,255,255.97);backdrop-f
 
 .ctaf{background:#0a152a;color:#fff;text-align:center;padding:72px 5%}
 .ctaf h2{font-family:'Outfit',sans-serif;font-size:clamp(1.6rem,2.6vw,2.2rem);font-weight:900;max-width:620px;margin:0 auto 14px}
-.ctaf p{font-size:1rem;color:rgba(255,255,255.85);max-width:520px;margin:0 auto 28px;line-height:1.7}
-.bp{background:var(--ac);color:#fff;padding:14px 30px;border-radius:8px;font-weight:700;font-size:1rem;font-family:'Outfit',sans-serif;transition:all .18s;display:inline-block}
-.bp:hover{background:var(--ach);transform:translateY(-2px);box-shadow:0 8px 24px rgba(249,115,22.32);text-decoration:none}
+.ctaf p{font-size:1rem;color:rgba(255,255,255,.85);max-width:520px;margin:0 auto 28px;line-height:1.7}
+.bp{background:var(--acd);color:#fff;padding:14px 30px;border-radius:8px;font-weight:700;font-size:1rem;font-family:'Outfit',sans-serif;transition:all .18s;display:inline-block}
+.bp:hover{background:var(--acdh);transform:translateY(-2px);box-shadow:0 8px 24px rgba(249,115,22,.32);text-decoration:none}
 
 .faq{padding:56px 5% 72px}
 .faq .w{max-width:760px;margin:0 auto}
 .faq h2{font-family:'Outfit',sans-serif;font-size:1.45rem;font-weight:800;color:var(--ink);margin-bottom:24px}
 details{border-bottom:1px solid var(--bd)}
 summary{padding:18px 0;font-family:'Outfit',sans-serif;font-size:1rem;font-weight:700;color:var(--ink);cursor:pointer;list-style:none;display:flex;justify-content:space-between;align-items:center}
-summary::after{content:'+';font-size:1.3rem;color:var(--ac);font-weight:700;transition:transform .2s}
+summary::after{content:'+';font-size:1.3rem;color:var(--acd);font-weight:700;transition:transform .2s}
 details[open] summary::after{content:'-'}
 details p{padding:0 0 18px;font-size:.97rem;color:var(--mu);line-height:1.78}
 
-footer{background:var(--n3);border-top:1px solid rgba(255,255,255.06);padding:56px 5% 24px}
+footer{background:var(--n3);border-top:1px solid rgba(255,255,255,.06);padding:56px 5% 24px}
 .fg{display:grid;grid-template-columns:1.3fr 1fr 1fr 1fr 1fr;gap:32px;max-width:1100px;margin:0 auto 44px}
 .fb img{height:36px;margin-bottom:16px;display:block}
-.fb p{font-size:.92rem;color:rgba(255,255,255.86);line-height:1.68;max-width:200px;font-weight:400}
-.fc h4{font-family:'Outfit',sans-serif;font-size:.82rem;font-weight:700;color:rgba(255,255,255.80);text-transform:uppercase;letter-spacing:.1em;margin-bottom:15px}
-.fc a{display:block;font-size:.88rem;color:rgba(255,255,255.86);margin-bottom:10px;transition:color .15s;font-weight:400}
+.fb p{font-size:.92rem;color:rgba(255,255,255,.86);line-height:1.68;max-width:200px;font-weight:400}
+.fc h4{font-family:'Outfit',sans-serif;font-size:.82rem;font-weight:700;color:rgba(255,255,255,.80);text-transform:uppercase;letter-spacing:.1em;margin-bottom:15px}
+.fc a{display:block;font-size:.88rem;color:rgba(255,255,255,.86);margin-bottom:10px;transition:color .15s;font-weight:400}
 .fc a:hover{color:#fff}
-.fbot{max-width:1100px;margin:0 auto;padding-top:22px;border-top:1px solid rgba(255,255,255.06);display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px}
-.fcopy{font-size:.88rem;color:rgba(255,255,255.80)}
+.fbot{max-width:1100px;margin:0 auto;padding-top:22px;border-top:1px solid rgba(255,255,255,.06);display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px}
+.fcopy{font-size:.88rem;color:rgba(255,255,255,.80)}
 .flinks{display:flex;gap:20px}
-.flinks a{font-size:.88rem;color:rgba(255,255,255.80);transition:color .15s}
+.flinks a{font-size:.88rem;color:rgba(255,255,255,.80);transition:color .15s}
 
 @media(max-width:768px){.nl{display:none}.ham{display:flex}.art-hero{padding:40px 5% 0}.ctable{font-size:.85rem}.ctable th.ctable td{padding:10px 12px}.flow{grid-template-columns:1fr 1fr}.fs::after{display:none}.fg{grid-template-columns:1fr 1fr;gap:24px}}
 @media(max-width:600px){.art-hero h1{font-size:1.7rem}.article h2{font-size:1.25rem}.flow{grid-template-columns:1fr}.ctaf{padding:56px 5%}.fg{grid-template-columns:1fr}}
@@ -200,6 +200,55 @@ footer{background:var(--n3);border-top:1px solid rgba(255,255,255.06);padding:56
 .i{width:1em;height:1em;display:inline-block;vertical-align:-.125em;flex-shrink:0}
 </style>
  <link rel="stylesheet" href="global-nav-footer.css"/>
+<style>/* a11y: WCAG AA contrast + responsive tables */
+html body a.bp,html body a.ncta,html body a.mcta,html body .mob a.mcta,html body nav a.ncta,html body .bp{background:#c25205!important;color:#fff!important}
+html body a.bp:hover,html body a.ncta:hover,html body a.mcta:hover,html body .mob a.mcta:hover{background:#ae4a04!important}
+.art-cat{background:#d1fae5!important;color:#065f46!important}
+.article table{width:100%;border-collapse:collapse;margin:0;font-size:.93rem}
+.article th{background:#0d2144;color:#fff;font-family:'Outfit',sans-serif;font-weight:700;padding:12px 14px;text-align:left;font-size:.86rem;line-height:1.35}
+.article th strong,.article th b,.article th em,.article th a{color:#fff!important}
+.post-cat{color:#c25205!important}
+.hglow{right:0!important}
+.hi{color:#c25205!important}
+.filter.active{background:#c25205!important;color:#fff!important;border-color:#c25205!important}
+.article td{padding:12px 14px;border-bottom:1px solid #dae0ec;color:#334155;line-height:1.5}
+.article tbody tr:nth-child(even) td{background:#f4f6fb}
+.tw{overflow-x:auto;-webkit-overflow-scrolling:touch;margin:24px 0 32px;border-radius:10px;border:1px solid #dae0ec;max-width:100%}
+.tw>table{margin:0}
+
+.obar{background:#c25205!important;color:#fff!important}
+
+/* contrast pass 2: accessible palette that adapts to light and dark sections.
+   Values solved against every background colour measured in the live render. */
+:root{--fx-o:#b24c05;--fx-o2:#bc4200;--fx-g:#0b7a55;--fx-g2:#117b38;--fx-teal:#007b51;--fx-slate:#596d82;--fx-red:#d02222;--fx-blue:#2160eb;--fx-wa:#167b3c}
+.adv,.bp,.bp-form,.carriers,.cost,.cov-head,.ctaf,.ctafinal,.dark,.drip,.hc-grad,.hc-label,.hero,section[style*="--navy"],section[style*="--ink"],section[style*="--n2"],.img-feature-copy,.img-split-copy,.int-band,.isf-copy,.login-value-side,.reg-value-side,.mode-card,.nl-cta,.nums,.obar,.personas,.plat,.plat-sec,.pr-note,.price-band,.process,.psteps,.qs,.reality,.sens,.settle,.ship-strip,.statband,.trust-band,.vidsec,.vtbl-h{--fx-o:#fa8738;--fx-o2:#fa8738;--fx-g:#10bd83;--fx-g2:#1abf57;--fx-teal:#10bd83;--fx-slate:#98a8b8;--fx-red:#ec8b8b;--fx-blue:#7ea6ff;--fx-wa:#3ddc7f}
+/* light cards nested inside dark sections: restore the light palette */
+.zero,.stat-box,.prc,.svc,.detail-card,.mc,.sce-close{--fx-o:#b24c05;--fx-o2:#bc4200;--fx-g:#0b7a55;--fx-g2:#117b38;--fx-teal:#007b51;--fx-slate:#596d82;--fx-red:#d02222;--fx-blue:#2160eb;--fx-wa:#167b3c}
+.sl,.n,.mprice,.step-time,.time,.mod-link,.greeting,.fa-card-head,.svc-price,.rprice,.tl-year,.sc-n,.big,.mc-speed,.abbr,.fnum,.num,.htag{color:var(--fx-o)!important}
+.role{color:var(--fx-o2)!important}
+.sol-result,.svc-result,.mc-price,.ms-flag,.model-col-head,.ms-dot{color:var(--fx-g)!important}
+.vg,.val{color:var(--fx-g2)!important}
+.result{color:var(--fx-teal)!important}
+.price-unit,.unit,.ph-label,.sol-num,.svc-num,.l,.tr-item,.micro,.ms-label,.amount-label,.ship-lbl{color:var(--fx-slate)!important}
+.sg{color:var(--fx-red)!important}
+.mod-badge{color:var(--fx-blue)!important}
+.ch-link{color:var(--fx-wa)!important}
+.persona-avatar{color:#fff!important}
+/* scoped element-level corrections */
+.prc h4{color:var(--fx-slate)!important}
+.sce-close strong{color:var(--fx-o)!important}
+.dark h3{color:#fff!important}
+.dark p,.cost p,.reality p,.drip p{color:#c4cedb!important}
+.login-form-side a,.reg-form-side a,.reg-form-side span{color:var(--fx-o)!important}
+.img-ph figcaption{color:var(--fx-slate)!important}
+html body div.obar{background:#c25205!important}
+html body div.obar,html body div.obar em,html body div.obar strong,html body div.obar a{color:#fff!important}
+/* buttons and badges: darken the fill, keep the white label, matching .bp */
+.btn-login,.btn-register,.bp-form,.badge,.sc-badge,.hc-badge{background:#c25205!important;color:#fff!important}
+.ddp-btn{background:#0b7a35!important;color:#fff!important}
+/* .hi also matches .mkt.hi, which is white on blue by design */
+.mkt.hi{color:#fff!important;background:var(--blue)!important;border-color:var(--blue)!important}
+</style>
 </head>
 <body>
 
@@ -256,7 +305,7 @@ footer{background:var(--n3);border-top:1px solid rgba(255,255,255.06);padding:56
 <div class="article">
   <div class="w">
     <p>Most brands assemble their bundles and gift sets in the wrong country. They ship loose, unbranded components from their Chinese factories to a Western warehouse, then pay Western hourly labour to build kits, fold tissue paper, and tape boxes shut. Every step of that assembly happens at the most expensive labour rates in the supply chain, in the country with the highest warehouse real estate costs, after the components have already each been shipped across an ocean.</p>
-<p>It is backwards. Assembly should happen where the components are made, where labour is a fraction of the cost, and where you can shrink the finished parcel before it ever enters an expensive international lane. Doing <a href="/branded-packaging-kitting.html">kitting source-side in Shenzhen</a> routinely cuts kitting cost by around 70% against Western hourly assembly, and it produces a second saving most brands overlook entirely: a smaller, lighter parcel that costs less to ship. This guide walks through how it works, from coordinating multiple factories to the dimensional-weight trick that quietly lowers your air freight bill.</p>
+<p>It is backwards. Assembly should happen where the components are made, where labour is a fraction of the cost, and where you can shrink the finished parcel before it ever enters an expensive international lane. Doing <a href="/branded-packaging-kitting.html">kitting source-side in Shenzhen</a> routinely cuts kitting cost by around 70% against Western hourly assembly, and it produces a second saving most brands overlook entirely: a smaller, lighter parcel that costs less to ship. This guide walks through how it works, from coordinating multiple factories to the dimensional-weight trick that quietly lowers your <a href="/news-shipping-times-costs-china-2026.html">air freight bill</a>.</p>
 <h2>Cross-dock multi-supplier collation</h2>
 <p>The first reason brands assemble in the West is logistical: their components come from different factories, and they assume the only place those components can meet is the destination warehouse. That assumption costs them dearly, because the components can meet far earlier, at a single hub in China, before any of them have been shipped internationally at all.</p>
 <p>A Shenzhen hub coordinates component arrivals from suppliers spread across the country. Electronic items might ship from a factory in Ningbo, custom printed tissue paper from a printer in Dongguan, a textile component from Guangzhou, a small accessory from Yiwu. Each supplier delivers domestically to one Shenzhen address, with zero receiving fees on arrival, and every carton is counted and <a href="/quality-control-fba-prep-china.html">QC-checked</a> within 24 hours of landing.</p>
@@ -266,7 +315,7 @@ footer{background:var(--n3);border-top:1px solid rgba(255,255,255.06);padding:56
 <p>Every kit is built against a precise BOM, an assembly blueprint that specifies each component, its quantity, its placement, and the finished configuration. The warehouse team follows that blueprint unit by unit rather than assembling from memory or guesswork. The build is backed by same-day photographic QC evidence reports, so you receive dated photographs documenting that the assembled kits match the specification before they ship. If a component arrives short or defective from one of the contributing factories, the Mandarin-speaking team on the ground in Shenzhen contacts that supplier directly, in person and in language, and documents and resolves the discrepancy within hours rather than across days of time-zoned email.</p>
 <p>This matters more for kits than for single items, because a kit aggregates the risk of every component inside it. Catching a wrong tissue colour or a missing accessory at the source, with photographic proof, is the difference between a clean launch and a wave of "missing item" complaints after the bundles have already crossed an ocean.</p>
 <h2>Dimensional weight reduction</h2>
-<p>Here is the saving brands almost never account for, and it is often larger than the labour saving. International express and air freight do not bill purely on actual weight. They bill on dimensional weight, also called volumetric weight, which converts a parcel's size into a chargeable weight. A light but bulky parcel is billed on its volume, not its mass. Empty space inside a box is space you pay to fly across the world.</p>
+<p>Here is the saving brands almost never account for, and it is often larger than the labour saving. International express and air freight do not bill purely on actual weight. They bill on <a href="/dim-weight-packaging-optimisation-2026.html">dimensional weight</a>, also called volumetric weight, which converts a parcel's size into a chargeable weight. A light but bulky parcel is billed on its volume, not its mass. Empty space inside a box is space you pay to fly across the world.</p>
 <p>When a kit is assembled at the destination using a generic stock box, that box almost always contains dead air around the products. Every cubic centimetre of that void inflates the dimensional weight and the freight cost on the most expensive leg of the journey. Because the box was chosen for general use rather than for this specific finished kit, the waste is built in.</p>
 <p>Assembling source-side flips this. Because the kit is built in Shenzhen, the packaging can be tailored to the exact millimetre dimensions of the finished assembled bundle before it ever enters an international lane. A custom box sized to the kit eliminates the void, which shrinks the parcel's volumetric profile, which lowers the dimensional weight the carrier bills you on. You are not just paying less for assembly labour, you are flying a smaller parcel. On high-volume international <a href="/express-international-shipping.html">air express</a>, trimming dead space out of every parcel compounds into a freight saving that frequently rivals or exceeds the kitting labour saving itself.</p>
 <h2>How the 70% saving adds up</h2>

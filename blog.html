@@ -33,14 +33,14 @@ body{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;text-r
 h1,h2,h3,h4,h5{text-wrap:balance}
 p{text-wrap:pretty}
 
-:root{--ink:#0c1a2e;--navy:#0d2144;--n2:#091830;--n3:#040d18;--blue:#1a4fd6;--b2:#2563eb;--ac:#f97316;--ach:#ea6c0a;--off:#f4f6fb;--w:#ffffff;--mu:#4a6178;--bd:#dae0ec;--gr:#10b981;--dk-body:rgba(255,255,255.88);--dk-muted:rgba(255,255,255.68)}
+:root{--ink:#0c1a2e;--navy:#0d2144;--n2:#091830;--n3:#040d18;--blue:#1a4fd6;--b2:#2563eb;--ac:#f97316;--ach:#ea6c0a;--off:#f4f6fb;--w:#ffffff;--mu:#4a6178;--bd:#dae0ec;--gr:#10b981;--dk-body:rgba(255,255,255,.88);--dk-muted:rgba(255,255,255,.68)}
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
 html{scroll-behavior:smooth;font-size:16px}
 body{font-family:'Mulish',system-ui,sans-serif;color:var(--ink);background:var(--w);line-height:1.7;overflow-x:hidden}
 h1,h2,h3,h4{font-family:'Outfit',system-ui,sans-serif;line-height:1.15}
 a{text-decoration:none;color:inherit}
 img{max-width:100%;height:auto;display:block}
-nav{position:sticky;top:0;z-index:400;background:rgba(255,255,255.97);backdrop-filter:blur(10px);border-bottom:1px solid var(--bd);height:66px;display:flex;align-items:center;justify-content:space-between;padding:0 5%;box-shadow:0 2px 16px rgba(0,0,0.06)}
+nav{position:sticky;top:0;z-index:400;background:rgba(255,255,255,.97);backdrop-filter:blur(10px);border-bottom:1px solid var(--bd);height:66px;display:flex;align-items:center;justify-content:space-between;padding:0 5%;box-shadow:0 2px 16px rgba(0,0,0,.06)}
 .logo img{height:36px;display:block;width:auto}
 .nl{display:flex;gap:2px;align-items:center}
 .nl a{font-size:.88rem;font-weight:600;color:var(--mu);padding:7px 11px;border-radius:6px;transition:all .14s;font-family:'Outfit',sans-serif;white-space:nowrap}
@@ -71,7 +71,7 @@ nav{position:sticky;top:0;z-index:400;background:rgba(255,255,255.97);backdrop-f
 /* ── CATEGORY FILTERS ── */
 .filters{display:flex;flex-wrap:wrap;gap:8px}
 .filter{display:inline-block;background:var(--w);border:1px solid var(--bd);color:var(--mu);padding:8px 18px;border-radius:8px;font-size:.9rem;font-weight:700;font-family:'Outfit',sans-serif;cursor:pointer;transition:all .15s}
-.filter:hover.filter.active{border-color:var(--ac);color:var(--ac);background:rgba(249,115,22.05)}
+.filter:hover.filter.active{border-color:var(--ac);color:var(--ac);background:rgba(249,115,22,.05)}
 .filter.active{background:var(--ac);color:#fff;border-color:var(--ac)}
 
 /* ── BLOG GRID ── */
@@ -79,7 +79,7 @@ section{padding:56px 5%}
 .w{max-width:1100px;margin:0 auto}
 .blog-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
 .post{background:var(--w);border:1px solid var(--bd);border-radius:14px;overflow:hidden;transition:all .2s;display:flex;flex-direction:column}
-.post:hover{border-color:var(--b2);box-shadow:0 8px 28px rgba(26,79,214.08);transform:translateY(-3px)}
+.post:hover{border-color:var(--b2);box-shadow:0 8px 28px rgba(26,79,214,.08);transform:translateY(-3px)}
 .post-img{line-height:0;overflow:hidden;height:200px;background:var(--off)}
 .post-img img{width:100%;height:200px;object-fit:cover;display:block}
 .post-body{padding:22px;flex:1;display:flex;flex-direction:column}
@@ -100,19 +100,19 @@ section{padding:56px 5%}
 .nl-cta p{font-size:1rem;color:var(--dk-body);max-width:480px;margin:0 auto 28px;line-height:1.7}
 .nl-cta .bp{display:inline-block}
 .bp{background:var(--ac);color:#fff;padding:14px 30px;border-radius:8px;font-weight:700;font-size:1rem;font-family:'Outfit',sans-serif;transition:all .18s;display:inline-block;cursor:pointer}
-.bp:hover{background:var(--ach);transform:translateY(-2px);box-shadow:0 8px 24px rgba(249,115,22.32)}
+.bp:hover{background:var(--ach);transform:translateY(-2px);box-shadow:0 8px 24px rgba(249,115,22,.32)}
 
-footer{background:var(--n3);border-top:1px solid rgba(255,255,255.06);padding:56px 5% 24px}
+footer{background:var(--n3);border-top:1px solid rgba(255,255,255,.06);padding:56px 5% 24px}
 .fg{display:grid;grid-template-columns:1.3fr 1fr 1fr 1fr 1fr;gap:32px;max-width:1100px;margin:0 auto 44px}
 .fb img{height:36px;margin-bottom:16px;display:block}
-.fb p{font-size:.92rem;color:rgba(255,255,255.86);line-height:1.68;max-width:200px;font-weight:400}
-.fc h4{font-family:'Outfit',sans-serif;font-size:.82rem;font-weight:700;color:rgba(255,255,255.80);text-transform:uppercase;letter-spacing:.1em;margin-bottom:15px}
-.fc a{display:block;font-size:.88rem;color:rgba(255,255,255.86);margin-bottom:10px;transition:color .15s;font-weight:400}
+.fb p{font-size:.92rem;color:rgba(255,255,255,.86);line-height:1.68;max-width:200px;font-weight:400}
+.fc h4{font-family:'Outfit',sans-serif;font-size:.82rem;font-weight:700;color:rgba(255,255,255,.80);text-transform:uppercase;letter-spacing:.1em;margin-bottom:15px}
+.fc a{display:block;font-size:.88rem;color:rgba(255,255,255,.86);margin-bottom:10px;transition:color .15s;font-weight:400}
 .fc a:hover{color:#fff}
-.fbot{max-width:1100px;margin:0 auto;padding-top:22px;border-top:1px solid rgba(255,255,255.06);display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px}
-.fcopy{font-size:.88rem;color:rgba(255,255,255.80)}
+.fbot{max-width:1100px;margin:0 auto;padding-top:22px;border-top:1px solid rgba(255,255,255,.06);display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px}
+.fcopy{font-size:.88rem;color:rgba(255,255,255,.80)}
 .flinks{display:flex;gap:20px}
-.flinks a{font-size:.88rem;color:rgba(255,255,255.80);transition:color .15s}
+.flinks a{font-size:.88rem;color:rgba(255,255,255,.80);transition:color .15s}
 
 @media(max-width:768px){.nl{display:none}.ham{display:flex}.hero{padding:56px 5% 36px}.blog-grid{grid-template-columns:1fr 1fr}.fg{grid-template-columns:1fr 1fr;gap:24px}}
 @media(max-width:600px){.hero h1{font-size:1.8rem}.blog-grid{grid-template-columns:1fr}.nl-cta{padding:56px 5%}.fg{grid-template-columns:1fr}}
@@ -120,6 +120,56 @@ footer{background:var(--n3);border-top:1px solid rgba(255,255,255.06);padding:56
 .i{width:1em;height:1em;display:inline-block;vertical-align:-.125em;flex-shrink:0}
 </style>
  <link rel="stylesheet" href="global-nav-footer.css"/>
+<style>/* a11y: WCAG AA contrast + responsive tables */
+html body a.bp,html body a.ncta,html body a.mcta,html body .mob a.mcta,html body nav a.ncta,html body .bp{background:#c25205!important;color:#fff!important}
+html body a.bp:hover,html body a.ncta:hover,html body a.mcta:hover,html body .mob a.mcta:hover{background:#ae4a04!important}
+.art-cat{background:#d1fae5!important;color:#065f46!important}
+.article table{width:100%;border-collapse:collapse;margin:0;font-size:.93rem}
+.article th{background:#0d2144;color:#fff;font-family:'Outfit',sans-serif;font-weight:700;padding:12px 14px;text-align:left;font-size:.86rem;line-height:1.35}
+.article th strong,.article th b,.article th em,.article th a{color:#fff!important}
+.post-cat{color:#c25205!important}
+.hglow{right:0!important}
+.hi{color:#c25205!important}
+.filter.active{background:#c25205!important;color:#fff!important;border-color:#c25205!important}
+.article td{padding:12px 14px;border-bottom:1px solid #dae0ec;color:#334155;line-height:1.5}
+.article tbody tr:nth-child(even) td{background:#f4f6fb}
+.tw{overflow-x:auto;-webkit-overflow-scrolling:touch;margin:24px 0 32px;border-radius:10px;border:1px solid #dae0ec;max-width:100%}
+.tw>table{margin:0}
+
+.obar{background:#c25205!important;color:#fff!important}
+
+/* contrast pass 2: accessible palette that adapts to light and dark sections.
+   Values solved against every background colour measured in the live render. */
+:root{--fx-o:#b24c05;--fx-o2:#bc4200;--fx-g:#0b7a55;--fx-g2:#117b38;--fx-teal:#007b51;--fx-slate:#596d82;--fx-red:#d02222;--fx-blue:#2160eb;--fx-wa:#167b3c}
+.adv,.bp,.bp-form,.carriers,.cost,.cov-head,.ctaf,.ctafinal,.dark,.drip,.hc-grad,.hc-label,.hero,section[style*="--navy"],section[style*="--ink"],section[style*="--n2"],.img-feature-copy,.img-split-copy,.int-band,.isf-copy,.login-value-side,.reg-value-side,.mode-card,.nl-cta,.nums,.obar,.personas,.plat,.plat-sec,.pr-note,.price-band,.process,.psteps,.qs,.reality,.sens,.settle,.ship-strip,.statband,.trust-band,.vidsec,.vtbl-h{--fx-o:#fa8738;--fx-o2:#fa8738;--fx-g:#10bd83;--fx-g2:#1abf57;--fx-teal:#10bd83;--fx-slate:#98a8b8;--fx-red:#ec8b8b;--fx-blue:#7ea6ff;--fx-wa:#3ddc7f}
+.hero{--fx-o:#b24c05;--fx-o2:#bc4200;--fx-g:#0b7a55;--fx-g2:#117b38;--fx-teal:#007b51;--fx-slate:#596d82;--fx-red:#d02222;--fx-blue:#2160eb;--fx-wa:#167b3c}
+/* light cards nested inside dark sections: restore the light palette */
+.zero,.stat-box,.prc,.svc,.detail-card,.mc,.sce-close{--fx-o:#b24c05;--fx-o2:#bc4200;--fx-g:#0b7a55;--fx-g2:#117b38;--fx-teal:#007b51;--fx-slate:#596d82;--fx-red:#d02222;--fx-blue:#2160eb;--fx-wa:#167b3c}
+.sl,.n,.mprice,.step-time,.time,.mod-link,.greeting,.fa-card-head,.svc-price,.rprice,.tl-year,.sc-n,.big,.mc-speed,.abbr,.fnum,.num,.htag{color:var(--fx-o)!important}
+.role{color:var(--fx-o2)!important}
+.sol-result,.svc-result,.mc-price,.ms-flag,.model-col-head,.ms-dot{color:var(--fx-g)!important}
+.vg,.val{color:var(--fx-g2)!important}
+.result{color:var(--fx-teal)!important}
+.price-unit,.unit,.ph-label,.sol-num,.svc-num,.l,.tr-item,.micro,.ms-label,.amount-label,.ship-lbl{color:var(--fx-slate)!important}
+.sg{color:var(--fx-red)!important}
+.mod-badge{color:var(--fx-blue)!important}
+.ch-link{color:var(--fx-wa)!important}
+.persona-avatar{color:#fff!important}
+/* scoped element-level corrections */
+.prc h4{color:var(--fx-slate)!important}
+.sce-close strong{color:var(--fx-o)!important}
+.dark h3{color:#fff!important}
+.dark p,.cost p,.reality p,.drip p{color:#c4cedb!important}
+.login-form-side a,.reg-form-side a,.reg-form-side span{color:var(--fx-o)!important}
+.img-ph figcaption{color:var(--fx-slate)!important}
+html body div.obar{background:#c25205!important}
+html body div.obar,html body div.obar em,html body div.obar strong,html body div.obar a{color:#fff!important}
+/* buttons and badges: darken the fill, keep the white label, matching .bp */
+.btn-login,.btn-register,.bp-form,.badge,.sc-badge,.hc-badge{background:#c25205!important;color:#fff!important}
+.ddp-btn{background:#0b7a35!important;color:#fff!important}
+/* .hi also matches .mkt.hi, which is white on blue by design */
+.mkt.hi{color:#fff!important;background:var(--blue)!important;border-color:var(--blue)!important}
+</style>
 </head>
 <body>
 
@@ -178,6 +228,79 @@ footer{background:var(--n3);border-top:1px solid rgba(255,255,255.06);padding:56
 <section>
  <div class="w">
  <div class="blog-grid" id="blogGrid">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <!-- NEW: China to Japan Fulfilment (2026): JCT, Platform Tax and Delivery Times -->
+      <a href="china-to-japan-fulfillment-2026.html" class="post" data-cat="shipping">
+        <div class="post-img"><img src="/images/blog/china-to-japan-fulfillment-2026.webp" alt="China to Japan Fulfilment (2026): JCT, Platform Tax and Delivery Times" width="400" height="200" loading="lazy" decoding="async"/></div>
+        <div class="post-body">
+          <div class="post-cat">Shipping</div>
+          <h3>China to Japan Fulfilment (2026): JCT, Platform Tax and Delivery Times</h3>
+          <p>Selling into Japan from China? How the consumption tax change affects low-value parcels, who becomes liable, how JCT is ...</p>
+          <div class="post-meta"><span>September 2026</span><span class="post-read">Read &rarr;</span></div>
+        </div>
+      </a>
+
+      <!-- NEW: Product Compliance for Importing from China (2026): CPC, FCC, CE and UKCA -->
+      <a href="product-compliance-importing-from-china-2026.html" class="post" data-cat="ops">
+        <div class="post-img"><img src="/images/blog/product-compliance-importing-from-china-2026.webp" alt="Product Compliance for Importing from China (2026): CPC, FCC, CE and UKCA" width="400" height="200" loading="lazy" decoding="async"/></div>
+        <div class="post-body">
+          <div class="post-cat">Operations</div>
+          <h3>Product Compliance for Importing from China (2026): CPC, FCC, CE and UKCA</h3>
+          <p>Which certificates does your China-made product actually need? CPC and CPSIA, FCC, CE and UKCA explained, plus the CPSC ...</p>
+          <div class="post-meta"><span>September 2026</span><span class="post-read">Read &rarr;</span></div>
+        </div>
+      </a>
+
+      <!-- NEW: How to Choose a China 3PL: The Questions to Ask and the Red Flags -->
+      <a href="how-to-choose-a-china-3pl.html" class="post" data-cat="ecom">
+        <div class="post-img"><img src="/images/blog/how-to-choose-a-china-3pl.webp" alt="How to Choose a China 3PL: The Questions to Ask and the Red Flags" width="400" height="200" loading="lazy" decoding="async"/></div>
+        <div class="post-body">
+          <div class="post-cat">eCommerce</div>
+          <h3>How to Choose a China 3PL: The Questions to Ask and the Red Flags</h3>
+          <p>Shopping for a China fulfilment partner? The questions that separate real providers, the red flags to walk away from, an...</p>
+          <div class="post-meta"><span>September 2026</span><span class="post-read">Read &rarr;</span></div>
+        </div>
+      </a>
+
+      <!-- NEW: Incoterms for China Imports (2026): EXW vs FOB vs CIF vs DDP -->
+      <a href="incoterms-china-imports-exw-fob-cif-ddp.html" class="post" data-cat="shipping">
+        <div class="post-img"><img src="/images/blog/incoterms-china-imports-exw-fob-cif-ddp.webp" alt="Incoterms for China Imports (2026): EXW vs FOB vs CIF vs DDP" width="400" height="200" loading="lazy" decoding="async"/></div>
+        <div class="post-body">
+          <div class="post-cat">Shipping</div>
+          <h3>Incoterms for China Imports (2026): EXW vs FOB vs CIF vs DDP</h3>
+          <p>EXW, FOB, CIF or DDP when importing from China? What each term actually covers, where risk transfers, the hidden costs, ...</p>
+          <div class="post-meta"><span>September 2026</span><span class="post-read">Read &rarr;</span></div>
+        </div>
+      </a>
+
+      <!-- NEW: Cut Your Shipping Bill: DIM Weight and Packaging Optimisation (2026) -->
+      <a href="dim-weight-packaging-optimisation-2026.html" class="post" data-cat="shipping">
+        <div class="post-img"><img src="/images/blog/dim-weight-packaging-optimisation-2026.webp" alt="Cut Your Shipping Bill: DIM Weight and Packaging Optimisation (2026)" width="400" height="200" loading="lazy" decoding="async"/></div>
+        <div class="post-body">
+          <div class="post-cat">Shipping</div>
+          <h3>Cut Your Shipping Bill: DIM Weight and Packaging Optimisation (2026)</h3>
+          <p>USPS tightened its DIM divisor in July 2026. How dimensional weight is calculated, what it now costs you, and how right-...</p>
+          <div class="post-meta"><span>September 2026</span><span class="post-read">Read &rarr;</span></div>
+        </div>
+      </a>
+
+
+
+
+
 
       <!-- NEW: China Fulfilment for Apparel & Fashion Brands (2026): SKUs, Sizes and the Returns Loop -->
       <a href="apparel-fashion-fulfillment-from-china-2026.html" class="post" data-cat="ecom">

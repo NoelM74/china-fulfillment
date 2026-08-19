@@ -118,7 +118,7 @@ Get this wrong and you generate returns you never had to have. If a picker can g
 
 ## Returns are a process, not an afterthought
 
-Here is the number that defines the category: apparel returns commonly run **20 to 40 percent**, with women's fashion around the high twenties, fast fashion and footwear around thirty percent or more. Fit and sizing drive most of it, and no amount of good fulfilment removes a customer ordering two sizes to try both. The fully loaded cost of processing one apparel return, once you count return shipping, inspection, grading and restocking, is often around **thirty dollars**. Ignore returns and they quietly eat your margin.
+Here is the number that defines the category: apparel returns commonly run **20 to 40 percent**, with women's fashion around the high twenties, fast fashion and footwear around thirty percent or more. Fit and sizing drive most of it, and no amount of good fulfilment removes a customer ordering two sizes to try both. The fully loaded cost of processing one apparel return, once you count return shipping, inspection, grading and restocking, is often around **thirty dollars**. Catching the defect first with [source-side quality control](/news-quality-control-china-supplier.html) is far cheaper than processing the return. Ignore returns and they quietly eat your margin.
 
 The mistake is trying to ship every return back to China. Freight and duty on a single returned garment usually cost more than the garment is worth. The workable model is a **local returns hub in the destination market**:
 
@@ -132,7 +132,7 @@ Size exchanges are the classic apparel case, and the clean way to handle them is
 
 ## Presentation is part of the product
 
-In fashion, the unboxing is part of what the customer bought. That is an opportunity, and it is cheapest to build at the source. [Source-side kitting](/source-side-kitting-bundle-assembly-china.html) in Shenzhen, assembling sets, matching bundles, folding to a consistent standard and poly-bagging cleanly, costs a fraction of doing the same work in a high-wage destination market. [Branded packaging](/branded-packaging-kitting.html), tissue, tags, cards and custom mailers, makes a garment feel considered and lifts both perceived value and average order size. Doing it in China, before the goods ship, means every parcel lands finished.
+In fashion, the unboxing is part of what the customer bought. That is an opportunity, and it is cheapest to build at the source. [Source-side kitting](/source-side-kitting-bundle-assembly-china.html) in Shenzhen, assembling sets, matching bundles, folding to a consistent standard and poly-bagging cleanly, costs a fraction of doing the same work in a high-wage destination market. [Branded packaging](/branded-packaging-kitting.html), tissue, tags, cards and custom mailers, makes a garment feel considered and lifts both perceived value and average order size. Doing it in China, before the goods ship, means every parcel lands finished. It is also where you control [the parcel's billable size](/dim-weight-packaging-optimisation-2026.html), which matters more for apparel than almost any other category.
 
 A quality check matters more in apparel than most categories, because a loose thread, a print flaw or a sizing inconsistency becomes a return. Our [inspection process](/quality-control-fba-prep-china.html) catches those on the bench before they reach a customer.
 

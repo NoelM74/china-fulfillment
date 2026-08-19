@@ -112,7 +112,7 @@ This is the operator's guide to running semi-managed well from a China base: wha
 
 ## What semi-managed actually asks of you
 
-Semi-managed sits between fully-managed and running fully independent. You list and price with the platform's support, but you fulfil. Sellers ship cross-border or locally from their own warehouse or 3PL to buyers in markets like the US, UK, EU, Australia and Japan. The upside is real: typically no commissions, deposits or store-opening fees, and full control over packaging, speed and quality. The trade is that you carry the shipping, packaging and labour cost, and you own the delivery promise.
+Semi-managed sits between fully-managed and running fully independent. You list and price with the platform's support, but you fulfil. Sellers ship cross-border or locally from their own warehouse or 3PL to buyers in markets like the US, UK, EU, Australia and [Japan](/china-to-japan-fulfillment-2026.html). The upside is real: typically no commissions, deposits or store-opening fees, and full control over packaging, speed and quality. The trade is that you carry the shipping, packaging and labour cost, and you own the delivery promise.
 
 That last point is where most sellers underestimate the model. The platform is handing you its customer-experience standard and expecting you to hit it every time.
 
@@ -144,7 +144,7 @@ For a model judged on customer experience, that makes [DDP](/ddp-shipping-from-c
 
 ## Plan returns before your first order
 
-Under semi-managed, returns are yours, not the platform's, and ignored returns count against your score. Shipping every returned item back to China one at a time is slow and uneconomic. The workable pattern is an in-market return address that receives, inspects, and either restocks locally or batches items for consolidated return. Decide this before you scale, not after returns start piling up. If you are already feeding an in-market warehouse under Route 2, that same location handles returns.
+Under semi-managed, [returns](/ecommerce-returns-fulfilling-from-china-2026.html) are yours, not the platform's, and ignored returns count against your score. Shipping every returned item back to China one at a time is slow and uneconomic. The workable pattern is an in-market return address that receives, inspects, and either restocks locally or batches items for consolidated return. Decide this before you scale, not after returns start piling up. If you are already feeding an in-market warehouse under Route 2, that same location handles returns.
 
 ## Make the packaging work for you
 

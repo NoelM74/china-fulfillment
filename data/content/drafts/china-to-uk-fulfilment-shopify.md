@@ -142,6 +142,8 @@ Speed into the UK from China is better than most sellers expect.
 - **Air freight**, around 5-10 days plus clearance, for faster bulk movements.
 - **Sea freight**, about 30-40 days, for moving bulk stock to a UK warehouse or into [Amazon FBA UK](/international-freight-forwarding-china.html).
 
+Since Brexit the UK and the EU are separate customs territories, so a UK setup does not carry over to the continent. If you sell into both, our [China to Germany and EU fulfilment guide](/china-to-germany-fulfillment-2026.html) covers the €3 flat fee and IOSS rules that apply there.
+
 The one avoidable delay is customs. Incorrect HS classification is a common cause of 3-7 day holds, which is why we classify each SKU properly before it ships. Get the paperwork right at the source and UK clearance is a formality.
 
 ## Ship direct, or hold stock in the UK?

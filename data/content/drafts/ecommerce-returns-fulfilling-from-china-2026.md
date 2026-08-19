@@ -112,7 +112,7 @@ This is the 2026 reverse-logistics playbook: what a return really costs, why not
 
 ## What a return actually costs in 2026
 
-Returns are not cheap, and pretending otherwise wrecks margin. Across ecommerce the all-in cost of a single parcel-sized return in 2026 commonly runs about $10 to $30 once you count reverse shipping, processing labour, restocking and any markdown, and bulky items run far higher. Reverse logistics can eat 20 to 30 percent of the original product value. And return rates are not small: apparel routinely runs 20 to 40 percent or more, beauty is lower at around 4 to 12 percent, and cross-border orders sit at the top of whatever their category's range is.
+Returns are not cheap, and pretending otherwise wrecks margin. Across ecommerce the all-in cost of a single parcel-sized return in 2026 commonly runs about $10 to $30 once you count reverse shipping, processing labour, restocking and any markdown, and bulky items run far higher. Reverse logistics can eat 20 to 30 percent of the original product value. And return rates are not small: [apparel](/apparel-fashion-fulfillment-from-china-2026.html) routinely runs 20 to 40 percent or more, [beauty](/china-to-us-fulfilment-beauty-skincare-brands.html) is lower at around 4 to 12 percent, and cross-border orders sit at the top of whatever their category's range is.
 
 There is a second cost people forget. For apparel, roughly a third of returned units fail inspection and have to be marked down heavily, donated or destroyed. A return is not a unit back on the shelf; it is a unit that costs money to recover and may not be resellable.
 

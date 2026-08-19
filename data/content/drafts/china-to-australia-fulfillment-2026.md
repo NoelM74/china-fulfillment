@@ -118,7 +118,7 @@ Australia splits imports at one figure: **A$1,000**.
 
 **Above A$1,000.** The shipment is treated as a taxable import. GST, any applicable customs duty, and border processing charges are assessed on import, and someone has to settle them before the goods are released.
 
-This is a similar shape to the UK system but with a much higher, rounder threshold, which is good news: the vast majority of direct-to-consumer orders fall under A$1,000 and are handled cleanly at checkout.
+This is a similar shape to the [UK system](/china-to-uk-fulfilment-shopify.html) but with a much higher, rounder threshold, which is good news: the vast majority of direct-to-consumer orders fall under A$1,000 and are handled cleanly at checkout.
 
 ## Do you need to register for Australian GST?
 
@@ -148,4 +148,4 @@ For most brands, shipping direct from Shenzhen DDP is the right way to enter the
 
 ## The bottom line
 
-Australia is one of the cleaner markets to sell into from China: a high, simple A$1,000 threshold, GST collected at checkout once you are registered, fast delivery, and no duty on the low-value orders that make up most of your sales. Register for GST when you cross A$75,000, ship DDP so no customer sees a bill, and you have a smooth lane from Shenzhen to Sydney. [Tell us your Australian volume and we'll map the setup](/Contact-Us.html).
+Australia is one of the cleaner markets to sell into from China: a high, simple A$1,000 threshold, GST collected at checkout once you are registered, fast delivery, and no duty on the low-value orders that make up most of your sales. Register for GST when you cross A$75,000, ship DDP so no customer sees a bill, and you have a smooth lane from Shenzhen to Sydney. If you are expanding across Asia-Pacific, [Japan is the next corridor worth reading](/china-to-japan-fulfillment-2026.html). [Tell us your Australian volume and we'll map the setup](/Contact-Us.html).

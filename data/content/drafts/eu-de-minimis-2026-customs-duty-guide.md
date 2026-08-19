@@ -129,6 +129,8 @@ The €3 EU duty is not arriving into a clean system. Several member states have
 
 The practical takeaway is that "the EU fee" is not one number. A single parcel into France after 1 July can carry the €3 EU duty per category, a national tax per item, VAT on the combined total, and potentially a union handling fee on top. You cannot model European landed cost as a flat add-on anymore. It has to be calculated per destination country and per item category, at checkout. (Because national measures are still being finalised, confirm the exact rate for each country you ship to before you hard-code it.)
 
+Germany is the largest single market affected; see our [China to Germany and EU fulfilment guide](/china-to-germany-fulfillment-2026.html) for the corridor detail. The same shift has already played out in the US, where [de minimis ended entirely](/us-de-minimis-ended-2026-china-sellers-guide.html).
+
 ## Automated IOSS integration from Shenzhen
 
 The mechanism that keeps this from becoming chaos is IOSS, the Import One-Stop Shop. IOSS lets an overseas seller collect VAT, and now the interim duty, at the point of sale and remit it centrally, so the parcel clears EU customs in a single scan rather than getting routed into slow, expensive brokerage. An inactive or missing IOSS registration is the difference between a green-channel clearance and a parcel stuck in manual customs handling with the customer footing a surprise bill.
@@ -141,7 +143,7 @@ This is the sequence to hand your operations team. Miss a step and parcels get h
 
 1. **Run an HS code harmonisation and line audit now.** Move past generic four-digit codes and assign precise six or eight-digit Harmonized System codes to every SKU. Group products that share a sub-heading so multi-item carts collapse into fewer dutiable lines wherever that is genuinely accurate, since every distinct line is another €3.
 2. **Validate and re-link your IOSS registration before mid-June.** Confirm the IOSS ID is active and natively integrated with your fulfilment dashboard. The interim duty is processed through the IOSS mechanism, and an inactive ID forces an immediate fallback to legacy customs brokerage.
-3. **Reconfigure your checkout tax and duty engine by late June.** Switch your Shopify or WooCommerce setup from a DAP framework to a hard DDP model. Program the backend to inject the €3 per-line duty and the relevant national surcharges into the customer's final checkout total, so the price they pay is the price that clears customs.
+3. **Reconfigure your checkout tax and duty engine by late June.** Switch your Shopify or WooCommerce setup from a DAP framework to a hard [DDP](/ddp-shipping-from-china-explained-2026.html) model. Program the backend to inject the €3 per-line duty and the relevant national surcharges into the customer's final checkout total, so the price they pay is the price that clears customs.
 4. **Deploy origin-side customs manifests for the go-live.** Every small-parcel label must transmit its digital product identifiers, GTIN, EAN or UPC, along with the IOSS token to the carrier before departure, so each parcel hits EU customs fully pre-declared and clears single-scan in the green channel.
 
 ## The window is now

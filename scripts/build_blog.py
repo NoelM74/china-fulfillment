@@ -151,6 +151,26 @@ def process_markdown(md_path):
     # The new articles already have title in frontmatter, let's use that.
     # Convert body to HTML
     body_html = markdown.markdown(body_no_scripts, extensions=['tables'])
+
+    # Wide markdown tables must scroll inside their own container rather than
+    # pushing the whole page sideways on a phone.
+    body_html = body_html.replace('<table>', '<div class="tw"><table>')
+    body_html = body_html.replace('</table>', '</table></div>')
+
+    # In-body images need intrinsic dimensions or they cause layout shift.
+    # Infographics are generated 4:5 portrait; anything else keeps its ratio
+    # declared at the width the article column actually renders.
+    def _size_img(m):
+        tag = m.group(0)
+        src = re.search(r'src="([^"]*)"', tag)
+        alt = re.search(r'alt="([^"]*)"', tag)
+        src = src.group(1) if src else ""
+        alt = alt.group(1) if alt else ""
+        w, h = (1200, 1500) if 'infographic' in src else (1200, 675)
+        return ('<img src="%s" alt="%s" width="%d" height="%d" '
+                'loading="lazy" decoding="async"/>' % (src, alt, w, h))
+
+    body_html = re.sub(r'<img\b[^>]*/?>', _size_img, body_html)
     
     # In markdown, image urls might be /images/blog/...
     # They should be fine if we moved them.

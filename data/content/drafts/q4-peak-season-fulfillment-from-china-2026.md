@@ -155,7 +155,7 @@ Decide the split in August. Sellers who do not end up air-freighting their entir
 
 ## Don't forget what comes right after
 
-Peak season does not end at Christmas for anyone sourcing in China. Chinese New Year 2027 falls in mid-February, and factories shut for one to three weeks around it. The stock that carries you through January and into spring needs to be built and shipped before that shutdown, which means the smart Q4 booking conversation already includes the CNY order. Plan the two together and you ride out both; treat them separately and you get caught twice.
+Peak season does not end at Christmas for anyone sourcing in China. [Chinese New Year 2027](/chinese-new-year-2027-shipping-deadlines.html) falls on 6 February, and factories shut for one to three weeks around it. The stock that carries you through January and into spring needs to be built and shipped before that shutdown, which means the smart Q4 booking conversation already includes the CNY order. Plan the two together and you ride out both; treat them separately and you get caught twice.
 
 ## The bottom line
 

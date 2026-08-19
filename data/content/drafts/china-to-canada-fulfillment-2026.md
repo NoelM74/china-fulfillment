@@ -138,7 +138,7 @@ From a [Shenzhen warehouse](/ecommerce-fulfillment.html):
 - **Air freight**, roughly 6-12 days plus clearance, for faster bulk movements.
 - **Sea freight**, around 20-35 days, for moving bulk stock to a Canadian warehouse or 3PL.
 
-West-coast destinations near the Pacific ports tend to clear and deliver faster than the east. Correct HS classification before shipping keeps clearance smooth.
+West-coast destinations near the Pacific ports tend to clear and deliver faster than the east. Selling into the other big English-speaking market too? Our [China to Australia guide](/china-to-australia-fulfillment-2026.html) covers the A$1,000 GST threshold. Correct HS classification before shipping keeps clearance smooth.
 
 ## Direct from China, or hold Canadian stock?
 

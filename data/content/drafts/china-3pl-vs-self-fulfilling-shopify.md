@@ -21,11 +21,11 @@ schema_type: Article
 author: Noel Murphy
 last_updated: 2026-05-16
 images:
-  hero: /images/blog/hero-3pl-vs-self-fulfilling.png
+  hero: /images/blog/hero-3pl-vs-self-fulfilling.webp
   hero_alt: "Split view comparing a cluttered home office shipping setup with a professional China 3PL warehouse"
-  infographic: /images/blog/infographic-3pl-flow.png
-  infographic_alt: "China 3PL fulfilment process flow from manufacturer to customer delivery"
-og_image: /images/blog/hero-3pl-vs-self-fulfilling.png
+  infographic: /images/blog/infographic-3pl-flow.webp
+  infographic_alt: "Self-fulfilling versus using a China 3PL for a Shopify store: self-fulfilling is cheaper below about 50 orders a month but manual and slower, while a 3PL syncs orders automatically, runs professional QC and ships on dedicated lines in roughly 7 to 10 days to the US"
+og_image: /images/blog/hero-3pl-vs-self-fulfilling.webp
 ---
 
 <!-- Article Schema (JSON-LD), paste into page <head> -->
@@ -35,7 +35,7 @@ og_image: /images/blog/hero-3pl-vs-self-fulfilling.png
   "@type": "Article",
   "headline": "China 3PL vs Self-Fulfilling from China, Which Is Right for Your Shopify Store?",
   "description": "Weighing China 3PL vs self-fulfilment for your Shopify store? Compare costs, speed, and scalability to find the right model for your brand.",
-  "image": "https://www.china-fulfillment.com/images/blog/hero-3pl-vs-self-fulfilling.png",
+  "image": "https://www.china-fulfillment.com/images/blog/hero-3pl-vs-self-fulfilling.webp",
   "author": {
     "@type": "Person",
     "name": "Noel Murphy",
@@ -111,7 +111,7 @@ og_image: /images/blog/hero-3pl-vs-self-fulfilling.png
 
 # China 3PL vs Self-Fulfilling from China, Which Is Right for Your Shopify Store?
 
-![Split view comparing a cluttered home office shipping setup with a professional China 3PL warehouse](/images/blog/hero-3pl-vs-self-fulfilling.png)
+![Split view comparing a cluttered home office shipping setup with a professional China 3PL warehouse](/images/blog/hero-3pl-vs-self-fulfilling.webp)
 
 You started your Shopify store because you had a great product, not because you dreamed of spending Sunday nights wrestling with shipping labels and haggling with freight forwarders.
 
@@ -119,7 +119,7 @@ But here you are.
 
 Your supplier in Shenzhen ships to your apartment. You repack everything into mailers. You queue at the post office. And every time an order spikes over the weekend, Monday morning feels like a logistics disaster.
 
-At some point, every Shopify seller sourcing from China hits the same fork in the road: keep doing this yourself, or hand fulfilment to a **China 3PL** (third-party logistics provider) that does it for a living.
+At some point, every Shopify seller sourcing from China hits the same fork in the road: keep doing this yourself, or hand fulfilment to a **China 3PL** (third-party logistics provider) that does it for a living. If you have already made that call and are now [choosing between providers](/how-to-choose-a-china-3pl.html), that is a different question with its own answers.
 
 This guide breaks down the real differences between **China 3PL vs self fulfilment**, the costs most people forget to count, the speed difference your customers actually notice, and the honest inflection point where switching makes financial sense.
 
@@ -135,7 +135,7 @@ But "full control" has a price that rarely shows up on a spreadsheet.
 
 **Time.** The biggest cost of self-fulfilment is not money, it is your time. Every hour you spend printing labels, taping boxes, and driving to the post office is an hour you are not spending on product development, marketing, or customer acquisition. For a solo founder doing 5–10 orders a day, fulfilment can easily eat 2–3 hours. At 50 orders a day, it becomes a full-time job.
 
-**Shipping rates.** Individual parcels from China cost significantly more per unit than bulk-negotiated rates. A China 3PL shipping thousands of parcels per day through dedicated freight lines typically achieves rates 20–40% lower than what you can negotiate alone. That gap compounds fast.
+**Shipping rates.** Individual parcels from China cost significantly more per unit than bulk-negotiated rates. Our [China fulfilment pricing guide](/china-fulfillment-cost-pricing-2026.html) breaks down every line, and the [returns playbook](/ecommerce-returns-fulfilling-from-china-2026.html) covers the other big objection. A China 3PL shipping thousands of parcels per day through dedicated freight lines typically achieves rates 20–40% lower than what you can negotiate alone. That gap compounds fast.
 
 **Error rates.** When you are packing at midnight because a sale went better than expected, mistakes happen. Wrong SKU. Missing insert. Label on the wrong parcel. Each error costs you a return, a replacement shipment, and, worst of all, a customer who does not come back.
 
@@ -156,7 +156,7 @@ Here is how the typical workflow looks:
 
 The entire chain runs on autopilot. You monitor stock levels from a dashboard. You restock when inventory runs low. You focus on growing your brand.
 
-![China 3PL fulfilment process flow from manufacturer to customer delivery](/images/blog/infographic-3pl-flow.png)
+![Self-fulfilling versus using a China 3PL for a Shopify store: self-fulfilling is cheaper below about 50 orders a month but manual and slower, while a 3PL syncs orders automatically, runs professional QC and ships on dedicated lines in roughly 7 to 10 days to the US](/images/blog/infographic-3pl-flow.webp)
 
 ## Head-to-Head Comparison: China 3PL vs Self Fulfilment
 
