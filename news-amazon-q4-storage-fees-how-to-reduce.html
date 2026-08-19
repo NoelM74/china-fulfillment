@@ -146,11 +146,13 @@ html body a.bp:hover,html body a.ncta:hover,html body a.mcta:hover,html body .mo
 .article th{background:#0d2144;color:#fff;font-family:'Outfit',sans-serif;font-weight:700;padding:12px 14px;text-align:left;font-size:.86rem;line-height:1.35}
 .article th strong,.article th b,.article th em,.article th a{color:#fff!important}
 .post-cat{color:#c25205!important}
+.hglow{right:0!important}
 .hi{color:#c25205!important}
 .filter.active{background:#c25205!important;color:#fff!important;border-color:#c25205!important}
 .article td{padding:12px 14px;border-bottom:1px solid #dae0ec;color:#334155;line-height:1.5}
 .article tbody tr:nth-child(even) td{background:#f4f6fb}
-.article .tw{overflow-x:auto;-webkit-overflow-scrolling:touch;margin:24px 0 32px;border-radius:10px;border:1px solid #dae0ec}
+.tw{overflow-x:auto;-webkit-overflow-scrolling:touch;margin:24px 0 32px;border-radius:10px;border:1px solid #dae0ec;max-width:100%}
+.tw>table{margin:0}
 
 .obar{background:#c25205!important;color:#fff!important}
 </style>
@@ -221,13 +223,13 @@ html body a.bp:hover,html body a.ncta:hover,html body a.mcta:hover,html body .mo
 
  <p>Amazon's FBA storage fees are calculated per cubic foot, charged monthly, based on the daily average volume your inventory occupies. Rates change by season. Here are the 2026 rates for standard-size products:</p>
 
- <table class="ctable">
+ <div class="tw"><table class="ctable">
  <thead><tr><th>Period</th><th>Per Cubic Foot</th><th>Per CBM (35.31 cu ft)</th></tr></thead>
  <tbody>
  <tr><td class="service">January - September</td><td>$0.78</td><td>$27.55</td></tr>
  <tr><td class="service">October - December (Q4)</td><td class="bad">$2.40</td><td class="bad">$84.76</td></tr>
  </tbody>
- </table>
+ </table></div>
 
  <p>The Q4 rate is 3x the off-peak rate. This is not a minor seasonal adjustment. It triples your storage cost during the exact months when most sellers need the most inventory on hand to cover holiday demand.</p>
 
@@ -258,7 +260,7 @@ html body a.bp:hover,html body a.ncta:hover,html body a.mcta:hover,html body .mo
 
  <p>Abstract percentages do not pay invoices. Here is what the savings look like in actual dollars at three different inventory levels, calculated over a full 12-month period (9 months off-peak + 3 months Q4):</p>
 
- <table class="ctable">
+ <div class="tw"><table class="ctable">
  <thead><tr><th>Volume</th><th>Amazon (12 months)</th><th>Shenzhen (12 months)</th><th>Annual Saving</th></tr></thead>
  <tbody>
  <tr><td class="service">5 CBM</td><td>$2,480</td><td>$882</td><td class="hl">$1,598</td></tr>
@@ -266,7 +268,7 @@ html body a.bp:hover,html body a.ncta:hover,html body a.mcta:hover,html body .mo
  <tr><td class="service">25 CBM</td><td>$12,400</td><td>$4,410</td><td class="hl">$7,990</td></tr>
  <tr><td class="service">58 CBM</td><td>$29,126</td><td>$10,231</td><td class="hl">$18,895</td></tr>
  </tbody>
- </table>
+ </table></div>
 
  <p>The 58 CBM example is a realistic volume for a mid-size Amazon seller running 15-20 SKUs. At that level, the difference between storing everything at Amazon versus storing the bulk in Shenzhen is nearly $19,000 per year. That is money that goes directly to your bottom line without selling a single additional unit.</p>
 

@@ -137,11 +137,13 @@ html body a.bp:hover,html body a.ncta:hover,html body a.mcta:hover,html body .mo
 .article th{background:#0d2144;color:#fff;font-family:'Outfit',sans-serif;font-weight:700;padding:12px 14px;text-align:left;font-size:.86rem;line-height:1.35}
 .article th strong,.article th b,.article th em,.article th a{color:#fff!important}
 .post-cat{color:#c25205!important}
+.hglow{right:0!important}
 .hi{color:#c25205!important}
 .filter.active{background:#c25205!important;color:#fff!important;border-color:#c25205!important}
 .article td{padding:12px 14px;border-bottom:1px solid #dae0ec;color:#334155;line-height:1.5}
 .article tbody tr:nth-child(even) td{background:#f4f6fb}
-.article .tw{overflow-x:auto;-webkit-overflow-scrolling:touch;margin:24px 0 32px;border-radius:10px;border:1px solid #dae0ec}
+.tw{overflow-x:auto;-webkit-overflow-scrolling:touch;margin:24px 0 32px;border-radius:10px;border:1px solid #dae0ec;max-width:100%}
+.tw>table{margin:0}
 </style>
 </head>
 <body>
@@ -200,7 +202,7 @@ html body a.bp:hover,html body a.ncta:hover,html body a.mcta:hover,html body .mo
 
  <p>The numbers vary by source and methodology, but the pattern is consistent across all of them. COD is dominant in the Philippines, Indonesia, and Vietnam, significant in Thailand and Malaysia, and minimal only in Singapore (where credit card penetration is high).</p>
 
- <table class="ctable">
+ <div class="tw"><table class="ctable">
  <thead><tr><th>Country</th><th>COD Share of Ecommerce</th><th>Key Payment at Door</th><th>eCommerce Market Size (2025)</th></tr></thead>
  <tbody>
  <tr><td class="service">Philippines</td><td class="high">~42%</td><td>Cash, GCash</td><td>~$18 billion</td></tr>
@@ -211,7 +213,7 @@ html body a.bp:hover,html body a.ncta:hover,html body a.mcta:hover,html body .mo
  <tr><td class="service">Saudi Arabia</td><td>~30%</td><td>Cash, STC Pay, mada</td><td>~$20 billion</td></tr>
  <tr><td class="service">UAE</td><td>~20%</td><td>Cash, Apple Pay</td><td>~$10 billion</td></tr>
  </tbody>
- </table>
+ </table></div>
 
  <p>The regional trend is moving toward digital payments. COD was 52% of all Southeast Asian ecommerce in 2019. It is now around 31%. Digital wallets like GCash, MoMo, and GoPay are growing fast. But the decline is gradual, not sudden. COD will remain a major payment method in the region for years, especially in tier-2 and tier-3 cities where digital wallet adoption lags behind urban centres.</p>
 
@@ -234,7 +236,7 @@ html body a.bp:hover,html body a.ncta:hover,html body a.mcta:hover,html body .mo
 
  <p>COD does not mean cash only. In most Southeast Asian markets, the courier collecting payment at delivery offers multiple options. Which methods are available depends on the country and the courier partner.</p>
 
- <table class="ctable">
+ <div class="tw"><table class="ctable">
  <thead><tr><th>Country</th><th>Cash</th><th>Mobile Wallet</th><th>Card (POS)</th></tr></thead>
  <tbody>
  <tr><td class="service">Philippines</td><td>Yes</td><td class="hl">GCash</td><td>Limited</td></tr>
@@ -244,7 +246,7 @@ html body a.bp:hover,html body a.ncta:hover,html body a.mcta:hover,html body .mo
  <tr><td class="service">Malaysia</td><td>Yes</td><td class="hl">Touch 'n Go</td><td>Yes</td></tr>
  <tr><td class="service">Saudi Arabia</td><td>Yes</td><td class="hl">STC Pay</td><td>mada POS</td></tr>
  </tbody>
- </table>
+ </table></div>
 
  <p>Offering mobile wallet payment at delivery (not just cash) reduces refusal rates because the customer does not need to have exact change. It also reduces the courier's cash handling risk and speeds up the settlement process. When setting up COD with a fulfillment partner, confirm which payment methods the local courier accepts in each country.</p>
 

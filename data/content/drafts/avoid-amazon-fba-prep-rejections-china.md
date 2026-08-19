@@ -21,11 +21,11 @@ schema_type: Article
 author: Noel Murphy
 last_updated: 2026-05-16
 images:
-  hero: /images/blog/hero-fba-prep-rejections.png
+  hero: /images/blog/hero-fba-prep-rejections.webp
   hero_alt: "Warehouse worker applying FNSKU barcode labels to Amazon FBA cartons before export from China"
-  infographic: /images/blog/infographic-fba-checklist.png
-  infographic_alt: "Amazon FBA prep compliance checklist, 5 steps to avoid shipment rejections"
-og_image: /images/blog/hero-fba-prep-rejections.png
+  infographic: /images/blog/infographic-fba-checklist.webp
+  infographic_alt: "The five most common Amazon FBA rejection causes and how prep in China prevents them: unreadable FNSKU barcodes, incorrect carton weights or dimensions, missing poly-bagging, wrong box content labels, and shipping plan mismatches"
+og_image: /images/blog/hero-fba-prep-rejections.webp
 ---
 
 <!-- Article Schema (JSON-LD), paste into page <head> -->
@@ -35,7 +35,7 @@ og_image: /images/blog/hero-fba-prep-rejections.png
   "@type": "Article",
   "headline": "How to Avoid Amazon FBA Prep Rejections When Shipping from China",
   "description": "Stop costly Amazon FBA prep rejections. Learn the exact labelling, packaging, and shipping steps to get your China shipments accepted at Amazon FCs first time.",
-  "image": "https://www.china-fulfillment.com/images/blog/hero-fba-prep-rejections.png",
+  "image": "https://www.china-fulfillment.com/images/blog/hero-fba-prep-rejections.webp",
   "author": {
     "@type": "Person",
     "name": "Noel Murphy",
@@ -111,7 +111,7 @@ og_image: /images/blog/hero-fba-prep-rejections.png
 
 # How to Avoid Amazon FBA Prep Rejections When Shipping from China
 
-![Warehouse worker applying FNSKU barcode labels to Amazon FBA cartons before export from China](/images/blog/hero-fba-prep-rejections.png)
+![Warehouse worker applying FNSKU barcode labels to Amazon FBA cartons before export from China](/images/blog/hero-fba-prep-rejections.webp)
 
 Amazon does not care how long your shipment took to get there. They do not care how much you paid for freight. And they definitely do not care that your supplier swore the labels were correct.
 
@@ -183,7 +183,7 @@ Common failures:
 - Cartons arrive at the wrong FC (when using Amazon's distributed inventory placement)
 - Shipment arrives in more or fewer cartons than declared
 
-![Amazon FBA prep compliance checklist, 5 steps to avoid shipment rejections](/images/blog/infographic-fba-checklist.png)
+![The five most common Amazon FBA rejection causes and how prep in China prevents them: unreadable FNSKU barcodes, incorrect carton weights or dimensions, missing poly-bagging, wrong box content labels, and shipping plan mismatches](/images/blog/infographic-fba-checklist.webp)
 
 ## Why Relying on Your Manufacturer for FBA Prep Is Risky
 

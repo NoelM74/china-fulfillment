@@ -146,11 +146,13 @@ html body a.bp:hover,html body a.ncta:hover,html body a.mcta:hover,html body .mo
 .article th{background:#0d2144;color:#fff;font-family:'Outfit',sans-serif;font-weight:700;padding:12px 14px;text-align:left;font-size:.86rem;line-height:1.35}
 .article th strong,.article th b,.article th em,.article th a{color:#fff!important}
 .post-cat{color:#c25205!important}
+.hglow{right:0!important}
 .hi{color:#c25205!important}
 .filter.active{background:#c25205!important;color:#fff!important;border-color:#c25205!important}
 .article td{padding:12px 14px;border-bottom:1px solid #dae0ec;color:#334155;line-height:1.5}
 .article tbody tr:nth-child(even) td{background:#f4f6fb}
-.article .tw{overflow-x:auto;-webkit-overflow-scrolling:touch;margin:24px 0 32px;border-radius:10px;border:1px solid #dae0ec}
+.tw{overflow-x:auto;-webkit-overflow-scrolling:touch;margin:24px 0 32px;border-radius:10px;border:1px solid #dae0ec;max-width:100%}
+.tw>table{margin:0}
 
 .obar{background:#c25205!important;color:#fff!important}
 </style>
@@ -233,7 +235,7 @@ html body a.bp:hover,html body a.ncta:hover,html body a.mcta:hover,html body .mo
 
  <p>This is the question every Shopify seller asks first. The answer depends on two things: which shipping method you choose, and where your customer lives.</p>
 
- <table class="ctable">
+ <div class="tw"><table class="ctable">
  <thead><tr><th>Destination</th><th>Express (DHL/FedEx/UPS)</th><th>Economy Air</th></tr></thead>
  <tbody>
  <tr><td class="service">United States</td><td class="hl">3-5 business days</td><td>7-12 days</td></tr>
@@ -244,7 +246,7 @@ html body a.bp:hover,html body a.ncta:hover,html body a.mcta:hover,html body .mo
  <tr><td class="service">Southeast Asia</td><td class="hl">2-4 business days</td><td>5-8 days</td></tr>
  <tr><td class="service">Middle East</td><td class="hl">3-5 business days</td><td>7-10 days</td></tr>
  </tbody>
- </table>
+ </table></div>
 
  <p>Express times are carrier transit times (DHL, FedEx, or UPS door-to-door). Add 1 day for warehouse processing. Economy air uses dedicated air freight lines that cost less than express but take longer. Both options include full tracking from dispatch to delivery.</p>
 
@@ -259,7 +261,7 @@ html body a.bp:hover,html body a.ncta:hover,html body a.mcta:hover,html body .mo
 
  <p>The fulfillment cost has two components: the pick-and-pack fee (fixed) and the shipping cost (variable based on weight and destination).</p>
 
- <table class="ctable">
+ <div class="tw"><table class="ctable">
  <thead><tr><th>Cost Component</th><th>Rate</th></tr></thead>
  <tbody>
  <tr><td class="service">Pick and pack per order</td><td class="hl">$0.99 (branded packaging included)</td></tr>
@@ -271,7 +273,7 @@ html body a.bp:hover,html body a.ncta:hover,html body a.mcta:hover,html body .mo
  <tr><td class="service">Economy shipping (0.5kg to US)</td><td>Approx $3-5 per package</td></tr>
  <tr><td class="service">Monthly subscription</td><td class="hl">$0 (no platform fees)</td></tr>
  </tbody>
- </table>
+ </table></div>
 
  <p>Shipping rates depend on package weight, dimensions, and destination. We negotiate carrier rates in bulk across all clients, which means even a brand shipping 50 orders a day gets rates closer to what a 500-order-per-day operation would pay individually. Exact rates are quoted when you set up your account based on your typical package profile.</p>
 

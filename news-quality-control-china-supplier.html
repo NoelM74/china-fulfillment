@@ -141,11 +141,13 @@ html body a.bp:hover,html body a.ncta:hover,html body a.mcta:hover,html body .mo
 .article th{background:#0d2144;color:#fff;font-family:'Outfit',sans-serif;font-weight:700;padding:12px 14px;text-align:left;font-size:.86rem;line-height:1.35}
 .article th strong,.article th b,.article th em,.article th a{color:#fff!important}
 .post-cat{color:#c25205!important}
+.hglow{right:0!important}
 .hi{color:#c25205!important}
 .filter.active{background:#c25205!important;color:#fff!important;border-color:#c25205!important}
 .article td{padding:12px 14px;border-bottom:1px solid #dae0ec;color:#334155;line-height:1.5}
 .article tbody tr:nth-child(even) td{background:#f4f6fb}
-.article .tw{overflow-x:auto;-webkit-overflow-scrolling:touch;margin:24px 0 32px;border-radius:10px;border:1px solid #dae0ec}
+.tw{overflow-x:auto;-webkit-overflow-scrolling:touch;margin:24px 0 32px;border-radius:10px;border:1px solid #dae0ec;max-width:100%}
+.tw>table{margin:0}
 </style>
 </head>
 <body>
@@ -214,14 +216,14 @@ html body a.bp:hover,html body a.ncta:hover,html body a.mcta:hover,html body .mo
 
  <p>Defects found in the sample are classified into three categories, each with a different tolerance threshold:</p>
 
- <table class="ctable">
+ <div class="tw"><table class="ctable">
  <thead><tr><th>Defect Type</th><th>AQL Threshold</th><th>What It Means</th><th>Examples</th></tr></thead>
  <tbody>
  <tr><td class="service">Critical</td><td class="warn">0% (zero tolerance)</td><td>Product is unsafe or violates regulations</td><td>Sharp edges on children's toys, electrical hazards, toxic materials</td></tr>
  <tr><td class="service">Major</td><td>2.5%</td><td>Affects function or causes returns</td><td>Broken zipper, non-working button, wrong dimensions, incorrect label</td></tr>
  <tr><td class="service">Minor</td><td>4.0%</td><td>Cosmetic, does not affect function</td><td>Slight colour variation, minor scratch, loose thread</td></tr>
  </tbody>
- </table>
+ </table></div>
 
  <p>If the number of defective units in the sample exceeds the AQL threshold for any category, the entire batch fails inspection. You then have the negotiating power to require the factory to rework, replace, or offer a discount before you release payment.</p>
 
@@ -242,7 +244,7 @@ html body a.bp:hover,html body a.ncta:hover,html body a.mcta:hover,html body .mo
 
  <p>The further a defect travels down the supply chain, the more it costs to resolve. This table shows the approximate cost impact of the same defect caught at different points.</p>
 
- <table class="ctable">
+ <div class="tw"><table class="ctable">
  <thead><tr><th>Where Defect Is Caught</th><th>Cost to Resolve</th><th>Who Pays</th></tr></thead>
  <tbody>
  <tr><td class="service">At the factory (pre-shipment)</td><td class="hl">$0 (factory reworks)</td><td>Supplier</td></tr>
@@ -251,7 +253,7 @@ html body a.bp:hover,html body a.ncta:hover,html body a.mcta:hover,html body .mo
  <tr><td class="service">At the customer's door</td><td class="warn">$15-$50+ per unit (return, refund, replacement, lost review)</td><td>You</td></tr>
  <tr><td class="service">Account health impact</td><td class="warn">Suspension risk (priceless)</td><td>You</td></tr>
  </tbody>
- </table>
+ </table></div>
 
  <p>The maths is straightforward. A $200-$400 pre-shipment inspection on a 3,000-unit batch costs $0.07-$0.13 per unit. A single one-star review on Amazon can cost you far more than that in lost conversions over the weeks it remains visible. Prevention is not just cheaper. It is orders of magnitude cheaper.</p>
 

@@ -21,11 +21,11 @@ schema_type: Article
 author: Noel Murphy
 last_updated: 2026-05-16
 images:
-  hero: /images/blog/hero-kickstarter-fulfillment.png
+  hero: /images/blog/hero-kickstarter-fulfillment.webp
   hero_alt: "Warehouse workers packing Kickstarter backer rewards with global shipping route map in background"
-  infographic: /images/blog/infographic-kickstarter-flow.png
-  infographic_alt: "Comparison of traditional vs direct-from-China Kickstarter fulfillment showing time and cost differences"
-og_image: /images/blog/hero-kickstarter-fulfillment.png
+  infographic: /images/blog/infographic-kickstarter-flow.webp
+  infographic_alt: "Traditional versus direct-from-China Kickstarter fulfilment: the traditional route ships bulk to a Western warehouse then out to backers, while direct-from-China picks and packs each backer reward at the source and ships once, cutting a leg of freight and a round of handling"
+og_image: /images/blog/hero-kickstarter-fulfillment.webp
 ---
 
 <!-- Article Schema (JSON-LD), paste into page <head> -->
@@ -35,7 +35,7 @@ og_image: /images/blog/hero-kickstarter-fulfillment.png
   "@type": "Article",
   "headline": "How to Ship Kickstarter Backer Rewards from China, Complete 2026 Guide",
   "description": "Funded your Kickstarter? Learn how to fulfil backer rewards directly from China, save on shipping, avoid customs surprises, and deliver faster worldwide.",
-  "image": "https://www.china-fulfillment.com/images/blog/hero-kickstarter-fulfillment.png",
+  "image": "https://www.china-fulfillment.com/images/blog/hero-kickstarter-fulfillment.webp",
   "author": {
     "@type": "Person",
     "name": "Noel Murphy",
@@ -111,7 +111,7 @@ og_image: /images/blog/hero-kickstarter-fulfillment.png
 
 # How to Ship Kickstarter Backer Rewards from China, Complete 2026 Guide
 
-![Warehouse workers packing Kickstarter backer rewards with global shipping route map in background](/images/blog/hero-kickstarter-fulfillment.png)
+![Warehouse workers packing Kickstarter backer rewards with global shipping route map in background](/images/blog/hero-kickstarter-fulfillment.webp)
 
 Your campaign funded. The confetti settled. Your backers are excited.
 
@@ -161,7 +161,7 @@ The advantages:
 - **Lower total shipping cost.** One shipment per backer, direct route, bulk carrier rates. No double-handling, no domestic postage markup.
 - **Global reach from a single location.** US backers, UK backers, Australian backers, German backers, they all ship from the same warehouse. No need to split inventory across multiple countries.
 
-![Comparison of traditional vs direct-from-China Kickstarter fulfillment showing time and cost differences](/images/blog/infographic-kickstarter-flow.png)
+![Traditional versus direct-from-China Kickstarter fulfilment: the traditional route ships bulk to a Western warehouse then out to backers, while direct-from-China picks and packs each backer reward at the source and ships once, cutting a leg of freight and a round of handling](/images/blog/infographic-kickstarter-flow.webp)
 
 > **When does the traditional model still make sense?** If the vast majority of your backers (90%+) are in a single country and your product is heavy or oversized (making individual air parcels expensive), bulk sea freight to a local warehouse can sometimes be cheaper. For most Kickstarter campaigns with a global backer base and standard-sized products, direct-from-China is the clear winner.
 

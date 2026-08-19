@@ -160,11 +160,13 @@ html body a.bp:hover,html body a.ncta:hover,html body a.mcta:hover,html body .mo
 .article th{background:#0d2144;color:#fff;font-family:'Outfit',sans-serif;font-weight:700;padding:12px 14px;text-align:left;font-size:.86rem;line-height:1.35}
 .article th strong,.article th b,.article th em,.article th a{color:#fff!important}
 .post-cat{color:#c25205!important}
+.hglow{right:0!important}
 .hi{color:#c25205!important}
 .filter.active{background:#c25205!important;color:#fff!important;border-color:#c25205!important}
 .article td{padding:12px 14px;border-bottom:1px solid #dae0ec;color:#334155;line-height:1.5}
 .article tbody tr:nth-child(even) td{background:#f4f6fb}
-.article .tw{overflow-x:auto;-webkit-overflow-scrolling:touch;margin:24px 0 32px;border-radius:10px;border:1px solid #dae0ec}
+.tw{overflow-x:auto;-webkit-overflow-scrolling:touch;margin:24px 0 32px;border-radius:10px;border:1px solid #dae0ec;max-width:100%}
+.tw>table{margin:0}
 
 .obar{background:#c25205!important;color:#fff!important}
 </style>
@@ -303,7 +305,7 @@ html body a.bp:hover,html body a.ncta:hover,html body a.mcta:hover,html body .mo
 
  <p>This is where the conversation gets concrete. Below is a line-by-line comparison of what each option actually costs. The US prep centre figures come from published rate cards across the industry. The China prep figures are our own rates at China Fulfillment.</p>
 
- <table class="ctable">
+ <div class="tw"><table class="ctable">
  <thead>
  <tr><th>Service</th><th>In-House (US)</th><th>US Prep Centre</th><th>China Prep</th></tr>
  </thead>
@@ -317,7 +319,7 @@ html body a.bp:hover,html body a.ncta:hover,html body a.mcta:hover,html body .mo
  <tr><td class="service">Domestic freight to prep centre</td><td>N/A</td><td>$500 - $2,000+/container</td><td class="hl">$0 (factory delivers direct)</td></tr>
  <tr><td class="service">QC inspection before prep</td><td>Not standard</td><td>Not standard</td><td class="hl">Included (visual + count)</td></tr>
  </tbody>
- </table>
+ </table></div>
 
  <p>The two line items that most sellers overlook are domestic freight and receiving fees. When your goods land at a US port, somebody has to truck them to the prep centre. That costs $500 to $2,000 or more per container depending on distance. Then the prep centre charges you to offload and receive those goods. Those costs never appear in the per-unit pricing that prep centres advertise. They show up later on your invoice.</p>
 

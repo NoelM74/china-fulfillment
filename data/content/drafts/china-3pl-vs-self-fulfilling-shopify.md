@@ -21,11 +21,11 @@ schema_type: Article
 author: Noel Murphy
 last_updated: 2026-05-16
 images:
-  hero: /images/blog/hero-3pl-vs-self-fulfilling.png
+  hero: /images/blog/hero-3pl-vs-self-fulfilling.webp
   hero_alt: "Split view comparing a cluttered home office shipping setup with a professional China 3PL warehouse"
-  infographic: /images/blog/infographic-3pl-flow.png
-  infographic_alt: "China 3PL fulfilment process flow from manufacturer to customer delivery"
-og_image: /images/blog/hero-3pl-vs-self-fulfilling.png
+  infographic: /images/blog/infographic-3pl-flow.webp
+  infographic_alt: "Self-fulfilling versus using a China 3PL for a Shopify store: self-fulfilling is cheaper below about 50 orders a month but manual and slower, while a 3PL syncs orders automatically, runs professional QC and ships on dedicated lines in roughly 7 to 10 days to the US"
+og_image: /images/blog/hero-3pl-vs-self-fulfilling.webp
 ---
 
 <!-- Article Schema (JSON-LD), paste into page <head> -->
@@ -35,7 +35,7 @@ og_image: /images/blog/hero-3pl-vs-self-fulfilling.png
   "@type": "Article",
   "headline": "China 3PL vs Self-Fulfilling from China, Which Is Right for Your Shopify Store?",
   "description": "Weighing China 3PL vs self-fulfilment for your Shopify store? Compare costs, speed, and scalability to find the right model for your brand.",
-  "image": "https://www.china-fulfillment.com/images/blog/hero-3pl-vs-self-fulfilling.png",
+  "image": "https://www.china-fulfillment.com/images/blog/hero-3pl-vs-self-fulfilling.webp",
   "author": {
     "@type": "Person",
     "name": "Noel Murphy",
@@ -111,7 +111,7 @@ og_image: /images/blog/hero-3pl-vs-self-fulfilling.png
 
 # China 3PL vs Self-Fulfilling from China, Which Is Right for Your Shopify Store?
 
-![Split view comparing a cluttered home office shipping setup with a professional China 3PL warehouse](/images/blog/hero-3pl-vs-self-fulfilling.png)
+![Split view comparing a cluttered home office shipping setup with a professional China 3PL warehouse](/images/blog/hero-3pl-vs-self-fulfilling.webp)
 
 You started your Shopify store because you had a great product, not because you dreamed of spending Sunday nights wrestling with shipping labels and haggling with freight forwarders.
 
@@ -156,7 +156,7 @@ Here is how the typical workflow looks:
 
 The entire chain runs on autopilot. You monitor stock levels from a dashboard. You restock when inventory runs low. You focus on growing your brand.
 
-![China 3PL fulfilment process flow from manufacturer to customer delivery](/images/blog/infographic-3pl-flow.png)
+![Self-fulfilling versus using a China 3PL for a Shopify store: self-fulfilling is cheaper below about 50 orders a month but manual and slower, while a 3PL syncs orders automatically, runs professional QC and ships on dedicated lines in roughly 7 to 10 days to the US](/images/blog/infographic-3pl-flow.webp)
 
 ## Head-to-Head Comparison: China 3PL vs Self Fulfilment
 

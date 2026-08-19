@@ -139,11 +139,13 @@ html body a.bp:hover,html body a.ncta:hover,html body a.mcta:hover,html body .mo
 .article th{background:#0d2144;color:#fff;font-family:'Outfit',sans-serif;font-weight:700;padding:12px 14px;text-align:left;font-size:.86rem;line-height:1.35}
 .article th strong,.article th b,.article th em,.article th a{color:#fff!important}
 .post-cat{color:#c25205!important}
+.hglow{right:0!important}
 .hi{color:#c25205!important}
 .filter.active{background:#c25205!important;color:#fff!important;border-color:#c25205!important}
 .article td{padding:12px 14px;border-bottom:1px solid #dae0ec;color:#334155;line-height:1.5}
 .article tbody tr:nth-child(even) td{background:#f4f6fb}
-.article .tw{overflow-x:auto;-webkit-overflow-scrolling:touch;margin:24px 0 32px;border-radius:10px;border:1px solid #dae0ec}
+.tw{overflow-x:auto;-webkit-overflow-scrolling:touch;margin:24px 0 32px;border-radius:10px;border:1px solid #dae0ec;max-width:100%}
+.tw>table{margin:0}
 
 .obar{background:#c25205!important;color:#fff!important}
 </style>
@@ -222,14 +224,14 @@ html body a.bp:hover,html body a.ncta:hover,html body a.mcta:hover,html body .mo
 
  <p>Amazon is ending commingling entirely. No more pooled inventory. Every unit in every fulfillment centre will be attributed to a specific seller. But the rules for how that attribution works differ depending on whether you are a brand owner or a reseller.</p>
 
- <table class="ctable">
+ <div class="tw"><table class="ctable">
  <thead><tr><th>Seller Type</th><th>FNSKU Required?</th><th>Manufacturer Barcode?</th><th>Virtual Tracking?</th></tr></thead>
  <tbody>
  <tr><td class="service">Brand Owner (Brand Representative in Brand Registry)</td><td class="hl">No (if product has manufacturer barcode)</td><td class="hl">Yes, UPC, EAN, ISBN accepted</td><td class="hl">Yes, Amazon tracks your units digitally</td></tr>
  <tr><td class="service">Reseller (not Brand Representative)</td><td class="bad">Yes, mandatory on every unit</td><td class="bad">No, manufacturer barcode alone is not sufficient</td><td>No, physical FNSKU required for tracking</td></tr>
  <tr><td class="service">Any seller (product has no manufacturer barcode)</td><td class="bad">Yes, FNSKU required</td><td>N/A, no barcode exists</td><td>No, physical label needed</td></tr>
  </tbody>
- </table>
+ </table></div>
 
  <h2>What this means for brand owners</h2>
 

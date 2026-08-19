@@ -194,11 +194,13 @@ html body a.bp:hover,html body a.ncta:hover,html body a.mcta:hover,html body .mo
 .article th{background:#0d2144;color:#fff;font-family:'Outfit',sans-serif;font-weight:700;padding:12px 14px;text-align:left;font-size:.86rem;line-height:1.35}
 .article th strong,.article th b,.article th em,.article th a{color:#fff!important}
 .post-cat{color:#c25205!important}
+.hglow{right:0!important}
 .hi{color:#c25205!important}
 .filter.active{background:#c25205!important;color:#fff!important;border-color:#c25205!important}
 .article td{padding:12px 14px;border-bottom:1px solid #dae0ec;color:#334155;line-height:1.5}
 .article tbody tr:nth-child(even) td{background:#f4f6fb}
-.article .tw{overflow-x:auto;-webkit-overflow-scrolling:touch;margin:24px 0 32px;border-radius:10px;border:1px solid #dae0ec}
+.tw{overflow-x:auto;-webkit-overflow-scrolling:touch;margin:24px 0 32px;border-radius:10px;border:1px solid #dae0ec;max-width:100%}
+.tw>table{margin:0}
 
 .obar{background:#c25205!important;color:#fff!important}
 </style>
@@ -361,7 +363,7 @@ html body a.bp:hover,html body a.ncta:hover,html body a.mcta:hover,html body .mo
  <p class="ss">Every figure in the left column is our published rate. Every figure in the right column is the industry range from US-based prep centres and 3PLs.</p>
  </div>
 
- <table class="ctable">
+ <div class="tw"><table class="ctable">
  <thead><tr><th>Service</th><th>China Fulfillment (Shenzhen)</th><th>Typical US 3PL</th></tr></thead>
  <tbody>
  <tr><td class="service">Storage per CBM per month</td><td class="hl">$14.70</td><td class="bad">$30 - $84.74 (Q4)</td></tr>
@@ -374,7 +376,7 @@ html body a.bp:hover,html body a.ncta:hover,html body a.mcta:hover,html body .mo
  <tr><td class="service">QC inspection</td><td class="hl">Visual included free</td><td>Not standard</td></tr>
  <tr><td class="service">Annual saving on 58 CBM (40ft container)</td><td class="hl" colspan="2">$20,550 saved versus Amazon FBA storage</td></tr>
  </tbody>
- </table>
+ </table></div>
  </div>
 </section>
 
