@@ -340,5 +340,70 @@
     "created_at": "2026-10-23",
     "published_at": "2026-08-29",
     "notes": "HELD. Bottom-funnel commercial intent. Uses the brand's REAL published rates ($0.99 pick&pack no min, $0.49/CBM/day storage 30 days free, FNSKU $0.15, poly-bag $0.30, kitting $0.50, free QC, zero receiving). Honest that shipping is the big variable (quoted by weight/destination); Western pick&pack midpoint ~$2.75 as grounded comparison. Duty priced in via DDP."
+  },
+  {
+    "title": "How to Choose a China 3PL: The Questions to Ask and the Red Flags",
+    "slug": "how-to-choose-a-china-3pl",
+    "target_keyword": "how to choose a china 3pl",
+    "audience": "shopify",
+    "geo": "global",
+    "content_type": "blog_post",
+    "status": "held",
+    "draft_path": "data/content/drafts/how-to-choose-a-china-3pl.md",
+    "created_at": "2026-08-19",
+    "published_at": "",
+    "notes": "Content-gap audit P0. Bottom-funnel commercial. Grounded in Market Intelligence notebook (win/loss factors, buyer journey, competitor set). Held: noindex, out of sitemap, no blog card, awaiting images."
+  },
+  {
+    "title": "Incoterms for China Imports (2026): EXW vs FOB vs CIF vs DDP",
+    "slug": "incoterms-china-imports-exw-fob-cif-ddp",
+    "target_keyword": "incoterms importing from china",
+    "audience": "shopify",
+    "geo": "global",
+    "content_type": "blog_post",
+    "status": "held",
+    "draft_path": "data/content/drafts/incoterms-china-imports-exw-fob-cif-ddp.md",
+    "created_at": "2026-08-19",
+    "published_at": "",
+    "notes": "Content-gap audit P0. Converts the DDP post into an Incoterms cluster hub. Held: noindex, out of sitemap, no blog card, awaiting images."
+  },
+  {
+    "title": "Cut Your Shipping Bill: DIM Weight and Packaging Optimisation (2026)",
+    "slug": "dim-weight-packaging-optimisation-2026",
+    "target_keyword": "dimensional weight shipping cost",
+    "audience": "shopify",
+    "geo": "global",
+    "content_type": "blog_post",
+    "status": "held",
+    "draft_path": "data/content/drafts/dim-weight-packaging-optimisation-2026.md",
+    "created_at": "2026-08-19",
+    "published_at": "",
+    "notes": "Content-gap audit P1, time-sensitive. Hook: USPS divisor 166 to 139 from 12 Jul 2026, fractions round up, applies above 1 cu ft. Held: noindex, out of sitemap, no blog card, awaiting images."
+  },
+  {
+    "title": "Product Compliance for Importing from China (2026): CPC, FCC, CE and UKCA",
+    "slug": "product-compliance-importing-from-china-2026",
+    "target_keyword": "product compliance importing from china",
+    "audience": "amazon_fba",
+    "geo": "global",
+    "content_type": "blog_post",
+    "status": "held",
+    "draft_path": "data/content/drafts/product-compliance-importing-from-china-2026.md",
+    "created_at": "2026-08-19",
+    "published_at": "",
+    "notes": "Content-gap audit P1. Hook: CPSC mandatory eFiling from 8 Jul 2026, FTZ from 8 Jan 2027; UK indefinite CE recognition. Guardrail: labs test, seller certifies, 3PL does neither. Held: noindex, out of sitemap, no blog card, awaiting images."
+  },
+  {
+    "title": "China to Japan Fulfilment (2026): JCT, Platform Tax and Delivery Times",
+    "slug": "china-to-japan-fulfillment-2026",
+    "target_keyword": "china to japan fulfillment",
+    "audience": "shopify",
+    "geo": "JP",
+    "content_type": "blog_post",
+    "status": "held",
+    "draft_path": "data/content/drafts/china-to-japan-fulfillment-2026.md",
+    "created_at": "2026-08-19",
+    "published_at": "",
+    "notes": "Content-gap audit P1. Completes the corridor cluster. Hook: 10,000 yen exemption withdrawn, JCT on CIF+duty, platform liability above 5bn yen, phasing to 2028. Held: noindex, out of sitemap, no blog card, awaiting images."
   }
 ]
