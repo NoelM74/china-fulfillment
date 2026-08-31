@@ -30,7 +30,7 @@ One assumption I had was wrong and worth stating: **negative constraints do work
 | | |
 |---|---|
 | **Format** | `.webp`, sRGB |
-| **Heroes** | generate **16:9 at 2K**, then crop to **2400×880**. Keep the subject centred so the crop does not decapitate anyone |
+| **Heroes** | generate **16:9 at 2K**, then crop to **2070×760**, the size the existing library uses. Keep the focal object dead centre; the crop is a narrow strip |
 | **Infographics** | generate **2:3 or 3:4 portrait at 2K**, then resize to **1200×1500**. Use the highest quality setting: small text needs it |
 | **Palette** | site navy `#0d2144`, accessible orange `#c25205`, logo orange `#DD7008`, logo teal `#2B677A`, warm greys, white |
 | **Upload to** | `images/blog/`, exact lowercase filenames |
@@ -41,6 +41,25 @@ The three posts are staged `noindex`, out of `sitemap.xml`, with no blog card. T
 
 # HEROES
 
+**Style lock, read before generating any of the three.**
+
+These are **not photographs.** They are conceptual 3D renders on a deep navy ground, matching `images/blog/amazon-fba-inbound-placement-fees-2026.webp`, which is the best hero in the existing library and the only one that looks like it belongs to this site.
+
+Every hero shares this base. It is repeated in each prompt so you can paste them independently:
+
+| | |
+|---|---|
+| Ground | Deep navy `#0d2144` fading to near-black `#001830`, with a faint darker grid |
+| Objects | Matte 3D rendered, soft studio lighting, gentle contact shadows |
+| Accent | Saturated orange `#DD7008` |
+| Semantics | Green `#16a34a` = correct or lawful. Red `#d02222` = wrong or penalised |
+| Highlight | A glowing cyan-blue rim light or ring on the focal object |
+| Feel | Editorial tech diagram, high contrast, saturated. Not a photo, not a flat icon |
+
+**What killed the previous attempts:** they asked for photographic realism with "warm neutral greys and one restrained orange accent". That is a recipe for a beige stock photo that shares no colour with the website. Navy ground, orange accent, saturated. Bold beats tasteful here.
+
+---
+
 ## 1. `tariff-engineering-legal-line-2026.webp`
 
 **Alt:** "A product designer and a customs document side by side, showing how a physical product change alters its tariff classification at the border"
@@ -48,18 +67,16 @@ The three posts are staged `noindex`, out of `sitemap.xml`, with no blog card. T
 **Prompt:**
 
 ```
-SCENE: A product development workbench, shot from slightly above at a shallow angle. Warm light on the left half, cool blue-grey light on the right half, meeting in the middle of the frame.
+SCENE: A 3D conceptual illustration on a deep navy background (#0d2144) fading to near-black at the edges, with a faint darker grid. A vertical glowing cyan-blue seam of light runs down the exact centre, splitting the frame into two halves.
 
-SUBJECT: On the left, a partly disassembled plain canvas trainer with no branding, a fanned-out card of fabric swatches, a craft knife and a steel ruler. A hand holds a small rubber sole offcut up to the light.
+LEFT HALF: A matte 3D trainer floating in three-quarter view, its thick textured outer sole clearly visible and rendered in a contrasting material. It sits inside a glowing green ring with a green tick mark.
 
-DETAILS: On the right, the same bench surface continues but bare and clinical: a neat stack of blank printed documents and a closed folder.
+RIGHT HALF: A matte 3D cargo van floating in three-quarter view. A single seat rises out of it on a curved orange arrow, lifting away. It sits inside a glowing red ring with a red cross.
 
-STYLE: Documentary product photography, 50mm, shallow depth of field, wide horizontal composition.
+STYLE: 3D product visualisation, matte materials, soft studio lighting, gentle contact shadows, saturated and high contrast. Wide horizontal composition, both objects at equal size and equal height.
 
-EXCLUDE: no text, no watermark, no official seals or crests, no government forms, no brand logos, no faces.
+EXCLUDE: no text, no watermark, no real brand logos, no recognisable shoe or vehicle models, no photographic backgrounds, no people, no beige or warm grey.
 ```
-
-**Why it is built this way:** one bench, two halves, one hand. The temperature split does the storytelling instead of a paragraph of adjectives.
 
 ---
 
@@ -70,20 +87,20 @@ EXCLUDE: no text, no watermark, no official seals or crests, no government forms
 **Prompt:**
 
 ```
-SCENE: Interior of a busy fulfilment warehouse in Shenzhen. Green epoxy resin floor with yellow painted floor lines, blue steel racking, white painted walls, white ceiling with fluorescent strip lights.
+SCENE: A 3D conceptual illustration on a deep navy background (#0d2144) fading to near-black, with a faint darker grid.
 
-SUBJECT: A Chinese woman in her mid-twenties wearing an orange company polo shirt stands at a stainless steel intake bench, holding a tablet in one hand and lifting a folded grey knit garment with the other to read its care label.
+CENTRE: A single kraft-brown 3D carton sits on a glowing orange disc, a small blank tag hanging from its side. A cyan-blue ring of light surrounds it.
 
-DETAILS: A Chinese man of about the same age, in the same orange polo, works at the far end of the bench, turned away and out of focus. On the bench sit a digital scale, a tape measure, and a kraft carton with a small printed logo.
+DIVERGING PATHS: Two thick arrows leave the carton and curve outward. The upper arrow is green and leads to a short stack of three gold coins. The lower arrow is red and leads to a tall stack of nine gold coins, noticeably higher.
 
-LIGHT: Even cool overhead light, with one warm task lamp over the bench.
+FLOATING AROUND: Five small matte 3D objects orbit the carton at a distance, evenly spaced: a folded garment, a trainer, a closed gift box, a cog, and a battery cell.
 
-STYLE: Documentary photography, 35mm, eye level, taken from about three metres back. Wide horizontal composition, subject centred.
+STYLE: 3D product visualisation, matte materials, soft studio lighting, saturated and high contrast, editorial tech diagram. Wide horizontal composition, carton dead centre.
 
-EXCLUDE: no text, no watermark, no hard hats, no hi-vis vests, no Western workers, no roller conveyors, no green and orange pallet racking, no third-party brand logos.
+EXCLUDE: no text, no numerals, no watermark, no real brand logos, no photographic backgrounds, no people, no beige or warm grey.
 ```
 
-**Why it is built this way:** the setting comes first so the model locks the warehouse to yours before it places anyone in it. Two people, not a crowd, and both in orange.
+**Why the carton is centred:** the hero crops to a wide strip. Anything important near the edges is lost.
 
 ---
 
@@ -94,18 +111,20 @@ EXCLUDE: no text, no watermark, no hard hats, no hi-vis vests, no Western worker
 **Prompt:**
 
 ```
-SCENE: A pale grey desk surface shot directly from above, flat-lay style, in soft even daylight from the upper left.
+SCENE: A 3D conceptual illustration on a deep navy background (#0d2144) fading to near-black, with a faint darker grid. A left-to-right progression across the frame, joined by a thick orange arrow.
 
-SUBJECT: An organised grid of items laid out for a submission: a plain unbranded product sample in the centre, a technical drawing with dimension lines, two printed photographs of the same product from different angles, a page of typed specifications, and a small material swatch.
+LEFT: A dim grey 3D document sheet floating at a slight angle, with a large glowing orange question mark hovering above it. Low light, muted.
 
-DETAILS: A navy notebook and pen sit at the edge. A hand enters from the right holding the pen, paused above the specification page. One orange tab marker among the papers.
+CENTRE: A glowing cyan-blue circular portal ring, edge on, that the orange arrow passes through.
 
-STYLE: Overhead flat-lay photography, soft shadows, considered and deliberate rather than styled.
+RIGHT: A brightly lit 3D document sheet, crisp and white, carrying a raised circular orange embossed disc in its lower corner. A green tick floats beside it. This side is the brightest point in the image.
 
-EXCLUDE: no readable text, no watermark, no official seals or crests, no agency badges, no anything resembling a real government form, no brand logos.
+STYLE: 3D product visualisation, matte materials, soft studio lighting, saturated and high contrast, editorial tech diagram. Wide horizontal composition with a clear dark-to-bright gradient left to right.
+
+EXCLUDE: no text, no readable writing on the documents, no government seals or crests, no agency badges, no eagle or shield emblems, no watermark, no real brand logos, no people, no beige or warm grey.
 ```
 
-**Why it is built this way:** "no readable text" rather than "no text", because a flat-lay of documents will always show text-like marks. Asking for none at all fights the subject.
+**On the embossed disc:** plain and abstract, an orange circle with a raised rim. If it starts resembling an official government seal, regenerate. It represents certainty, not a specific agency.
 
 ---
 

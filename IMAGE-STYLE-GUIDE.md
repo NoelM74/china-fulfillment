@@ -19,6 +19,8 @@ Two things fix that, and both are non-negotiable from here.
 
 ## 2. People
 
+**Applies whenever people appear.** Most blog heroes are 3D concept renders with no people in them at all (§6); this section governs photographic images and any render that does include staff.
+
 **Who appears in every image containing warehouse staff:**
 
 | | |
@@ -110,22 +112,49 @@ For infographics, text contrast still has to clear WCAG AA. `#DD7008` on white i
 
 ---
 
-## 6. Photographic treatment
+## 6. Blog heroes are 3D concept renders, not photographs
 
-Unchanged from earlier tiers and still correct:
+**This is the most important rule in this file, and the one that took longest to work out.**
 
-- Photographic realism, documentary logistics, natural light
-- 35mm or 50mm lens feel, eye level, shot from two to three metres back
-- Deep shadows, warm neutral greys, one restrained orange accent
-- Composition must stay readable when cropped to a narrow mobile strip
-- **No on-image text in heroes**
+The library contains both styles and they are not equally good.
+
+| | `amazon-fba-inbound-placement-fees-2026.webp` | `china-to-australia-fulfillment-2026.webp` |
+|---|---|---|
+| Approach | 3D conceptual render | AI stock photograph |
+| Ground | Deep navy `#001830`–`#003060` | Bright suburban daylight |
+| Brand colour | Navy and orange throughout | None |
+| Says what the article says | Yes, at a glance | No |
+| Verdict | **This is the target** | Generic, off-palette, adds nothing |
+
+Generated photorealism competes with real photography and loses. It produces washed-out, beige, faceless images that share no colour with the site. **Stop briefing scenes. Brief diagrams.**
+
+**The hero base, applied to every one:**
+
+| | |
+|---|---|
+| Ground | Deep navy `#0d2144` fading to near-black `#001830`, faint darker grid |
+| Objects | Matte 3D, soft studio lighting, gentle contact shadows |
+| Accent | Saturated orange `#DD7008` |
+| Semantics | Green `#16a34a` correct or lawful, red `#d02222` wrong or penalised |
+| Highlight | Glowing cyan-blue rim light or ring on the focal object |
+| Feel | Editorial tech diagram. High contrast, saturated |
+| Composition | Wide horizontal, focal object dead centre, since the crop is a narrow strip |
+| Text | **None in heroes.** Occasional single glyphs (a tick, a cross, a question mark) are fine |
+
+**Never write "warm neutral greys" or "one restrained orange accent" into a hero prompt again.** That phrasing produced every beige image in the set. Bold beats tasteful here.
+
+### When photography is still right
+
+Only for real people and the real warehouse, and then **prefer an actual photograph over a generated one.** The company has real photos of real staff. Those beat anything a model will produce, and they are genuinely differentiating in a way a render is not.
+
+If a photographic image must be generated, sections 2 and 3 govern who appears in it and what the room looks like.
 
 ## 7. Sizes and format
 
 | | |
 |---|---|
 | Format | `.webp`, sRGB |
-| Hero | **generate 16:9 at 2K, then crop to 2400×880.** Displayed 1200×440. Target under ~150 KB. Keep the subject centred so the crop is safe |
+| Hero | **generate 16:9 at 2K, then crop to 2070×760.** That is the size the existing 59 blog images actually use; earlier briefs wrongly said 2400×880. Target under ~150 KB. Keep the subject centred so the crop is safe |
 | Infographic | **generate 2:3 or 3:4 portrait at 2K, then resize to 1200×1500.** Single column, phone-legible. Use the highest quality setting |
 | Location | `images/blog/` for post images, `images/site/` for page and service images |
 | Filenames | lowercase, hyphenated, exact. Pages reference them literally |

@@ -72,7 +72,7 @@ Per-batch prompts live in `IMAGE-BRIEFS-tierN.md`. Where a brief and the style g
 | | |
 |---|---|
 | Format | `.webp`, sRGB |
-| Blog hero | generate 2400×880, displayed 1200×440 |
+| Blog hero | generate 16:9 at 2K, crop to 2070×760, displayed 1200×440. Style is a 3D concept render on navy, not a photograph. See the style guide |
 | Infographic | 1200×1500 |
 | Post images | `images/blog/` |
 | Page and service images | `images/site/` |
