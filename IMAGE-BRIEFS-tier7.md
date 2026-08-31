@@ -1,6 +1,8 @@
 # Image Briefs — Tier 7 / Customs & Classification Cluster (3 new posts)
 
-**Six images: 3 heroes + 3 infographics.** Written for **GPT Image 2**, same conventions as Tier 6. Heroes get full scene direction and carry **no on-image text**. Infographics specify **exact text strings in quotes** — set them verbatim.
+**Six images: 3 heroes + 3 infographics.** Written for **GPT Image 2**.
+
+> **Read `IMAGE-STYLE-GUIDE.md` first.** It is the standing rule set and it overrides anything here. In particular: warehouse staff are **Chinese, aged 22 to 27, in orange polo shirts**, the floor is green epoxy with blue racking, and the logo may appear in-world but never as an overlay. Tiers 1 to 6 said navy polo, which was wrong. Heroes get full scene direction and carry **no on-image text**. Infographics specify **exact text strings in quotes** — set them verbatim.
 
 ## Conventions (unchanged from Tier 1–6)
 
@@ -9,7 +11,7 @@
 | **Format** | `.webp`, sRGB |
 | **Hero size** | displayed 1200×440; generate at 2×, **2400×880**, target under ~150 KB |
 | **Infographic size** | **1200×1500** (4:5 portrait, single column, phone-legible) |
-| **Palette** | brand navy `#0F1E3D`, brand orange `#F26B21`, warm neutral greys, white |
+| **Palette** | site navy `#0d2144`, accessible orange `#c25205`, logo orange `#DD7008`, logo teal `#2B677A`, warm neutral greys, white. See `IMAGE-STYLE-GUIDE.md` §5 |
 | **Hero style** | photographic realism, documentary logistics, natural light |
 | **Infographic style** | flat vector, generous whitespace, no gradients, no 3D, no drop shadows |
 | **Upload to** | `images/blog/` on branch `claude/blog-serp-keyword-analysis-j26pym`, exact lowercase filenames |
@@ -18,7 +20,7 @@
 
 > The pillar, `hs-code-classification-tariff-engineering.html`, is **not in this list**. It was rebuilt as a service page and reuses an existing photo from `images/site/`, so it needs no new image and is already live-ready.
 
-**Global negative prompt** (append to every generation): *no readable brand logos, no courier or marketplace trademarks, no government seals or agency crests, no national flags rendered as logos, no watermarks, no stock-photo lens flare, no distorted hands, no gibberish text, no signage other than the text specified.*
+**Global negative prompt** (append to every generation): *no readable third-party brand logos, no courier or marketplace trademarks, no government seals or agency crests, no national flags rendered as logos, no watermarks, no stock-photo lens flare, no distorted hands, no gibberish text, no hard hats or hi-vis vests, no Western warehouse workers, no US-style green and orange pallet racking, no signage other than the text specified.*
 
 > **One caution specific to this tier.** These posts discuss customs law. Do **not** let the generator invent official-looking seals, agency badges, or anything resembling a real CBP form. Keep documents generic.
 
@@ -49,7 +51,7 @@
 **Alt:** "A warehouse operator recording fibre content, materials and weights at intake, the product attributes that determine HTS classification and duty"
 
 **Prompt:**
-> A photorealistic wide banner, 35mm lens, eye level, shot from about three metres back on a warehouse intake bench. Centre frame, in sharp focus, a warehouse operator in a plain navy polo shirt stands at a stainless steel intake bench, seen from the side and slightly behind, holding a tablet in one hand and lifting a plain grey folded garment with the other, checking a small fabric care label. On the bench beside them: a digital scale with a plain unbranded carton on it, a tape measure, and two more anonymous product samples. Behind, receding into soft focus, steel racking and neatly stacked brown cartons. Lighting is cool, even industrial daylight from overhead, with a small warm task light over the bench. Deep navy shadows, warm neutral greys, a single restrained orange accent on the bench edge trim. Methodical, unglamorous, competent mood. Composition must stay readable cropped to a narrow mobile strip. 2400×880 pixels, approximately 27:10 ultra-wide. No on-image text of any kind.
+> A photorealistic wide banner, 35mm lens, eye level, shot from about three metres back on a warehouse intake bench. Centre frame, in sharp focus, a young Chinese warehouse operator in her mid twenties, wearing the company's **orange polo shirt** with a small logo on the left breast, stands at a stainless steel intake bench, seen from the side and slightly behind. She holds a tablet in one hand and lifts a plain grey folded garment with the other, checking a small fabric care label. A second operator, a Chinese man of similar age also in an orange polo, works at the far end of the bench, small in frame and turned away. On the bench: a digital scale with a kraft carton on it carrying a small printed company logo, a tape measure, and two more anonymous product samples. Behind, receding into soft focus, **blue steel racking**, yellow plastic totes and neatly stacked yellow-brown kraft cartons, standing on a **green epoxy resin floor** with yellow demarcation lines. White painted walls, white exposed ceiling with fluorescent strip lighting. Lighting is cool, even overhead light with a small warm task light over the bench. Warm neutral greys, a natural orange accent carried by the uniforms themselves. Methodical, unglamorous, competent mood. Composition must stay readable cropped to a narrow mobile strip. 2400×880 pixels, approximately 27:10 ultra-wide. No on-image text of any kind.
 
 ### Infographic — `/images/blog/infographic-classification-traps.webp`
 
