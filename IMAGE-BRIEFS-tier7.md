@@ -1,6 +1,6 @@
-# Image Briefs — Tier 7 / Customs & Classification Cluster (4 new posts)
+# Image Briefs — Tier 7 / Customs & Classification Cluster (3 new posts)
 
-**Eight images: 4 heroes + 4 infographics.** Written for **GPT Image 2**, same conventions as Tier 6. Heroes get full scene direction and carry **no on-image text**. Infographics specify **exact text strings in quotes** — set them verbatim.
+**Six images: 3 heroes + 3 infographics.** Written for **GPT Image 2**, same conventions as Tier 6. Heroes get full scene direction and carry **no on-image text**. Infographics specify **exact text strings in quotes** — set them verbatim.
 
 ## Conventions (unchanged from Tier 1–6)
 
@@ -14,7 +14,9 @@
 | **Infographic style** | flat vector, generous whitespace, no gradients, no 3D, no drop shadows |
 | **Upload to** | `images/blog/` on branch `claude/blog-serp-keyword-analysis-j26pym`, exact lowercase filenames |
 
-**All 4 posts are staged `noindex`, are out of `sitemap.xml`, and have no blog card.** Generating these images completes them.
+**All 3 posts are staged `noindex`, are out of `sitemap.xml`, and have no blog card.** Generating these images completes them.
+
+> The pillar, `hs-code-classification-tariff-engineering.html`, is **not in this list**. It was rebuilt as a service page and reuses an existing photo from `images/site/`, so it needs no new image and is already live-ready.
 
 **Global negative prompt** (append to every generation): *no readable brand logos, no courier or marketplace trademarks, no government seals or agency crests, no national flags rendered as logos, no watermarks, no stock-photo lens flare, no distorted hands, no gibberish text, no signage other than the text specified.*
 
@@ -22,25 +24,7 @@
 
 ---
 
-## 1. HS Code Classification and Tariff Engineering — `hs-code-classification-tariff-engineering`
-
-### Hero — `/images/blog/hs-code-classification-tariff-engineering.webp`
-
-**Alt:** "An importer reviewing HTS classification codes and duty rates against product samples, with a Shenzhen warehouse and outbound parcels in the background"
-
-**Prompt:**
-> A photorealistic wide banner, 35mm lens, eye level, shot from about two and a half metres back. Foreground right, in sharp focus: a clean light-grey desk surface holding three anonymous product samples laid in a row — a folded plain grey knit garment, a plain canvas trainer with no branding, and a small unbranded matte-black electronic device. Beside them, a printed spreadsheet page and a pair of reading glasses, and a hand resting flat, paused mid-review. Foreground left, softly out of focus, the edge of an open laptop. Behind the desk, filling the upper third and thrown gently out of focus, a working fulfilment warehouse: steel racking, plain brown cartons on a conveyor, one worker in a navy polo turned away and small in frame. Lighting is cool daylight from high windows with a warm desk lamp pooling over the samples, separating foreground from background. Colour grade toward deep navy shadows and warm neutral greys, one restrained orange accent on a floor safety line in the background. Analytical, calm, considered mood. Composition must stay readable cropped to a narrow mobile strip. 2400×880 pixels, approximately 27:10 ultra-wide. No on-image text of any kind.
-
-### Infographic — `/images/blog/infographic-us-duty-stack-2026.webp`
-
-**Alt:** "The 2026 US duty stack on Chinese goods: MFN base duty set by HTS code, plus Section 301 duties of 25 percent on Lists 1 to 3 or 7.5 percent on List 4A, plus a 12.5 percent Section 301 forced labour duty from 24 July 2026, plus Section 232 where applicable, with IEEPA tariffs struck down and Section 122 expired"
-
-**Prompt:**
-> A clean flat-vector infographic on a pure white background, single column, phone-legible. Deep navy header bar at top with bold white sans-serif title: **"What stacks on Chinese goods"**, and directly beneath it in smaller white text: **"As at 31 August 2026"**. Below, four horizontal bars stacked vertically like layers of a tower, each a rounded rectangle, ascending in width slightly, coloured from light grey at the bottom through mid grey to deep navy at the top, each with a short label in bold and a rate on the right. Read exactly, bottom to top: **"MFN base duty · set by your HTS code"**, **"Section 301, 2018 lists · 25% or 7.5%"**, **"Section 301, forced labour · 12.5%"**, **"Section 232 · where applicable"**. Below the tower, separated by a thin rule, two rows in muted grey with a small strikethrough-style cross icon on the left, reading exactly: **"IEEPA tariffs · struck down 20 Feb 2026"** and **"Section 122 · expired 24 July 2026"**. At the very bottom a full-width orange band with bold white text reading **"Rates change often. Verify before you price."** Modern geometric sans-serif, generous whitespace, no gradients, no drop shadows, no 3D. 1200×1500 pixels, 4:5 portrait.
-
----
-
-## 2. Tariff Engineering: Where the Legal Line Sits — `tariff-engineering-legal-line-2026`
+## 1. Tariff Engineering: Where the Legal Line Sits — `tariff-engineering-legal-line-2026`
 
 ### Hero — `/images/blog/tariff-engineering-legal-line-2026.webp`
 
@@ -58,7 +42,7 @@
 
 ---
 
-## 3. HTS Classification Mistakes — `hts-classification-mistakes-importers-2026`
+## 2. HTS Classification Mistakes — `hts-classification-mistakes-importers-2026`
 
 ### Hero — `/images/blog/hts-classification-mistakes-importers-2026.webp`
 
@@ -76,7 +60,7 @@
 
 ---
 
-## 4. CBP Binding Ruling Guide — `cbp-binding-ruling-guide-2026`
+## 3. CBP Binding Ruling Guide — `cbp-binding-ruling-guide-2026`
 
 ### Hero — `/images/blog/cbp-binding-ruling-guide-2026.webp`
 
