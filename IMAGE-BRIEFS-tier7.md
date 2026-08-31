@@ -1,88 +1,200 @@
-# Image Briefs — Tier 7 / Customs & Classification Cluster (3 new posts)
+# Image Briefs — Tier 7 / Customs & Classification Cluster
 
-**Six images: 3 heroes + 3 infographics.** Written for **GPT Image 2**.
+**Six images: 3 heroes + 3 infographics.** Rewritten 31 August 2026 after the first set generated poorly.
 
-> **Read `IMAGE-STYLE-GUIDE.md` first.** It is the standing rule set and it overrides anything here. In particular: warehouse staff are **Chinese, aged 22 to 27, in orange polo shirts**, the floor is green epoxy with blue racking, and the logo may appear in-world but never as an overlay. Tiers 1 to 6 said navy polo, which was wrong. Heroes get full scene direction and carry **no on-image text**. Infographics specify **exact text strings in quotes** — set them verbatim.
+> **Read `IMAGE-STYLE-GUIDE.md` first.** It is the standing rule set and overrides anything here.
 
-## Conventions (unchanged from Tier 1–6)
+---
+
+## Why the previous prompts failed, so we stop repeating it
+
+The old prompts were each a **single dense paragraph of 170 to 229 words** carrying nine to thirteen sentences and twenty-plus separate requirements. OpenAI's own guidance for their image models says to do the opposite:
+
+| Their guidance | What the old prompts did |
+|---|---|
+| Use **labeled segments or line breaks**, not one dense paragraph | One unbroken paragraph, every time |
+| Order as **scene → subject → details → constraints** | Opened with camera jargon, subject buried behind it |
+| Listing twenty requirements causes the model to **drop several** | Twenty-plus requirements per prompt |
+| Put in-image text **in quotes**, specify typography, keep layouts light | Up to ten separate text strings on one canvas |
+
+One assumption I had was wrong and worth stating: **negative constraints do work here.** OpenAI explicitly recommends stating exclusions like "no watermark, no extra text, no logos". So the `EXCLUDE:` line stays, and it earns its place.
+
+**On dimensions.** I could not verify GPT Image 2's exact supported size and aspect-ratio table from a source I trust, and the community lists contradict each other. So these briefs no longer ask for an exotic ratio directly. **Generate at a common ratio, then crop.** That works regardless of what the model supports natively, and a 27:10 banner was almost certainly never a native output size.
+
+**Work one at a time.** Generate, look, change one thing, regenerate. Do not tweak four things at once.
+
+---
+
+## Conventions
 
 | | |
 |---|---|
 | **Format** | `.webp`, sRGB |
-| **Hero size** | displayed 1200×440; generate at 2×, **2400×880**, target under ~150 KB |
-| **Infographic size** | **1200×1500** (4:5 portrait, single column, phone-legible) |
-| **Palette** | site navy `#0d2144`, accessible orange `#c25205`, logo orange `#DD7008`, logo teal `#2B677A`, warm neutral greys, white. See `IMAGE-STYLE-GUIDE.md` §5 |
-| **Hero style** | photographic realism, documentary logistics, natural light |
-| **Infographic style** | flat vector, generous whitespace, no gradients, no 3D, no drop shadows |
-| **Upload to** | `images/blog/` on branch `claude/blog-serp-keyword-analysis-j26pym`, exact lowercase filenames |
+| **Heroes** | generate **16:9 at 2K**, then crop to **2400×880**. Keep the subject centred so the crop does not decapitate anyone |
+| **Infographics** | generate **2:3 or 3:4 portrait at 2K**, then resize to **1200×1500**. Use the highest quality setting: small text needs it |
+| **Palette** | site navy `#0d2144`, accessible orange `#c25205`, logo orange `#DD7008`, logo teal `#2B677A`, warm greys, white |
+| **Upload to** | `images/blog/`, exact lowercase filenames |
 
-**All 3 posts are staged `noindex`, are out of `sitemap.xml`, and have no blog card.** Generating these images completes them.
-
-> The pillar, `hs-code-classification-tariff-engineering.html`, is **not in this list**. It was rebuilt as a service page and reuses an existing photo from `images/site/`, so it needs no new image and is already live-ready.
-
-**Global negative prompt** (append to every generation): *no readable third-party brand logos, no courier or marketplace trademarks, no government seals or agency crests, no national flags rendered as logos, no watermarks, no stock-photo lens flare, no distorted hands, no gibberish text, no hard hats or hi-vis vests, no Western warehouse workers, no US-style green and orange pallet racking, no signage other than the text specified.*
-
-> **One caution specific to this tier.** These posts discuss customs law. Do **not** let the generator invent official-looking seals, agency badges, or anything resembling a real CBP form. Keep documents generic.
+The three posts are staged `noindex`, out of `sitemap.xml`, with no blog card. These images complete them.
 
 ---
 
-## 1. Tariff Engineering: Where the Legal Line Sits — `tariff-engineering-legal-line-2026`
+# HEROES
 
-### Hero — `/images/blog/tariff-engineering-legal-line-2026.webp`
+## 1. `tariff-engineering-legal-line-2026.webp`
 
 **Alt:** "A product designer and a customs document side by side, showing how a physical product change alters its tariff classification at the border"
 
 **Prompt:**
-> A photorealistic wide banner, 50mm lens, shot slightly above a workbench looking down at a shallow angle. Left half: a product development bench in warm focused light — a plain unbranded canvas trainer partly disassembled, a swatch card of fabric samples fanned out, a craft knife, a steel ruler, and a designer's hand holding a small sole offcut up for inspection. Right half: the same bench surface continuing, but cooler and more clinical, holding a neat stack of plain printed documents, a stamp pad, and a closed folder, with no readable text and no official seals. A soft vertical shift in colour temperature runs down the centre of the frame, warm on the left and cool blue-grey on the right, implying two worlds meeting rather than a hard dividing line. Deep navy shadows, warm neutral greys, one restrained orange accent on the swatch card. Thoughtful, precise, slightly tense mood. Composition must stay readable cropped to a narrow mobile strip. 2400×880 pixels, approximately 27:10 ultra-wide. No on-image text of any kind.
 
-### Infographic — `/images/blog/infographic-tariff-engineering-line.webp`
+```
+SCENE: A product development workbench, shot from slightly above at a shallow angle. Warm light on the left half, cool blue-grey light on the right half, meeting in the middle of the frame.
 
-**Alt:** "The tariff engineering line: Converse adds felt to outsoles and sells the shoe it imported, which is lawful, while Ford imported vans with seats removed at the port and settled for 365 million dollars, which is artifice"
+SUBJECT: On the left, a partly disassembled plain canvas trainer with no branding, a fanned-out card of fabric swatches, a craft knife and a steel ruler. A hand holds a small rubber sole offcut up to the light.
 
-**Prompt:**
-> A clean flat-vector infographic on a pure white background, phone-legible, built as two stacked comparison blocks separated by a thin horizontal rule. Deep navy header bar at top with bold white sans-serif title: **"Where the line sits"**. First block has a green rounded card with a check icon, a bold navy heading reading **"Lawful: the product is real"**, and three short lines beneath reading exactly: **"Felt applied to the outsole"**, **"The shoe works with it"**, **"Customer receives it as imported"**. Second block has a deep red rounded card with a cross icon, a bold navy heading reading **"Artifice: the change is undone"**, and three short lines reading exactly: **"Seats fitted for the border"**, **"Removed at the port"**, **"Customer receives a cargo van"**. At the bottom, a full-width navy band with bold white text reading **"Settled for $365 million"**. Beneath that, in small grey text, one line reading exactly: **"Classified in the condition as imported · since 1882"**. Use generic silhouette icons only, a plain shoe outline and a plain van outline, with no brand marks, no logos and no recognisable model shapes. Modern geometric sans-serif, generous whitespace, no gradients, no drop shadows, no 3D. 1200×1500 pixels, 4:5 portrait.
+DETAILS: On the right, the same bench surface continues but bare and clinical: a neat stack of blank printed documents and a closed folder.
+
+STYLE: Documentary product photography, 50mm, shallow depth of field, wide horizontal composition.
+
+EXCLUDE: no text, no watermark, no official seals or crests, no government forms, no brand logos, no faces.
+```
+
+**Why it is built this way:** one bench, two halves, one hand. The temperature split does the storytelling instead of a paragraph of adjectives.
 
 ---
 
-## 2. HTS Classification Mistakes — `hts-classification-mistakes-importers-2026`
-
-### Hero — `/images/blog/hts-classification-mistakes-importers-2026.webp`
+## 2. `hts-classification-mistakes-importers-2026.webp`
 
 **Alt:** "A warehouse operator recording fibre content, materials and weights at intake, the product attributes that determine HTS classification and duty"
 
 **Prompt:**
-> A photorealistic wide banner, 35mm lens, eye level, shot from about three metres back on a warehouse intake bench. Centre frame, in sharp focus, a young Chinese warehouse operator in her mid twenties, wearing the company's **orange polo shirt** with a small logo on the left breast, stands at a stainless steel intake bench, seen from the side and slightly behind. She holds a tablet in one hand and lifts a plain grey folded garment with the other, checking a small fabric care label. A second operator, a Chinese man of similar age also in an orange polo, works at the far end of the bench, small in frame and turned away. On the bench: a digital scale with a kraft carton on it carrying a small printed company logo, a tape measure, and two more anonymous product samples. Behind, receding into soft focus, **blue steel racking**, yellow plastic totes and neatly stacked yellow-brown kraft cartons, standing on a **green epoxy resin floor** with yellow demarcation lines. White painted walls, white exposed ceiling with fluorescent strip lighting. Lighting is cool, even overhead light with a small warm task light over the bench. Warm neutral greys, a natural orange accent carried by the uniforms themselves. Methodical, unglamorous, competent mood. Composition must stay readable cropped to a narrow mobile strip. 2400×880 pixels, approximately 27:10 ultra-wide. No on-image text of any kind.
 
-### Infographic — `/images/blog/infographic-classification-traps.webp`
+```
+SCENE: Interior of a busy fulfilment warehouse in Shenzhen. Green epoxy resin floor with yellow painted floor lines, blue steel racking, white painted walls, white ceiling with fluorescent strip lights.
 
-**Alt:** "Five categories where HTS classification most often goes wrong: apparel by fibre percentage and knit or woven, footwear by upper and sole material and ankle coverage, retail sets by essential character, parts versus accessories governed by chapter notes, and products with batteries"
+SUBJECT: A Chinese woman in her mid-twenties wearing an orange company polo shirt stands at a stainless steel intake bench, holding a tablet in one hand and lifting a folded grey knit garment with the other to read its care label.
 
-**Prompt:**
-> A clean flat-vector infographic on a pure white background, single column, phone-legible. Deep navy header bar at top with bold white sans-serif title: **"Five categories that go wrong"**. Below, five evenly spaced rounded white cards with thin light-grey borders, each with a simple two-colour line icon on the left, a bold navy heading, and one short grey line beneath. Read exactly — card 1 heading **"Apparel"**, line **"Fibre %, knit or woven, gender"**; card 2 heading **"Footwear"**, line **"Upper material, sole, ankle coverage"**; card 3 heading **"Retail sets"**, line **"One component sets the whole rate"**; card 4 heading **"Parts vs accessories"**, line **"Chapter notes override intuition"**; card 5 heading **"Products with batteries"**, line **"Installed, packed, or absent"**. Icons in order: a folded garment, a shoe outline, a gift box, a gear with a dotted boundary, a battery cell. At the bottom, a full-width orange band with bold white text reading **"Rank by duty paid. Audit the top ten."** Modern geometric sans-serif, generous whitespace, no gradients, no drop shadows, no 3D. 1200×1500 pixels, 4:5 portrait.
+DETAILS: A Chinese man of about the same age, in the same orange polo, works at the far end of the bench, turned away and out of focus. On the bench sit a digital scale, a tape measure, and a kraft carton with a small printed logo.
+
+LIGHT: Even cool overhead light, with one warm task lamp over the bench.
+
+STYLE: Documentary photography, 35mm, eye level, taken from about three metres back. Wide horizontal composition, subject centred.
+
+EXCLUDE: no text, no watermark, no hard hats, no hi-vis vests, no Western workers, no roller conveyors, no green and orange pallet racking, no third-party brand logos.
+```
+
+**Why it is built this way:** the setting comes first so the model locks the warehouse to yours before it places anyone in it. Two people, not a crowd, and both in orange.
 
 ---
 
-## 3. CBP Binding Ruling Guide — `cbp-binding-ruling-guide-2026`
-
-### Hero — `/images/blog/cbp-binding-ruling-guide-2026.webp`
+## 3. `cbp-binding-ruling-guide-2026.webp`
 
 **Alt:** "An importer preparing a binding ruling request with product samples, specifications and photographs laid out ready for submission to CBP"
 
 **Prompt:**
-> A photorealistic wide banner, 35mm lens, shot from directly above at a slight tilt, flat-lay style, on a clean pale grey desk surface. Laid out in an organised grid: a plain unbranded product sample in the centre, a printed technical drawing with dimension lines, two printed photographs of the same product from different angles, a page of typed specifications with no readable text, a small fabric or material swatch, and a laptop edge entering from the bottom right corner showing a blank pale interface. A hand enters from the right holding a pen, paused over the specification page. Lighting is soft, even, diffused daylight from the upper left with gentle shadows, the look of a considered desk rather than a studio. Deep navy accents in a notebook cover and pen, warm neutral greys, one restrained orange accent on a paperclip or tab marker. Careful, deliberate, prepared mood. No official seals, crests, agency badges or anything resembling a real government form. Composition must stay readable cropped to a narrow mobile strip. 2400×880 pixels, approximately 27:10 ultra-wide. No on-image text of any kind.
 
-### Infographic — `/images/blog/infographic-binding-ruling-path.webp`
+```
+SCENE: A pale grey desk surface shot directly from above, flat-lay style, in soft even daylight from the upper left.
+
+SUBJECT: An organised grid of items laid out for a submission: a plain unbranded product sample in the centre, a technical drawing with dimension lines, two printed photographs of the same product from different angles, a page of typed specifications, and a small material swatch.
+
+DETAILS: A navy notebook and pen sit at the edge. A hand enters from the right holding the pen, paused above the specification page. One orange tab marker among the papers.
+
+STYLE: Overhead flat-lay photography, soft shadows, considered and deliberate rather than styled.
+
+EXCLUDE: no readable text, no watermark, no official seals or crests, no agency badges, no anything resembling a real government form, no brand logos.
+```
+
+**Why it is built this way:** "no readable text" rather than "no text", because a flat-lay of documents will always show text-like marks. Asking for none at all fights the subject.
+
+---
+
+# INFOGRAPHICS
+
+Text load is deliberately cut. The old versions asked for up to ten separate strings on one canvas, which is where character accuracy fell apart. These ask for five or six.
+
+Set every quoted string **exactly**. Check every digit before uploading.
+
+## 4. `infographic-tariff-engineering-line.webp`
+
+**Alt:** "The tariff engineering line: Converse adds felt to outsoles and sells the shoe it imported, which is lawful, while Ford imported vans with seats removed at the port and settled for 365 million dollars, which is artifice"
+
+**Prompt:**
+
+```
+LAYOUT: A flat vector infographic, portrait, pure white background, split into two stacked halves separated by a thin horizontal rule.
+
+HEADER: A deep navy bar across the top with white bold sans-serif text reading exactly "WHERE THE LINE SITS".
+
+TOP HALF: A green rounded card with a white check icon. Bold dark navy heading reading exactly "LAWFUL". Below it one grey line reading exactly "The customer receives what was imported".
+
+BOTTOM HALF: A dark red rounded card with a white cross icon. Bold dark navy heading reading exactly "ARTIFICE". Below it one grey line reading exactly "The change is undone at the port".
+
+FOOTER: A deep navy band across the bottom with white bold text reading exactly "$365 MILLION SETTLEMENT".
+
+TYPE: Modern geometric sans-serif. Large type, high contrast, generous whitespace.
+
+EXCLUDE: no gradients, no drop shadows, no 3D, no photographs, no brand logos, no recognisable shoe or vehicle models, no extra text beyond the strings specified.
+```
+
+## 5. `infographic-classification-traps.webp`
+
+**Alt:** "Five categories where HTS classification most often goes wrong: apparel by fibre percentage and knit or woven, footwear by upper and sole material and ankle coverage, retail sets by essential character, parts versus accessories governed by chapter notes, and products with batteries"
+
+**Prompt:**
+
+```
+LAYOUT: A flat vector infographic, portrait, pure white background, a single column of five evenly spaced rounded white cards with thin light grey borders.
+
+HEADER: A deep navy bar across the top with white bold sans-serif text reading exactly "FIVE CATEGORIES THAT GO WRONG".
+
+CARDS: Each card has a simple two-colour line icon on the left and one bold dark navy word beside it. The five read exactly, top to bottom: "APPAREL", "FOOTWEAR", "RETAIL SETS", "PARTS", "BATTERIES".
+
+ICONS: In the same order, a folded garment, a shoe outline, a gift box, a gear, a battery cell. Line icons only, orange and navy.
+
+FOOTER: An orange band across the bottom with white bold text reading exactly "AUDIT YOUR TOP TEN BY DUTY PAID".
+
+TYPE: Modern geometric sans-serif. Large type, generous whitespace.
+
+EXCLUDE: no gradients, no drop shadows, no 3D, no photographs, no brand logos, no extra text beyond the strings specified.
+```
+
+**Note:** the old version put a full explanatory sentence under every heading. The detail lives in the article; the image only has to carry the five categories.
+
+This one runs to seven strings against the guide's six, but five of them are single words and the whole canvas carries only 18 words, the lightest of the three. Word count is the constraint that matters, not string count. Leave it as is.
+
+## 6. `infographic-binding-ruling-path.webp`
 
 **Alt:** "The binding ruling path: search CROSS at rulings.cbp.gov first, then file through the eRulings portal, receive a control number within one business day, and expect most classification rulings within 30 calendar days, around 90 days if referred to Headquarters"
 
 **Prompt:**
-> A clean flat-vector infographic on a pure white background, single column, phone-legible, built as a vertical four-step path with a thin navy connecting line running down the left and a numbered circular node at each step. Deep navy header bar at top with bold white sans-serif title: **"From question to ruling"**. The four steps read exactly — step 1 bold heading **"Search CROSS first"**, grey line **"rulings.cbp.gov · free · instant"**; step 2 bold heading **"File via eRulings"**, grey line **"One product per request"**; step 3 bold heading **"Control number"**, grey line **"Within 1 business day"**; step 4 bold heading **"Ruling issued"**, grey line **"Most within 30 calendar days"**. Below the path, a light grey rounded box containing two short lines reading exactly: **"Referred to HQ · around 90 days"** and **"Novel or complex · 120 to 180 days"**. At the bottom, a full-width orange band with bold white text reading **"It binds CBP. It also binds you."** Modern geometric sans-serif, generous whitespace, no gradients, no drop shadows, no 3D. 1200×1500 pixels, 4:5 portrait.
+
+```
+LAYOUT: A flat vector infographic, portrait, pure white background, showing a vertical four-step path. A thin navy line runs down the left with a numbered navy circle at each step.
+
+HEADER: A deep navy bar across the top with white bold sans-serif text reading exactly "FROM QUESTION TO RULING".
+
+STEPS: Four steps down the page, each with a bold dark navy heading. They read exactly, top to bottom: "SEARCH CROSS", "FILE VIA ERULINGS", "CONTROL NUMBER 1 DAY", "RULING ISSUED 30 DAYS".
+
+FOOTER: An orange band across the bottom with white bold text reading exactly "IT BINDS CBP. IT ALSO BINDS YOU."
+
+TYPE: Modern geometric sans-serif. Large type, generous whitespace.
+
+EXCLUDE: no gradients, no drop shadows, no 3D, no photographs, no brand logos, no extra text beyond the strings specified.
+```
+
+**Note on "ERULINGS":** if the model mangles it, spell it out letter by letter in the prompt as E-R-U-L-I-N-G-S. OpenAI recommends this for words a model gets wrong.
 
 ---
 
-## Generation notes
+## If a generation still comes out wrong
 
-- Generate heroes at **2400×880** and infographics at **1200×1500**, then convert to `.webp` at quality ~82. Heroes should land under roughly 150 KB.
-- Filenames are lowercase and exact. The pages reference them literally, so a mismatch renders a broken image.
-- Check every rendered infographic against its alt text before uploading. The alt text is already in the published HTML and must describe what the image actually shows.
-- If GPT Image 2 renders any text incorrectly, regenerate rather than accepting it. Wrong figures on a customs infographic are worse than no infographic.
+Change **one** thing and regenerate. In rough order of what usually fixes it:
+
+1. **Wrong warehouse look?** Move the `SCENE:` line detail earlier and cut a `DETAILS:` item. It is competing for attention.
+2. **Wrong people?** Put "Chinese woman in her mid-twenties, orange polo shirt" as the literal first words of `SUBJECT:`.
+3. **Garbled text?** Cut a string. Five is comfortable, eight is not. Raise the quality setting.
+4. **Too busy?** Delete the whole `DETAILS:` block. These prompts survive without it.
+5. **Wrong crop?** Generate square and crop, rather than asking for the banner ratio directly.
+
+Log what worked so the next tier starts from a better base.

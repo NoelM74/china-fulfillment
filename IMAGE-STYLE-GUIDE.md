@@ -125,8 +125,8 @@ Unchanged from earlier tiers and still correct:
 | | |
 |---|---|
 | Format | `.webp`, sRGB |
-| Hero | displayed 1200×440; generate at **2400×880**, target under ~150 KB |
-| Infographic | **1200×1500**, 4:5 portrait, single column, phone-legible |
+| Hero | **generate 16:9 at 2K, then crop to 2400×880.** Displayed 1200×440. Target under ~150 KB. Keep the subject centred so the crop is safe |
+| Infographic | **generate 2:3 or 3:4 portrait at 2K, then resize to 1200×1500.** Single column, phone-legible. Use the highest quality setting |
 | Location | `images/blog/` for post images, `images/site/` for page and service images |
 | Filenames | lowercase, hyphenated, exact. Pages reference them literally |
 
@@ -140,7 +140,38 @@ Append to every generation:
 
 ---
 
-## 9. Pre-upload checklist
+## 9. How to write the prompt
+
+Learned the hard way in Tier 7, whose first set generated poorly. These follow OpenAI's own guidance for their image models.
+
+**Use labeled segments, not a paragraph.** One dense block is the single biggest cause of a bad render. Structure every photographic prompt as:
+
+```
+SCENE:    where we are, and the light
+SUBJECT:  who or what the image is actually about
+DETAILS:  at most three supporting elements
+LIGHT:    only if SCENE has not covered it
+STYLE:    lens, angle, treatment, composition
+EXCLUDE:  the constraint line
+```
+
+For infographics, swap the first three for `LAYOUT:`, `HEADER:`, `CARDS:` or `STEPS:`, `FOOTER:`, `TYPE:`.
+
+**Order is scene, then subject, then details, then constraints.** Lead with camera jargon and the subject arrives too late to anchor the image.
+
+**Cap it at eight requirements.** Listing twenty causes the model to silently drop several, and you cannot tell which. Aim for 120 to 180 words.
+
+**Negative constraints do work here.** OpenAI recommends stating exclusions explicitly, so keep the `EXCLUDE:` line. This is the opposite of the advice for some other models, and it is worth remembering which one you are prompting.
+
+**In-image text.** Put every string in quotes or ALL CAPS and say "reading exactly". Keep it to **six or so strings and about 25 words of text in total** per canvas. Count words, not just strings: five one-word labels are far safer than three full sentences. Character accuracy degrades with total text volume. If a specific word comes out mangled, spell it letter by letter in the prompt. Use the highest quality setting for anything with small text.
+
+**Generate at a common aspect ratio and crop.** GPT Image 2's exact supported size table could not be verified from a source worth trusting, and exotic ratios like 27:10 were probably never native. Generate 16:9 for heroes and 2:3 or 3:4 for infographics, then crop or resize to target. Keep subjects centred so the crop is safe.
+
+**Iterate one change at a time.** Generate, look, change one thing. Changing four things at once tells you nothing about which one worked.
+
+---
+
+## 10. Pre-upload checklist
 
 Before any generated image goes into `images/`:
 
