@@ -41,22 +41,22 @@ The three posts are staged `noindex`, out of `sitemap.xml`, with no blog card. T
 
 # HEROES
 
-**Style lock, read before generating any of the three.**
+## Two rules that override everything else
 
-These are **not photographs.** They are conceptual 3D renders on a deep navy ground, matching `images/blog/amazon-fba-inbound-placement-fees-2026.webp`, which is the best hero in the existing library and the only one that looks like it belongs to this site.
+**1. Bright objects on the dark ground.** The ground is deep navy. Every object therefore has to be **light**: kraft tan, white, cream, pale grey, bright orange. A black shoe or a dark grey van on navy is invisible, and that is what went wrong last time. The reference hero works because its cartons are tan and its buildings are white.
 
-Every hero shares this base. It is repeated in each prompt so you can paste them independently:
+**2. Keep everything inside the middle band.** The image is cropped from 16:9 down to 2070×760, which **removes the top 17% and the bottom 17%**. Anything up there is lost. So every prompt below ends with a composition line putting all content in the central band, and it is not optional.
+
+Shared base, repeated in each prompt so they can be pasted independently:
 
 | | |
 |---|---|
-| Ground | Deep navy `#0d2144` fading to near-black `#001830`, with a faint darker grid |
-| Objects | Matte 3D rendered, soft studio lighting, gentle contact shadows |
+| Ground | Deep navy `#0d2144` to near-black `#001830`, faint darker grid |
+| Objects | **Light coloured**, matte 3D, brightly lit, clear separation from the ground |
 | Accent | Saturated orange `#DD7008` |
-| Semantics | Green `#16a34a` = correct or lawful. Red `#d02222` = wrong or penalised |
-| Highlight | A glowing cyan-blue rim light or ring on the focal object |
-| Feel | Editorial tech diagram, high contrast, saturated. Not a photo, not a flat icon |
-
-**What killed the previous attempts:** they asked for photographic realism with "warm neutral greys and one restrained orange accent". That is a recipe for a beige stock photo that shares no colour with the website. Navy ground, orange accent, saturated. Bold beats tasteful here.
+| Semantics | Green `#16a34a` correct, red `#d02222` wrong |
+| Composition | All content in the central horizontal band, top and bottom 20% empty |
+| Count | **Five objects maximum.** Ten is a mess |
 
 ---
 
@@ -67,16 +67,20 @@ Every hero shares this base. It is repeated in each prompt so you can paste them
 **Prompt:**
 
 ```
-SCENE: A 3D conceptual illustration on a deep navy background (#0d2144) fading to near-black at the edges, with a faint darker grid. A vertical glowing cyan-blue seam of light runs down the exact centre, splitting the frame into two halves.
+SCENE: A 3D conceptual illustration on a deep navy background (#0d2144) fading to near-black. A vertical glowing cyan seam of light runs down the exact centre, dividing the frame in two.
 
-LEFT HALF: A matte 3D trainer floating in three-quarter view, its thick textured outer sole clearly visible and rendered in a contrasting material. It sits inside a glowing green ring with a green tick mark.
+LEFT: A clean WHITE trainer with a thick CREAM coloured textured sole, floating in three-quarter view, brightly lit. A glowing green ring floats behind it like a halo, vertical, not on the ground. A green tick sits beside the shoe at the same height.
 
-RIGHT HALF: A matte 3D cargo van floating in three-quarter view. A single seat rises out of it on a curved orange arrow, lifting away. It sits inside a glowing red ring with a red cross.
+RIGHT: A plain LIGHT GREY boxy cargo van, floating in three-quarter view, brightly lit. A single pale seat rises out of it on a short orange arrow. A glowing red ring floats behind it like a halo, vertical. A red cross sits beside the van at the same height.
 
-STYLE: 3D product visualisation, matte materials, soft studio lighting, gentle contact shadows, saturated and high contrast. Wide horizontal composition, both objects at equal size and equal height.
+COMPOSITION: Both objects centred vertically and the same size. All content sits within the middle horizontal band of the frame. The top 20% and bottom 20% are empty dark background.
 
-EXCLUDE: no text, no watermark, no real brand logos, no recognisable shoe or vehicle models, no photographic backgrounds, no people, no beige or warm grey.
+STYLE: 3D product visualisation, matte materials, bright studio lighting, saturated, high contrast against the dark ground.
+
+EXCLUDE: no black or dark grey objects, no text, no watermark, no real brand logos, no recognisable vehicle or footwear models, no people, no ground shadows below the objects.
 ```
+
+**What changed:** the shoe is white and the van light grey, so they read against the navy. The rings are vertical haloes behind the objects instead of ellipses on the floor, so the crop cannot cut them off.
 
 ---
 
@@ -87,20 +91,20 @@ EXCLUDE: no text, no watermark, no real brand logos, no recognisable shoe or veh
 **Prompt:**
 
 ```
-SCENE: A 3D conceptual illustration on a deep navy background (#0d2144) fading to near-black, with a faint darker grid.
+SCENE: A 3D conceptual illustration on a deep navy background (#0d2144) fading to near-black.
 
-CENTRE: A single kraft-brown 3D carton sits on a glowing orange disc, a small blank tag hanging from its side. A cyan-blue ring of light surrounds it.
+CENTRE: A single kraft-brown cardboard carton, brightly lit, with a small pale tag hanging from its side. It sits on a glowing orange disc. A cyan ring of light surrounds it.
 
-DIVERGING PATHS: Two thick arrows leave the carton and curve outward. The upper arrow is green and leads to a short stack of three gold coins. The lower arrow is red and leads to a tall stack of nine gold coins, noticeably higher.
+RIGHT: Two thick arrows leave the carton horizontally. The upper arrow is green and ends at a SHORT stack of three gold coins. The lower arrow is red and ends at a TALL stack of ten gold coins.
 
-FLOATING AROUND: Five small matte 3D objects orbit the carton at a distance, evenly spaced: a folded garment, a trainer, a closed gift box, a cog, and a battery cell.
+COMPOSITION: Only three elements: the carton on the left of centre, and the two coin stacks on the right. All arranged along one horizontal line across the middle of the frame. The top 20% and bottom 20% are empty dark background.
 
-STYLE: 3D product visualisation, matte materials, soft studio lighting, saturated and high contrast, editorial tech diagram. Wide horizontal composition, carton dead centre.
+STYLE: 3D product visualisation, matte materials, bright studio lighting, saturated, high contrast against the dark ground.
 
-EXCLUDE: no text, no numerals, no watermark, no real brand logos, no photographic backgrounds, no people, no beige or warm grey.
+EXCLUDE: no orbiting objects, no ring of products around the carton, no garment, no shoe, no gift box, no cog, no battery, no black or dark grey objects, no text, no numerals, no watermark, no real brand logos, no people.
 ```
 
-**Why the carton is centred:** the hero crops to a wide strip. Anything important near the edges is lost.
+**What changed:** the five orbiting products are gone. They were spread top to bottom, which is exactly what the crop destroys, and they made the image busy without adding meaning. One carton, two arrows, two stacks, all on one line. The article carries the five categories in the infographic instead.
 
 ---
 
@@ -111,20 +115,20 @@ EXCLUDE: no text, no numerals, no watermark, no real brand logos, no photographi
 **Prompt:**
 
 ```
-SCENE: A 3D conceptual illustration on a deep navy background (#0d2144) fading to near-black, with a faint darker grid. A left-to-right progression across the frame, joined by a thick orange arrow.
+SCENE: A 3D conceptual illustration on a deep navy background (#0d2144) fading to near-black. Three elements arranged left to right along a single horizontal line, joined by a thick orange arrow.
 
-LEFT: A dim grey 3D document sheet floating at a slight angle, with a large glowing orange question mark hovering above it. Low light, muted.
+LEFT: A pale grey document sheet floating upright, dimly lit, with a glowing orange question mark hovering just above it.
 
-CENTRE: A glowing cyan-blue circular portal ring, edge on, that the orange arrow passes through.
+CENTRE: A glowing cyan circular ring seen edge on, which the orange arrow passes through.
 
-RIGHT: A brightly lit 3D document sheet, crisp and white, carrying a raised circular orange embossed disc in its lower corner. A green tick floats beside it. This side is the brightest point in the image.
+RIGHT: A bright WHITE document sheet floating upright, crisply lit, the brightest object in the image, carrying a raised circular orange disc in its lower corner. A green tick floats beside it.
 
-STYLE: 3D product visualisation, matte materials, soft studio lighting, saturated and high contrast, editorial tech diagram. Wide horizontal composition with a clear dark-to-bright gradient left to right.
+COMPOSITION: All three elements at the same height, centred vertically, spread evenly across the width. The top 20% and bottom 20% are empty dark background. Clear dark-to-bright progression from left to right.
 
-EXCLUDE: no text, no readable writing on the documents, no government seals or crests, no agency badges, no eagle or shield emblems, no watermark, no real brand logos, no people, no beige or warm grey.
+STYLE: 3D product visualisation, matte materials, bright studio lighting, saturated, high contrast against the dark ground.
+
+EXCLUDE: no black or dark grey objects, no readable text or writing on the documents, no government seals or crests, no agency badges, no eagle or shield emblems, no watermark, no real brand logos, no people.
 ```
-
-**On the embossed disc:** plain and abstract, an orange circle with a raised rim. If it starts resembling an official government seal, regenerate. It represents certainty, not a specific agency.
 
 ---
 

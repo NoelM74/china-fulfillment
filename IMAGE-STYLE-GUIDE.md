@@ -141,6 +141,20 @@ Generated photorealism competes with real photography and loses. It produces was
 | Composition | Wide horizontal, focal object dead centre, since the crop is a narrow strip |
 | Text | **None in heroes.** Occasional single glyphs (a tick, a cross, a question mark) are fine |
 
+### The two rules that decide whether a hero works
+
+Both were learned by getting them wrong.
+
+**Objects must be light against the dark ground.** A navy background only works if what sits on it is bright: kraft tan, white, cream, pale grey, saturated orange. A black shoe and a dark grey van on navy produced an unreadable image, which is the same dark-on-dark failure the site itself was audited to remove. **State the object colour explicitly in every prompt.** "Matte 3D object" is not enough; the model will happily render it charcoal.
+
+**Compose inside the middle band.** Heroes are cropped from a generated 16:9 down to 2070×760, which **removes the top 17% and the bottom 17%.** Anything placed there is lost. One render lost three of its five objects; another lost its green tick and red cross entirely. Every hero prompt must carry a line like:
+
+> *All content sits within the middle horizontal band of the frame. The top 20% and bottom 20% are empty dark background.*
+
+Prefer vertical haloes behind objects over ellipses on the floor, since floor rings sit low in frame and get sliced.
+
+**Five objects maximum.** Ten reads as clutter and spreads content vertically, straight into the crop. If a concept needs more, it is an infographic, not a hero.
+
 **Never write "warm neutral greys" or "one restrained orange accent" into a hero prompt again.** That phrasing produced every beige image in the set. Bold beats tasteful here.
 
 ### When photography is still right
@@ -211,5 +225,7 @@ Before any generated image goes into `images/`:
 - [ ] Any in-image text rendered correctly, digit for digit?
 - [ ] Does the render actually match the alt text already written into the HTML?
 - [ ] Filename lowercase and exact?
+- [ ] **Are the objects light against the navy? Nothing black or charcoal?**
+- [ ] **Is everything inside the middle band? Cover the top and bottom 17% with your thumbs; is anything important lost?**
 
 The alt text point matters most. Alt text ships in the HTML before the image exists, so a render that does not match it makes the page inaccurate for screen reader users and for search engines.
