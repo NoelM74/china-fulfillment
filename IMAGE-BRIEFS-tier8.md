@@ -25,16 +25,29 @@
 
 # HEROES
 
-Shared base, repeated in each prompt so they can be pasted independently:
+**Rewritten. These are photographs of real people in the real warehouse, not 3D renders.**
+
+The earlier versions of these three were concept renders, floating boxes and document icons on navy. They were replaced because nobody works in them. A render cannot build a human connection, and the strongest hero in the previous batch was a straight photograph of the Shenzhen floor with staff in orange polos.
+
+## Shared setting, applied to all three
+
+Repeated in each prompt so they can be pasted independently.
 
 | | |
 |---|---|
-| Ground | Deep navy `#0d2144` fading to near-black `#001830`, faint darker grid |
-| Objects | **Light coloured**, matte 3D, brightly lit |
-| Accent | Saturated orange `#DD7008` |
-| Semantics | Green `#16a34a` valid, red `#d02222` rejected |
-| Composition | Middle band only, top and bottom 20% empty |
-| Count | **Five objects maximum** |
+| People | Chinese, **aged 22 to 27**, mixed gender, **orange polo shirts** with a small chest logo |
+| Below the waist | Ordinary personal clothing: jeans, chinos, trainers. Not matching workwear |
+| Manner | Working and focused. Unposed. No stock-photo grinning at camera |
+| Floor | **Green epoxy resin**, satin sheen, yellow demarcation lines |
+| Racking | **Blue** steel |
+| Walls | White or pale grey painted block, some with red Chinese banner signage |
+| Ceiling | White, exposed, fluorescent strip lights |
+| Cartons | Yellow-brown kraft, yellow plastic totes |
+| Composition | **Subject in the middle band.** The crop removes the top and bottom 17% |
+
+**Never:** hard hats, hi-vis vests, Western workers, all-male crews, US-style green and orange pallet racking, roller conveyors, cavernous vanishing-point aisles.
+
+> **Before generating any of these, check whether a real photograph already covers it.** A genuine photo of the actual team beats a generated one every time, and no competitor can copy it. Generation is the fallback for scenes no existing photo covers.
 
 ---
 
@@ -45,22 +58,22 @@ Shared base, repeated in each prompt so they can be pasted independently:
 **Prompt:**
 
 ```
-SCENE: A 3D conceptual illustration on a deep navy background (#0d2144) fading to near-black, with a faint darker grid.
+SCENE: A small bright office beside a fulfilment warehouse in Shenzhen. Through a large internal window behind the desk, blue steel racking and stacked kraft cartons are visible, slightly out of focus, standing on a green epoxy floor. White walls, fluorescent ceiling lighting.
 
-CENTRE: A bright WHITE document sheet floating upright, crisply lit, the brightest object in the frame. A large orange magnifying glass hovers over its upper half.
+SUBJECT: A Chinese man in his mid twenties, wearing an orange company polo shirt with a small logo on the left breast, sits at a desk studying a printed document he holds up in one hand. His other hand rests on a laptop trackpad. He is concentrating, not smiling at the camera.
 
-LEFT: A pale grey office building icon connected to the document by a short green line, with a small green tick beside it.
+DETAILS: On the desk, a second printed page, a pen, and a mug. A Chinese woman of similar age in the same orange polo stands at his shoulder, pointing at a line on the page.
 
-RIGHT: A pale grey shipping container icon connected to the document by a short red line that is visibly broken in the middle, with a small red cross beside it.
+LIGHT: Bright even daylight from a window to the left, with cool overhead office lighting.
 
-COMPOSITION: All three elements at the same height, centred vertically, spread evenly across the width. The top 20% and bottom 20% are empty dark background.
+STYLE: Documentary workplace photography, 35mm, eye level, taken from about two metres back. Natural and unposed.
 
-STYLE: 3D product visualisation, matte materials, bright studio lighting, saturated, high contrast against the dark ground.
+COMPOSITION: Both people in the middle horizontal band of the frame, centred vertically. Wide horizontal composition.
 
-EXCLUDE: no black or dark grey objects, no readable text or writing on the document, no government seals or crests, no agency badges, no eagle or shield emblems, no flags, no watermark, no real brand logos, no people.
+EXCLUDE: no readable text on the documents, no government seals or crests, no agency badges, no flags, no hard hats, no hi-vis vests, no Western workers, no third-party brand logos, no stock-photo smiling at camera.
 ```
 
-**The idea:** a correct address keeps the chain intact, a wrong one breaks it. No text needed to read that.
+**Why this scene:** the article is about checking a record somebody else filled in. Two people looking at one page is exactly that, and it is a real thing that happens in that office.
 
 ---
 
@@ -71,20 +84,22 @@ EXCLUDE: no black or dark grey objects, no readable text or writing on the docum
 **Prompt:**
 
 ```
-SCENE: A 3D conceptual illustration on a deep navy background (#0d2144) fading to near-black, with a faint darker grid.
+SCENE: The packing area of a fulfilment warehouse in Shenzhen. Green epoxy resin floor with yellow demarcation lines, blue steel racking behind, white painted walls, white exposed ceiling with fluorescent strip lights.
 
-CENTRE: A bright kraft-brown cardboard box, open and empty, sitting on a glowing orange weighing scale platform. A cyan ring of light surrounds it.
+SUBJECT: A Chinese woman in her mid twenties, wearing an orange company polo shirt with a small chest logo, stands at a stainless steel bench placing a flattened cardboard sheet onto a digital scale. She holds a tablet in her other hand, recording the weight.
 
-AROUND IT: Three light coloured packaging materials float in an arc above the box, evenly spaced and clearly separated: a pale flattened cardboard sheet, a translucent white poly bag, and a roll of cream packing tape.
+DETAILS: Laid out along the bench beside her, separated into neat groups: kraft cardboard, a clear poly bag, a roll of packing tape. A Chinese man of similar age in the same orange polo works further down the bench, turned away and out of focus.
 
-COMPOSITION: The box and scale dead centre, the three materials arranged in a shallow arc across the middle of the frame rather than stacked vertically. The top 20% and bottom 20% are empty dark background.
+LIGHT: Even cool overhead light, with one warm task lamp over the bench.
 
-STYLE: 3D product visualisation, matte materials, bright studio lighting, saturated, high contrast against the dark ground.
+STYLE: Documentary workplace photography, 35mm, eye level, taken from about two and a half metres back. Natural and unposed.
 
-EXCLUDE: no black or dark grey objects, no text, no numerals, no recycling symbols, no EU flag, no stars, no country flags, no watermark, no real brand logos, no people.
+COMPOSITION: The woman and the scale in the middle horizontal band, centred vertically. Wide horizontal composition.
+
+EXCLUDE: no text, no recycling symbols, no certification marks, no EU flag or stars, no country flags, no hard hats, no hi-vis vests, no Western workers, no third-party brand logos, no stock-photo smiling at camera.
 ```
 
-**Note:** no recycling symbols. They are close to real certification marks and we do not want to imply a certification.
+**Note:** no recycling symbols or certification marks. They resemble real marks and we must not imply a certification we do not hold.
 
 ---
 
@@ -95,19 +110,19 @@ EXCLUDE: no black or dark grey objects, no text, no numerals, no recycling symbo
 **Prompt:**
 
 ```
-SCENE: A 3D conceptual illustration on a deep navy background (#0d2144) fading to near-black, with a faint darker grid.
+SCENE: A kitting and assembly bench in a fulfilment warehouse in Shenzhen. Green epoxy resin floor with yellow demarcation lines, blue steel racking behind holding yellow plastic totes, white painted walls, fluorescent ceiling lighting.
 
-CENTRE: A bright CREAM coloured open subscription box, seen from a three-quarter angle, sitting on a glowing orange disc. A cyan ring of light surrounds it.
+SUBJECT: Two Chinese women in their mid twenties, both in orange company polo shirts with a small chest logo, work side by side along a long bench assembling identical cream coloured subscription boxes. One places a small item into an open box, the other closes a completed one.
 
-ABOVE THE BOX: Four small light coloured objects float in a shallow horizontal arc, spaced apart, as if descending into the box: a pale cylinder, a small white jar, a folded cream cloth, and a flat card.
+DETAILS: Along the bench, component items are laid out in separated trays ready to be picked in sequence. A row of finished closed boxes stands at the end of the bench. Above the bench, a printed pack-out specification sheet is clipped to a board.
 
-RIGHT: Three identical closed cream boxes in a neat receding row, smaller and slightly dimmer, suggesting a batch about to ship.
+LIGHT: Even cool overhead light with a warm task lamp over the working area.
 
-COMPOSITION: Everything sits in the middle horizontal band. The arc above the box is shallow and wide, not tall. The top 20% and bottom 20% are empty dark background.
+STYLE: Documentary workplace photography, 35mm, eye level, taken from about three metres back along the length of the bench. Natural and unposed.
 
-STYLE: 3D product visualisation, matte materials, bright studio lighting, saturated, high contrast against the dark ground.
+COMPOSITION: Both women and the open box in the middle horizontal band, centred vertically. Wide horizontal composition.
 
-EXCLUDE: no black or dark grey objects, no text, no numerals, no watermark, no real brand logos, no recognisable products, no people.
+EXCLUDE: no readable text on the specification sheet, no hard hats, no hi-vis vests, no Western workers, no recognisable branded products, no third-party brand logos, no stock-photo smiling at camera.
 ```
 
 ---
