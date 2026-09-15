@@ -207,3 +207,57 @@ Change **one** thing and regenerate.
 2. **Content lost in the crop?** Flatten the arrangement. Arcs should be wide and shallow, never tall.
 3. **Garbled text?** Cut a string and raise the quality setting.
 4. **Too busy?** Delete one object. Five is the ceiling and four is usually better.
+
+---
+
+# ADDENDUM — China to the Middle East post
+
+Two more images for `middle-east-fulfillment-from-china-2026`, added October 2026.
+
+## 7. `middle-east-fulfillment-from-china-2026.webp`
+
+**Alt:** "Parcels sorted by destination market for Saudi Arabia, the UAE, Egypt, Qatar, Bahrain and Kuwait before dispatch from a Shenzhen warehouse"
+
+**Prompt:**
+
+```
+SCENE: The outbound dispatch area of a fulfilment warehouse in Shenzhen. Green epoxy resin floor with yellow demarcation lines, blue steel racking behind, white painted walls, white exposed ceiling with fluorescent strip lights.
+
+SUBJECT: A Chinese man in his mid twenties, wearing an orange company polo shirt with a small chest logo, places a small kraft parcel into one of several open-topped yellow plastic totes lined up along a steel bench. Each tote holds a growing stack of similar parcels.
+
+DETAILS: A Chinese woman of similar age in the same orange polo scans a parcel with a handheld scanner further along the bench, turned away and softly out of focus. A trolley of sorted parcels stands ready at the end of the line.
+
+LIGHT: Even cool overhead light with a warm task lamp over the sorting bench.
+
+STYLE: Documentary workplace photography, 35mm, eye level, taken from about three metres back along the length of the bench. Natural and unposed.
+
+COMPOSITION: The man and the totes in the middle horizontal band, centred vertically. Wide horizontal composition.
+
+EXCLUDE: no readable text on labels, no country flags, no maps, no Arabic or Chinese signage other than what naturally appears on the wall, no hard hats, no hi-vis vests, no Western workers, no third-party brand logos, no stock-photo smiling at camera.
+```
+
+**Note:** no flags and no map. Destination is conveyed by sorting into separate totes, which is what actually happens.
+
+## 8. `infographic-middle-east-duty-vat.webp`
+
+**Alt:** "Duty and VAT across six Middle East markets: the five Gulf states share a customs union with a common external tariff commonly 5 percent of CIF, while VAT ranges from 15 percent in Saudi Arabia to none in Qatar and Kuwait, and Egypt sits outside the union with 14 percent VAT"
+
+**Prompt:**
+
+```
+LAYOUT: A flat vector infographic, portrait, pure white background, a single column of six evenly spaced rounded white cards with thin light grey borders. The top five cards are grouped together with a thin navy bracket down their left side; the sixth sits slightly separated below.
+
+HEADER: A deep navy bar across the top with white bold sans-serif text reading exactly "SAME DUTY. DIFFERENT VAT."
+
+CARDS: Each card carries a bold dark navy country name on the left and a large orange VAT figure on the right. They read exactly, top to bottom: "SAUDI ARABIA / 15%", "BAHRAIN / 10%", "UAE / 5%", "QATAR / 0%", "KUWAIT / 0%", "EGYPT / 14%".
+
+BRACKET LABEL: Small vertical navy text beside the bracket on the top five cards reading exactly "GCC CUSTOMS UNION".
+
+FOOTER: An orange band across the bottom with white bold text reading exactly "EGYPT SITS OUTSIDE".
+
+TYPE: Modern geometric sans-serif. Large type, generous whitespace.
+
+EXCLUDE: no gradients, no drop shadows, no 3D, no photographs, no country flags, no maps, no brand logos, no extra text beyond the strings specified.
+```
+
+**Check every percentage before uploading.** Six figures on one canvas is the upper limit for reliable text, and a wrong VAT rate on a tax infographic is worse than no infographic.

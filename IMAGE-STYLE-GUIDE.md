@@ -19,6 +19,14 @@ Two things fix that, and both are non-negotiable from here.
 
 ## 2. People
 
+**Two kinds of image, two different rules.** This distinction was missing until October 2026 and caused a correct image to be queried.
+
+**Images of our operation** are governed by this section and by §3. Our warehouse, our staff, our work. Chinese, 22 to 27, orange polos, green floor, blue racking.
+
+**Images of the customer** are not. When an article is about something the reader does at their own desk, in their own country, the person in frame should look like the reader: a Western small-business owner, a founder, a seller. The Form 5106 article is the example. Checking your own importer record is not work done in Shenzhen, and putting our warehouse staff in that image would have been wrong.
+
+Ask which one the article is about. If the action happens in our warehouse, §2 and §3 apply. If it happens at the customer's desk, they do not.
+
 **Applies whenever people appear.** Most blog heroes are 3D concept renders with no people in them at all (§6); this section governs photographic images and any render that does include staff.
 
 **Who appears in every image containing warehouse staff:**
