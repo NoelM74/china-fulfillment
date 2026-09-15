@@ -19,6 +19,14 @@ Two things fix that, and both are non-negotiable from here.
 
 ## 2. People
 
+**Two kinds of image, two different rules.** This distinction was missing until October 2026 and caused a correct image to be queried.
+
+**Images of our operation** are governed by this section and by §3. Our warehouse, our staff, our work. Chinese, 22 to 27, orange polos, green floor, blue racking.
+
+**Images of the customer** are not. When an article is about something the reader does at their own desk, in their own country, the person in frame should look like the reader: a Western small-business owner, a founder, a seller. The Form 5106 article is the example. Checking your own importer record is not work done in Shenzhen, and putting our warehouse staff in that image would have been wrong.
+
+Ask which one the article is about. If the action happens in our warehouse, §2 and §3 apply. If it happens at the customer's desk, they do not.
+
 **Applies whenever people appear.** Most blog heroes are 3D concept renders with no people in them at all (§6); this section governs photographic images and any render that does include staff.
 
 **Who appears in every image containing warehouse staff:**
@@ -112,56 +120,65 @@ For infographics, text contrast still has to clear WCAG AA. `#DD7008` on white i
 
 ---
 
-## 6. Blog heroes are 3D concept renders, not photographs
+## 6. Blog heroes are photographs of real people in the real warehouse
 
-**This is the most important rule in this file, and the one that took longest to work out.**
+**Corrected September 2026, after getting this wrong twice in opposite directions.**
 
-The library contains both styles and they are not equally good.
+### The history, so nobody repeats it
 
-| | `amazon-fba-inbound-placement-fees-2026.webp` | `china-to-australia-fulfillment-2026.webp` |
-|---|---|---|
-| Approach | 3D conceptual render | AI stock photograph |
-| Ground | Deep navy `#001830`–`#003060` | Bright suburban daylight |
-| Brand colour | Navy and orange throughout | None |
-| Says what the article says | Yes, at a glance | No |
-| Verdict | **This is the target** | Generic, off-palette, adds nothing |
+First attempt: generic photorealistic scenes. Anonymous warehouses, faceless workers, warm neutral greys. Result was beige stock photography that shared no colour with the site and said nothing about this company.
 
-Generated photorealism competes with real photography and loses. It produces washed-out, beige, faceless images that share no colour with the site. **Stop briefing scenes. Brief diagrams.**
+Overcorrection: this section previously read "heroes are 3D concept renders, not photographs" and instructed briefs to stop describing scenes. That was drawn from comparing one good render against one bad stock photo, and it generalised far too widely.
 
-**The hero base, applied to every one:**
+**The evidence that settled it** was `hts-classification-mistakes-importers-2026.webp`: a photograph of the actual Shenzhen floor, staff in orange polos with the chest logo, green epoxy, kraft cartons, red Chinese signage. It was immediately the strongest image in its batch.
 
-| | |
+So the real distinction was never photography against illustration. It is this:
+
+| Loses | Wins |
 |---|---|
-| Ground | Deep navy `#0d2144` fading to near-black `#001830`, faint darker grid |
-| Objects | Matte 3D, soft studio lighting, gentle contact shadows |
-| Accent | Saturated orange `#DD7008` |
-| Semantics | Green `#16a34a` correct or lawful, red `#d02222` wrong or penalised |
-| Highlight | Glowing cyan-blue rim light or ring on the focal object |
-| Feel | Editorial tech diagram. High contrast, saturated |
-| Composition | Wide horizontal, focal object dead centre, since the crop is a narrow strip |
-| Text | **None in heroes.** Occasional single glyphs (a tick, a cross, a question mark) are fine |
+| Strangers in anonymous places | **This company's people in this company's warehouse** |
+| Western models, stock lighting | Chinese staff aged 22 to 27, orange polos, working |
+| Could belong to any 3PL | Could only be this 3PL |
 
-### The two rules that decide whether a hero works
+Generic photography fails because it is generic, not because it is photography. A render of a floating box has the same problem: nobody works there either.
 
-Both were learned by getting them wrong.
+### The rule
 
-**Objects must be light against the dark ground.** A navy background only works if what sits on it is bright: kraft tan, white, cream, pale grey, saturated orange. A black shoe and a dark grey van on navy produced an unreadable image, which is the same dark-on-dark failure the site itself was audited to remove. **State the object colour explicitly in every prompt.** "Matte 3D object" is not enough; the model will happily render it charcoal.
+**Blog heroes are photographic and show real people in the real facility.** People create the connection a diagram cannot. Sections 2 and 3 govern who appears and what the room looks like, and they are not optional.
 
-**Compose inside the middle band.** Heroes are cropped from a generated 16:9 down to 2070×760, which **removes the top 17% and the bottom 17%.** Anything placed there is lost. One render lost three of its five objects; another lost its green tick and red cross entirely. Every hero prompt must carry a line like:
+Every hero should be answerable with: whose warehouse is this, and who are those people? If the answer is "anyone's" and "nobody", start again.
 
-> *All content sits within the middle horizontal band of the frame. The top 20% and bottom 20% are empty dark background.*
+### Where renders still belong
 
-Prefer vertical haloes behind objects over ellipses on the floor, since floor rings sit low in frame and get sliced.
+**Infographics.** They are diagrams and should stay diagrams: flat vector, navy and orange, on white.
 
-**Five objects maximum.** Ten reads as clutter and spreads content vertically, straight into the crop. If a concept needs more, it is an infographic, not a hero.
+**Genuinely abstract topics** with no real scene behind them, such as a comparison of two legal doctrines. Even then, ask first whether a person doing the relevant work would be better. Usually it is.
 
-**Never write "warm neutral greys" or "one restrained orange accent" into a hero prompt again.** That phrasing produced every beige image in the set. Bold beats tasteful here.
+### Best of all, use real photographs
 
-### When photography is still right
+This is worth stating plainly because it beats everything above.
 
-Only for real people and the real warehouse, and then **prefer an actual photograph over a generated one.** The company has real photos of real staff. Those beat anything a model will produce, and they are genuinely differentiating in a way a render is not.
+The company has actual photographs of actual staff on the actual floor. **Those beat any generated image, every time.** They are true, they are differentiating, and no competitor can produce them.
 
-If a photographic image must be generated, sections 2 and 3 govern who appears in it and what the room looks like.
+Generated photography should be the fallback for scenes no existing photo covers, not the default. Before briefing a hero, check whether a real photo already answers it.
+
+### Rules that apply to every hero, photographic or rendered
+
+**Compose inside the middle band.** Heroes crop from a generated 16:9 down to 2070×760, which **removes the top 17% and the bottom 17%.** This catches photographs exactly as hard as renders: a subject's head in the top band gets cut. Every hero prompt carries a line like:
+
+> *The main subject sits within the middle horizontal band of the frame, centred vertically.*
+
+**Keep the subject count low.** Two or three people is a scene. Eight is a crowd with no focal point, and it spreads content vertically into the crop.
+
+**Never write "warm neutral greys" or "one restrained orange accent".** That phrasing produced every beige image in the first set. The orange comes from the uniforms and it should be genuinely present.
+
+### Rules that apply only to rendered images
+
+These are render-specific and do not apply to photography.
+
+**Objects must be light against the dark ground.** A navy background only works if what sits on it is bright: kraft tan, white, cream, pale grey, saturated orange. A black shoe and a charcoal van on navy produced an unreadable image, the same dark-on-dark failure the site itself was audited to remove. State the object colour explicitly; "matte 3D object" is not enough.
+
+**Prefer vertical haloes behind objects** over ellipses on the floor, since floor rings sit low in frame and get sliced by the crop.
 
 ## 7. Sizes and format
 
