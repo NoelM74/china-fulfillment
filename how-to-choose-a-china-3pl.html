@@ -3,6 +3,7 @@
 <head>
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+<link rel="icon" href="/favicon.ico" sizes="any"/><link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png"/><link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"/><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"/><link rel="manifest" href="/site.webmanifest"/><meta name="theme-color" content="#0d2144"/>
 <title>How to Choose a China 3PL: Questions and Red Flags</title>
 <meta name="description" content="Shopping for a China fulfilment partner? The questions that separate real providers, the red flags to walk away from, and how to pilot before you commit."/>
 <link rel="canonical" href="https://www.china-fulfillment.com/how-to-choose-a-china-3pl.html"/>
@@ -248,6 +249,22 @@ html body div.obar,html body div.obar em,html body div.obar strong,html body div
 .ddp-btn{background:#0b7a35!important;color:#fff!important}
 /* .hi also matches .mkt.hi, which is white on blue by design */
 .mkt.hi{color:#fff!important;background:var(--blue)!important;border-color:var(--blue)!important}
+</style>
+<style>/* nav: never let the logo shrink, never let the bar overflow */
+nav{gap:18px}
+/* 1. the logo is fixed. it absorbs none of the squeeze. */
+nav .logo{flex:0 0 auto;min-width:auto}
+nav .logo img{height:44px;width:auto;max-width:none;flex:0 0 auto}
+/* 2. the CTA is fixed too. losing the call to action is as bad as losing the logo. */
+nav a.ncta{flex:0 0 auto;white-space:nowrap}
+/* 3. the link list absorbs the squeeze instead, and never wraps or overflows. */
+nav .nl{flex:1 1 auto;min-width:0;flex-wrap:nowrap;justify-content:flex-end;gap:2px}
+nav .nl a{white-space:nowrap}
+/* 4. tighten link padding before anything is at risk, rather than after. */
+@media(max-width:1439px){nav{padding:0 3%}nav .nl a{padding-left:8px;padding-right:8px;font-size:.93rem}}
+@media(max-width:1319px){nav .nl a{padding-left:6px;padding-right:6px;font-size:.9rem}nav a.ncta{padding:9px 14px!important}}
+/* 5. below 1200px the desktop bar cannot fit nine links honestly, so use the mobile menu. */
+@media(max-width:1199px){nav .nl{display:none}nav .ham{display:flex}}
 </style>
 </head>
 <body>
