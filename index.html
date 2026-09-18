@@ -91,6 +91,7 @@ nav{position:sticky;top:0;z-index:400;background:rgba(255,255,255,.97);backdrop-
 .hero-body strong{color:#fff;font-weight:700}
 .hbtns{display:flex;gap:14px;flex-wrap:wrap;justify-content:center}
 .hero-cards{display:grid;grid-template-columns:repeat(5,1fr);gap:14px;padding:48px 0 0;position:relative;z-index:2}
+.hcbar{display:none}
 .hc{position:relative;border-radius:14px;overflow:hidden;transition:transform .24s cubic-bezier(.2,0,0,1),box-shadow .24s;cursor:pointer;display:flex;flex-direction:column;box-shadow:0 1px 2px rgba(0,0,0,.28),0 8px 24px rgba(0,0,0,.26)}
 .hc:hover{transform:translateY(-6px);box-shadow:0 4px 10px rgba(0,0,0,.32),0 20px 46px rgba(0,0,0,.42)}
 .hc:hover .hc-hover{opacity:1}
@@ -338,6 +339,21 @@ footer{background:var(--n3);border-top:1px solid rgba(255,255,255,.06);padding:5
 .vrow span:first-child{grid-column:1/-1;color:var(--ink);font-size:.92rem;font-weight:600;margin-bottom:3px}
 .vrow .vg,.vrow .vr{font-size:.95rem;line-height:1.4}
 }
+/* mobile: five stats wrapped 1/1/2/1; lay them out 2 + 2 + 1 instead */
+@media(max-width:768px){
+.hstats{display:grid;grid-template-columns:1fr 1fr;gap:26px 0;padding:34px 0 44px}
+.hs{padding:0 12px;border-right:1px solid rgba(255,255,255,.1)}
+.hs:nth-child(2n),.hs:last-child{border-right:none}
+.hs:last-child{grid-column:1/-1}
+.hs .l{white-space:normal}
+}
+/* mobile: the hero card row scrolls, so show where you are in it */
+@media(max-width:768px){
+.hcbar{display:block;position:relative;z-index:2;width:104px;height:3px;margin:12px auto 0;border-radius:99px;background:rgba(255,255,255,.22);overflow:hidden}
+.hcbar.nos{display:none}
+.hcbar span{position:absolute;inset:0 auto 0 0;width:100%;border-radius:99px;background:#fa8738;transform-origin:left center}
+}
+@media(prefers-reduced-motion:no-preference){.hcbar span{transition:transform .09s linear}}
 /* mobile: service-card links reach a comfortable 44px touch target */
 @media(max-width:768px){.sc-link{padding:9px 0;margin-top:8px}}
 .i{width:1em;height:1em;display:inline-block;vertical-align:-.125em;flex-shrink:0}
@@ -432,6 +448,22 @@ b.addEventListener('click',function(e){e.stopPropagation();var o=m.classList.tog
 document.addEventListener('click',function(e){if(!w.contains(e.target))close();});
 document.addEventListener('keydown',function(e){if(e.key==='Escape'){close();b.blur();}});
 w.addEventListener('focusout',function(e){if(!w.contains(e.relatedTarget))close();});}
+if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',init);else init();})();</script>
+<script>(function(){function init(){
+var s=document.querySelector('.hero-cards'),b=document.querySelector('.hcbar');if(!s||!b)return;
+var t=b.firstElementChild,q=false;
+function draw(){q=false;
+ var r=s.clientWidth/s.scrollWidth;
+ if(!isFinite(r)||r>=0.999){b.classList.add('nos');return;}
+ b.classList.remove('nos');
+ var max=s.scrollWidth-s.clientWidth,p=max>0?s.scrollLeft/max:0;
+ t.style.width=(r*100)+'%';
+ t.style.transform='translateX('+(p*(1-r)/r*100)+'%)';}
+function tick(){if(!q){q=true;requestAnimationFrame(draw);}}
+s.addEventListener('scroll',tick,{passive:true});
+window.addEventListener('resize',tick);
+if(window.ResizeObserver)new ResizeObserver(tick).observe(s);
+draw();}
 if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',init);else init();})();</script>
 </head>
 <body>
@@ -545,6 +577,7 @@ if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',
  <div class="hc-label"><span>D2C Brands</span><span class="arr">&#8250;</span></div>
  </a>
  </div>
+ <div class="hcbar" aria-hidden="true"><span></span></div>
 
  <div class="hstats">
  <div class="hs"><div class="n">15+</div><div class="l">Years in Shenzhen</div></div>
