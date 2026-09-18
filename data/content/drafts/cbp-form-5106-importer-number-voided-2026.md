@@ -1,7 +1,7 @@
 ---
-title: "CBP Is Voiding Importer Numbers from 18 September. Is Your Form 5106 Right?"
-seo_title: "CBP Form 5106: Importer Numbers Voided Sept 2026"
-meta_description: "From 18 September 2026 CBP voids importer of record numbers with inaccurate Form 5106 data. Your forwarder's address no longer counts. What to check now."
+title: "CBP Is Voiding Importer Numbers. Is Your Form 5106 Right?"
+seo_title: "CBP Form 5106: Why Importer Numbers Get Voided"
+meta_description: "CBP now voids importer of record numbers with inaccurate Form 5106 data. Your forwarder's address no longer counts as a physical address. What to check."
 slug: cbp-form-5106-importer-number-voided-2026
 target_keyword: cbp form 5106
 secondary_keywords:
@@ -14,7 +14,7 @@ audience: shopify
 geo: global
 content_type: blog_post
 author: Noel Murphy
-last_updated: 2026-09-16
+last_updated: 2026-09-18
 images:
   hero: /images/blog/cbp-form-5106-importer-number-voided-2026.webp
   hero_alt: "An importer checking the physical address and contact details recorded on a customs identity form against the details CBP holds on file"
@@ -25,8 +25,8 @@ og_image: /images/blog/cbp-form-5106-importer-number-voided-2026.webp
 {
   "@context": "https://schema.org",
   "@type": "Article",
-  "headline": "CBP Is Voiding Importer Numbers from 18 September. Is Your Form 5106 Right?",
-  "description": "From 18 September 2026 CBP will immediately void importer of record numbers where Form 5106 data is inaccurate or incomplete. What must be accurate, why a forwarder's address no longer qualifies, and what to check.",
+  "headline": "CBP Is Voiding Importer Numbers. Is Your Form 5106 Right?",
+  "description": "CBP immediately voids importer of record numbers where Form 5106 data is inaccurate or incomplete. What must be accurate, why a forwarder's address no longer qualifies, and what to check.",
   "image": "https://www.china-fulfillment.com/images/blog/cbp-form-5106-importer-number-voided-2026.webp",
   "author": {
     "@type": "Person",
@@ -42,8 +42,8 @@ og_image: /images/blog/cbp-form-5106-importer-number-voided-2026.webp
       "url": "https://www.china-fulfillment.com/logo.png"
     }
   },
-  "datePublished": "2026-09-16",
-  "dateModified": "2026-09-16",
+  "datePublished": "2026-09-18",
+  "dateModified": "2026-09-18",
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "https://www.china-fulfillment.com/cbp-form-5106-importer-number-voided-2026.html"
@@ -66,10 +66,10 @@ og_image: /images/blog/cbp-form-5106-importer-number-voided-2026.webp
     },
     {
       "@type": "Question",
-      "name": "What changes on 18 September 2026?",
+      "name": "When did this enforcement start?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "CBP published a notice in the Federal Register on 19 August 2026 stating that from 18 September it will immediately void an importer of record number where the Form 5106 information is inaccurate or incomplete. A voided number is invalid for any purpose, including entering merchandise. CBP has said it is reviewing the data behind every importer number on file, regardless of how long the account has existed."
+        "text": "CBP published a notice in the Federal Register on 19 August 2026, and since 18 September 2026 it immediately voids an importer of record number where the Form 5106 information is inaccurate or incomplete. A voided number is invalid for any purpose, including entering merchandise. CBP has said it is reviewing the data behind every importer number on file, regardless of how long the account has existed."
       }
     },
     {
@@ -100,17 +100,19 @@ og_image: /images/blog/cbp-form-5106-importer-number-voided-2026.webp
 }
 </script>
 
-# CBP Is Voiding Importer Numbers from 18 September. Is Your Form 5106 Right?
+# CBP Is Voiding Importer Numbers. Is Your Form 5106 Right?
 
 ![An importer checking the physical address and contact details recorded on a customs identity form against the details CBP holds on file](/images/blog/cbp-form-5106-importer-number-voided-2026.webp)
 
-> **Quick answer:** From 18 September 2026, CBP will immediately void an importer of record number where the Form 5106 data is inaccurate or incomplete. The detail that catches most overseas sellers is the physical address: it cannot be your customs broker, your freight forwarder, a registered agent, a PO box or a business service centre. Phone and email have to be yours too. A voided number cannot be used to enter merchandise, so shipments stop. Check what CBP holds for you before it becomes a cleared container sitting at a port.
+> **Quick answer:** A voided importer of record number cannot be used to enter merchandise, so shipments stop at the border until it is reestablished. Since 18 September 2026, CBP voids one immediately where the Form 5106 data is inaccurate or incomplete, and it is reviewing every importer number on file regardless of age. The detail that catches most overseas sellers is the physical address: it cannot be your customs broker, your freight forwarder, a registered agent, a PO box or a business service centre. Phone and email have to be yours too. Most sellers have never seen their own form, because a broker filled it in years ago.
 
-Most compliance changes give you a quarter to prepare. This one was published on 19 August and takes effect on 18 September, and the number of sellers who know about it is small.
+There is a single line on a form you have probably never read that can stop every shipment you have in transit.
 
-## What actually changed
+It is not new law, and there is no grace period left to use. The enforcement is live, it applies to importer numbers opened decades ago as readily as ones opened last month, and the first most sellers hear of it is a container that will not clear.
 
-CBP published a notice in the Federal Register on **19 August 2026**. From **18 September**, where the information on an importer's Form 5106 is inaccurate or incomplete, CBP will **immediately void the associated importer of record number**.
+## What changed, and when
+
+CBP published a notice in the Federal Register on **19 August 2026**. Since **18 September 2026**, where the information on an importer's Form 5106 is inaccurate or incomplete, CBP **immediately voids the associated importer of record number**.
 
 A voided number is invalid for any purpose, including entering merchandise into the United States. It is not a warning or a fine. The number simply stops working.
 
@@ -153,11 +155,11 @@ CBP has been specific about what a physical address **cannot** be:
 
 It has to be the importer's actual place of business, or an associated residential address.
 
-Read that list again if you are selling into the US from outside it, because at least one of those is probably what is on your form. When a broker or forwarder sets up an importer number for an overseas client, using their own address is the path of least resistance. It has been normal practice for years. As of this week it is a voidable defect.
+Read that list again if you are selling into the US from outside it, because at least one of those is probably what is on your form right now. When a broker or forwarder sets up an importer number for an overseas client, using their own address is the path of least resistance. It has been normal practice for years. It is now a voidable defect.
 
 The same logic applies to contact details. **Your phone number and email must be yours**, not your broker's, not your forwarder's, not a shared operations mailbox at a service provider.
 
-![What CBP Form 5106 must show from 18 September 2026: importer name, tax identifier, mailing address, a physical address that is not a broker, forwarder, registered agent, PO box or business service centre, plus a telephone number and email address belonging to the importer](/images/blog/infographic-form-5106-checklist.webp)
+![What CBP Form 5106 must show: importer name, tax identifier, mailing address, a physical address that is not a broker, forwarder, registered agent, PO box or business service centre, plus a telephone number and email address belonging to the importer](/images/blog/infographic-form-5106-checklist.webp)
 
 ## The detail nobody is talking about
 
@@ -169,9 +171,9 @@ If the email on your Form 5106 belongs to a forwarder you stopped using in 2023,
 
 An inaccurate email is both the defect that gets you voided and the reason you do not find out.
 
-## What to do this week
+## What to check
 
-None of this is difficult. It is just easy to leave undone.
+None of this is difficult. It is just easy to leave undone until it is urgent.
 
 **Find out what CBP actually holds for you.** Not what you think you submitted. Your customs broker can tell you what is on file against your importer number. Ask them directly and ask for the specific fields, not a reassurance.
 
@@ -199,8 +201,8 @@ What we can do is keep the documentation on our side accurate and consistent, wh
 
 Your importer of record number is the single point of failure in your US supply chain, and most sellers have never checked the record behind it.
 
-From 18 September, a wrong address or an old email on a form somebody else filled in for you is enough to switch it off. The fix takes an afternoon and about five business days to process. Finding out the hard way takes considerably longer.
+A wrong address or an old email on a form somebody else filled in for you is now enough to switch it off. The fix takes an afternoon and about five business days to process. Finding out the hard way takes considerably longer, and it happens at the border rather than at your desk.
 
 Ask your broker what CBP holds for you today. If our details appear anywhere on it, [tell us](Contact-Us.html) and we will help you work out what should be there instead, then point you at someone licensed to change it.
 
-Figures and requirements here are current as at 16 September 2026. Customs enforcement policy is moving quickly this year, so confirm the position before relying on it.
+Figures and requirements here are current as at 18 September 2026. Customs enforcement policy is moving quickly this year, so confirm the position before relying on it.

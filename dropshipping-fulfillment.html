@@ -233,7 +233,10 @@ nav .logo img{height:44px;width:auto;max-width:none;flex:0 0 auto}
 /* 2. the CTA is fixed too. losing the call to action is as bad as losing the logo. */
 nav a.ncta{flex:0 0 auto;white-space:nowrap}
 /* 3. the link list absorbs the squeeze instead, and never wraps or overflows. */
-nav .nl{flex:1 1 auto;min-width:0;flex-wrap:nowrap;justify-content:flex-end;gap:2px}
+nav .nl{flex:1 1 auto;min-width:0;flex-wrap:nowrap;justify-content:flex-end;gap:22px}
+@media(max-width:1599px){nav .nl{gap:16px}}
+@media(max-width:1439px){nav .nl{gap:10px}}
+@media(max-width:1319px){nav .nl{gap:6px}}
 nav .nl a{white-space:nowrap}
 /* 4. tighten link padding before anything is at risk, rather than after. */
 @media(max-width:1439px){nav{padding:0 3%}nav .nl a{padding-left:8px;padding-right:8px;font-size:.93rem}}
@@ -241,6 +244,28 @@ nav .nl a{white-space:nowrap}
 /* 5. below 1200px the desktop bar cannot fit nine links honestly, so use the mobile menu. */
 @media(max-width:1199px){nav .nl{display:none}nav .ham{display:flex}}
 </style>
+<style>/* nav overflow menu */
+nav .more{position:relative;flex:0 0 auto}
+nav .more .morebtn{font:inherit;font-size:.93rem;font-weight:600;color:var(--ink,#0c1a2e);background:none;border:0;cursor:pointer;padding:8px;display:inline-flex;align-items:center;gap:5px;border-radius:6px;line-height:1}
+nav .more .morebtn:hover,nav .more .morebtn[aria-expanded="true"]{color:#c25205}
+nav .more .morebtn:focus-visible{outline:2px solid #c25205;outline-offset:2px}
+nav .more .mchev{font-size:.7em;transition:transform .16s}
+nav .more .morebtn[aria-expanded="true"] .mchev{transform:rotate(180deg)}
+nav .moremenu{position:absolute;top:calc(100% + 10px);right:0;min-width:210px;background:#fff;border:1px solid #dae0ec;border-radius:10px;box-shadow:0 8px 28px rgba(12,26,46,.14);padding:6px;display:none;flex-direction:column;z-index:500}
+nav .more:hover .moremenu,nav .moremenu.open{display:flex}
+nav .moremenu a{display:block;padding:10px 12px;border-radius:7px;white-space:nowrap;font-size:.93rem;color:var(--ink,#0c1a2e)}
+nav .moremenu a:hover{background:#f4f6fb;color:#c25205}
+nav .moremenu a:focus-visible{outline:2px solid #c25205;outline-offset:-2px}
+@media(max-width:1199px){nav .more{display:none}}
+</style>
+<script>(function(){function init(){var w=document.querySelector('nav .more');if(!w)return;
+var b=w.querySelector('.morebtn'),m=w.querySelector('.moremenu');
+function close(){m.classList.remove('open');b.setAttribute('aria-expanded','false');}
+b.addEventListener('click',function(e){e.stopPropagation();var o=m.classList.toggle('open');b.setAttribute('aria-expanded',o?'true':'false');});
+document.addEventListener('click',function(e){if(!w.contains(e.target))close();});
+document.addEventListener('keydown',function(e){if(e.key==='Escape'){close();b.blur();}});
+w.addEventListener('focusout',function(e){if(!w.contains(e.relatedTarget))close();});}
+if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',init);else init();})();</script>
 </head>
 <body>
 
