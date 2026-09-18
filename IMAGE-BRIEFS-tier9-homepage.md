@@ -158,3 +158,70 @@ Tell me and I will:
 3. Re-run the width sweep at 360, 390, 414, 768, 1024, 1280 and 1440 to confirm nothing shifts.
 
 The alt text for all four is already written and live, so nothing needs editing on that side when the files are swapped.
+
+---
+
+# ADDENDUM — the last two service cards
+
+Added after the first four landed. Sitting beside the new images, these two now read as visibly off-brand in a way they did not when every card was blue.
+
+| Current file | Problem |
+|---|---|
+| `ecommerce-fulfillment-shopify-order-packing-china-warehouse` | Navy polo. This is the **first card in the grid**, so it is the most exposed of the three that were left |
+| `quality-control-inspection-defect-check-china-warehouse` | Grey polo, and the only lone-male frame on the page |
+
+The third, `mandarin-speaking-team-supplier-phone-call-shenzhen`, stays. It is an office scene, and §2's warehouse uniform rule does not apply to it.
+
+**Same conventions as above**: generate 16:9 at 2K, deliver **1200×670** `.webp` under the existing filename, subject in the middle band because the card crop removes roughly the top and bottom 12%.
+
+> **Note on the QC file.** It is currently 1200×805, unlike every other card. Delivering at 1200×670 brings it into line and reduces how much the card crop throws away.
+
+> **Both need their `srcset` variants rebuilt after the swap.** The 400w and 720w files in `images/site/` are derived from the current images. Tell me when the new ones are in and I will regenerate them.
+
+---
+
+## 5. `ecommerce-fulfillment-shopify-order-packing-china-warehouse.webp`
+
+**Alt (already live in the markup):** "A Shopify order being picked and packed into branded outer packaging in Shenzhen, with the tracking number uploaded back to the store automatically"
+
+```
+SCENE: A packing station in a Shenzhen fulfilment warehouse. Green epoxy resin floor, blue steel racking behind holding yellow-brown kraft cartons, white painted walls, white exposed ceiling with fluorescent strip lights.
+
+SUBJECT: A Chinese woman in her mid twenties, wearing an orange company polo shirt with a small logo on the left breast, stands at a stainless steel bench placing a small wrapped product into an open branded mailer box. Her hands are the focus of the frame. She is looking down at her work, concentrating, not smiling at the camera.
+
+DETAILS: On the bench, a label printer with a freshly printed label curling from it, a small stack of flat-packed mailer boxes, and a roll of tissue paper. A monitor on an arm at the edge of the frame shows a soft, out of focus grid of coloured rows, unreadable. A Chinese man of similar age in the same orange polo works at the next station behind her, out of focus.
+
+LIGHT: Even cool overhead light with one warm task lamp above the bench, giving the foreground a slight warmth.
+
+STYLE: Documentary workplace photography, 50mm, eye level, taken from about two metres back. Shallow depth of field, the hands and the box sharp, the background soft. Natural and unposed.
+
+COMPOSITION: The woman's hands and the open box in the middle horizontal band, slightly left of centre. Wide horizontal composition.
+
+EXCLUDE: no readable text anywhere, no screen content that resolves into words or numbers, no Shopify logo or wordmark, no platform branding, no courier logos, no hard hats, no hi-vis vests, no Western workers, no third-party brand logos, no stock-photo smiling at camera.
+```
+
+**Why this scene:** the card sells pick and pack at $0.99 an order. Hands putting one product into one branded box is that promise, literally. The current image pulls back too far and sells a room instead.
+
+---
+
+## 6. `quality-control-inspection-defect-check-china-warehouse.webp`
+
+**Alt (already live in the markup):** "A unit checked against a quality control inspection list before FBA prep, with any defect photographed and reported to the brand the same day"
+
+```
+SCENE: A quality control bench along one wall of a Shenzhen fulfilment warehouse. Blue steel racking visible behind, green epoxy resin floor, white painted walls, bright even ceiling lighting.
+
+SUBJECT: A Chinese woman in her mid twenties, wearing an orange company polo shirt with a small chest logo and thin white cotton inspection gloves, holds a small consumer product up close to examine one edge of it. A Chinese man of similar age in the same orange polo stands beside her photographing a second unit on the bench with a phone on a small tripod.
+
+DETAILS: Laid out on the bench under a bright task lamp: a printed inspection checklist on a clipboard, a pair of digital calipers, and four identical units in a neat row awaiting check. One unit sits slightly apart from the others.
+
+LIGHT: Bright, even, slightly clinical. A task lamp directly over the bench, cool ceiling light behind.
+
+STYLE: Documentary workplace photography, 50mm, eye level, taken from about a metre and a half back. Shallow depth of field, the held product and her gloved hands sharp. Natural and unposed.
+
+COMPOSITION: The woman's hands and the product she is holding in the middle horizontal band, centred vertically. Wide horizontal composition.
+
+EXCLUDE: no readable text on the checklist, no Amazon logo or smile mark, no FBA branding, no certification marks or test-house logos, no microscopes, no lab coats, no safety goggles, no hard hats, no hi-vis vests, no Western workers, no third-party brand logos, no stock-photo smiling at camera.
+```
+
+**Why this scene:** two people, one checking and one recording, is what "defects photographed and reported the same day" actually looks like, and it matches the alt text already on the page. It also fixes the lone-male framing, which §2 asks to avoid defaulting to.
