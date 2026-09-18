@@ -2,6 +2,8 @@
 
 **Four images. All replace existing homepage files in place.**
 
+> **Status: delivered and live.** All four were generated, cropped to 1200×670 and installed on 18 September 2026. Each carries `srcset` at 400w, 720w and 1200w. The prompts below are kept as the record of what was asked for, and as the pattern for the three homepage images still on the old style.
+
 > **Read `IMAGE-STYLE-GUIDE.md` first. It overrides anything here.**
 >
 > These four break the guide as it stands today: staff appear in **blue hi-vis vests and blue polos**, where §2 specifies **orange polos** and explicitly forbids hi-vis. They predate the guide. The recent blog heroes follow it, which is why they look better.
