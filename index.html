@@ -323,10 +323,23 @@ footer{background:var(--n3);border-top:1px solid rgba(255,255,255,.06);padding:5
 .flinks a{font-size:.88rem;color:rgba(255,255,255,.80);transition:color .15s}
 .flinks a:hover{color:rgba(255,255,255,.85)}
 
-@media(max-width:1024px){.hero-cards{grid-template-columns:repeat(3,1fr)}.why-grid.vgrid.plat-grid{grid-template-columns:1fr;gap:40px}.fa-inner{grid-template-columns:1fr;gap:32px}.sgrid{grid-template-columns:1fr 1fr}.stepg{grid-template-columns:1fr 1fr;gap:28px}.stepg::after{display:none}.sb-in{grid-template-columns:1fr;gap:36px}.fg{grid-template-columns:1fr 1fr 1fr;gap:28px}.plat-features{grid-template-columns:1fr 1fr}.ddp-inner{grid-template-columns:64px 1fr}.ddp-btn{grid-column:1/-1;text-align:center}}
+@media(max-width:1024px){.hero-cards{grid-template-columns:repeat(3,1fr)}.why-grid,.vgrid,.plat-grid{grid-template-columns:1fr;gap:40px}.fa-inner{grid-template-columns:1fr;gap:32px}.sgrid{grid-template-columns:1fr 1fr}.stepg{grid-template-columns:1fr 1fr;gap:28px}.stepg::after{display:none}.sb-in{grid-template-columns:1fr;gap:36px}.fg{grid-template-columns:1fr 1fr 1fr;gap:28px}.plat-features{grid-template-columns:1fr 1fr}.ddp-inner{grid-template-columns:64px 1fr}.ddp-btn{grid-column:1/-1;text-align:center}}
 @media(max-width:768px){.nl{display:none}.ham{display:flex}.hero{padding:56px 5% 0}.hero-cards{display:flex;overflow-x:auto;gap:12px;scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch;padding:0 0 8px;scrollbar-width:none}.hero-cards::-webkit-scrollbar{display:none}.hc{flex:0 0 68%;scroll-snap-align:start}.hc-grad{min-height:172px;padding:18px 16px 14px}.hc-ico{font-size:1.9rem;margin-bottom:11px}.hc h3{font-size:.95rem}.hc p{display:block;font-size:.84rem}.sgrid{grid-template-columns:1fr}.sc-img{height:200px}.stepg{grid-template-columns:1fr 1fr}.plat-features{grid-template-columns:1fr}.fg{grid-template-columns:1fr 1fr;gap:24px}.sb-photo img{height:180px}}
 @media(max-width:600px){section{padding:56px 5%}.vidsec.statband{padding:56px 5%}.hero{padding:44px 5% 0}.hero h1{font-size:1.9rem}.hero-top{overflow:hidden;width:100%}.htag{font-size:.75rem;padding:5px 12px;gap:6px;letter-spacing:.05em}.hbtns{flex-direction:column;align-items:center}.hero-cards{gap:10px}.hc{flex:0 0 76%}.hc-grad{min-height:158px;padding:15px 14px 12px}.hs .n{font-size:1.55rem}.hs{padding:0 16px}.stepg{grid-template-columns:1fr}.fa-inner h2{font-size:1.4rem}.fg{grid-template-columns:1fr}.obar{font-size:.82rem;line-height:1.4}.ctaf{padding:68px 5%}.fba-alert{padding:40px 5%}.ddp-inner{grid-template-columns:1fr;gap:16px}.ddp-ico{display:none}}
 /* mobile-readability */@media(max-width:768px){html{font-size:17.5px}}@media(max-width:360px){html{font-size:16.5px}}
+/* mobile: the three two-column grids stack, so their prose gets full width */
+@media(max-width:1024px){.why-grid,.vgrid,.plat-grid{gap:38px}.vgrid{align-items:start}}
+/* mobile: comparison table reads as stacked rows instead of three crushed columns */
+@media(max-width:700px){
+.vtbl-h{grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:12px;padding:12px 15px}
+.vtbl-h span:first-child{display:none}
+.vtbl-h span{font-size:.74rem;letter-spacing:.03em;line-height:1.3}
+.vrow{grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:3px 12px;padding:14px 15px;align-items:start}
+.vrow span:first-child{grid-column:1/-1;color:var(--ink);font-size:.92rem;font-weight:600;margin-bottom:3px}
+.vrow .vg,.vrow .vr{font-size:.95rem;line-height:1.4}
+}
+/* mobile: service-card links reach a comfortable 44px touch target */
+@media(max-width:768px){.sc-link{padding:9px 0;margin-top:8px}}
 .i{width:1em;height:1em;display:inline-block;vertical-align:-.125em;flex-shrink:0}
 .hc-ico .i{color:var(--ac)}.ddp-ico .i{color:#fff}.wp-ico .i{color:var(--ac)}.pf-ico .i{color:var(--ac)}.ship-flag .i{color:rgba(255,255,255,.68)}
 </style>
