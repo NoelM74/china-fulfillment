@@ -2,7 +2,7 @@
 
 **Four images. All replace existing homepage files in place.**
 
-> **Status: delivered and live.** All four were generated, cropped to 1200×670 and installed on 18 September 2026. Each carries `srcset` at 400w, 720w and 1200w. The prompts below are kept as the record of what was asked for, and as the pattern for the three homepage images still on the old style.
+> **Status: complete.** All six were generated, cropped to 1200×670 and installed, the first four on 18 September 2026 and the last two on 19 September. Each carries `srcset` at 400w, 720w and 1200w. The prompts below are kept as the record of what was asked for, and as the pattern for the three homepage images still on the old style.
 
 > **Read `IMAGE-STYLE-GUIDE.md` first. It overrides anything here.**
 >
