@@ -71,15 +71,9 @@ Production still says 220+ on these pages. Change every instance to **200+** (th
 
 Do **not** change the "220+" in `best-china-3pl-companies-2026.html`. That number is a competitor's own claim, quoted on purpose.
 
-## 6. Homepage: missing meta description
+## 6. Homepage
 
-The live homepage has no meta description. Add this inside `<head>`:
-
-```html
-<meta name="description" content="China 3PL and eCommerce fulfillment from our own Shenzhen warehouse. $0.99 pick and pack, zero inbound fees, DDP included. 6-10 days to the US. Est. 2010."/>
-```
-
-Everything else on the homepage (title, images, free-storage wording) already matches the repo.
+Nothing to do. The live homepage already matches the repo: title, meta description, images and free-storage wording.
 
 ## 7. Clean-up: remove authoring notes from three live posts
 
