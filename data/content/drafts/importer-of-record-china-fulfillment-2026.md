@@ -165,7 +165,7 @@ The EU is in the middle of changing who the importer is.
 
 **Today**, on low-value parcels sold to consumers, the consumer is generally treated as the importer, and a seller using **IOSS** collects the import VAT at checkout so the parcel clears without the customer paying again on delivery. Since 1 July 2026 a flat €3 customs duty also applies to parcels under €150, which our [EU de minimis guide](eu-de-minimis-2026-customs-duty-guide.html) covers.
 
-**Under the new Union Customs Code**, Regulation (EU) 2026/2108, that flips. For distance sales from outside the EU, the importer becomes the **importer for distance sales**: the seller supplying the goods, or the platform facilitating the sale. The e-commerce changes are tied to **1 July 2028**. We cover the dates and the date dispute in detail in our piece on [the EU customs reform](eu-customs-reform-importer-distance-sales-2026.html).
+**Under the new Union Customs Code**, Regulation (EU) 2026/2108, that flips. For distance sales from outside the EU, the importer becomes the **importer for distance sales**: the seller supplying the goods, or the platform facilitating the sale. The e-commerce changes are tied to **1 July 2028**. We cover the full timeline in our piece on [the EU customs reform](eu-customs-reform-importer-distance-sales-2026.html).
 
 One structural point applies either way. A business established outside the EU can be the importer, but it generally cannot lodge the declaration itself. It needs an **EU EORI number** if it acts in its own name, and an **indirect customs representative** established in the EU to make declarations on its behalf.
 
