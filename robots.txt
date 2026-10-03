@@ -1,26 +1,35 @@
-# robots.txt for china-fulfillment.com
-# Last updated: 2026-03-17
+# robots.txt for www.china-fulfillment.com
+# Last updated: 2026-10-03
+#
+# Search engines and AI assistants (Googlebot, Bingbot, GPTBot, OAI-SearchBot,
+# PerplexityBot, ClaudeBot and others) are all welcome. They follow the
+# single group below. Do not add a separate group for one crawler: a crawler
+# with its own group ignores this one, including the Disallow lines.
+#
+# Images (/Upload/), stylesheets (/css/) and scripts (/js/) must stay crawlable.
+# Google needs them to index images and to render pages the way visitors see them.
+#
+# To remove a page from Google, give it <meta name="robots" content="noindex">
+# or return 404/410. Do not block it here: a blocked page cannot be read,
+# so Google never sees the noindex and can keep the URL in its index.
 
+# CMS back office, account area and server internals.
+# Images that old posts embed from the editor (/SysEditor/KindEditor/attached/) stay crawlable;
+# that Allow sits above its Disallow for crawlers that read top-down.
+# Keep every rule directly under User-agent with no blank lines: some parsers end a group at a blank line.
 User-agent: *
-Allow: /
-
-# Block login/register (noindex via meta tag too, belt and braces)
+Disallow: /admin
 Disallow: /Manage/
-Disallow: /login.html
-Disallow: /register.html
+Disallow: /ad/
+Disallow: /log/
+Disallow: /bak/
+Disallow: /bin/
+Disallow: /Inc/
+Disallow: /Include/
+Disallow: /webservice/
+Disallow: /WebUpload/
+Disallow: /script/
+Allow: /SysEditor/KindEditor/attached/
+Disallow: /SysEditor/
 
-# Block old CMS paths
-Disallow: /Upload/
-Disallow: /download
-Disallow: /notice
-Disallow: /help
-
-# Block search results and internal tools
-Disallow: /*?page=
-Disallow: /*?search=
-
-# Sitemap
 Sitemap: https://www.china-fulfillment.com/sitemap.xml
-
-# Crawl-delay (be polite)
-Crawl-delay: 1

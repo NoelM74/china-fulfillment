@@ -83,6 +83,30 @@ These live pages contain an HTML comment saying "paste into page head". Visitors
 - [ ] `how-to-fulfil-kickstarter-orders-from-china.html`
 - [ ] `china-3pl-vs-self-fulfilling-shopify.html`
 
+## 8. robots.txt: unblock images, styles and scripts (do this first)
+
+The live robots.txt blocks `/Upload/` (every image on the site), `/css/` and `/js/`. Google cannot index the images or render the pages properly.
+
+- [ ] Replace the live file with [`robots.txt`](https://github.com/NoelM74/china-fulfillment/blob/main/robots.txt) from the repo, exactly as written. It keeps the CMS back office blocked and opens images, styles and scripts.
+- [ ] Before you upload it, add `<meta name="robots" content="noindex,nofollow">` to the live `login.html` and `register.html`. The new robots.txt no longer blocks them, so the meta tag is what keeps them out of Google.
+- [ ] In Search Console, open the robots.txt report and confirm Google has fetched the new version.
+
+## 9. llms.txt: a summary of the site for AI assistants
+
+- [ ] Upload [`llms.txt`](https://github.com/NoelM74/china-fulfillment/blob/main/llms.txt) to the site root, so it loads at `https://www.china-fulfillment.com/llms.txt` as plain text.
+- [ ] Upload it **after** sections 1 and 10 are live. It links to the five new posts and the new pricing page, and those links must not 404.
+- [ ] When a price, phone number or address changes, update this file too.
+
+## 10. Pricing page: replace the old one
+
+The live `/our-pricing.html` says pick and pack is 5 RMB per order and prices storage per shelf in RMB, which contradicts the $0.99 and $0.49 on every other page.
+
+- [ ] Replace the live page with [`our-pricing.html`](https://china-fulfillment.borufashions.workers.dev/our-pricing.html) from the repo. Keep the same URL.
+- [ ] Copy everything in the `<head>`, including all four `application/ld+json` blocks (page, price list, FAQ and breadcrumb).
+- [ ] Add **Pricing** to the footer under Getting Started on every page, as the repo now does. If the main navigation has room, add it there too.
+- [ ] Add the URL to the live sitemap. The entry is in `sitemap.xml`, just before the FAQ entry.
+- [ ] Noel to confirm before publishing: whether standard cartons and mailers are included in the $0.99 pick and pack (the page currently says only that your own branded materials carry no surcharge).
+
 ---
 
 ## Quick check after publishing

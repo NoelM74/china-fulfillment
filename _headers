@@ -1,0 +1,5 @@
+# Cloudflare Workers static-asset headers. This file is read by Cloudflare and not served.
+# Keep the dev copy out of search results. The rule names the workers.dev host explicitly,
+# so it can never apply to www.china-fulfillment.com if production moves here later.
+https://china-fulfillment.borufashions.workers.dev/*
+  X-Robots-Tag: noindex, nofollow
