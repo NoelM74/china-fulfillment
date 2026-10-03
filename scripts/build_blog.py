@@ -51,6 +51,27 @@ def build_faq_section(scripts):
 TEMPLATE_PATH = "news-shopify-fulfillment-china.html"
 DRAFTS_PATH = "data/content/drafts/*.md"
 
+# Responsive image variants sit beside the original as name-<width>w.webp.
+# They are referenced only when the files exist, so a post without variants
+# builds exactly as before. Article images render at 90vw up to 844px and are
+# capped at 760px above that, so nothing needs more than 1520px at 2x.
+IMG_SIZES = "(max-width: 844px) 90vw, 760px"
+VARIANT_WIDTHS = (600, 760, 900, 1140, 1520)
+
+
+def srcset_attrs(src, original_width=None):
+    """Return ' srcset="..." sizes="..."' for src, or '' if it has no variants."""
+    if not (src.startswith("/images/") and src.endswith(".webp")):
+        return ""
+    base = src[: -len(".webp")]
+    parts = ["%s-%dw.webp %dw" % (base, w, w) for w in VARIANT_WIDTHS
+             if os.path.exists("%s-%dw.webp" % (base.lstrip("/"), w))]
+    if not parts:
+        return ""
+    if original_width:
+        parts.append("%s %dw" % (src, original_width))
+    return ' srcset="%s" sizes="%s"' % (", ".join(parts), IMG_SIZES)
+
 # Map a display category to the data-cat value blog.html's filters use.
 CAT_TO_FILTER = {
     "Amazon FBA": "fba",
@@ -167,8 +188,9 @@ def process_markdown(md_path):
         src = src.group(1) if src else ""
         alt = alt.group(1) if alt else ""
         w, h = (1200, 1500) if 'infographic' in src else (1200, 675)
-        return ('<img src="%s" alt="%s" width="%d" height="%d" '
-                'loading="lazy" decoding="async"/>' % (src, alt, w, h))
+        extra = srcset_attrs(src, 1200 if 'infographic' in src else None)
+        return ('<img src="%s"%s alt="%s" width="%d" height="%d" '
+                'loading="lazy" decoding="async"/>' % (src, extra, alt, w, h))
 
     body_html = re.sub(r'<img\b[^>]*/?>', _size_img, body_html)
     
@@ -218,6 +240,8 @@ def build_pages():
         # Hero Section
         cat = resolve_category(meta, slug)
         long_date, short_date = fmt_dates(meta.get("last_updated", ""))
+        hero_src = meta.get("images", {}).get("hero", "")
+        hero_srcset = srcset_attrs(hero_src)
 
         new_html.append(f'''
 <section class="art-hero">
@@ -229,7 +253,7 @@ def build_pages():
       <span>Published {long_date}</span>
     </div>
     <div class="art-hero-img">
-      <img src="{meta.get("images", {}).get("hero", "")}" alt="{meta.get("images", {}).get("hero_alt", "")}" width="1200" height="440" loading="eager" decoding="async"/>
+      <img src="{hero_src}"{hero_srcset} alt="{meta.get("images", {}).get("hero_alt", "")}" width="1200" height="440" loading="eager" fetchpriority="high" decoding="async"/>
     </div>
   </div>
 </section>
