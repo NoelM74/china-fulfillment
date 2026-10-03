@@ -105,7 +105,10 @@ The live `/our-pricing.html` says pick and pack is 5 RMB per order and prices st
 - [ ] Copy everything in the `<head>`, including all four `application/ld+json` blocks (page, price list, FAQ and breadcrumb).
 - [ ] Add **Pricing** to the footer under Getting Started on every page, as the repo now does. If the main navigation has room, add it there too.
 - [ ] Add the URL to the live sitemap. The entry is in `sitemap.xml`, just before the FAQ entry.
-- [ ] Noel to confirm before publishing: whether standard cartons and mailers are included in the $0.99 pick and pack (the page currently says only that your own branded materials carry no surcharge).
+
+## 11. D2C Consolidation page: wrong pick and pack rate in the cost example
+
+- [ ] On the live `china-consolidation.html`, in "What your current setup is actually costing you", the right-hand column says **Pick & pack per carton $2.75**. Our rate is $0.99. Change that line to **Pick & pack (600 cartons × $0.99) ~$594**, and change the right-hand total from **~$3,500** to **~$3,200**. The repo version is already corrected.
 
 ---
 
