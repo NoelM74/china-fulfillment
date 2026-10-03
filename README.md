@@ -37,6 +37,14 @@ The build derives the visible FAQ accordion from the `FAQPage` JSON-LD, so **do 
 
 The build also wraps every `<table>` in `<div class="tw">` for mobile scrolling, and adds `width`, `height`, `loading="lazy"` and `decoding="async"` to every `<img>`. It infers dimensions from the filename: anything containing `infographic` is treated as 1200×1500, everything else as 1200×675.
 
+### Responsive images
+
+Article images render at 90vw up to 844px and are capped at 760px above that, so nothing on a post ever needs more than 1520px. For any image, save smaller copies beside the original named `name-760w.webp`, `name-1140w.webp`, `name-1520w.webp` (heroes) or `name-600w.webp`, `name-900w.webp` (infographics). The build finds them and writes `srcset` and `sizes` automatically. **If the copies do not exist, the build writes the image exactly as before**, so older posts are unaffected.
+
+Every post's hero also carries `fetchpriority="high"`, because it is the largest element above the fold.
+
+Measured on the October batch: a 390px phone at 2x loads an 18KB hero instead of the 56KB original.
+
 ### Things the build does not do
 
 - Add entries to `sitemap.xml`. Do that by hand.
