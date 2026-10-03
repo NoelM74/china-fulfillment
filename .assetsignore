@@ -1,0 +1,12 @@
+# Files the dev site (Cloudflare Workers static assets) must not upload or serve.
+# Same syntax as .gitignore. Pages, images, robots.txt, llms.txt and sitemap.xml still deploy.
+.git
+.github
+.gitignore
+*.md
+*.py
+*.jsonc
+ibb_map.json
+scripts/
+data/
+node_modules/

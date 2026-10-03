@@ -109,6 +109,13 @@ Cloudflare Workers and Vercel checks both run on pull requests, but neither appe
 
 Resolve this before treating a merge as a publish.
 
+The dev copy at `https://china-fulfillment.borufashions.workers.dev/` builds from `main` (Cloudflare Workers static assets, configured in `wrangler.jsonc`). Two files keep it tidy:
+
+- `.assetsignore` stops the repo internals (`.git`, Markdown docs, Python scripts, `scripts/`, `data/`) from being uploaded and served.
+- `_headers` sends `X-Robots-Tag: noindex` on the workers.dev host only, so the dev copy stays out of search results without affecting the production domain.
+
+`robots.txt`, `llms.txt` and `sitemap.xml` in this repo are written for production. The team copies them to the live server (see `CMS-UPDATE-CHECKLIST.md`).
+
 ---
 
 ## Layout
