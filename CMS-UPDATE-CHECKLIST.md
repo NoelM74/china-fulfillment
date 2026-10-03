@@ -4,6 +4,8 @@ What the live site (china-fulfillment.com) is still missing from this repo. I ch
 
 Everything below is on the `main` branch. Copy from the built `.html` files in the repo root, **not** from `data/content/drafts/`.
 
+**Dev site:** https://china-fulfillment.borufashions.workers.dev/ builds automatically from `main`, so every change below is already live there. Open a page on the dev site to see exactly how it should look on china-fulfillment.com. Image files can be downloaded straight from it too, for example https://china-fulfillment.borufashions.workers.dev/images/blog/infographic-who-is-the-importer.webp
+
 ---
 
 ## How to copy a page
@@ -22,13 +24,13 @@ Everything below is on the `main` branch. Copy from the built `.html` files in t
 
 ## 1. Five new blog posts (all return 404 on production)
 
-| Page (repo file = live URL) | Images to upload from `images/blog/` |
-|---|---|
-| `eu-customs-reform-importer-distance-sales-2026.html` | `eu-customs-reform-importer-distance-sales-2026.webp` + `-760w` `-1140w` `-1520w`, `infographic-eu-customs-reform-timeline.webp` + `-600w` `-900w` |
-| `section-301-forced-labor-tariff-china-2026.html` | `section-301-forced-labor-tariff-china-2026.webp` + `-760w` `-1140w` `-1520w`, `infographic-section-301-duty-stack.webp` + `-600w` `-900w` |
-| `best-china-3pl-companies-2026.html` | `best-china-3pl-companies-2026.webp` + `-760w` `-1140w` `-1520w`, `infographic-china-3pl-types.webp` + `-600w` `-900w` |
-| `importer-of-record-china-fulfillment-2026.html` | `importer-of-record-china-fulfillment-2026.webp` + `-760w` `-1140w` `-1520w`, `infographic-who-is-the-importer.webp` + `-600w` `-900w` |
-| `china-3pl-vs-freight-forwarder-vs-sourcing-agent.html` | `china-3pl-vs-freight-forwarder-vs-sourcing-agent.webp` + `-760w` `-1140w` `-1520w`, `infographic-who-does-what-china.webp` + `-600w` `-900w` |
+| Page (repo file = live URL) | Preview | Images to upload from `images/blog/` |
+|---|---|---|
+| `eu-customs-reform-importer-distance-sales-2026.html` | [dev](https://china-fulfillment.borufashions.workers.dev/eu-customs-reform-importer-distance-sales-2026) | `eu-customs-reform-importer-distance-sales-2026.webp` + `-760w` `-1140w` `-1520w`, `infographic-eu-customs-reform-timeline.webp` + `-600w` `-900w` |
+| `section-301-forced-labor-tariff-china-2026.html` | [dev](https://china-fulfillment.borufashions.workers.dev/section-301-forced-labor-tariff-china-2026) | `section-301-forced-labor-tariff-china-2026.webp` + `-760w` `-1140w` `-1520w`, `infographic-section-301-duty-stack.webp` + `-600w` `-900w` |
+| `best-china-3pl-companies-2026.html` | [dev](https://china-fulfillment.borufashions.workers.dev/best-china-3pl-companies-2026) | `best-china-3pl-companies-2026.webp` + `-760w` `-1140w` `-1520w`, `infographic-china-3pl-types.webp` + `-600w` `-900w` |
+| `importer-of-record-china-fulfillment-2026.html` | [dev](https://china-fulfillment.borufashions.workers.dev/importer-of-record-china-fulfillment-2026) | `importer-of-record-china-fulfillment-2026.webp` + `-760w` `-1140w` `-1520w`, `infographic-who-is-the-importer.webp` + `-600w` `-900w` |
+| `china-3pl-vs-freight-forwarder-vs-sourcing-agent.html` | [dev](https://china-fulfillment.borufashions.workers.dev/china-3pl-vs-freight-forwarder-vs-sourcing-agent) | `china-3pl-vs-freight-forwarder-vs-sourcing-agent.webp` + `-760w` `-1140w` `-1520w`, `infographic-who-does-what-china.webp` + `-600w` `-900w` |
 
 That is 25 image files in total. The `-760w`, `-1140w` and similar endings sit before `.webp`, for example `best-china-3pl-companies-2026-760w.webp`.
 
@@ -39,19 +41,19 @@ Then:
 
 ## 2. Q4 peak season post: refreshed rates
 
-- [ ] `q4-peak-season-fulfillment-from-china-2026.html`: replace the live article body with the repo version. It has the 1 October 2026 Drewry container rates (for example LA $7,835 per 40ft) and TAC air freight data. The live page still has the old figures.
+- [ ] `q4-peak-season-fulfillment-from-china-2026.html` ([dev](https://china-fulfillment.borufashions.workers.dev/q4-peak-season-fulfillment-from-china-2026)): replace the live article body with the repo version. It has the 1 October 2026 Drewry container rates (for example LA $7,835 per 40ft) and TAC air freight data. The live page still has the old figures.
 - No new images. The live page already has the hero and infographic.
 
 ## 3. About Us: new "Our Shenzhen Base" section
 
-- [ ] `about-us.html`, lines 378 to 396: copy the whole "FLEET & PREMISES" section. It reuses the existing team-card styles, so no new CSS is needed.
+- [ ] `about-us.html` ([dev](https://china-fulfillment.borufashions.workers.dev/about-us)), lines 378 to 396: copy the whole "FLEET & PREMISES" section. It reuses the existing team-card styles, so no new CSS is needed.
 - Images from `images/site/`:
   - `china-fulfillment-cofounder-shenzhen-warehouse-van.webp` + `-400w` `-720w`
   - `pfc-express-delivery-van-shenzhen.webp` + `-400w` `-720w`
 
 ## 4. Contact Us: premises photo
 
-- [ ] `Contact-Us.html`, line 423: add the photo above the address block.
+- [ ] `Contact-Us.html` ([dev](https://china-fulfillment.borufashions.workers.dev/Contact-Us)), line 423: add the photo above the address block.
 - Images from `images/site/`: `pfc-express-truck-shenzhen-warehouse-entrance.webp` + `-400w` `-720w`
 
 ## 5. "220+ countries" → "200+ countries"
