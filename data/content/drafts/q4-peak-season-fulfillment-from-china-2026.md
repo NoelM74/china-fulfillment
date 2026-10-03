@@ -14,7 +14,7 @@ audience: amazon_fba
 geo: us
 content_type: blog_post
 author: Noel Murphy
-last_updated: 2026-08-01
+last_updated: 2026-10-03
 images:
   hero: /images/blog/q4-peak-season-fulfillment-from-china-2026.webp
   hero_alt: "Q4 peak season shipping from China in 2026 with containers loading ahead of Golden Week and holiday cut-off dates"
@@ -43,7 +43,7 @@ og_image: /images/blog/q4-peak-season-fulfillment-from-china-2026.webp
     }
   },
   "datePublished": "2026-08-01",
-  "dateModified": "2026-08-01",
+  "dateModified": "2026-10-03",
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "https://www.china-fulfillment.com/q4-peak-season-fulfillment-from-china-2026.html"
@@ -95,6 +95,14 @@ og_image: /images/blog/q4-peak-season-fulfillment-from-china-2026.webp
         "@type": "Answer",
         "text": "Use sea freight for the bulk of your holiday inventory, booked early, because it is by far the cheapest per unit but the slowest and the first to sell out of capacity. Keep air and express for mid-season top-ups of proven bestsellers, accepting the higher rate as insurance against a stockout during your best selling weeks. Planning the split in advance is what stops you paying air prices for your whole range in November."
       }
+    },
+    {
+      "@type": "Question",
+      "name": "What are China freight rates in October 2026?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Drewry's World Container Index for 1 October 2026 put Shanghai to Los Angeles at 7,835 US dollars per 40ft container, Shanghai to New York at 10,428 dollars and Shanghai to Rotterdam at 3,399 dollars, with the composite at 4,434 dollars. Transpacific rates are being held up by carriers blanking sailings, while Asia to Europe has eased as more ships return to the Suez route. On air, TAC Index's Baltic Air Freight Index was 20.9 percent higher year on year at 21 September 2026, with jet fuel more than double its price a year earlier. Drewry expected transpacific rates to dip after Golden Week."
+      }
     }
   ]
 }
@@ -108,7 +116,9 @@ Every year the same thing happens. Sellers spend the summer building products an
 
 This is the 2026 peak-season playbook for shipping from China: the dates that actually gate your holiday sales, the surcharges that wreck freight budgets, and the inventory pattern that keeps you in stock without overpaying Amazon to store it.
 
-> **Quick answer:** Lock your Q4 inventory plan in July or August and book ocean freight in September, before the 1-7 October Golden Week shutdown. Ship the bulk by sea early, hold it in a China warehouse, and drip-feed FBA through the quarter to dodge Q4 storage fees. Keep air and express for mid-season top-ups of proven winners only.
+**Updated 3 October 2026.** Golden Week is under way as this is written. We have added the rates the market is actually charging this month and a section on what you can still do if you are planning now, rather than in August.
+
+> **Quick answer:** The ideal plan is to lock inventory in July or August and book ocean freight in September, before the 1-7 October Golden Week shutdown. If you are reading this in October, that window has gone, and the market is not cheap: on 1 October 2026 Drewry had **Shanghai to Los Angeles at $7,835** per 40ft container and **Shanghai to New York at $10,428**, while air rates were about **21% higher than a year ago**. Book the first post-Golden Week sailings now rather than waiting for a dip, keep air for proven bestsellers, buffer stock in China and drip-feed FBA to avoid Q4 storage fees.
 
 ## The 2026 peak-season calendar
 
@@ -137,6 +147,34 @@ Peak season is not just slower, it is dearer, because carriers layer extra fees 
 
 The defence is boring and it works: book early, at a rate agreed before the surcharge window opens. That is a planning decision you make now, not a rate you can negotiate in November.
 
+## Where rates actually are: October 2026
+
+Forecasts earlier in the year talked about a softer peak. The index readings do not show one, at least not across the Pacific.
+
+| Lane, per 40ft container | 24 Sep 2026 | 1 Oct 2026 |
+|---|---|---|
+| Shanghai to Los Angeles | $7,838 | **$7,835** |
+| Shanghai to New York | $10,373 | **$10,428** |
+| Shanghai to Rotterdam | $3,485 | **$3,399** |
+| Drewry composite, all lanes | $4,468 | **$4,434** |
+
+*Source: Drewry World Container Index, spot rates. Contract rates and your own forwarder's quote will differ.*
+
+**Two very different markets.** Transpacific rates are holding up because carriers are blanking sailings, cancelling departures to keep capacity tight. Asia to Europe has gone the other way: more ships are returning to the Suez route, with weekly transits up from 41 to 48 according to Drewry, and that extra capacity is pulling Rotterdam rates down. If you sell into both the US and Europe, the same container costs more than twice as much to send across the Pacific.
+
+**Air is dearer than last year.** TAC Index's Baltic Air Freight Index stood **20.9% higher year on year** at 21 September 2026, and jet fuel was up **116.5% year on year** according to IATA's Jet Fuel Price Monitor. Air top-ups are still the right tool for a bestseller that is running hot. They just cost more than they did last Q4, so ration them.
+
+**What happens next.** Drewry expected transpacific rates to dip in the week after Golden Week as factory output pauses. A dip is not a collapse, and Middle East tensions, Panama Canal constraints and European labour disruption all sit in the background. Do not hold freight back waiting for a cheaper week that may not come.
+
+## If you are planning now, in October
+
+The September window has closed. That does not mean the quarter is lost, but it changes the plan.
+
+1. **Book the first sailings after Golden Week now.** Sea freight from China takes roughly 14 to 35 days depending on the lane, and space on the first departures after the holiday fills quickly. US West Coast arrivals in November are still possible. East Coast, or anything that must be live in FBA and selling by Black Friday on 27 November, is very tight by sea.
+2. **Split by what the stock has to do.** Holiday bestsellers that must be on shelf for Black Friday: air, accepting the higher rate. Stock for December and January replenishment: sea, booked now.
+3. **Do not move everything into FBA at once.** Hold the buffer in China and send small, frequent replenishments, which is the pattern below. With Q4 storage fees rising, a late arrival is exactly the stock you do not want sitting in Amazon.
+4. **Start the Chinese New Year order now.** It is closer than it looks, and it is the same conversation.
+
 ## The inventory pattern: buffer in China, drip-feed the shelf
 
 Here is where most Q4 plans quietly lose money. The instinct is to ship everything into your selling market early so you cannot run out. But bulk-loading your whole holiday range into Amazon means paying Q4 storage fees, which climb steeply in the last quarter, on inventory that will not sell until December.
@@ -151,7 +189,7 @@ There is no single right mode for peak, there is a right split.
 - **Air** is your mid-season insurance. When a bestseller runs hotter than forecast, [air freight](/international-freight-forwarding-china.html) gets a top-up in fast enough to catch the demand.
 - **Express** handles the urgent, high-value or last-minute, shipping [DDP so nothing gets held at customs](/express-international-shipping.html) during the busiest clearance weeks of the year.
 
-Decide the split in August. Sellers who do not end up air-freighting their entire range in November because the sea window closed on them. Our [full breakdown of China shipping times and costs](/news-shipping-times-costs-china-2026.html) covers the current rates for each.
+Decide the split in August. Sellers who leave it end up air-freighting their entire range in November, because the sea window closed on them. Our [full breakdown of China shipping times and costs](/news-shipping-times-costs-china-2026.html) covers the current rates for each.
 
 ## Don't forget what comes right after
 
@@ -159,4 +197,6 @@ Peak season does not end at Christmas for anyone sourcing in China. [Chinese New
 
 ## The bottom line
 
-Q4 rewards the prepared and punishes the improviser. Lock your forecast in August, book sea freight in September before Golden Week, buffer the bulk in China and drip-feed the shelf to dodge storage fees, and reserve air and express for the bestsellers that earn it. We consolidate, store and ship all of it from Shenzhen, with the freight booked early and DDP through the peak-clearance crush. [Get your Q4 plan mapped before the September window closes](/Contact-Us.html).
+Q4 rewards the prepared and punishes the improviser. Lock your forecast in August, book sea freight in September before Golden Week, buffer the bulk in China and drip-feed the shelf to dodge storage fees, and reserve air and express for the bestsellers that earn it. We consolidate, store and ship all of it from Shenzhen, with the freight booked early and DDP through the peak-clearance crush. If you are planning in October, the first post-Golden Week sailings are the next decision, so [get your Q4 plan mapped now](/Contact-Us.html).
+
+Rates and dates here are current as at 3 October 2026. Spot freight rates move weekly, so confirm a live quote before you book.
