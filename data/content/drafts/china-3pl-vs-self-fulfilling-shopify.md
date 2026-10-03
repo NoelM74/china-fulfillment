@@ -28,7 +28,6 @@ images:
 og_image: /images/blog/hero-3pl-vs-self-fulfilling.webp
 ---
 
-<!-- Article Schema (JSON-LD), paste into page <head> -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -59,7 +58,6 @@ og_image: /images/blog/hero-3pl-vs-self-fulfilling.webp
 }
 </script>
 
-<!-- FAQPage Schema (JSON-LD), paste into page <head> -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
