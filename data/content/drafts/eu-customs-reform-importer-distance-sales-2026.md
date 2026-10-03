@@ -78,7 +78,7 @@ og_image: /images/blog/eu-customs-reform-importer-distance-sales-2026.webp
       "name": "When does the importer for distance sales rule apply?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The European Commission's timeline ties the e-commerce changes to the EU Customs Data Hub opening to e-commerce on 1 July 2028, and specialist advisers place the importer for distance sales provisions on that date. Some advisers associate the obligations with the Code's general application date of 21 September 2027. The safer plan is to be ready for the earlier date and confirm the position with a customs adviser."
+        "text": "From 1 July 2028, the date the EU Customs Data Hub opens to e-commerce and the European Commission's timeline brings in the e-commerce changes. That is a separate milestone from the Code's general application date of 21 September 2027, which covers the wider reform. Confirm the position for your own business with a customs adviser."
       }
     },
     {
@@ -113,7 +113,7 @@ og_image: /images/blog/eu-customs-reform-importer-distance-sales-2026.webp
 
 ![A European online seller at their desk reviewing the product descriptions, values and tariff codes on an order before it ships to EU customers](/images/blog/eu-customs-reform-importer-distance-sales-2026.webp)
 
-> **Quick answer:** The new Union Customs Code, Regulation (EU) 2026/2108, entered into force on 21 September 2026. It creates a role called the importer for distance sales: on goods sold online to EU consumers from outside the EU, the importer is the seller or the platform, not the consumer. That covers a Shopify brand shipping direct from China as much as it covers a marketplace. The Commission ties the e-commerce changes to 1 July 2028, though some advisers point to 21 September 2027, so plan for the earlier date. The work to start now is your product data: descriptions, values and tariff codes accurate enough to put your name to.
+> **Quick answer:** The new Union Customs Code, Regulation (EU) 2026/2108, entered into force on 21 September 2026. It creates a role called the importer for distance sales: on goods sold online to EU consumers from outside the EU, the importer is the seller or the platform, not the consumer. That covers a Shopify brand shipping direct from China as much as it covers a marketplace. The role applies from **1 July 2028**, when the EU Customs Data Hub opens to e-commerce. The work to start now is your product data: descriptions, values and tariff codes accurate enough to put your name to.
 
 For as long as most sellers have shipped into Europe, the person who legally imported a low-value parcel was the customer who ordered it.
 
@@ -134,7 +134,7 @@ Entering into force is not the same as applying. The regulation switches on in s
 | **1 November 2026** | New EU **handling fee** must be operational, at the latest |
 | **2027** | EU Customs Authority established, headquartered in Lille |
 | **21 September 2027** | **General application** of the new Code |
-| **1 July 2028** | **E-commerce regime**: Customs Data Hub opens to e-commerce, the €3 interim duty is replaced |
+| **1 July 2028** | **Importer for distance sales applies**: Customs Data Hub opens to e-commerce, the €3 interim duty is replaced |
 | **1 March 2034** | Customs Data Hub mandatory for all importers |
 
 ![The EU customs reform timeline: in force 21 September 2026, handling fee by 1 November 2026, general application 21 September 2027, and the seller or platform becomes the importer on distance sales from 1 July 2028](/images/blog/infographic-eu-customs-reform-timeline.webp)
@@ -160,13 +160,13 @@ If you run your own Shopify or WooCommerce store, sell to customers in Germany, 
 
 If you sell through a marketplace, the platform may take the role instead. How that allocation works in practice, and what it means for the data the platform will demand from you, is detail still being worked through. Expect platforms to push the data burden back to sellers either way, because they will not accept liability for descriptions they did not write.
 
-## The date question, answered honestly
+## When it applies, and why that is not long
 
-Here is a point where published sources disagree, so it is worth being precise rather than confident.
+The importer for distance sales role applies from **1 July 2028**. That is the day the EU Customs Data Hub opens to e-commerce, and the Commission's timeline brings the e-commerce changes in with it.
 
-The Code's **general application date is 21 September 2027**. The Commission's own timeline ties the **e-commerce changes to 1 July 2028**, the day the Customs Data Hub opens to e-commerce, and specialist advisers place the importer for distance sales provisions there. Some advisers have associated the obligations with the 2027 date instead.
+Do not confuse it with **21 September 2027**, which is the general application date for the reform as a whole. That date matters to customs in general; for a seller shipping parcels to consumers, July 2028 is the one that changes who the importer is.
 
-You do not need to settle that argument to act on it. **Plan for 21 September 2027.** If the obligations turn out to land in July 2028, you have nine months of margin. If they land in 2027 and you planned for 2028, you are late. Confirm the position with a customs adviser before you rely on either.
+Twenty-one months sounds like plenty. It is not, if your catalogue has never been classified properly or your product descriptions were written for a marketplace listing rather than a customs declaration. That work takes months to do well, and the sellers who start in 2028 will be doing it under pressure.
 
 ## What actually has to be ready
 
@@ -174,7 +174,7 @@ The role is new. The work behind it is not. It is the same work good sellers alr
 
 **Accurate product descriptions.** Not "gift" or "accessories". What the item is, what it is made of, what it is for. A vague description was a nuisance under the old rules. Under the new ones it is your declaration.
 
-**Correct tariff classification.** Every SKU needs the right HS code, applied consistently. If you have never had your catalogue classified properly, this is the single most valuable thing to fix before 2027. Our [HS code classification service](hs-code-classification-tariff-engineering.html) exists for exactly this, and the [common classification mistakes](hts-classification-mistakes-importers-2026.html) are a fast way to find out where you stand.
+**Correct tariff classification.** Every SKU needs the right HS code, applied consistently. If you have never had your catalogue classified properly, this is the single most valuable thing to fix well before July 2028. Our [HS code classification service](hs-code-classification-tariff-engineering.html) exists for exactly this, and the [common classification mistakes](hts-classification-mistakes-importers-2026.html) are a fast way to find out where you stand.
 
 **True values.** Declared values that match what the customer actually paid. Undervaluation was always a risk. As the importer it is your risk directly.
 
@@ -204,6 +204,6 @@ Europe has decided that the person who sells the goods should answer for them at
 
 The good news is that nothing on the to-do list is new. Accurate descriptions, correct codes, true values, compliance paperwork you can actually produce. The difference is that from now on it is your declaration, not your customer's.
 
-Start with your catalogue. If you want a second pair of eyes on how your SKUs are described and classified before 2027, [talk to us](Contact-Us.html).
+Start with your catalogue. If you want a second pair of eyes on how your SKUs are described and classified before July 2028, [talk to us](Contact-Us.html).
 
 Dates and requirements here are current as at 3 October 2026. The reform applies in phases and implementing detail is still being published, so confirm the position for your business before relying on it.

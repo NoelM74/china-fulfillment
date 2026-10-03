@@ -134,7 +134,7 @@ The way to stay clean is structural, not clever. Fulfil every order from one con
 
 Plenty of TikTok sellers built their numbers on the old assumption that a sub-$800 parcel from China entered the US duty-free. That ended in 2025 when the US [suspended de minimis](/us-de-minimis-ended-2026-china-sellers-guide.html). Every parcel from China now owes duty, whatever its value, and TikTok parcels are no exception.
 
-For a cross-border seller this has one practical consequence: ship DDP. With Delivered Duty Paid, the duty is calculated and collected as part of the order, and the parcel clears customs without your buyer ever being asked to pay. The alternative, leaving the buyer to settle a duty bill on the doorstep, is poison on a platform where your delivery rate and your reviews decide whether the algorithm keeps showing your product. We ship [DDP to the US and 220+ countries](/express-international-shipping.html), so the price the buyer paid is the price that clears.
+For a cross-border seller this has one practical consequence: ship DDP. With Delivered Duty Paid, the duty is calculated and collected as part of the order, and the parcel clears customs without your buyer ever being asked to pay. The alternative, leaving the buyer to settle a duty bill on the doorstep, is poison on a platform where your delivery rate and your reviews decide whether the algorithm keeps showing your product. We ship [DDP to the US and 200+ countries](/express-international-shipping.html), so the price the buyer paid is the price that clears.
 
 ## Speed and the viral-spike problem
 

@@ -161,7 +161,7 @@ That world is gone. The US [suspended its $800 de minimis exemption](/us-de-mini
 
 ## How we run DDP from Shenzhen
 
-The reason DDP is cheap to do well from China is that all the work happens before the parcel leaves. We classify each SKU with its HS code, calculate the duty and tax for the destination, collect it as part of the order so the landed price is set upfront, and clear the parcel under our own import-of-record handling on arrival. The result is a delivery your customer opens without ever hearing the word "customs." We ship [DDP express and parcel to 220+ countries](/express-international-shipping.html), and it underpins every order we send, whether it is one [ecommerce parcel](/ecommerce-fulfillment.html) or a [crowdfunding run to thousands of backers](/crowdfunding-fulfillment-kickstarter-indiegogo-china.html).
+The reason DDP is cheap to do well from China is that all the work happens before the parcel leaves. We classify each SKU with its HS code, calculate the duty and tax for the destination, collect it as part of the order so the landed price is set upfront, and clear the parcel under our own import-of-record handling on arrival. The result is a delivery your customer opens without ever hearing the word "customs." We ship [DDP express and parcel to 200+ countries](/express-international-shipping.html), and it underpins every order we send, whether it is one [ecommerce parcel](/ecommerce-fulfillment.html) or a [crowdfunding run to thousands of backers](/crowdfunding-fulfillment-kickstarter-indiegogo-china.html).
 
 ## The bottom line
 
