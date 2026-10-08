@@ -37,7 +37,7 @@
 {"@type":"Question","name":"Can you ship products with lithium batteries from China?","acceptedAnswer":{"@type":"Answer","text":"Yes, with restrictions. Lithium battery products require MSDS (Material Safety Data Sheet) documentation and must be shipped according to IATA dangerous goods regulations for air freight. Not all carriers accept lithium batteries, and shipping methods are more limited than for non-hazardous goods. We handle lithium battery shipments regularly and can advise on the correct packaging, documentation, and carrier options for your specific product."}},
 {"@type":"Question","name":"How does your Shopify integration work?","acceptedAnswer":{"@type":"Answer","text":"Your Shopify store connects to our warehouse management system via API. When a customer places an order on your store, the order syncs to our system automatically. We pick, pack, and ship the order. The tracking number uploads back to Shopify and your customer gets a shipping notification. Inventory levels sync in both directions so your store always shows accurate stock. No manual CSV uploads or copy-pasting addresses."}},
 {"@type":"Question","name":"What if I want to sell on multiple platforms from the same inventory?","acceptedAnswer":{"@type":"Answer","text":"We support multi-channel fulfillment from a single inventory pool. You can sell on Shopify, Amazon, eBay, Etsy, WooCommerce, and other platforms simultaneously. Orders from all channels sync to our system and are fulfilled from the same warehouse stock. This avoids split inventory across multiple locations and reduces the risk of overselling."}},
-{"@type":"Question","name":"How long does it take to get set up and start shipping?","acceptedAnswer":{"@type":"Answer","text":"Most new clients are operational within 3-5 business days of their first consultation. Setup involves connecting your store or marketplace account, receiving your first inventory delivery, and running a test shipment. The first 30 days of warehouse storage are free for all new customers with no conditions."}},
+{"@type":"Question","name":"How long does it take to get set up and start shipping?","acceptedAnswer":{"@type":"Answer","text":"Most new clients are operational within 3-5 business days of their first consultation. Setup involves connecting your store or marketplace account, receiving your first inventory delivery, and running a test shipment. The first 30 days of warehouse storage are free for new customers, as long as your first order or shipment leaves our warehouse within those 30 days."}},
 {"@type":"Question","name":"What is the difference between FBA consolidation and regular FBA shipping?","acceptedAnswer":{"@type":"Answer","text":"Regular FBA shipping means sending large bulk shipments directly from your manufacturer to Amazon. FBA consolidation means storing your inventory in our Shenzhen warehouse at $0.49 per CBM per day and sending smaller, more frequent replenishments to Amazon as you sell through stock. Consolidation lets you avoid Amazon's long-term storage fees, reduce cash tied up in transit, and maintain more control over your inventory flow. Most sellers who switch to consolidation see a cost reduction in the first month."}},
 {"@type":"Question","name":"How much does Amazon charge for storage compared to your warehouse?","acceptedAnswer":{"@type":"Answer","text":"We charge $0.49 per CBM per day, which equals $14.70 per CBM per month. Amazon charges $30.72 per CBM per month from January to September, and $84.74 per CBM per month during Q4 (October-December). On a full 40ft container equivalent (58 CBM), the annual saving of storing with us versus Amazon is over $20,550."}},
 {"@type":"Question","name":"Will my customers know the package came from China?","acceptedAnswer":{"@type":"Answer","text":"For DTC orders, the package shows your brand name as the sender. We use your branded packaging if you provide it, custom boxes, poly mailers, tissue, inserts, tape. The shipping label shows your brand name. Customs declarations are attached to the outside of the parcel, which may indicate the origin country. For most ecommerce products, this is not a concern. For Amazon FBA, the package ships from Amazon's warehouse to your customer, so the China origin is not visible at all."}},
@@ -290,6 +290,7 @@ if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',
  <a role="menuitem" href="amazon-fba-prep-china.html">FBA Prep</a>
  <a role="menuitem" href="china-consolidation.html">D2C Consolidation</a>
  <a role="menuitem" href="international-freight-forwarding-china.html">Freight Forwarding</a>
+ <a role="menuitem" href="fba-freight-from-china.html">FBA Freight Rates</a>
  <a role="menuitem" href="supplier-management-china.html">Supplier Management</a>
  </div>
  </div>
@@ -308,10 +309,12 @@ if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',
  <a href="hs-code-classification-tariff-engineering.html">HS Code Classification</a>
  <a href="multi-channel-fulfillment-china.html">Multi-Channel Fulfillment</a>
  <a href="international-freight-forwarding-china.html">Freight Forwarding</a>
+ <a href="fba-freight-from-china.html">FBA Freight Rates</a>
+ <a href="china-europe-rail-freight.html">China&#8211;Europe Rail &amp; Truck</a>
  <a href="supplier-management-china.html">Supplier Management</a>
  <a href="Contact-Us.html" class="mcta">Get a Free Quote &#8212; 24h Response</a>
 </div>
-<div class="obar"><svg class="i" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="8" width="18" height="4" rx="1"/><path d="M12 8v13"/><path d="M19 12v7a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2v-7"/><path d="M7.5 8a2.5 2.5 0 0 1 0-5A4.8 8 0 0 1 12 8a4.8 8 0 0 1 4.5-5 2.5 2.5 0 0 1 0 5"/></svg> New Customers: <strong>30 Days FREE Warehouse Storage</strong><em> &middot; No credit card. No minimums. No conditions.</em></div>
+<div class="obar"><svg class="i" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="8" width="18" height="4" rx="1"/><path d="M12 8v13"/><path d="M19 12v7a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2v-7"/><path d="M7.5 8a2.5 2.5 0 0 1 0-5A4.8 8 0 0 1 12 8a4.8 8 0 0 1 4.5-5 2.5 2.5 0 0 1 0 5"/></svg> New Customers: <strong>30 Days FREE Warehouse Storage</strong><em> &middot; When you start shipping within 30 days. No credit card. No minimums.</em></div>
 
 
 
@@ -426,7 +429,7 @@ if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',
  <details><summary>Do I need a US company or US address to use your service?</summary><div class="fans">No. Many of our clients are based in Europe, Asia, Australia, and the Middle East. We ship directly from China to Amazon FBA warehouses worldwide. You do not need a US address, a US warehouse, or a US-based prep centre. All export documentation, customs clearance, and FBA compliance is handled from our Shenzhen facility.</div></details>
  <details><summary>Can I start with a small test shipment before committing?</summary><div class="fans">Yes. There are no minimum order quantities, no minimum volume requirements, and no lock-in contracts. Many sellers start with a test shipment of 50-200 units to see how the process works. Your first 30 days of storage are free. We handle test shipments with the same process as large-scale operations, so what you see on a test run is exactly what you get at volume.</div></details>
  <details><summary>Do you charge setup fees or require contracts?</summary><div class="fans">No setup fees, no account fees, no lock-in contracts, and no minimum volumes. You pay per shipment, per order, or per unit depending on the service. Storage is $0.49 per CBM per day with the first 30 days free. If you stop using our service, there are no cancellation fees.</div></details>
- <details><summary>How long does it take to get set up and start shipping?</summary><div class="fans">Most new clients are operational within 3-5 business days of their first consultation. Setup involves connecting your store or marketplace account, receiving your first inventory delivery, and running a test shipment. The first 30 days of warehouse storage are free for all new customers with no conditions. <a href="Contact-Us.html">Get started &rarr;</a></div></details>
+ <details><summary>How long does it take to get set up and start shipping?</summary><div class="fans">Most new clients are operational within 3-5 business days of their first consultation. Setup involves connecting your store or marketplace account, receiving your first inventory delivery, and running a test shipment. The first 30 days of warehouse storage are free for new customers, as long as your first order or shipment leaves our warehouse within those 30 days. <a href="Contact-Us.html">Get started &rarr;</a></div></details>
  <details><summary>How quickly do you process and ship orders?</summary><div class="fans">Standard processing is within 24 hours of receiving the order. For FBA prep, standard turnaround is 24-48 hours after inventory arrives at our warehouse. Same-day rush processing is available for urgent shipments.</div></details>
  </div>
 </div>
@@ -485,6 +488,9 @@ if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',
  <a href="hs-code-classification-tariff-engineering.html">HS Code Classification</a>
  <a href="multi-channel-fulfillment-china.html">Multi-Channel Fulfillment</a>
  <a href="international-freight-forwarding-china.html">Freight Forwarding</a>
+ <a href="fba-freight-from-china.html">FBA Freight Rates</a>
+ <a href="china-europe-rail-freight.html">China&#8211;Europe Rail</a>
+ <a href="china-europe-truck-freight.html">Truck Freight to Europe</a>
  <a href="supplier-management-china.html">Supplier Management</a>
  </div>
  <div class="fc">

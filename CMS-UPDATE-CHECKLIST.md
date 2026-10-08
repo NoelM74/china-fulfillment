@@ -110,6 +110,50 @@ The live `/our-pricing.html` says pick and pack is 5 RMB per order and prices st
 
 - [ ] On the live `china-consolidation.html`, in "What your current setup is actually costing you", the right-hand column says **Pick & pack per carton $2.75**. Our rate is $0.99. Change that line to **Pick & pack (600 cartons × $0.99) ~$594**, and change the right-hand total from **~$3,500** to **~$3,200**. The repo version is already corrected.
 
+## 12. Quote form: two new questions and a best-fit note
+
+The form on [`Contact-Us.html`](https://china-fulfillment.borufashions.workers.dev/Contact-Us) now asks what the enquirer ships and how big a typical shipment is, so the sales team can sort bulk leads from parcel leads.
+
+- [ ] Add two dropdowns to the live quote form, after "What do you need help with?":
+  - **What are you shipping?** Parcels: orders to individual customers / Bulk cargo: cartons or pallets to Amazon or a warehouse / Both parcels and bulk cargo / Not sure yet
+  - **Typical shipment size:** Under 100 kg or under 1 CBM / 100–500 kg or 1–3 CBM / 500 kg–2 tonnes or 3–10 CBM / Over 2 tonnes or over 10 CBM / Full container (20ft or 40ft) / Parcels only, no bulk shipments
+- [ ] Add two options to "What do you need help with?": **FBA Freight to Amazon (sea, air, express)** and **Rail or Truck Freight to Europe**.
+- [ ] If the CMS form handler only saves its standard fields, copy the small script at the bottom of the repo's `Contact-Us.html` (it starts `/* quote form: copy the shipment answers...`). It writes the two answers into the top of the message box when the form is sent, so they reach the inbox whatever the handler saves.
+- [ ] Add the **"Who we're the best fit for"** note above the form, as in the repo.
+- [ ] Use `support@china-fulfillment.com` everywhere on the page, as the live page already does.
+
+## 13. 30 days free storage: now tied to a first shipment
+
+New rule (Noel, 8 October 2026): new customers get the first 30 days of storage free **when their first order or shipment leaves within those 30 days**. If nothing ships, the standard rate applies from the day the goods arrived.
+
+- [ ] Offer bar on every page: change "No credit card. No minimums. No conditions." to **"When you start shipping within 30 days. No credit card. No minimums."** On the homepage bar: **"30 Days FREE Storage for new customers when you start shipping within 30 days · no credit card, no minimums"**.
+- [ ] Remove every "no conditions" claim. The repo has corrected wording on: `faq.html` (onboarding answer, in the page and the FAQ schema), `terms-of-service.html` (storage clause, now states the rule in full), `amazon-fba-consolidation.html` and `china-consolidation.html` (the "how does the free storage work" answers, in the page and schema), `ecommerce-fulfillment.html` (minimum volume answer), and `news-amazon-q4-storage-fees-how-to-reduce.html`.
+- [ ] Update `our-pricing.html` and `llms.txt` from the repo; both state the rule.
+
+## 14. Three new bulk-freight pages
+
+| Page (repo file = live URL) | Preview |
+|---|---|
+| `fba-freight-from-china.html` | [dev](https://china-fulfillment.borufashions.workers.dev/fba-freight-from-china) |
+| `china-europe-rail-freight.html` | [dev](https://china-fulfillment.borufashions.workers.dev/china-europe-rail-freight) |
+| `china-europe-truck-freight.html` | [dev](https://china-fulfillment.borufashions.workers.dev/china-europe-truck-freight) |
+
+- [ ] Publish all three. Keep the four `application/ld+json` blocks in each `<head>`.
+- [ ] Upload the images they use from `images/site/`, each with its `-400w` and `-720w` copies: `china-to-amazon-fba-container-shipping-sea-freight`, `fba-prep-carton-label-pallet-building-dispatch`.
+- [ ] Add the three links to the footer (Core Services, after Freight Forwarding), the **More** menu and the mobile menu, as the repo does on every page.
+- [ ] Add the three URLs to the live sitemap (entries in `sitemap.xml`, before the FAQ entry).
+- [ ] **Update the market rates monthly.** Each page shows dated market rates (Drewry WCI, TAC Index). Refresh them on the first working day of each month, or ask Claude to.
+- [ ] **Cara to send our own "from" rates** for each mode (air per kg, LCL per CBM, 20ft/40ft, rail, truck per pallet). Once confirmed, they go on the pages next to the market rates.
+
+## 15. Old freight prices to confirm (Cara)
+
+Several live pages publish our own "from" freight prices that look out of date against October 2026 market rates. Please confirm or correct each:
+
+- [ ] **Full container from about $1,800 per 20ft to the US West Coast** (`express-international-shipping.html`, `express-international-shipping-china.html`, `china-fulfillment-cost-pricing-2026.html`). The market rate on 1 October 2026 was $7,835 per 40ft Shanghai to Los Angeles (Drewry WCI).
+- [ ] **Air freight from $4.50/kg** (`express-international-shipping-china.html`, `news-shipping-times-costs-china-2026.html`, `china-fulfillment-cost-pricing-2026.html`). The September 2026 average was $7.02/kg Hong Kong to North America and $4.80/kg to Europe (TAC Index).
+- [ ] **Express from $8.50/kg to the US, $9.20/kg to Europe** (same pages). Carriers raised list rates in 2026, so please check these too.
+- [ ] **Sea freight from about $300 per CBM** (`express-international-shipping.html`, `news-shipping-times-costs-china-2026.html`).
+
 ---
 
 ## Quick check after publishing

@@ -202,3 +202,22 @@ Low effort, compounding return:
 - [2026 Creator's Guide to Managing Tariff & Shipping Risks — LaunchBoom](https://www.launchboom.com/blog/2026-creator-s-guide-to-managing-tariff-shipping-risks)
 - [Top 3PLs in China — Clutch](https://clutch.co/cn/logistics/3pls)
 - [China 3PL: Services, Costs & Best Providers 2026 — NextSmartShip](https://www.nextsmartship.com/blog/china-3pl/)
+
+---
+
+## 9. October 2026 pivot: bulk freight and FBA logistics
+
+**Why.** Cara Ming's lead review (October 2026) found that about 60% of enquiries since mid-August were early-stage researchers and 25% were Taobao/1688 repackers under 50 orders a month. Freight rates are competitive and the domestic team already moves bulk cargo, so new content now targets **buyers with cargo**, not researchers.
+
+**Landing pages (built 8 October 2026):** `fba-freight-from-china.html`, `china-europe-rail-freight.html`, `china-europe-truck-freight.html`. Each shows dated market rates (Drewry WCI, TAC Index), transit times, our minimums, the prep-plus-freight bundle and an FAQ. **Refresh the rates monthly.**
+
+**Next article round (bulk-intent keywords):**
+
+| Working title | Target query | Links to |
+|---|---|---|
+| Sea Freight to Amazon FBA from China: 2026 Costs, Times and Steps | sea freight to amazon fba | `fba-freight-from-china.html` |
+| LCL vs FCL from China: Where the Break-Even Really Sits | lcl vs fcl | `fba-freight-from-china.html` |
+| China–Europe Rail Freight 2026: Routes, Rates and Border Risks | china europe rail freight 2026 | `china-europe-rail-freight.html` |
+| How to Choose an FBA Freight Forwarder in China | fba freight forwarder china | `fba-freight-from-china.html`, `how-to-choose-a-china-3pl.html` |
+
+Each article must use dated index data, not forwarder-blog figures, wherever an index exists, and must not repeat the landing page. The article answers the question; the landing page sells the service.
