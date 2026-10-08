@@ -139,7 +139,7 @@ New rule (Noel, 8 October 2026): new customers get the first 30 days of storage 
 | `china-europe-truck-freight.html` | [dev](https://china-fulfillment.borufashions.workers.dev/china-europe-truck-freight) |
 
 - [ ] Publish all three. Keep the four `application/ld+json` blocks in each `<head>`.
-- [ ] Upload the images they use from `images/site/`, each with its `-400w` and `-720w` copies: `china-to-amazon-fba-container-shipping-sea-freight`, `fba-prep-carton-label-pallet-building-dispatch`.
+- [ ] Upload the images they use from `images/site/`, each with its `-400w` and `-720w` copies: `fba-freight-pallet-loading-shenzhen-dock`, `china-europe-rail-freight-container-train`, `china-europe-road-freight-truck-loading`, `china-to-amazon-fba-container-shipping-sea-freight`, `fba-prep-carton-label-pallet-building-dispatch`.
 - [ ] Add the three links to the footer (Core Services, after Freight Forwarding), the **More** menu and the mobile menu, as the repo does on every page.
 - [ ] Add the three URLs to the live sitemap (entries in `sitemap.xml`, before the FAQ entry).
 - [ ] **Update the market rates monthly.** Each page shows dated market rates (Drewry WCI, TAC Index). Refresh them on the first working day of each month, or ask Claude to.
