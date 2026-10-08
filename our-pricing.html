@@ -28,7 +28,7 @@
 "hasOfferCatalog":{"@type":"OfferCatalog","name":"Published fulfillment prices (USD)","itemListElement":[
 {"@type":"Offer","name":"Pick and pack, D2C order","description":"Standard mailers and small boxes included.","priceSpecification":{"@type":"UnitPriceSpecification","price":"0.99","priceCurrency":"USD","unitText":"per order"}},
 {"@type":"Offer","name":"Pick and pack, Amazon FBA carton","priceSpecification":{"@type":"UnitPriceSpecification","price":"0.99","priceCurrency":"USD","unitText":"per carton"}},
-{"@type":"Offer","name":"Warehouse storage","description":"First 30 days free for new customers.","priceSpecification":{"@type":"UnitPriceSpecification","price":"0.49","priceCurrency":"USD","unitText":"per CBM per day"}},
+{"@type":"Offer","name":"Warehouse storage","description":"First 30 days free for new customers whose first order or shipment leaves within 30 days.","priceSpecification":{"@type":"UnitPriceSpecification","price":"0.49","priceCurrency":"USD","unitText":"per CBM per day"}},
 {"@type":"Offer","name":"Inbound receiving","priceSpecification":{"@type":"UnitPriceSpecification","price":"0","priceCurrency":"USD","unitText":"per delivery"}},
 {"@type":"Offer","name":"FNSKU labelling","priceSpecification":{"@type":"UnitPriceSpecification","minPrice":"0.15","priceCurrency":"USD","unitText":"per unit"}},
 {"@type":"Offer","name":"Poly bagging","priceSpecification":{"@type":"UnitPriceSpecification","minPrice":"0.30","priceCurrency":"USD","unitText":"per unit"}},
@@ -39,7 +39,7 @@
 </script>
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
-{"@type":"Question","name":"How does the 30 days of free storage work?","acceptedAnswer":{"@type":"Answer","text":"It applies to new customers. The 30 days start when your first goods arrive at our Shenzhen warehouse and run for 30 calendar days. After that, storage is $0.49 per CBM per day. There is no credit card to give and no minimum volume."}},
+{"@type":"Question","name":"How does the 30 days of free storage work?","acceptedAnswer":{"@type":"Answer","text":"It applies to new customers who start shipping. The 30 days start when your first goods arrive at our Shenzhen warehouse and run for 30 calendar days, as long as your first order or shipment leaves within that time. After that, storage is $0.49 per CBM per day. If nothing ships in the first 30 days, the standard rate applies from the day your goods arrived. There is no credit card to give and no minimum volume."}},
 {"@type":"Question","name":"Is packaging included in the $0.99?","acceptedAnswer":{"@type":"Answer","text":"Yes. Standard packaging, meaning mailers and small boxes, is included in the $0.99 pick and pack. If you supply your own branded boxes, mailers, tissue or inserts, we pack with those at no extra charge. Printing custom packaging is quoted per run, from 50 pieces."}},
 {"@type":"Question","name":"How is storage measured?","acceptedAnswer":{"@type":"Answer","text":"By volume, in cubic metres (CBM), billed on the space your goods actually occupy. One CBM is a 1m x 1m x 1m space. At $0.49 per CBM per day, one CBM stored for a 30-day month costs $14.70."}},
 {"@type":"Question","name":"Do you charge receiving fees?","acceptedAnswer":{"@type":"Answer","text":"No. Receiving is free, whether one supplier delivers or ten, and however often they deliver. Every delivery is counted against your purchase order on arrival."}},
@@ -255,6 +255,7 @@ document.addEventListener('keydown',function(e){if(e.key==='Escape'){close();b.b
 w.addEventListener('focusout',function(e){if(!w.contains(e.relatedTarget))close();});}
 if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',init);else init();})();</script>
 <style>/* pricing page */
+.hero .fit{font-size:.92rem;color:#334155;background:#fff;border:1px solid var(--bd);border-left:4px solid #c25205;border-radius:8px;padding:10px 14px;margin:14px 0 0;max-width:720px}
 .hero .asof{font-size:.9rem;color:var(--mu);font-weight:600;margin:-8px 0 0}
 .pcards{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px;margin-top:28px}
 .pcard{background:var(--w);border:1px solid var(--bd);border-radius:12px;padding:20px 18px;display:flex;flex-direction:column;gap:4px}
@@ -326,6 +327,7 @@ if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',
  <a role="menuitem" href="amazon-fba-prep-china.html">FBA Prep</a>
  <a role="menuitem" href="china-consolidation.html">D2C Consolidation</a>
  <a role="menuitem" href="international-freight-forwarding-china.html">Freight Forwarding</a>
+ <a role="menuitem" href="fba-freight-from-china.html">FBA Freight Rates</a>
  <a role="menuitem" href="supplier-management-china.html">Supplier Management</a>
  </div>
  </div>
@@ -344,10 +346,12 @@ if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',
  <a href="hs-code-classification-tariff-engineering.html">HS Code Classification</a>
  <a href="multi-channel-fulfillment-china.html">Multi-Channel Fulfillment</a>
  <a href="international-freight-forwarding-china.html">Freight Forwarding</a>
+ <a href="fba-freight-from-china.html">FBA Freight Rates</a>
+ <a href="china-europe-rail-freight.html">China&#8211;Europe Rail &amp; Truck</a>
  <a href="supplier-management-china.html">Supplier Management</a>
  <a href="Contact-Us.html" class="mcta">Get a Free Quote &#8212; 24h Response</a>
 </div>
-<div class="obar"><svg class="i" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="8" width="18" height="4" rx="1"/><path d="M12 8v13"/><path d="M19 12v7a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2v-7"/><path d="M7.5 8a2.5 2.5 0 0 1 0-5A4.8 8 0 0 1 12 8a4.8 8 0 0 1 4.5-5 2.5 2.5 0 0 1 0 5"/></svg> New Customers: <strong>30 Days FREE Warehouse Storage</strong><em> &middot; No credit card. No minimums. No conditions.</em></div>
+<div class="obar"><svg class="i" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="8" width="18" height="4" rx="1"/><path d="M12 8v13"/><path d="M19 12v7a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2v-7"/><path d="M7.5 8a2.5 2.5 0 0 1 0-5A4.8 8 0 0 1 12 8a4.8 8 0 0 1 4.5-5 2.5 2.5 0 0 1 0 5"/></svg> New Customers: <strong>30 Days FREE Warehouse Storage</strong><em> &middot; When you start shipping within 30 days. No credit card. No minimums.</em></div>
 
 <!-- ═══ HERO ═══ -->
 <section class="hero">
@@ -355,9 +359,10 @@ if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',
  <h1>China fulfillment pricing, <span class="hi">line by line</span></h1>
  <p>Every fee we charge at our Shenzhen warehouse, in US dollars, with the free items marked as free. Shipping is the one line we quote per shipment, because it depends on what you send and where it goes.</p>
  <p class="asof">Prices checked 3 October 2026.</p>
+ <p class="fit"><strong>Best fit:</strong> brands shipping 300+ orders a month, and bulk cargo from 100 kg or 1 CBM per shipment. There are no minimums, so smaller sellers are welcome to ask.</p>
  <div class="pcards">
  <div class="pcard"><span class="amt">$0.99</span><span class="per">per order</span><p>Pick and pack, with standard mailers and small boxes included.</p></div>
- <div class="pcard"><span class="amt">$0.49</span><span class="per">per CBM per day</span><p>Storage. The first 30 days are free for new customers.</p></div>
+ <div class="pcard"><span class="amt">$0.49</span><span class="per">per CBM per day</span><p>Storage. The first 30 days are free for new customers who start shipping within that month.</p></div>
  <div class="pcard"><span class="amt">$0</span><span class="per">receiving</span><p>Every supplier delivery counted in, free.</p></div>
  <div class="pcard"><span class="amt">$0</span><span class="per">setup and minimums</span><p>No account fees, no lock-in, no cancellation fee.</p></div>
  </div>
@@ -386,7 +391,7 @@ if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',
  <tbody>
  <tr><td>Receiving</td><td class="pr free">Free</td><td>Deliveries from any number of suppliers, counted against your purchase order, with photos of any discrepancy.</td></tr>
  <tr><td>Storage</td><td class="pr">$0.49 / CBM / day</td><td>Billed on the space your goods occupy. That is $14.70 per CBM for a 30-day month.</td></tr>
- <tr><td>Storage for new customers</td><td class="pr free">First 30 days free</td><td>Starts when your first goods arrive and runs for 30 calendar days. No credit card, no minimum.</td></tr>
+ <tr><td>Storage for new customers</td><td class="pr free">First 30 days free</td><td>Runs for 30 calendar days from when your first goods arrive, as long as your first order or shipment leaves within that time. If nothing ships, the standard rate applies from arrival. No credit card, no minimum.</td></tr>
  </tbody></table></div>
 
  <div class="ptw"><table class="ptbl">
@@ -478,7 +483,7 @@ if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',
  <div class="sl">Pricing Questions</div>
  <h2>Common questions about our prices</h2>
  <p class="cat-desc">If yours isn't here, ask us. We answer every enquiry within 24 hours.</p>
- <details><summary>How does the 30 days of free storage work?</summary><div class="fans">It applies to new customers. The 30 days start when your first goods arrive at our Shenzhen warehouse and run for 30 calendar days. After that, storage is $0.49 per CBM per day. There is no credit card to give and no minimum volume.</div></details>
+ <details><summary>How does the 30 days of free storage work?</summary><div class="fans">It applies to new customers who start shipping. The 30 days start when your first goods arrive at our Shenzhen warehouse and run for 30 calendar days, as long as your first order or shipment leaves within that time. After that, storage is $0.49 per CBM per day. If nothing ships in the first 30 days, the standard rate applies from the day your goods arrived. There is no credit card to give and no minimum volume.</div></details>
  <details><summary>Is packaging included in the $0.99?</summary><div class="fans">Yes. Standard packaging, meaning mailers and small boxes, is included in the $0.99 pick and pack. If you supply your own branded boxes, mailers, tissue or inserts, we pack with those at no extra charge. Printing custom packaging is quoted per run, from 50 pieces.</div></details>
  <details><summary>How is storage measured?</summary><div class="fans">By volume, in cubic metres (CBM), billed on the space your goods actually occupy. One CBM is a 1m × 1m × 1m space. At $0.49 per CBM per day, one CBM stored for a 30-day month costs $14.70.</div></details>
  <details><summary>Do you charge receiving fees?</summary><div class="fans">No. Receiving is free, whether one supplier delivers or ten, and however often they deliver. Every delivery is counted against your purchase order on arrival.</div></details>
@@ -494,7 +499,7 @@ if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',
  <div class="sl">Get Your Quote</div>
  <h2>Send us your product and markets.<br/><span class="hi" style="color:var(--ac)">We'll price it within 24 hours.</span></h2>
  <p class="lead">Tell us what you sell, how many orders you ship a month and where your customers are. We'll come back with your fulfilment rates and a shipping quote.</p>
- <p class="micro">30 days free storage for new customers. Zero receiving fees. No minimums. No lock-in.</p>
+ <p class="micro">30 days free storage for new customers who start shipping within the month. Zero receiving fees. No minimums. No lock-in.</p>
  <div class="ctabtns">
  <a class="bp" href="Contact-Us.html">Get My Quote &rarr;</a>
  <a class="bg" href="easy-onboarding.html">How Onboarding Works</a>
@@ -524,6 +529,9 @@ if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',
  <a href="hs-code-classification-tariff-engineering.html">HS Code Classification</a>
  <a href="multi-channel-fulfillment-china.html">Multi-Channel Fulfillment</a>
  <a href="international-freight-forwarding-china.html">Freight Forwarding</a>
+ <a href="fba-freight-from-china.html">FBA Freight Rates</a>
+ <a href="china-europe-rail-freight.html">China&#8211;Europe Rail</a>
+ <a href="china-europe-truck-freight.html">Truck Freight to Europe</a>
  <a href="supplier-management-china.html">Supplier Management</a>
  </div>
  <div class="fc">

@@ -422,12 +422,42 @@
   </url>
   <url>
     <loc>https://www.china-fulfillment.com/our-pricing.html</loc>
-    <lastmod>2026-10-03</lastmod>
+    <lastmod>2026-10-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
       <image:loc>https://www.china-fulfillment.com/images/site/shenzhen-warehouse-interior-panoramic-ecommerce-fulfillment.webp</image:loc>
       <image:title>China Fulfillment Pricing 2026: Pick &amp; Pack, Storage, Prep</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.china-fulfillment.com/fba-freight-from-china.html</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.china-fulfillment.com/images/site/china-to-amazon-fba-container-shipping-sea-freight.webp</image:loc>
+      <image:title>FBA freight from China: container terminal in Shenzhen with a ship loading export containers</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.china-fulfillment.com/china-europe-rail-freight.html</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.china-fulfillment.com/images/site/fba-prep-carton-label-pallet-building-dispatch.webp</image:loc>
+      <image:title>Amazon FBA cartons labelled and palletised in Shenzhen before rail freight to Europe</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.china-fulfillment.com/china-europe-truck-freight.html</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.china-fulfillment.com/images/site/fba-prep-carton-label-pallet-building-dispatch.webp</image:loc>
+      <image:title>Amazon FBA cartons labelled and palletised in Shenzhen before road freight to Europe</image:title>
     </image:image>
   </url>
   <url>

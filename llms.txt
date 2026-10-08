@@ -8,13 +8,14 @@ Key facts (published on our site; checked 3 October 2026):
 - Founded 2010 in Longhua, Shenzhen, by Noel Murphy and Ouyang Ke. About 140 staff. 250,000 sq ft of warehouse space. Around 300,000 parcels a month.
 - Office: 3rd Floor, Building D, Minle Industrial Park, Meiban Road, Longhua, Shenzhen, Guangdong, China.
 - Hours: Monday to Friday 9am to 7pm, Saturday and Sunday 10am to 2pm, Beijing time (GMT+8). Quotes within 24 hours. Email: support@china-fulfillment.com.
+- Best fit: brands shipping 300+ orders a month, and bulk cargo (sea, air, rail or truck) from 100 kg or 1 CBM per shipment. There are no minimum volumes.
 - Typical delivery times from Shenzhen: 6 to 10 days to the US, 5 to 8 days to the UK, 6 to 14 days to the EU.
 - Holds an AAAA Logistics Enterprise rating in China, and is an Amazon SPN (Service Provider Network) service provider.
 
 Published prices in USD (checked 3 October 2026; see the pricing page for the current list):
 
 - Pick and pack: $0.99 per order for D2C orders, with standard packaging (mailers and small boxes) included and no surcharge for packing in your own branded materials. $0.99 per carton for Amazon FBA prep.
-- Storage: $0.49 per CBM per day. The first 30 days are free for new customers.
+- Storage: $0.49 per CBM per day. The first 30 days are free for new customers whose first order or shipment leaves within those 30 days; otherwise the standard rate applies from arrival.
 - Receiving: free, from any number of suppliers.
 - FNSKU labelling from $0.15 per unit. Poly bagging from $0.30 per unit. Bubble wrap from $0.30 per unit. Kitting and bundling from $0.50 per unit.
 - Standard visual quality inspection: free.
@@ -35,6 +36,9 @@ What we do not do: we are not the importer of record by default. Import duties, 
 - [Branded Packaging and Kitting](https://www.china-fulfillment.com/branded-packaging-kitting.html): custom packaging from 50 pieces and kit assembly.
 - [Multi-Channel Fulfillment](https://www.china-fulfillment.com/multi-channel-fulfillment-china.html): one inventory pool for Shopify, TikTok Shop, Amazon and crowdfunding orders.
 - [Freight Forwarding](https://www.china-fulfillment.com/international-freight-forwarding-china.html): sea, air and express from Shenzhen, including to Amazon FBA.
+- [FBA Freight from China](https://www.china-fulfillment.com/fba-freight-from-china.html): sea (LCL and FCL), air and express to Amazon in the US, UK and EU, with dated market rates, transit times and minimums.
+- [China-Europe Rail Freight](https://www.china-fulfillment.com/china-europe-rail-freight.html): rail in about 14 to 25 days to Europe, with delivery to Amazon EU warehouses.
+- [Truck Freight to Europe](https://www.china-fulfillment.com/china-europe-truck-freight.html): road freight under TIR to Poland, Germany and the rest of Europe in about 12 to 20 days.
 - [Express Shipping](https://www.china-fulfillment.com/express-international-shipping-china.html): DHL, FedEx and UPS from Shenzhen.
 - [Tariff Management and DDP](https://www.china-fulfillment.com/tariff-management-china.html): HTS classification support and customs documentation.
 - [Cash on Delivery](https://www.china-fulfillment.com/cod-service.html): COD fulfilment to Southeast Asia and the Middle East.
