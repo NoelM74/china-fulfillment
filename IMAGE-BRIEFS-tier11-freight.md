@@ -2,6 +2,8 @@
 
 **Three images for the new freight landing pages.**
 
+> **Status: complete.** All three were generated, cropped to 1200×670 and installed on 8 October 2026, each with 400w and 720w copies, and they are now the `og:image` for their pages. Image 1 came back as a box truck at the warehouse door rather than a 40ft container, so it was installed as `fba-freight-pallet-loading-shenzhen-dock.webp`, a name that matches what it shows. The port aerial stays on the FBA page as the second image.
+
 > **Read `IMAGE-STYLE-GUIDE.md` first. It overrides anything here.**
 
 ## Why these three
@@ -99,6 +101,6 @@ EXCLUDE: no readable text, no number plates with readable characters, no logos o
 
 ## Status
 
-- [ ] 1. FBA freight container loading
-- [ ] 2. China–Europe container train
-- [ ] 3. Road freight truck loading
+- [x] 1. FBA freight loading at the dock, installed as `fba-freight-pallet-loading-shenzhen-dock.webp` (box truck, not a container)
+- [x] 2. China–Europe container train, installed as `china-europe-rail-freight-container-train.webp`
+- [x] 3. Road freight truck loading, installed as `china-europe-road-freight-truck-loading.webp`
