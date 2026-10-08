@@ -126,7 +126,8 @@ The form on [`Contact-Us.html`](https://china-fulfillment.borufashions.workers.d
 
 New rule (Noel, 8 October 2026): new customers get the first 30 days of storage free **when their first order or shipment leaves within those 30 days**. If nothing ships, the standard rate applies from the day the goods arrived.
 
-- [ ] Offer bar on every page: change "No credit card. No minimums. No conditions." to **"When you start shipping within 30 days. No credit card. No minimums."** On the homepage bar: **"30 Days FREE Storage for new customers when you start shipping within 30 days · no credit card, no minimums"**.
+- [ ] Offer bar on every page, including the homepage: replace the whole text with **"New customers: 30 days FREE storage when you ship in your first month"** (bold up to "storage"). It fits on two lines on phones instead of four.
+- [ ] Copy the new phone rule for `.obar` from the repo's `global-nav-footer.css` (it slightly reduces the bar's text size and padding below 600px). The homepage has the same rule in its own `<style>`.
 - [ ] Remove every "no conditions" claim. The repo has corrected wording on: `faq.html` (onboarding answer, in the page and the FAQ schema), `terms-of-service.html` (storage clause, now states the rule in full), `amazon-fba-consolidation.html` and `china-consolidation.html` (the "how does the free storage work" answers, in the page and schema), `ecommerce-fulfillment.html` (minimum volume answer), and `news-amazon-q4-storage-fees-how-to-reduce.html`.
 - [ ] Update `our-pricing.html` and `llms.txt` from the repo; both state the rule.
 
