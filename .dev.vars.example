@@ -1,0 +1,13 @@
+# PFC Open Platform credentials for the shipping calculator + tracking Worker.
+# Copy to .dev.vars for `wrangler dev`, OR set each as a Cloudflare secret for deploy:
+#   wrangler secret put PFC_SECRET_KEY
+#   wrangler secret put PFC_CUSTOMER_ID
+# NEVER commit real values. .dev.vars is gitignored; this .example file is not.
+
+PFC_SECRET_KEY=your-pfc-api-identifier-here
+PFC_CUSTOMER_ID=80000
+
+# Optional. Upstream base (default is the documented oms.pfcexpress.com ASMX endpoint):
+# PFC_API_BASE=http://oms.pfcexpress.com/webservice/APIWebService.asmx
+# Optional. Add a USD column to rates (RMB->USD multiplier). Omit for RMB only:
+# RATE_FX_USD=0.141

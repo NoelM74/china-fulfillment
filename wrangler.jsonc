@@ -2,11 +2,17 @@
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "china-fulfillment",
   "compatibility_date": "2026-05-30",
+  "main": "worker/index.js",
   "observability": {
     "enabled": true
   },
   "assets": {
-    "directory": "."
+    "directory": ".",
+    "binding": "ASSETS",
+    // The Worker runs ONLY for /api/*. Every page/image/robots/sitemap path is
+    // served directly from static assets, exactly as before the Worker existed
+    // (so _headers noindex and .html handling are unchanged).
+    "run_worker_first": ["/api/*"]
   },
   "compatibility_flags": [
     "nodejs_compat"
