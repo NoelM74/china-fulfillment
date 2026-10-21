@@ -90,6 +90,7 @@ table.rates .usd{color:var(--mu);font-weight:600;font-size:.82rem}
 @media(max-width:760px){
   .app-form{grid-template-columns:1fr}
   table.rates .cn,table.rates .trk{display:none}
+  table.rates th,table.rates td{padding:10px 9px;font-size:.84rem}
 }
 </style>
 """
@@ -180,7 +181,7 @@ CALC_BODY = """
 CALC_SCRIPT = r"""
 <script>
 (function(){
-  var SAMPLE = {currency:"RMB", services:[
+  var SAMPLE = {currency:"RMB", fx_usd:0.14, services:[
     {name:"UNIUNI 6000", code:"UNIUNI", days:"1-6", total:22.23},
     {name:"USPS-P", code:"USPS-P", days:"2-4", total:68.41},
     {name:"PFCEXPRESS", code:"PFCEXPRESS", days:"7-16", total:74.50},
@@ -224,15 +225,17 @@ CALC_SCRIPT = r"""
     var fx=data.fx_usd;
     var h="";
     if(isSample){h+='<div class="sample-banner"><span>⚠</span><span><strong>Sample data, not a live quote.</strong> These are example figures for the United States at 0.5&nbsp;kg so you can see the layout. Live carrier rates appear here once the PFC API key is added.</span></div>';}
-    h+='<div class="rate-table"><table class="rates"><thead><tr><th>Service</th><th class="cn">Carrier code</th><th>Delivery</th><th style="text-align:right">Guide total ('+esc(data.currency||"RMB")+')</th></tr></thead><tbody>';
+    h+='<div class="rate-table"><table class="rates"><thead><tr><th>Service</th><th class="cn">Carrier code</th><th>Delivery</th><th style="text-align:right">Guide (RMB)</th><th style="text-align:right">Guide (USD)</th></tr></thead><tbody>';
     s.forEach(function(x,i){
+      var usd=(x.usd!=null)?x.usd:(fx?x.total*fx:null);
       h+='<tr><td class="svc">'+esc(x.name)+(i===0?'<span class="rate-best">Cheapest</span>':'')+'</td>'+
          '<td class="cn">'+esc(x.code)+'</td>'+
          '<td>'+esc(x.days)+' days</td>'+
-         '<td class="amt">'+(data.currency==="RMB"?"¥":"")+money(x.total)+
-            (fx&&x.usd?'<div class="usd">≈ $'+money(x.usd)+'</div>':'')+'</td></tr>';
+         '<td class="amt">¥'+money(x.total)+'</td>'+
+         '<td class="amt usd-col">'+(usd!=null?'$'+money(usd):'—')+'</td></tr>';
     });
-    h+='</tbody></table><div class="rate-cta"><p>Guide prices only. We confirm the final price once we have checked the actual weight and dimensions. Excludes duties, VAT and remote-area surcharges.</p><a class="ncta" href="Contact-Us.html">Get a firm quote</a></div></div>';
+    var fxline=fx?(' USD shown at ¥1 = $'+Number(fx).toFixed(4)+(data.fx_asof?(' (mid-market, '+esc(data.fx_asof)+')'):' (mid-market)')+'.'):'';
+    h+='</tbody></table><div class="rate-cta"><p>Guide prices only. We confirm the final price once we have checked the actual weight and dimensions. Excludes duties, VAT and remote-area surcharges.'+fxline+'</p><a class="ncta" href="Contact-Us.html">Get a firm quote</a></div></div>';
     out.innerHTML=h;
   }
 
