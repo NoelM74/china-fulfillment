@@ -10,3 +10,8 @@ ibb_map.json
 scripts/
 data/
 node_modules/
+
+# App Worker source (deployed as the Worker, not as a static file)
+worker/
+.dev.vars.example
+.vscode/
