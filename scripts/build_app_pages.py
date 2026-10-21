@@ -131,8 +131,8 @@ CALC_HERO = """
  <div class="w">
   <span class="apibadge" id="apiBadge" data-state="checking">Checking status</span>
   <h1>Shipping rate <span class="hi">calculator</span></h1>
-  <p>Compare live carrier rates from our Shenzhen warehouse. Enter a destination, weight and parcel size to see services, delivery windows and prices side by side.</p>
-  <p class="asof">Rates are carrier reference prices and exclude duties, VAT and remote-area surcharges. We confirm the final quote per shipment.</p>
+  <p>Compare carrier services from our Shenzhen warehouse. Enter a destination, weight and parcel size to see delivery windows and guide prices side by side.</p>
+  <p class="asof"><strong>Guide prices only.</strong> We confirm the final price once our team has checked the actual weight and dimensions of your shipment. Prices exclude duties, VAT and remote-area surcharges.</p>
  </div>
 </section>
 """
@@ -165,7 +165,8 @@ CALC_BODY = """
  <div class="app-note">
   <h3>How to read these rates</h3>
   <ul>
-   <li>Each total is the carrier reference price and includes the base fee and fuel surcharge.</li>
+   <li>Every total is a guide for comparing services. We confirm the final price after checking the actual weight and dimensions of your goods.</li>
+   <li>Each total includes the carrier base fee and fuel surcharge.</li>
    <li>It excludes export declaration, pickup, remote-area surcharges, and destination duties and VAT.</li>
    <li>Delivery times are working days after dispatch and can move with customs, weather and holidays.</li>
    <li>Batteries, liquids and other restricted goods ship on specific services only. <a href="Contact-Us.html">Ask our team</a> if you are unsure.</li>
@@ -202,7 +203,7 @@ CALC_SCRIPT = r"""
   fetch("/api/health").then(function(r){return r.json();}).then(function(h){
     LIVE=!!h.configured;
     badge.dataset.state=LIVE?"live":"preview";
-    badge.textContent=LIVE?"Live rates":"Preview, rates not connected yet";
+    badge.textContent=LIVE?"Live guide prices":"Preview, rates not connected yet";
   }).catch(function(){badge.dataset.state="preview";badge.textContent="Preview";});
 
   fetch("/api/countries").then(function(r){
@@ -223,7 +224,7 @@ CALC_SCRIPT = r"""
     var fx=data.fx_usd;
     var h="";
     if(isSample){h+='<div class="sample-banner"><span>⚠</span><span><strong>Sample data, not a live quote.</strong> These are example figures for the United States at 0.5&nbsp;kg so you can see the layout. Live carrier rates appear here once the PFC API key is added.</span></div>';}
-    h+='<div class="rate-table"><table class="rates"><thead><tr><th>Service</th><th class="cn">Carrier code</th><th>Delivery</th><th style="text-align:right">Total ('+esc(data.currency||"RMB")+')</th></tr></thead><tbody>';
+    h+='<div class="rate-table"><table class="rates"><thead><tr><th>Service</th><th class="cn">Carrier code</th><th>Delivery</th><th style="text-align:right">Guide total ('+esc(data.currency||"RMB")+')</th></tr></thead><tbody>';
     s.forEach(function(x,i){
       h+='<tr><td class="svc">'+esc(x.name)+(i===0?'<span class="rate-best">Cheapest</span>':'')+'</td>'+
          '<td class="cn">'+esc(x.code)+'</td>'+
@@ -231,7 +232,7 @@ CALC_SCRIPT = r"""
          '<td class="amt">'+(data.currency==="RMB"?"¥":"")+money(x.total)+
             (fx&&x.usd?'<div class="usd">≈ $'+money(x.usd)+'</div>':'')+'</td></tr>';
     });
-    h+='</tbody></table><div class="rate-cta"><p>Rates exclude duties, VAT and remote-area surcharges. We confirm the final price per shipment.</p><a class="ncta" href="Contact-Us.html">Get a firm quote</a></div></div>';
+    h+='</tbody></table><div class="rate-cta"><p>Guide prices only. We confirm the final price once we have checked the actual weight and dimensions. Excludes duties, VAT and remote-area surcharges.</p><a class="ncta" href="Contact-Us.html">Get a firm quote</a></div></div>';
     out.innerHTML=h;
   }
 
