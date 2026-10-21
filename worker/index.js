@@ -19,7 +19,7 @@
  * The client NEVER supplies the key. Any secretkey in the query string is ignored.
  */
 
-const DEFAULT_BASE = "http://oms.pfcexpress.com/webservice/APIWebService.asmx";
+const DEFAULT_BASE = "https://www.china-fulfillment.com/webservice/APIWebService.asmx";
 
 const JSON_HEADERS = {
   "content-type": "application/json; charset=utf-8",
@@ -81,7 +81,50 @@ function looksHtml(s) { return /^\s*<(?:!doctype|html|\?xml[^>]*>\s*<(?:!doctype
 function expectArray(raw, method) {
   const v = parseLoose(raw);
   if (Array.isArray(v)) return v;
-  const err = new Error("upstream_bad_response"); err.status = 502; err.method = method; throw err;
+  // Not an array: the API signals errors as {status,msg} JSON or as a plain
+  // message string (e.g. "Access without permission..."). Surface it for the
+  // team instead of a bare 502, so a key/permission problem is obvious.
+  let msg = "";
+  if (v && typeof v === "object") msg = v.msg || v.message || "";
+  else if (raw && !looksHtml(raw)) msg = String(raw).replace(/\s+/g, " ").trim().slice(0, 200);
+  const err = new Error(msg ? "upstream: " + msg : "upstream_bad_response");
+  err.status = 502; err.method = method; throw err;
+}
+
+// RMB -> USD. A fixed RATE_FX_USD wins; otherwise fetch a live mid-market rate
+// (cached 12h) with a baked fallback so a USD column always renders.
+async function usdRate(c) {
+  if (c.fx > 0) return { rate: c.fx, source: "fixed" };
+  const CACHE_KEY = "https://fx.internal/cny-usd";
+  try {
+    if (typeof caches !== "undefined" && caches.default) {
+      const hit = await caches.default.match(CACHE_KEY);
+      if (hit) { const j = await hit.json(); if (j && j.rate > 0) return j; }
+    }
+  } catch { /* cache is best-effort */ }
+  const urls = [
+    "https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies/cny.json",
+    "https://latest.currency-api.pages.dev/v1/currencies/cny.json",
+  ];
+  for (const u of urls) {
+    try {
+      const r = await fetch(u, { cf: { cacheTtl: 43200 } });
+      if (!r.ok) continue;
+      const j = await r.json();
+      const rate = j && j.cny && j.cny.usd;
+      if (rate > 0) {
+        const out = { rate: +Number(rate).toFixed(6), source: "live", asof: j.date || "" };
+        try {
+          if (typeof caches !== "undefined" && caches.default) {
+            await caches.default.put(CACHE_KEY, new Response(JSON.stringify(out),
+              { headers: { "content-type": "application/json", "cache-control": "max-age=43200" } }));
+          }
+        } catch { /* ignore */ }
+        return out;
+      }
+    } catch { /* try next source */ }
+  }
+  return { rate: 0.14, source: "fallback" };
 }
 
 // --- validation -------------------------------------------------------------
@@ -95,7 +138,7 @@ function num(v, min, max) {
 
 // --- routes -----------------------------------------------------------------
 async function health(c) {
-  return json({ ok: true, configured: c.configured, base: c.base, currency: c.fx ? "RMB+USD" : "RMB" });
+  return json({ ok: true, configured: c.configured, base: c.base, currency: "RMB+USD" });
 }
 
 async function countries(c) {
@@ -128,24 +171,26 @@ async function rate(c, url) {
     customerid: c.customer, secretkey: c.key,
   });
   const arr = expectArray(raw, "getFeeByCWV");
+  const fx = await usdRate(c);
   const services = arr.map((x) => {
     const total = parseFloat(x.MinSaleAmountTotal ?? x.minsaleamounttotal ?? "0") || 0;
-    const o = {
+    return {
       code: x.ChannelCode ?? x.channelcode ?? "",
       name: x.CHEnName ?? x.chenname ?? x.ChannelCode ?? "",
       cn: x.CHCnName ?? x.chcnname ?? "",
       days: x.RefTime ?? x.reftime ?? "",
       total: +total.toFixed(2),
+      usd: fx.rate ? +(total * fx.rate).toFixed(2) : null,
     };
-    if (c.fx) o.usd = +(total * c.fx).toFixed(2);
-    return o;
   }).filter((s) => s.total > 0)
     .sort((a, b) => a.total - b.total);
 
   return json({
     query: { country, weight, l, w, h, volume },
     currency: "RMB",
-    fx_usd: c.fx || null,
+    fx_usd: fx.rate || null,
+    fx_source: fx.source,
+    fx_asof: fx.asof || null,
     services,
   });
 }
@@ -157,9 +202,9 @@ async function track(c, url) {
   // upstream before the endpoint shape is confirmed with a real key.
   if (!c.configured) return json({ error: "not_configured" }, 503);
 
-  // Timeline: getOrder_Track takes just the number (no key per PFC docs).
+  // Timeline: getOrder_Track(Orderid, secretkey) per the live WSDL.
   let events = [];
-  const raw = await callPfc(c, "getOrder_Track", { OrderNo: no });
+  const raw = await callPfc(c, "getOrder_Track", { Orderid: no, secretkey: c.key });
   if (looksHtml(raw)) { const e = new Error("upstream_bad_response"); e.status = 502; throw e; }
   const parsed = parseLoose(raw);
   if (Array.isArray(parsed)) {
@@ -181,7 +226,7 @@ async function track(c, url) {
   let header = null;
   if (c.configured) {
     try {
-      const raw = await callPfc(c, "getPackage", { orderNo: no, customerid: c.customer, secretkey: c.key });
+      const raw = await callPfc(c, "getPackage", { orderNO: no, customerid: c.customer, secretkey: c.key });
       const arr = parseLoose(raw);
       const r0 = Array.isArray(arr) ? arr[0] : arr;
       if (r0) header = {
