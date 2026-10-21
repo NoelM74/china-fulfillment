@@ -51,23 +51,31 @@ For local `wrangler dev`, copy `.dev.vars.example` to `.dev.vars` (gitignored)
 and fill in real values. The Worker ignores any `secretkey` sent by the browser;
 it only ever reads the key from its own environment.
 
-## Verify once the key is in (assumptions to confirm)
+## Live status (verified 21 Oct 2026, key wired in Cloudflare)
 
-These were inferred from the API doc and the back-office rate tool. Confirm each
-against a real response, because the doc's examples are inconsistent:
+- **Upstream base:** the documented `oms.pfcexpress.com` host is dead (302 to a
+  404). The live ASMX service is `https://www.china-fulfillment.com/webservice/APIWebService.asmx`
+  (set as the Worker default). GET works; responses are `<string>`-wrapped JSON.
+- **Params** confirmed against the WSDL: `getCountry(secretkey)`,
+  `getFeeByCWV(country,weight,volume,customerid,secretkey)`,
+  `getOrder_Track(Orderid,secretkey)`, `getPackage(orderNO,customerid,secretkey)`.
+- **Working now:** `getCountry` returns 330 countries (United States = `221`),
+  and `getOrder_Track` + `getPackage` respond — so **tracking is live** (needs a
+  real order/tracking number to show events).
+- **BLOCKED:** `getFeeByCWV` (the rate query) returns *"Access without
+  permission, please mail sales@pfcexpress.com for query permission"*. The same
+  key works for every other method, so this is a **per-method permission gate on
+  PFC's side**, not a code or customer-ID problem. **Action: ask PFC (or the PFC
+  account manager) to enable the price/fee-query (`getFeeByCWV`) permission on
+  this API key.** Once enabled the calculator works with no code change.
+- **USD column:** done. The Worker converts RMB to USD at a live mid-market rate
+  (jsdelivr `cny.usd`, pages.dev fallback, cached 12h, baked fallback), shown as
+  a second column with the rate noted. A fixed `RATE_FX_USD` overrides it.
 
-1. **Upstream URL + method.** The doc shows GET query-string calls for some
-   methods and SOAP for others, and two base hosts (`oms.pfcexpress.com` and
-   `pfcexpress.com`). An unauthenticated GET to the ASMX path currently returns
-   PFC's HTML 404, so confirm the working base and whether GET or SOAP POST is
-   required. The Worker rejects any non-JSON/HTML reply as a 502 rather than
-   showing it as data, so a wrong endpoint fails safe (page shows "unavailable").
-2. **Country parameter.** The dropdown sends `Base_placeId` from `getCountry`
-   (e.g. United States = 221). Confirm `getFeeByCWV` wants that code.
-3. **Volume parameter.** The page sends `volume = L x W x H` in cm3. Confirm PFC
-   derives volumetric weight from that (divisor 5000/6000 server-side).
-4. **Currency.** `getFeeByCWV` returns RMB. Decide RMB only, or set `RATE_FX_USD`
-   for a USD column, or a live FX source later.
+Still to confirm once the rate permission is on: that `country=221` (the
+`Base_placeId` code) and `volume = L x W x H` in cm3 return the expected totals
+(cross-check against the back-office `OrderFeeSearch.aspx`: US, 0.5 kg,
+10x10x10 should give PFCEXPRESS around RMB 74.50).
 
 ## Before linking into the site
 
