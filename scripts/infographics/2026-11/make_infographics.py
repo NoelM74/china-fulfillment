@@ -151,25 +151,27 @@ page("infographic-ieepa-refund-who-gets-paid",
 # ---------------------------------------------------------------------------
 
 # 5. Christmas 2026 last dispatch dates -------------------------------------
+# Cut-offs confirmed by Noel, 24 Oct 2026 (US, UK and express unchanged from the first draft).
 dates = [
-    ("EU", "6&ndash;14 days", "Fri 4 Dec"),
+    ("EU ex. Germany", "6&ndash;14 days", "Sat 5 Dec"),
+    ("Australia", "4&ndash;7 days", "Mon 7 Dec"),
+    ("Germany", "5&ndash;9 days", "Wed 9 Dec"),
     ("US", "6&ndash;10 days", "Wed 9 Dec"),
-    ("Canada", "5&ndash;9 days", "Thu 10 Dec"),
+    ("Canada", "5&ndash;9 days", "Wed 9 Dec"),
     ("UK", "5&ndash;8 days", "Fri 11 Dec"),
-    ("Australia", "4&ndash;7 days", "Fri 11 Dec"),
     ("Express", "2&ndash;5 business days", "Tue 15 Dec"),
 ]
 rows = ""
 for i, (mk, tt, dt) in enumerate(dates):
     cls = "card or" if mk == "Express" else "card"
     sm = "class='small' style='font-size:28px;color:#fff;opacity:.92'" if mk == "Express" else "class='small' style='font-size:28px'"
-    rows += ("<div class='%s' style='padding:16px 32px;justify-content:space-between'>"
-             "<div><div class='lbl' style='font-size:50px'>%s</div><div %s>Delivery %s</div></div>"
-             "<div class='lbl nc' style='font-size:60px;color:%s;white-space:nowrap'>%s</div></div>"
+    rows += ("<div class='%s' style='padding:10px 32px;justify-content:space-between'>"
+             "<div><div class='lbl' style='font-size:46px'>%s</div><div %s>Normal delivery %s</div></div>"
+             "<div class='lbl nc' style='font-size:56px;color:%s;white-space:nowrap'>%s</div></div>"
              % (cls, mk, sm, tt, "#fff" if mk == "Express" else ORANGE, dt))
 page("infographic-christmas-2026-dispatch-dates",
      "<div class='title'>Christmas 2026: ship by</div><div class='fill'>" + rows + "</div>"
-     "<div class='foot nv'>For delivery by Thu 24 December<div class='small'>Dispatch from Shenzhen. Our published delivery time plus a peak buffer.</div></div>")
+     "<div class='foot nv'>For delivery by Thu 24 December<div class='small'>Last day for orders to leave our Shenzhen warehouse.</div></div>")
 
 # 6. US D2C parcel from China: what it pays ----------------------------------
 page("infographic-us-d2c-parcel-duty-2027",

@@ -168,9 +168,11 @@ For **D2C ecommerce brands and crowdfunding creators** shipping direct to consum
 
 That is 28 image files. The heroes are licensed Pexels stock photos and the infographics were built from HTML, so no AI images; sources are in `IMAGE-BRIEFS-tier12-november-2026.md`.
 
-**Two sign-offs from Noel before these go live:**
-- [ ] **Christmas dispatch dates.** The Christmas post recommends dispatching from Shenzhen by **Fri 4 Dec (EU), Wed 9 Dec (US), Thu 10 Dec (Canada), Fri 11 Dec (UK and Australia)** and **Tue 15 Dec (express)**, built from our published delivery times plus a five-day peak buffer. Confirm the dates, that the warehouse works normally over Christmas, and the daily dispatch cut-off time customers should be told. If a date changes, update the post and its infographic together (ask Claude).
-- [ ] **IEEPA refund post.** It tells sellers that refunds go to whoever was importer of record, and to ask their DDP provider in writing. Decide what we tell any customer who shipped DDP with us and asks about a refund, and confirm we are happy to send shipment records (invoices, packing lists, HTS codes, values, tracking) on request, as the post offers.
+**Sign-offs from Noel:**
+- [x] **Christmas dispatch dates: confirmed by Noel, 24 October 2026.** EU except Germany Sat 5 Dec, Australia Mon 7 Dec, Germany, US and Canada Wed 9 Dec, UK Fri 11 Dec, express Tue 15 Dec. The post and its infographic carry these dates.
+- [ ] **Christmas post, still to confirm:** that the warehouse works normally over Christmas (the post says Christmas is a normal working day in China and Shenzhen keeps dispatching), and the daily dispatch cut-off time customers should be told.
+- [x] **IEEPA refund post: Noel's position added, 24 October 2026.** The post now says: "If you shipped DDP with us, the duty cannot be refunded. On our DDP shipments, the duty is paid within the shipping price."
+- [ ] **IEEPA refund post, still to confirm:** that we are happy to send shipment records (invoices, packing lists, HTS codes, values, tracking) on request, as the post offers.
 
 Then:
 - [ ] Publish the four pages. Keep both `application/ld+json` blocks in each.
