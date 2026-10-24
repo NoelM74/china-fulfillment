@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Write the four November 2026 infographics as HTML (rendered to 1200x1500 by render.mjs).
+"""Write the November 2026 infographics as HTML (rendered to 1200x1500 by render.mjs).
 
 House style (IMAGE-STYLE-GUIDE.md section 6): flat vector, navy and orange, on white.
 Every figure here is taken from the matching article, with its source and date.
@@ -139,6 +139,65 @@ page("infographic-ieepa-refund-who-gets-paid",
      "<div style='text-align:center;font-size:60px;line-height:.6;color:%s;font-weight:800'>&darr;</div>" % ORANGE +
      "<div class='fill'><div class='card or'>%s<div><div class='lbl'>You</div><div class='sub'>You or your broker file in CAPE. Paid to you by ACH.</div></div></div>" % white(ICON["person"]) +
      "<div class='card'>%s<div><div class='lbl'>A courier</div><div class='sub'>Refund goes to the carrier, then to whoever paid, under its policy.</div></div></div>" % ICON["van"] +
-     "<div class='card'>%s<div><div class='lbl'>A DDP forwarder</div><div class='sub'>Refund goes to the forwarder. Your contract decides what reaches you.</div></div></div></div>" % ICON["ship"] +
+     "<div class='card'>%s<div><div class='lbl'>A DDP provider</div><div class='sub'>Refund goes to the shipping provider. Your contract decides what reaches you.</div></div></div></div>" % ICON["ship"] +
      ""
      "<div class='foot nv'>CAPE pays the importer of record only<div class='small'>Section 122 and Section 301 duties are not part of CAPE.</div></div>")
+
+
+# ---------------------------------------------------------------------------
+# Note (24 Oct 2026): infographics 1-3 above belong to posts now parked in
+# data/content/parked/. They still render so those posts can be restored.
+# The D2C and crowdfunding set below is the live November round.
+# ---------------------------------------------------------------------------
+
+# 5. Christmas 2026 last dispatch dates -------------------------------------
+dates = [
+    ("EU", "6&ndash;14 days", "Fri 4 Dec"),
+    ("US", "6&ndash;10 days", "Wed 9 Dec"),
+    ("Canada", "5&ndash;9 days", "Thu 10 Dec"),
+    ("UK", "5&ndash;8 days", "Fri 11 Dec"),
+    ("Australia", "4&ndash;7 days", "Fri 11 Dec"),
+    ("Express", "2&ndash;5 business days", "Tue 15 Dec"),
+]
+rows = ""
+for i, (mk, tt, dt) in enumerate(dates):
+    cls = "card or" if mk == "Express" else "card"
+    sm = "class='small' style='font-size:28px;color:#fff;opacity:.92'" if mk == "Express" else "class='small' style='font-size:28px'"
+    rows += ("<div class='%s' style='padding:16px 32px;justify-content:space-between'>"
+             "<div><div class='lbl' style='font-size:50px'>%s</div><div %s>Delivery %s</div></div>"
+             "<div class='lbl nc' style='font-size:60px;color:%s;white-space:nowrap'>%s</div></div>"
+             % (cls, mk, sm, tt, "#fff" if mk == "Express" else ORANGE, dt))
+page("infographic-christmas-2026-dispatch-dates",
+     "<div class='title'>Christmas 2026: ship by</div><div class='fill'>" + rows + "</div>"
+     "<div class='foot nv'>For delivery by Thu 24 December<div class='small'>Dispatch from Shenzhen. Our published delivery time plus a peak buffer.</div></div>")
+
+# 6. US D2C parcel from China: what it pays ----------------------------------
+page("infographic-us-d2c-parcel-duty-2027",
+     "<div class='title'>US parcel from China: what it pays</div>"
+     "<div class='fill'>"
+     "<div class='card or' style='flex-direction:column;justify-content:center;gap:2px'><div class='lbl' style='font-size:54px'>Forced labor duty 12.5%</div><div class='sub' style='color:#fff'>Section 301, China-origin goods, since 24 July 2026</div></div>"
+     "<div class='card nv' style='flex-direction:column;justify-content:center;gap:2px'><div class='lbl' style='font-size:54px'>Section 301 list duty</div><div class='sub'>7.5% to 100%, if the product is on a list</div></div>"
+     "<div class='card' style='flex-direction:column;justify-content:center;gap:2px;background:#e9edf4;border-color:#e9edf4'><div class='lbl' style='font-size:54px'>MFN duty</div><div class='sub'>The normal US rate for the HTS code</div></div>"
+     "<div style='display:flex;gap:18px'>"
+     "<div class='card' style='flex:1;flex-direction:column;align-items:flex-start;gap:2px'><div class='lbl' style='font-size:40px;text-decoration:line-through;text-decoration-thickness:5px;color:#4a6178'>IEEPA tariffs</div><div class='sub' style='font-size:32px'>Gone since 24 Feb 2026</div></div>"
+     "<div class='card' style='flex:1;flex-direction:column;align-items:flex-start;gap:2px'><div class='lbl' style='font-size:40px'>De minimis</div><div class='sub' style='font-size:32px'>Still suspended; repealed in law from 1 July 2027</div></div>"
+     "</div></div>"
+     "<div class='foot or'>Mail: Entry Type 13 from 20 Jan 2027<div class='small'>For postal parcels subject to Section 301 duties, which covers goods from China.</div></div>")
+
+# 7. Crowdfunding reward shipping by market ----------------------------------
+markets = [
+    ("United States", "No duty-free threshold", "Duty on every reward, plus 12.5% on China-made goods"),
+    ("European Union", "&euro;3 per item category", "On low-value parcels since 1 July 2026, plus VAT"),
+    ("United Kingdom", "&pound;135 or less", "VAT charged at sale; no doorstep bill"),
+    ("Canada", "CAD$20 threshold", "Duty and GST on most rewards; ship DDP"),
+    ("Australia", "A$1,000 or less", "GST collected at sale; no duty"),
+]
+cards = ""
+for mk, rule, note in markets:
+    cards += ("<div class='card' style='flex-direction:column;align-items:flex-start;justify-content:center;gap:0;padding:14px 32px'>"
+              "<div class='small' style='font-size:28px;margin:0;text-transform:uppercase;font-weight:800;letter-spacing:.5px'>%s</div>"
+              "<div class='lbl nc' style='font-size:50px;color:%s'>%s</div>"
+              "<div class='sub' style='font-size:31px;margin-top:2px'>%s</div></div>" % (mk, ORANGE, rule, note))
+page("infographic-crowdfunding-reward-shipping-2027",
+     "<div class='title'>Shipping rewards in 2027</div><div class='fill'>" + cards + "</div>"
+     "<div class='foot nv'>Ship DDP: nothing to pay at the door<div class='small'>Price duty, tax and platform fees in before you launch.</div></div>")

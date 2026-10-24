@@ -94,6 +94,19 @@ The logo may appear **subtly and in-world** where it would plausibly exist in re
 
 **Do not put the logo on infographics.** They are clean flat-vector diagrams and the brand already reads through the palette.
 
+### Other companies' logos in photographs (Noel, 24 October 2026)
+
+> "shots with visible third-party logos (Hapag-Lloyd, COSCO, Yang Ming, Maersk, DHL, UPS, FEDEX and other international carrier that all shipping companies use are perfectly fine) just avoid other 3pl and fulfillment companys -- compeditive - we do not have our own planes or container ships - so these are are partenrs not pur compeditors!"
+
+| In a real photograph | Rule |
+|---|---|
+| Shipping lines, airlines, couriers and postal operators (Maersk, COSCO, Hapag-Lloyd, Yang Ming, DHL, UPS, FedEx and the like) | **Fine.** They are our partners; we do not own ships or aircraft |
+| Railway and port operators, terminal names on cranes | Fine, same reasoning |
+| Any other 3PL, fulfilment company or freight forwarder | **Never.** They are competitors. Reject or crop the photo |
+| Marketplaces and platforms (Amazon, Shopify, Kickstarter) | Only where the article is about that platform, and never implying endorsement |
+
+This applies to **real photographs**. Generated images still must not invent or render brand marks: AI produces misspelt, fake logos, which is why the negative prompt in §8 keeps "no readable third-party brand logos".
+
 ---
 
 ## 5. Colour

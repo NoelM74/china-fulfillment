@@ -224,31 +224,33 @@ Each article must use dated index data, not forwarder-blog figures, wherever an 
 
 ## 10. November 2026 round (published 24 October 2026)
 
-**Why these four, now.** Researched 24 October 2026 against what had moved since the October posts:
+**Audience decision (Noel, 24 October 2026):** "remember this is china fulfillment focused content - we are looking for b2c ecom sellers or crowdfunning platform sellers wheo want to ship d2c from china". Blog content is for **D2C ecommerce brands and crowdfunding creators shipping direct to consumers from China**. This replaces the §9 bulk-freight priority for the blog; the freight landing pages stay as service pages.
 
-- **Chinese New Year is 6 February 2027**, so November is when Amazon sellers plan Q1 restocks. Sea freight booked after mid-January lands after the holiday has started.
-- **The US–China truce** was extended on 23 September to 10 January 2027 (Bessent), and on 23 October USTR announced it would keep the Section 301 port fees on China-linked ships suspended to 9 January 2027. Both end in the pre-holiday shipping rush.
-- **Freight**: the Strait of Hormuz has been closed to most shipping since March 2026 and Red Sea transits are still low, so Asia–Europe sailings go round the Cape (30–45+ days) and China–Europe rail demand is up. Drewry's composite on 22 October was a 15-week high.
-- **Tariff refunds**: the Supreme Court struck down the IEEPA tariffs on 20 February 2026, and CBP's CAPE refund process has certified about $122 billion. Refunds go to the importer of record, which is the question every DDP seller is now asking.
+A first draft of this round followed §9 (sea freight to Amazon FBA, LCL vs FCL, China to Europe). Those three are **parked** in `data/content/parked/` and are not for production.
+
+**Why these four, now** (researched 24 October 2026):
+
+- **Christmas 2026 is a Friday.** D2C brands need the last dispatch dates from China in early November, before Black Friday (27 Nov) and Cyber Monday (30 Nov). Carriers are already in peak pricing: DHL Express demand surcharges run 1 October 2026 to 5 February 2027.
+- **"Is de minimis back?"** The Supreme Court struck down the IEEPA tariffs on 20 February 2026, and sellers assumed de minimis would return. It did not: CBP has suspended it under its own rules since 24 June 2026, and the statutory repeal takes effect 1 July 2027. From 20 January 2027, China-origin postal parcels need Entry Type 13.
+- **Crowdfunding creators** launching in 2027 face duty on every US reward (plus the 12.5% Section 301 forced labor duty) and the EU's €3 charge, and Kickstarter now has a Pledge Manager and Tariff Manager to price them.
+- **IEEPA refunds** go to the importer of record, which for most DDP parcels and crowdfunding rewards was the courier or shipping provider.
 
 | Post | Target query | Links to |
 |---|---|---|
-| `sea-freight-to-amazon-fba-from-china-2026` | sea freight to amazon fba | `fba-freight-from-china.html`, CNY 2027, placement fees, 301 |
-| `lcl-vs-fcl-from-china-2026` | lcl vs fcl | `fba-freight-from-china.html`, consolidation pages |
-| `shipping-china-to-europe-sea-rail-truck-air-2026` | shipping from china to europe | `china-europe-rail-freight.html`, `china-europe-truck-freight.html` |
-| `ieepa-tariff-refunds-china-sellers-2026` | ieepa tariff refund | importer of record, DDP, Incoterms, 301 |
+| `christmas-2026-shipping-deadlines-from-china` | christmas shipping deadlines from china 2026 | market guides, DDP, returns, CNY 2027 |
+| `shipping-d2c-orders-china-to-us-2027` | is de minimis back | Section 301, IEEPA refunds, hybrid, D2C vs US 3PL, DDP |
+| `kickstarter-indiegogo-shipping-duties-2027` | kickstarter shipping costs 2027 | crowdfunding service page and guides, DIM weight, CNY 2027 |
+| `ieepa-tariff-refunds-china-sellers-2026` | ieepa tariff refund | DDP, US D2C 2027, Kickstarter 2027, Section 301 |
 
-**Changes from the §9 plan.** Two §9 titles are now done (sea freight to FBA, LCL vs FCL). The rail article became a **four-mode comparison** for "shipping from china to europe", because a rail-only article would have competed with the `china-europe-rail-freight.html` landing page for the same query. "How to choose an FBA freight forwarder in China" moves to December. The IEEPA refund post was added because it is the most-searched importer topic of the season and our audience (sellers who imported bulk or shipped DDP in 2025) is exactly who is searching.
+**Images.** Real photos first, then free stock, AI last; carrier logos are fine, other 3PL and fulfilment brands never (both Noel, 24 October 2026). Heroes are Pexels photos of the customer's side; infographics are rendered from HTML with real data. See `IMAGE-BRIEFS-tier12-november-2026.md`, including a shot list for replacing two heroes with photos of our own packing benches.
 
-**Images.** Real photos first, then free stock, AI last (Noel, 24 October 2026). Heroes are Pexels photos; infographics are rendered from HTML with real data. See `IMAGE-BRIEFS-tier12-november-2026.md`, including a shot list for replacing the stock heroes with photos from our own dock.
+**Refresh.** Re-check the US post and the refund post whenever CBP changes CAPE, finalises the 8 October low-value proposal (comments close 7 December 2026) or the Court of International Trade rules on the forced labor duty. The Christmas post expires after 25 December; refresh it as a 2027 edition next autumn.
 
-**Refresh.** All four quote dated rates. Update them, and the China–Europe infographic, with the monthly freight-rate refresh. Re-check the refund post whenever CBP changes CAPE or the Court of International Trade rules.
-
-**Next round (December 2026), candidates:**
+**Next round (December 2026), D2C and crowdfunding candidates:**
 
 | Working title | Target query | Trigger |
 |---|---|---|
-| How to Choose an FBA Freight Forwarder in China | fba freight forwarder china | Carried over from §9 |
-| Amazon FBA Fee Changes for 2027 | amazon fba fees 2027 | Amazon usually announces in December; write when published |
-| What Happens on 10 January 2027: US–China Truce and Port Fees | us china truce january 2027 | If the truce or port-fee suspension is not extended again |
-| After Chinese New Year: Restarting Production and Freight | shipping after chinese new year 2027 | Mid-January publish, for the February–March restart |
+| Fulfilling from China Through Chinese New Year 2027: Keep D2C Orders Shipping | chinese new year 2027 fulfillment | Needs our warehouse holiday schedule from Noel |
+| US Postal Entry Type 13: What D2C Sellers Shipping from China Must Do by 20 January | entry type 13 | CBP rule takes effect 20 January 2027 |
+| Post-Christmas Returns When You Fulfil from China | holiday returns from china | January returns wave; refresh of the existing returns guide |
+| TikTok Shop Fulfilment from China in 2027 | tiktok shop fulfillment from china 2027 | Refresh of the 2026 guide if platform rules change |

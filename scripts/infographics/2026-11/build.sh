@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # Rebuild the November 2026 infographics from source.
 #   bash scripts/infographics/2026-11/build.sh
-# Edit make_infographics.py (wording, figures), then run this. Output goes to images/blog/
+# Edit make_infographics.py (wording, figures), then run this. Every infographic-*.html it writes is rendered. Output goes to images/blog/
 # as name.webp (1200x1500) plus -600w and -900w copies, the sizes build_blog.py looks for.
 # Needs: python3, node with Playwright (/opt/node22), ImageMagick with WebP.
 set -euo pipefail
@@ -21,7 +21,8 @@ fi
 python3 make_infographics.py
 NODE="$(command -v node || echo /opt/node22/bin/node)"
 "$NODE" render.mjs "$DIR"
-for n in infographic-sea-freight-fba-timeline infographic-lcl-vs-fcl-break-even infographic-china-europe-four-modes infographic-ieepa-refund-who-gets-paid; do
+for png in infographic-*.png; do
+  n="${png%.png}"
   convert "$n.png" -quality 88 -define webp:method=6 "$REPO/images/blog/$n.webp"
   convert "$n.png" -resize 600x -quality 86 -define webp:method=6 "$REPO/images/blog/$n-600w.webp"
   convert "$n.png" -resize 900x -quality 86 -define webp:method=6 "$REPO/images/blog/$n-900w.webp"
