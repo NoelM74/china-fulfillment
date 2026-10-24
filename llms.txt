@@ -66,9 +66,10 @@ What we do not do: we are not the importer of record by default. Import duties, 
 
 - [Who Is the Importer of Record? US, EU and UK](https://www.china-fulfillment.com/importer-of-record-china-fulfillment-2026.html)
 - [Section 301 Forced Labor Tariff: 12.5% on China](https://www.china-fulfillment.com/section-301-forced-labor-tariff-china-2026.html)
-- [IEEPA Tariff Refunds: Who Gets Paid Under DDP, FBA and Express](https://www.china-fulfillment.com/ieepa-tariff-refunds-china-sellers-2026.html): CBP's CAPE refunds go to the importer of record; what that means for each way of shipping from China.
+- [IEEPA Tariff Refunds for D2C and Crowdfunding Sellers](https://www.china-fulfillment.com/ieepa-tariff-refunds-china-sellers-2026.html): CBP's CAPE refunds go to the importer of record; what that means for DDP parcels, courier shipments and Kickstarter rewards.
 - [EU Customs Reform: Importer for Distance Sales](https://www.china-fulfillment.com/eu-customs-reform-importer-distance-sales-2026.html)
 - [US De Minimis Is Gone: Guide for Sellers](https://www.china-fulfillment.com/us-de-minimis-ended-2026-china-sellers-guide.html)
+- [Is De Minimis Back? D2C Orders from China to the US in 2027](https://www.china-fulfillment.com/shipping-d2c-orders-china-to-us-2027.html): no; what each D2C parcel pays now, how duty is collected by courier and post, and Entry Type 13 from 20 January 2027.
 - [EU De Minimis 2026: The €3 Customs Duty](https://www.china-fulfillment.com/eu-de-minimis-2026-customs-duty-guide.html)
 - [Import Duties, Tariffs and Landed Cost from China](https://www.china-fulfillment.com/news-import-duties-tariffs-landed-cost-china-2026.html)
 - [DDP Shipping from China Explained](https://www.china-fulfillment.com/ddp-shipping-from-china-explained-2026.html)
@@ -87,7 +88,6 @@ What we do not do: we are not the importer of record by default. Import duties, 
 - [How to Avoid Amazon FBA Prep Rejections from China](https://www.china-fulfillment.com/avoid-amazon-fba-prep-rejections-china.html)
 - [Amazon FBA Inbound Placement and Low-Inventory Fees](https://www.china-fulfillment.com/amazon-fba-inbound-placement-fees-2026.html)
 - [Ship Direct to Amazon FBA or via a US 3PL?](https://www.china-fulfillment.com/amazon-fba-direct-vs-us-3pl-first-2026.html)
-- [Sea Freight to Amazon FBA from China: Steps, Timeline and Cost](https://www.china-fulfillment.com/sea-freight-to-amazon-fba-from-china-2026.html): the nine steps, door-to-shelf transit, CNY 2027 dates and every cost line.
 - [Amazon FNSKU Commingling Changes](https://www.china-fulfillment.com/news-amazon-fnsku-commingling-changes-march-2026.html)
 - [TikTok Shop Fulfillment from China](https://www.china-fulfillment.com/tiktok-shop-fulfillment-from-china-2026.html)
 - [Temu and Shein Semi-Managed Fulfilment](https://www.china-fulfillment.com/temu-shein-semi-managed-fulfillment-china.html)
@@ -97,9 +97,8 @@ What we do not do: we are not the importer of record by default. Import duties, 
 
 - [Air vs Sea vs Express: Shipping Times and Costs](https://www.china-fulfillment.com/news-shipping-times-costs-china-2026.html)
 - [Q4 Peak Season Fulfilment from China (2026)](https://www.china-fulfillment.com/q4-peak-season-fulfillment-from-china-2026.html)
+- [Christmas 2026 Shipping Deadlines from China](https://www.china-fulfillment.com/christmas-2026-shipping-deadlines-from-china.html): last dispatch dates for D2C orders to the US, UK, EU, Canada and Australia, and peak surcharges.
 - [Chinese New Year 2027 Shipping Deadlines](https://www.china-fulfillment.com/chinese-new-year-2027-shipping-deadlines.html)
-- [LCL vs FCL from China: Where the Break-Even Sits](https://www.china-fulfillment.com/lcl-vs-fcl-from-china-2026.html): the break-even formula, container sizes, hidden LCL costs and pre-CNY cut-offs.
-- [Shipping from China to Europe: Sea, Rail, Truck or Air](https://www.china-fulfillment.com/shipping-china-to-europe-sea-rail-truck-air-2026.html): transit times and dated market rates for all four modes, and which suits which cargo.
 - [China to UK Fulfilment](https://www.china-fulfillment.com/china-to-uk-fulfilment-shopify.html)
 - [China to Germany and EU Fulfilment](https://www.china-fulfillment.com/china-to-germany-fulfillment-2026.html)
 - [China to Canada Fulfilment](https://www.china-fulfillment.com/china-to-canada-fulfillment-2026.html)
@@ -112,6 +111,7 @@ What we do not do: we are not the importer of record by default. Import duties, 
 
 - [Kickstarter Rewards from China](https://www.china-fulfillment.com/how-to-fulfil-kickstarter-orders-from-china.html)
 - [Crowdfunding Fulfillment: Kickstarter and Indiegogo](https://www.china-fulfillment.com/crowdfunding-fulfillment-kickstarter-indiegogo-china.html)
+- [Kickstarter and Indiegogo Shipping in 2027](https://www.china-fulfillment.com/kickstarter-indiegogo-shipping-duties-2027.html): pricing shipping, duties and tariffs into a campaign, Kickstarter's Pledge Manager and Tariff Manager, and shipping DDP from China.
 - [Subscription Box Fulfilment from China](https://www.china-fulfillment.com/subscription-box-fulfillment-from-china-2026.html)
 - [Apparel and Fashion Brands](https://www.china-fulfillment.com/apparel-fashion-fulfillment-from-china-2026.html)
 - [Beauty and Skincare Brands (US)](https://www.china-fulfillment.com/china-to-us-fulfilment-beauty-skincare-brands.html)

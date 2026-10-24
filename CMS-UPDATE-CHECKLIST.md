@@ -155,26 +155,32 @@ Several live pages publish our own "from" freight prices that look out of date a
 - [ ] **Express from $8.50/kg to the US, $9.20/kg to Europe** (same pages). Carriers raised list rates in 2026, so please check these too.
 - [ ] **Sea freight from about $300 per CBM** (`express-international-shipping.html`, `news-shipping-times-costs-china-2026.html`).
 
-## 16. Four new November blog posts (added 24 October 2026)
+## 16. Four new November blog posts (revised 24 October 2026)
 
-Timed for November: Q1 restocks before Chinese New Year (6 February 2027), the China–Europe route while ships still go round Africa, and the IEEPA tariff refunds now being paid. Copy them the same way as section 1.
+For **D2C ecommerce brands and crowdfunding creators** shipping direct to consumers from China (Noel, 24 October 2026). Timed for November: Christmas cut-offs, the US parcel rules after the tariff rulings, crowdfunding campaigns pricing for 2027, and the IEEPA refunds now being paid. Copy them the same way as section 1.
 
 | Page (repo file = live URL) | Preview | Images to upload from `images/blog/` |
 |---|---|---|
-| `sea-freight-to-amazon-fba-from-china-2026.html` | [dev](https://china-fulfillment.borufashions.workers.dev/sea-freight-to-amazon-fba-from-china-2026) | `sea-freight-to-amazon-fba-from-china-2026.webp` + `-760w` `-1140w` `-1520w`, `infographic-sea-freight-fba-timeline.webp` + `-600w` `-900w` |
-| `lcl-vs-fcl-from-china-2026.html` | [dev](https://china-fulfillment.borufashions.workers.dev/lcl-vs-fcl-from-china-2026) | `lcl-vs-fcl-from-china-2026.webp` + `-760w` `-1140w` `-1520w`, `infographic-lcl-vs-fcl-break-even.webp` + `-600w` `-900w` |
-| `shipping-china-to-europe-sea-rail-truck-air-2026.html` | [dev](https://china-fulfillment.borufashions.workers.dev/shipping-china-to-europe-sea-rail-truck-air-2026) | `shipping-china-to-europe-sea-rail-truck-air-2026.webp` + `-760w` `-1140w` `-1520w`, `infographic-china-europe-four-modes.webp` + `-600w` `-900w` |
+| `christmas-2026-shipping-deadlines-from-china.html` | [dev](https://china-fulfillment.borufashions.workers.dev/christmas-2026-shipping-deadlines-from-china) | `christmas-2026-shipping-deadlines-from-china.webp` + `-760w` `-1140w` `-1520w`, `infographic-christmas-2026-dispatch-dates.webp` + `-600w` `-900w` |
+| `shipping-d2c-orders-china-to-us-2027.html` | [dev](https://china-fulfillment.borufashions.workers.dev/shipping-d2c-orders-china-to-us-2027) | `shipping-d2c-orders-china-to-us-2027.webp` + `-760w` `-1140w` `-1520w`, `infographic-us-d2c-parcel-duty-2027.webp` + `-600w` `-900w` |
+| `kickstarter-indiegogo-shipping-duties-2027.html` | [dev](https://china-fulfillment.borufashions.workers.dev/kickstarter-indiegogo-shipping-duties-2027) | `kickstarter-indiegogo-shipping-duties-2027.webp` + `-760w` `-1140w` `-1520w`, `infographic-crowdfunding-reward-shipping-2027.webp` + `-600w` `-900w` |
 | `ieepa-tariff-refunds-china-sellers-2026.html` | [dev](https://china-fulfillment.borufashions.workers.dev/ieepa-tariff-refunds-china-sellers-2026) | `ieepa-tariff-refunds-china-sellers-2026.webp` + `-760w` `-1140w` `-1520w`, `infographic-ieepa-refund-who-gets-paid.webp` + `-600w` `-900w` |
 
 That is 28 image files. The heroes are licensed Pexels stock photos and the infographics were built from HTML, so no AI images; sources are in `IMAGE-BRIEFS-tier12-november-2026.md`.
 
-- [ ] **Noel to sign off the IEEPA refund post before it goes live.** It tells sellers that refunds go to whoever was importer of record, and to ask their DDP provider in writing. Decide first what we tell any customer who shipped DDP with us and asks about a refund, and confirm we are happy to send shipment records (invoices, packing lists, HTS codes, values, tracking) on request, as the post offers.
+**Two sign-offs from Noel before these go live:**
+- [ ] **Christmas dispatch dates.** The Christmas post recommends dispatching from Shenzhen by **Fri 4 Dec (EU), Wed 9 Dec (US), Thu 10 Dec (Canada), Fri 11 Dec (UK and Australia)** and **Tue 15 Dec (express)**, built from our published delivery times plus a five-day peak buffer. Confirm the dates, that the warehouse works normally over Christmas, and the daily dispatch cut-off time customers should be told. If a date changes, update the post and its infographic together (ask Claude).
+- [ ] **IEEPA refund post.** It tells sellers that refunds go to whoever was importer of record, and to ask their DDP provider in writing. Decide what we tell any customer who shipped DDP with us and asks about a refund, and confirm we are happy to send shipment records (invoices, packing lists, HTS codes, values, tracking) on request, as the post offers.
+
+Then:
 - [ ] Publish the four pages. Keep both `application/ld+json` blocks in each.
 - [ ] Add the four blog cards to the live blog page. Copy them from `blog.html` (search for each post's file name).
 - [ ] Add the four URLs to the live sitemap. The entries are at the end of `sitemap.xml`.
 - [ ] Re-upload `llms.txt`. It now lists the four guides.
 - [ ] After publishing, request indexing for each URL in Google Search Console.
-- [ ] **Refresh the dated figures with the monthly rate update.** Each post quotes dated rates (Drewry WCI 22 October 2026, Index1520, TAC Index). The China–Europe infographic carries the same figures; ask Claude to update the article and the infographic together.
+- [ ] **Publish the Christmas post first**, ideally in the first days of November, so it has time to be found before the cut-offs.
+
+**Not for production:** three bulk-freight posts written earlier the same day (sea freight to Amazon FBA, LCL vs FCL, China to Europe) were parked because they do not fit the D2C audience. They are no longer on the dev site; see `data/content/parked/README.md`.
 
 ---
 

@@ -79,6 +79,9 @@ Recorded as Noel decided them, with dates where known.
 
 **Images** (24 Oct 2026): "Use real photos from file or from free image services like pexels and other before using ai generated content." Record each stock photo's source, photographer and licence in the batch's `IMAGE-BRIEFS-tierN.md`. Infographics are rendered from HTML (`scripts/infographics/`), not generated.
 
+**Logos in photos** (24 Oct 2026): "shots with visible third-party logos (Hapag-Lloyd, COSCO, Yang Ming, Maersk, DHL, UPS, FEDEX and other international carrier that all shipping companies use are perfectly fine) just avoid other 3pl and fulfillment companys -- compeditive - we do not have our own planes or container ships - so these are are partenrs not pur compeditors!" See `IMAGE-STYLE-GUIDE.md` §4.
+
 **Scope**
 - "IGNORE factory-direct sourcing."
-- Strategy since Oct 2026: prioritise bulk and FBA freight (sea, air, rail, truck) and FBA prep over small parcel leads.
+- **Blog audience** (24 Oct 2026): "remember this is china fulfillment focused content - we are looking for b2c ecom sellers or crowdfunning platform sellers wheo want to ship d2c from china". New blog content targets D2C ecommerce brands and crowdfunding creators shipping direct to consumers from China. This replaces the October 2026 bulk-freight priority for blog content; the freight landing pages built on 8 October stay as service pages.
+- Earlier (Oct 2026, now superseded for blog content): prioritise bulk and FBA freight (sea, air, rail, truck) and FBA prep over small parcel leads.
