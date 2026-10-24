@@ -77,6 +77,10 @@ Easiest safe route: if `blog.html` at `HEAD` already lacks the cards, `git check
 
 Per-batch prompts live in `IMAGE-BRIEFS-tierN.md`. Where a brief and the style guide disagree, the style guide wins.
 
+Order of preference for new images (Noel, October 2026): **our own photos first, then licensed free stock such as Pexels, and AI generation last.** Record the source, photographer and licence of every stock photo in that batch's `IMAGE-BRIEFS-tierN.md`.
+
+From November 2026, infographics are rendered from HTML with real data rather than generated: see `scripts/infographics/2026-11/` (`bash build.sh` rebuilds them into `images/blog/`). Edit the script, not the image.
+
 | | |
 |---|---|
 | Format | `.webp`, sRGB |
@@ -127,6 +131,7 @@ sitemap.xml                maintained by hand
 images/site/               page and service imagery
 images/blog/               post imagery
 scripts/build_blog.py      the generator
+scripts/infographics/      HTML-rendered infographics, one folder per batch
 data/content/drafts/       post sources, IN the build glob
 data/content/pages/        hand-built page sources, OUT of the glob
 data/content/briefs/       content calendar

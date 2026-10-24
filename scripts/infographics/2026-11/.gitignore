@@ -1,0 +1,5 @@
+# Build outputs and fetched fonts (see build.sh)
+*.html
+*.png
+outfit*.css
+fonts/

@@ -221,3 +221,34 @@ Low effort, compounding return:
 | How to Choose an FBA Freight Forwarder in China | fba freight forwarder china | `fba-freight-from-china.html`, `how-to-choose-a-china-3pl.html` |
 
 Each article must use dated index data, not forwarder-blog figures, wherever an index exists, and must not repeat the landing page. The article answers the question; the landing page sells the service.
+
+## 10. November 2026 round (published 24 October 2026)
+
+**Why these four, now.** Researched 24 October 2026 against what had moved since the October posts:
+
+- **Chinese New Year is 6 February 2027**, so November is when Amazon sellers plan Q1 restocks. Sea freight booked after mid-January lands after the holiday has started.
+- **The US–China truce** was extended on 23 September to 10 January 2027 (Bessent), and on 23 October USTR announced it would keep the Section 301 port fees on China-linked ships suspended to 9 January 2027. Both end in the pre-holiday shipping rush.
+- **Freight**: the Strait of Hormuz has been closed to most shipping since March 2026 and Red Sea transits are still low, so Asia–Europe sailings go round the Cape (30–45+ days) and China–Europe rail demand is up. Drewry's composite on 22 October was a 15-week high.
+- **Tariff refunds**: the Supreme Court struck down the IEEPA tariffs on 20 February 2026, and CBP's CAPE refund process has certified about $122 billion. Refunds go to the importer of record, which is the question every DDP seller is now asking.
+
+| Post | Target query | Links to |
+|---|---|---|
+| `sea-freight-to-amazon-fba-from-china-2026` | sea freight to amazon fba | `fba-freight-from-china.html`, CNY 2027, placement fees, 301 |
+| `lcl-vs-fcl-from-china-2026` | lcl vs fcl | `fba-freight-from-china.html`, consolidation pages |
+| `shipping-china-to-europe-sea-rail-truck-air-2026` | shipping from china to europe | `china-europe-rail-freight.html`, `china-europe-truck-freight.html` |
+| `ieepa-tariff-refunds-china-sellers-2026` | ieepa tariff refund | importer of record, DDP, Incoterms, 301 |
+
+**Changes from the §9 plan.** Two §9 titles are now done (sea freight to FBA, LCL vs FCL). The rail article became a **four-mode comparison** for "shipping from china to europe", because a rail-only article would have competed with the `china-europe-rail-freight.html` landing page for the same query. "How to choose an FBA freight forwarder in China" moves to December. The IEEPA refund post was added because it is the most-searched importer topic of the season and our audience (sellers who imported bulk or shipped DDP in 2025) is exactly who is searching.
+
+**Images.** Real photos first, then free stock, AI last (Noel, 24 October 2026). Heroes are Pexels photos; infographics are rendered from HTML with real data. See `IMAGE-BRIEFS-tier12-november-2026.md`, including a shot list for replacing the stock heroes with photos from our own dock.
+
+**Refresh.** All four quote dated rates. Update them, and the China–Europe infographic, with the monthly freight-rate refresh. Re-check the refund post whenever CBP changes CAPE or the Court of International Trade rules.
+
+**Next round (December 2026), candidates:**
+
+| Working title | Target query | Trigger |
+|---|---|---|
+| How to Choose an FBA Freight Forwarder in China | fba freight forwarder china | Carried over from §9 |
+| Amazon FBA Fee Changes for 2027 | amazon fba fees 2027 | Amazon usually announces in December; write when published |
+| What Happens on 10 January 2027: US–China Truce and Port Fees | us china truce january 2027 | If the truce or port-fee suspension is not extended again |
+| After Chinese New Year: Restarting Production and Freight | shipping after chinese new year 2027 | Mid-January publish, for the February–March restart |
