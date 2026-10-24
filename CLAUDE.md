@@ -72,13 +72,13 @@ Recorded as Noel decided them, with dates where known.
 - Contact email on the site: **support@china-fulfillment.com**.
 - Delivery times: **6–10 days to the US, 5–8 days to the UK, 6–14 days to the EU**.
 
-**Christmas 2026 dispatch cut-offs** (Noel, 24 Oct 2026): "australia 7 december -- canada 9th december germany 9th rest of eu 5th". US Wed 9 Dec, UK Fri 11 Dec and express Tue 15 Dec were proposed and not changed. Rest of EU 5 December is a Saturday. Used in `christmas-2026-shipping-deadlines-from-china` and its infographic.
+**Christmas 2026 dispatch cut-offs** (Noel, 24 Oct 2026): "australia 7 december -- canada 9th december germany 9th rest of eu 5th". US Wed 9 Dec, UK Fri 11 Dec and express Tue 15 Dec were proposed and not changed. Rest of EU 5 December is a Saturday. Used in `christmas-2026-shipping-deadlines-from-china` and its infographic. Warehouse over Christmas (Noel, 24 Oct 2026): "Its china - there are no christmas holidays". No daily dispatch cut-off time is published; the post tells customers to confirm it with their account manager.
 
 **Legal, tax and VAT position**
 - Tax, VAT and IOSS registration, importer of record, customs bonds, FDA, MoCRA and FSVP, and dangerous-goods certification are the **seller's or manufacturer's** responsibility, not the 3PL's.
 - On DDP shipments, duty is paid within the shipping price, but the importer's obligations stay with the seller.
 - EU importer for distance sales: **1 July 2028** ("go with what is the most widely published").
-- **DDP duty refunds** (Noel, 24 Oct 2026, asked what to tell customers who shipped DDP with us about IEEPA refunds): "duty cannoyt be refuned". Published as: "If you shipped DDP with us, the duty cannot be refunded."
+- **DDP duty refunds** (Noel, 24 Oct 2026, asked what to tell customers who shipped DDP with us about IEEPA refunds): "duty cannoyt be refuned". Published as: "If you shipped DDP with us, the duty cannot be refunded." Shipment records on request (Noel, 24 Oct 2026, asked whether we will send customers invoices, packing lists, HTS codes and tracking for their broker): "yes".
 
 **Images** (24 Oct 2026): "Use real photos from file or from free image services like pexels and other before using ai generated content." Record each stock photo's source, photographer and licence in the batch's `IMAGE-BRIEFS-tierN.md`. Infographics are rendered from HTML (`scripts/infographics/`), not generated.
 
