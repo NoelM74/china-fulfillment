@@ -77,6 +77,8 @@ Recorded as Noel decided them, with dates where known.
 - On DDP shipments, duty is paid within the shipping price, but the importer's obligations stay with the seller.
 - EU importer for distance sales: **1 July 2028** ("go with what is the most widely published").
 
+**Images** (24 Oct 2026): "Use real photos from file or from free image services like pexels and other before using ai generated content." Record each stock photo's source, photographer and licence in the batch's `IMAGE-BRIEFS-tierN.md`. Infographics are rendered from HTML (`scripts/infographics/`), not generated.
+
 **Scope**
 - "IGNORE factory-direct sourcing."
 - Strategy since Oct 2026: prioritise bulk and FBA freight (sea, air, rail, truck) and FBA prep over small parcel leads.
