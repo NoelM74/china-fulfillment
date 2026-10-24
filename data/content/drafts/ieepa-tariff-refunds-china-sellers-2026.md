@@ -205,6 +205,8 @@ Policies change, so check each carrier's current page. CBP said the first refund
 
 **We are not a customs broker, we cannot file CAPE declarations, and we cannot advise you on a refund claim.** Those decisions belong with your importer of record and a licensed broker or trade attorney.
 
+**If you shipped DDP with us, the duty cannot be refunded.** On our DDP shipments, the duty is paid within the shipping price.
+
 What we can do is help with the records. For goods that left our Shenzhen warehouse, we hold the commercial invoices, packing lists, HTS codes and declared values, ship dates and tracking numbers, which are what brokers ask for when they match entries to refunds. If you shipped through us and need them, ask your account manager.
 
 The wider lesson from 2026 is that the importer of record matters. When duty is refunded, or audited, or challenged, CBP deals with the name on the entry. Our guides to [DDP shipping](ddp-shipping-from-china-explained-2026.html) and [shipping D2C orders from China to the US in 2027](shipping-d2c-orders-china-to-us-2027.html) explain how that works for parcels today, and creators planning their next campaign should read our guide to [Kickstarter and Indiegogo shipping in 2027](kickstarter-indiegogo-shipping-duties-2027.html).

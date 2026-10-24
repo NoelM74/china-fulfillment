@@ -37,7 +37,7 @@ Rendered from HTML in the site font (Outfit) and brand navy and orange, flat on 
 
 | File | Figures and their sources |
 |---|---|
-| `infographic-christmas-2026-dispatch-dates.webp` | Our published delivery times by market (US 6–10, UK 5–8, EU 6–14, Canada 5–9, Australia 4–7 days; express 2–5 business days) plus a peak buffer; **dates need Noel's sign-off** (CMS checklist §16) |
+| `infographic-christmas-2026-dispatch-dates.webp` | Christmas 2026 dispatch cut-offs confirmed by Noel on 24 Oct 2026 (EU except Germany 5 Dec, Australia 7 Dec, Germany, US and Canada 9 Dec, UK 11 Dec, express 15 Dec), shown with our normal delivery times |
 | `infographic-us-d2c-parcel-duty-2027.webp` | 12.5% Section 301 forced labor duty from 24 July 2026; Section 301 lists 7.5–100%; IEEPA collection ended 24 Feb 2026 (CBP CSMS); de minimis suspended, repealed from 1 July 2027; Entry Type 13 from 20 Jan 2027 (CBP, 14 Oct 2026) |
 | `infographic-crowdfunding-reward-shipping-2027.webp` | US no threshold; EU €3 per item category from 1 July 2026; UK £135 VAT at sale; Canada CAD$20; Australia A$1,000 GST at sale (as in our market guides) |
 | `infographic-ieepa-refund-who-gets-paid.webp` | CBP pays CAPE refunds by ACH to the importer of record; Section 122 and 301 not covered |
