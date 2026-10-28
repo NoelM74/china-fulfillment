@@ -133,9 +133,11 @@ These are the dates by which an order should **leave our Shenzhen warehouse** to
 | United Kingdom | 5–8 days | **Friday 11 December** |
 | Express upgrade, any of the above | 2–5 business days | **Tuesday 15 December** |
 
+**Shipping somewhere else, or on a different service?** The table covers our main D2C markets. We ship to more than 200 countries with over 50 carriers, and each country and service has its own Christmas cut-off, too many to list here. [Contact us](Contact-Us.html) for the exact cut-off for your countries and services.
+
 **Why the cut-offs are well ahead of the normal delivery time.** These are our operations team's cut-offs for each lane. Peak volumes slow every lane in December, some more than others, so a cut-off is not simply the normal transit time counted back from Christmas Eve.
 
-**Your store's cut-off should be earlier.** An order placed at 11 pm on 9 December is not dispatched on 9 December. Put your "order by" date a day or two ahead of the dispatch date, and confirm our daily dispatch cut-off time with your account manager.
+**Your store's cut-off should be earlier.** An order placed at 11 pm on 9 December is not dispatched on 9 December. Put your "order by" date a day or two ahead of the dispatch date.
 
 ![Christmas 2026 dispatch cut-offs from Shenzhen for delivery by 24 December: EU except Germany Saturday 5 December, Australia Monday 7 December, Germany, US and Canada Wednesday 9 December, UK Friday 11 December, express Tuesday 15 December](/images/blog/infographic-christmas-2026-dispatch-dates.webp)
 
@@ -202,6 +204,6 @@ If you are moving fulfilment to China before the peak, the earlier the better. S
 
 Christmas 2026 falls on a Friday, and the last dispatch dates from our Shenzhen warehouse run from **5 December for most of the EU** and **7 December for Australia** to **9 December for Germany, the US and Canada** and **11 December for the UK**, with express until **15 December**. Put your store cut-offs a day or two earlier, have peak stock in place before Black Friday, ship DDP with clean customs data, and switch to express-only once each standard date has passed.
 
-[Tell us about your Christmas volumes](Contact-Us.html) and we will confirm the cut-offs for your markets and products.
+[Contact us](Contact-Us.html) for the exact Christmas cut-offs for your countries and services.
 
 These are our Christmas 2026 dispatch cut-offs as at 24 October 2026. Carriers can change peak operations at short notice; if a date moves, your account manager will tell you.
