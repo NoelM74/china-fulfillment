@@ -72,7 +72,7 @@ Recorded as Noel decided them, with dates where known.
 - Contact email on the site: **support@china-fulfillment.com**.
 - Delivery times: **6–10 days to the US, 5–8 days to the UK, 6–14 days to the EU**.
 
-**Christmas 2026 dispatch cut-offs** (Noel, 24 Oct 2026): "australia 7 december -- canada 9th december germany 9th rest of eu 5th". US Wed 9 Dec, UK Fri 11 Dec and express Tue 15 Dec were proposed and not changed. Rest of EU 5 December is a Saturday. Used in `christmas-2026-shipping-deadlines-from-china` and its infographic. Warehouse over Christmas (Noel, 24 Oct 2026): "Its china - there are no christmas holidays". No daily dispatch cut-off time is published; the post tells customers to confirm it with their account manager.
+**Christmas 2026 dispatch cut-offs** (Noel, 24 Oct 2026): "australia 7 december -- canada 9th december germany 9th rest of eu 5th". US Wed 9 Dec, UK Fri 11 Dec and express Tue 15 Dec were proposed and not changed. Rest of EU 5 December is a Saturday. Used in `christmas-2026-shipping-deadlines-from-china` and its infographic. Warehouse over Christmas (Noel, 24 Oct 2026): "Its china - there are no christmas holidays". No daily dispatch cut-off time and no per-country list beyond the main markets (Noel, 28 Oct 2026): "we ship to over 190 countries with over 50 carriers - so it would be impossible to give all the details - bes is to say contact us if you need exact counry and services cut off dates". The post says to contact us for exact cut-offs for other countries and services.
 
 **Legal, tax and VAT position**
 - Tax, VAT and IOSS registration, importer of record, customs bonds, FDA, MoCRA and FSVP, and dangerous-goods certification are the **seller's or manufacturer's** responsibility, not the 3PL's.
