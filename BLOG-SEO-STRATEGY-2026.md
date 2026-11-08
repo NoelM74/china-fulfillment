@@ -254,3 +254,32 @@ A first draft of this round followed §9 (sea freight to Amazon FBA, LCL vs FCL,
 | US Postal Entry Type 13: What D2C Sellers Shipping from China Must Do by 20 January | entry type 13 | CBP rule takes effect 20 January 2027 |
 | Post-Christmas Returns When You Fulfil from China | holiday returns from china | January returns wave; refresh of the existing returns guide |
 | TikTok Shop Fulfilment from China in 2027 | tiktok shop fulfillment from china 2027 | Refresh of the 2026 guide if platform rules change |
+
+---
+
+## 11. Traffic review and the 8 November 2026 round
+
+**October 2026 traffic (third-party panel estimate, Noel's screenshot):** china-fulfillment.com 35,828 visits, chinadivision.com 29,956, fulfillmen.com 13,418. We lead the three on organic search (42.5% of their combined organic traffic), visit duration (52s) and pages per visit (1.85). Bounce rate is our weak point at 59%. Panama is our top country at 20.6%, almost certainly VPN exits, bots or panel noise, so real traffic is nearer 28,000. Check Panama in GA4 (engagement under 2 seconds and no conversions means bots) and filter it.
+
+**Bestfulfill.com** (about 30,000 more visits, with US traffic around 5× ours, per Noel): 320 URLs in its sitemap, 276 of them articles. About 85 are beginner dropshipping how-tos and about 70 are AliExpress and supplier lists; those bring US-heavy, low-intent traffic we should not chase. What is worth copying: about 25 "best X 2026" listicles that AI answers cite, and about 10 bridge posts for dropshippers moving to their own stock.
+
+**Approved by Noel, 8 November 2026, and built:**
+
+| Post | Target query | Why |
+|---|---|---|
+| `china-to-us-fulfillment-2027` | china to us fulfillment | We had UK, Canada, Australia, Germany and Japan pages but no US page |
+| `shipping-from-china-to-usa-d2c-2027` | shipping from china to usa | Highest-volume US query in our space |
+| `switch-from-dropshipping-to-china-3pl` | when to switch from dropshipping to 3pl | Bridge post for dropshippers |
+| `aliexpress-cj-dropshipping-vs-own-stock-china-warehouse` | cj dropshipping vs 3pl | Bridge post |
+| `dropshipping-to-branded-d2c-store` | dropshipping to branded store | Bridge post |
+| `best-shopify-fulfillment-brands-sourcing-from-china-2027` | best shopify fulfillment for brands sourcing from china | AI-search comparison |
+| `shipbob-alternatives-international-brands-2027` | shipbob alternatives | AI-search comparison |
+| `best-crowdfunding-fulfillment-companies-2027` | best crowdfunding fulfillment companies | AI-search comparison |
+
+The comparisons follow `best-china-3pl-companies-2026`: each provider's own claims, dated, with a "where the others beat us" section. Portless stays out. Note: as at 8 November 2026 ChinaDivision (from $0.59/order) and NextSmartShip ($0.50 first pick + $0.10 each extra) publish pick and pack rates below our $0.99. The new posts say so. `best-china-3pl-companies-2026` still says, as at 3 October, that the others did not publish per-order pricing on their homepages; update it at the January refresh.
+
+**Bounce rate.** Every post now ends with a topic-matched "next step" box and three related posts, and posts over about 1,100 words have an inline quote form (`scripts/build_blog.py`; checklist §18). Compare bounce rate and quote requests in GA4 a month after the team ports it.
+
+**January 2027 title refresh (approved by Noel, 8 November 2026: "Refresh titles in January").** In the first week of January, for each evergreen post with "2026" in its title: re-check the facts, then change "2026" to "2027" in `title`, `seo_title`, the H1 and the Article `headline`, and set `last_updated` and `dateModified`. **Keep the URLs**: changing a slug would throw away its rankings. Leave dated posts alone (`christmas-2026-…`, `us-de-minimis-ended-2026-…`, `ieepa-tariff-refunds-…`, the Q4 2026 peak post).
+
+Evergreen posts to refresh: `amazon-fba-direct-vs-us-3pl-first-2026`, `amazon-fba-inbound-placement-fees-2026`, `apparel-fashion-fulfillment-from-china-2026`, `best-china-3pl-companies-2026`, `china-fulfillment-cost-pricing-2026`, `china-fulfillment-supplements-nutraceutical-brands`, `china-to-australia-fulfillment-2026`, `china-to-canada-fulfillment-2026`, `china-to-germany-fulfillment-2026`, `china-to-japan-fulfillment-2026`, `china-to-uk-fulfilment-shopify`, `china-to-us-fulfilment-beauty-skincare-brands`, `china-us-hybrid-fulfillment-model-2026`, `ddp-shipping-from-china-explained-2026`, `dim-weight-packaging-optimisation-2026`, `direct-from-china-d2c-vs-us-3pl-2026`, `ecommerce-returns-fulfilling-from-china-2026`, `epr-ppwr-eu-packaging-compliance-2026`, `eu-de-minimis-2026-customs-duty-guide`, `how-to-fulfil-kickstarter-orders-from-china`, `incoterms-china-imports-exw-fob-cif-ddp`, `middle-east-fulfillment-from-china-2026`, `product-compliance-importing-from-china-2026`, `shipping-batteries-electronics-from-china-2026`, `tiktok-shop-fulfillment-from-china-2026`, `walmart-wfs-fulfillment-from-china-2026`, plus the hand-built `news-*` posts with 2026 in the title.

@@ -84,6 +84,8 @@ Recorded as Noel decided them, with dates where known.
 
 **Logos in photos** (24 Oct 2026): "shots with visible third-party logos (Hapag-Lloyd, COSCO, Yang Ming, Maersk, DHL, UPS, FEDEX and other international carrier that all shipping companies use are perfectly fine) just avoid other 3pl and fulfillment companys -- compeditive - we do not have our own planes or container ships - so these are are partenrs not pur compeditors!" See `IMAGE-STYLE-GUIDE.md` §4.
 
+**Growth plan** (Noel, 8 Nov 2026, approved in full: "just go ahead with these"): a US market page, a China to USA shipping post, three dropshipping bridge posts, three honest best-of comparisons ("Each would be honest, sourced and dated, with us included. Portless stays out under the existing rule."), next-step blocks, related posts and inline quote forms on posts, and "Refresh titles in January" (change "2026" to "2027" on evergreen posts, keep URLs). See `BLOG-SEO-STRATEGY-2026.md` §11.
+
 **Scope**
 - "IGNORE factory-direct sourcing."
 - **Blog audience** (24 Oct 2026): "remember this is china fulfillment focused content - we are looking for b2c ecom sellers or crowdfunning platform sellers wheo want to ship d2c from china". New blog content targets D2C ecommerce brands and crowdfunding creators shipping direct to consumers from China. This replaces the October 2026 bulk-freight priority for blog content; the freight landing pages built on 8 October stay as service pages.

@@ -291,6 +291,35 @@ document.addEventListener('click',function(e){if(!w.contains(e.target))close();}
 document.addEventListener('keydown',function(e){if(e.key==='Escape'){close();b.blur();}});
 w.addEventListener('focusout',function(e){if(!w.contains(e.relatedTarget))close();});}
 if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',init);else init();})();</script>
+<style>/* blog: next step, related posts, inline quote form */
+.nstep{margin:48px 0 8px;padding:28px 28px 24px;border:1px solid var(--bd);border-left:5px solid var(--ac);border-radius:12px;background:var(--off)}
+.article .nstep h2{margin:0 0 8px;font-size:1.3rem}
+.nstep p{margin-bottom:16px}
+.nstep-links{display:flex;flex-wrap:wrap;gap:10px;align-items:center}
+.article .nstep-links a{text-decoration:none;font-family:'Outfit',sans-serif;font-weight:700;font-size:.95rem;padding:10px 16px;border-radius:8px;border:1px solid var(--bd);background:#fff;color:var(--ink)}
+.article .nstep-links a.nstep-main{background:var(--acd);border-color:var(--acd);color:#fff}
+.article .nstep-links a:hover{border-color:var(--b2)}
+.article .nstep-links a.nstep-main:hover{background:var(--acdh)}
+.rel{margin:40px 0 0}
+.article .rel h2{margin:0 0 16px;font-size:1.2rem}
+.rel-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.article .rel-card{display:flex;flex-direction:column;text-decoration:none;border:1px solid var(--bd);border-radius:12px;overflow:hidden;background:#fff;color:var(--ink);transition:box-shadow .16s,transform .16s}
+.article .rel-card:hover{box-shadow:0 8px 28px rgba(13,33,68,.12);transform:translateY(-2px)}
+.rel-card img{width:100%;aspect-ratio:2/1;object-fit:cover}
+.rel-card span{display:block;padding:12px 14px 4px;font-size:.74rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--acd)}
+.rel-card strong{display:block;padding:0 14px 16px;font-family:'Outfit',sans-serif;font-size:.98rem;line-height:1.3}
+.qform{margin:40px 0;padding:26px 26px 22px;border:1px solid var(--bd);border-radius:14px;background:#fff;box-shadow:0 4px 24px rgba(0,0,0,.06)}
+.article .qform h2{margin:0 0 6px;font-size:1.2rem}
+.article .qform p{font-size:.95rem;margin-bottom:16px}
+.qform .qrow{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:12px}
+.qform label{display:block;font-size:.85rem;font-weight:700;color:var(--ink);margin-bottom:4px}
+.qform input,.qform select,.qform textarea{width:100%;padding:10px 12px;border:1px solid var(--bd);border-radius:8px;font:inherit;font-size:.95rem;background:#fff;color:var(--ink)}
+.qform textarea{min-height:80px;margin-bottom:12px}
+.qform button{width:100%;padding:13px 20px;border:none;border-radius:8px;background:var(--acd);color:#fff;font-family:'Outfit',sans-serif;font-weight:700;font-size:1rem;cursor:pointer}
+.qform button:hover{background:var(--acdh)}
+.article .qform .qnote{font-size:.82rem;color:var(--mu);margin:10px 0 0;text-align:center}
+@media(max-width:700px){.rel-grid{grid-template-columns:1fr}.qform .qrow{grid-template-columns:1fr}.rel-card img{aspect-ratio:3/1}}
+</style>
 </head>
 <body>
 
@@ -387,6 +416,30 @@ if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',
 <p><strong>Shortages surface early.</strong> When components are received and counted as separate SKUs at intake, a short delivery from a supplier shows up when it arrives rather than on the morning of the pack-out run. That is often several weeks of warning instead of none.</p>
 <p>The honest exception: if your box is mostly one bulky item with a couple of small additions, the assembly saving is smaller and the calculation is closer.</p>
 <p><img src="/images/blog/infographic-subscription-box-cycle.webp" alt="Why subscription boxes break normal fulfilment: the whole cohort ships in one batch, the contents rotate every cycle, and stock is committed weeks ahead against a subscriber count that keeps moving" width="1200" height="1500" loading="lazy" decoding="async"/></p>
+
+<aside class="qform" aria-label="Get a quote">
+  <h2>Get a quote while you read</h2>
+  <p>Tell us what you sell and where your customers are. We reply with a quote, usually within 24 hours. No commitment.</p>
+  <form action="/Contact-Us.html" method="POST">
+    <input type="hidden" name="source" value="blog:subscription-box-fulfillment-from-china-2026"/>
+    <div class="qrow">
+      <div><label for="q-fname">First name *</label><input type="text" id="q-fname" name="fname" required autocomplete="given-name"/></div>
+      <div><label for="q-lname">Last name *</label><input type="text" id="q-lname" name="lname" required autocomplete="family-name"/></div>
+    </div>
+    <div class="qrow">
+      <div><label for="q-email">Email *</label><input type="email" id="q-email" name="email" required autocomplete="email" placeholder="you@company.com"/></div>
+      <div><label for="q-service">What do you need? *</label><select id="q-service" name="service" required><option value="ecommerce" selected>eCommerce Fulfillment (Shopify / D2C)</option><option value="crowdfunding">Crowdfunding Fulfillment (Kickstarter / Indiegogo)</option><option value="fba">Amazon FBA Consolidation</option><option value="tariff">Tariff &amp; Customs Management</option><option value="freight">International Freight Forwarding</option><option value="other">Other / Not Sure Yet</option></select></div>
+    </div>
+    <div class="qrow">
+      <div><label for="q-volume">Monthly orders</label><select id="q-volume" name="volume"><option value="" selected>Approximate volume</option><option value="starting">Just starting out</option><option value="1-100">1&#8211;100 orders / month</option><option value="100-500">100&#8211;500 orders / month</option><option value="500-2000">500&#8211;2,000 orders / month</option><option value="2000-10000">2,000&#8211;10,000 orders / month</option><option value="10000+">10,000+ orders / month</option></select></div>
+      <div><label for="q-markets">Main markets</label><input type="text" id="q-markets" name="markets" placeholder="e.g. US, UK, EU"/></div>
+    </div>
+    <label for="q-message">What do you sell?</label>
+    <textarea id="q-message" name="message" rows="3" placeholder="Products, where they are made, and how you fulfil orders today."></textarea>
+    <button type="submit">Send my quote request &rarr;</button>
+    <p class="qnote">New customers: 30 days FREE storage when you ship in your first month.</p>
+  </form>
+</aside>
 <h2>Running the subscription alongside your normal store</h2>
 <p>Most subscription brands are not only subscription brands. There is a Shopify store, often a marketplace listing, sometimes a launch campaign.</p>
 <p>The temptation is to reserve stock for the subscription, on the reasonable logic that subscribers must not be disappointed. It is usually the wrong call.</p>
@@ -408,6 +461,17 @@ if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',
 <p>Assemble at source so the box is one job rather than several. Document each cycle as a specification. Keep one inventory pool so unused components stay sellable. Pull the cut-off earlier than feels comfortable. And watch the box size, because in this model every packaging decision is multiplied by your entire subscriber base at once.</p>
 <p>If you are running a box and the pack-out is becoming the bottleneck, <a href="Contact-Us.html">tell us what a cycle looks like</a> and we will tell you honestly whether source-side assembly helps you or not.</p>
 <p>Market figures here are drawn from published industry reporting for 2025 and 2026 and are indicative rather than precise.</p>
+<aside class="nstep" aria-label="Next step">
+  <h2>Shipping D2C orders from China?</h2>
+  <p>Send us your products, order volume and main markets and we will come back with a quote, usually within 24 hours. Pick and pack is $0.99 per order with standard packaging included.</p>
+  <div class="nstep-links"><a class="nstep-main" href="Contact-Us.html">Get a free quote &rarr;</a><a href="ecommerce-fulfillment.html">eCommerce fulfillment</a><a href="our-pricing.html">See our pricing</a><a href="express-international-shipping-china.html">Shipping options</a></div>
+</aside>
+
+<div class="rel" role="navigation" aria-label="Related posts">
+  <h2>Keep reading</h2>
+  <div class="rel-grid"><a class="rel-card" href="china-to-us-fulfilment-beauty-skincare-brands.html"><img src="/images/blog/china-to-us-fulfilment-beauty-skincare-brands.webp" alt="" width="400" height="200" loading="lazy" decoding="async"/><span>eCommerce</span><strong>China-to-US Fulfilment for Beauty &amp; Skincare Brands (2026): MoCRA, Unboxing and Batch Control</strong></a><a class="rel-card" href="apparel-fashion-fulfillment-from-china-2026.html"><img src="/images/blog/apparel-fashion-fulfillment-from-china-2026.webp" alt="" width="400" height="200" loading="lazy" decoding="async"/><span>eCommerce</span><strong>China Fulfilment for Apparel &amp; Fashion Brands (2026): SKUs, Sizes and the Returns Loop</strong></a><a class="rel-card" href="best-shopify-fulfillment-brands-sourcing-from-china-2027.html"><img src="/images/blog/best-shopify-fulfillment-brands-sourcing-from-china-2027.webp" alt="" width="400" height="200" loading="lazy" decoding="async"/><span>eCommerce</span><strong>Best Shopify Fulfillment for Brands Sourcing from China (2027): An Honest Comparison</strong></a></div>
+</div>
+
   </div>
 </div>
 <div class="ctaf">
