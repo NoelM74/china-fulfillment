@@ -184,6 +184,49 @@ Then:
 
 **Not for production:** three bulk-freight posts written earlier the same day (sea freight to Amazon FBA, LCL vs FCL, China to Europe) were parked because they do not fit the D2C audience. They are no longer on the dev site; see `data/content/parked/README.md`.
 
+## 17. Eight new posts: US market, dropshipping and comparisons (8 November 2026)
+
+Approved by Noel, 8 November 2026, after the October traffic review: a US market page (we had UK, Canada, Australia, Germany and Japan but no US page), a China to USA shipping post, three posts for dropshippers moving to their own stock, and three honest "best of" comparisons for AI search. Copy them the same way as section 1.
+
+| Page (repo file = live URL) | Preview | Images to upload from `images/blog/` |
+|---|---|---|
+| `china-to-us-fulfillment-2027.html` | [dev](https://china-fulfillment.borufashions.workers.dev/china-to-us-fulfillment-2027) | `china-to-us-fulfillment-2027.webp` + `-760w` `-1140w` `-1520w`, `infographic-china-to-us-fulfillment-2027.webp` + `-600w` `-900w` |
+| `shipping-from-china-to-usa-d2c-2027.html` | [dev](https://china-fulfillment.borufashions.workers.dev/shipping-from-china-to-usa-d2c-2027) | `shipping-from-china-to-usa-d2c-2027.webp` + `-760w` `-1140w` `-1520w`, `infographic-shipping-china-to-usa-2027.webp` + `-600w` `-900w` |
+| `switch-from-dropshipping-to-china-3pl.html` | [dev](https://china-fulfillment.borufashions.workers.dev/switch-from-dropshipping-to-china-3pl) | `switch-from-dropshipping-to-china-3pl.webp` + `-760w` `-1140w` `-1520w` |
+| `aliexpress-cj-dropshipping-vs-own-stock-china-warehouse.html` | [dev](https://china-fulfillment.borufashions.workers.dev/aliexpress-cj-dropshipping-vs-own-stock-china-warehouse) | `aliexpress-cj-dropshipping-vs-own-stock-china-warehouse.webp` + `-760w` `-1140w` `-1520w` |
+| `dropshipping-to-branded-d2c-store.html` | [dev](https://china-fulfillment.borufashions.workers.dev/dropshipping-to-branded-d2c-store) | `dropshipping-to-branded-d2c-store.webp` + `-760w` `-1140w` `-1520w` |
+| `best-shopify-fulfillment-brands-sourcing-from-china-2027.html` | [dev](https://china-fulfillment.borufashions.workers.dev/best-shopify-fulfillment-brands-sourcing-from-china-2027) | `best-shopify-fulfillment-brands-sourcing-from-china-2027.webp` + `-760w` `-1140w` `-1520w` |
+| `shipbob-alternatives-international-brands-2027.html` | [dev](https://china-fulfillment.borufashions.workers.dev/shipbob-alternatives-international-brands-2027) | `shipbob-alternatives-international-brands-2027.webp` + `-760w` `-1140w` `-1520w` |
+| `best-crowdfunding-fulfillment-companies-2027.html` | [dev](https://china-fulfillment.borufashions.workers.dev/best-crowdfunding-fulfillment-companies-2027) | `best-crowdfunding-fulfillment-companies-2027.webp` + `-760w` `-1140w` `-1520w` |
+
+That is 38 image files. All heroes are licensed Pexels stock photos and the two infographics were built from HTML; sources are in `IMAGE-BRIEFS-tier13-december-2026.md`.
+
+**Please read before publishing (Noel):**
+- [ ] **The comparison posts are honest about price.** As at 8 November 2026, ChinaDivision's pricing page lists pick and pack "From $0.59 / order" and NextSmartShip's lists "$0.5 first pick, $0.1 / additional pick per order", both lower than our $0.99. The posts say so, and lead instead on what we include (standard and branded packaging, a published storage rate, DDP, supplier management). Confirm you are happy with that.
+- [ ] **The China to USA shipping post quotes reference rates** from our own early 2026 shipping guide (`news-shipping-times-costs-china-2026.html`): express to the US from about $8.50/kg, postal from about $3.20/kg, bulk air $4.50–7.00/kg over 100 kg, a 20ft container to Los Angeles about $2,000–2,350. They are labelled as early 2026 references, not quotes. Confirm or send current figures.
+
+Then:
+- [ ] Publish the eight pages. Keep both `application/ld+json` blocks in each.
+- [ ] Add the eight blog cards to the live blog page. Copy them from `blog.html` (search for each post's file name).
+- [ ] Add the eight URLs to the live sitemap. The entries are at the end of `sitemap.xml`.
+- [ ] Re-upload `llms.txt`. It now lists the eight posts.
+- [ ] After publishing, request indexing for each URL in Google Search Console.
+- [ ] Publish `china-to-us-fulfillment-2027` first: it is the page the others link to.
+
+## 18. Every blog post: next step, related posts and a quote form (8 November 2026)
+
+To bring the bounce rate down (59% in October), every post built from `data/content/drafts/` now ends with:
+
+1. **A "next step" box** matched to the topic (D2C, US, dropshipping, crowdfunding, FBA, customs or operations), with a quote button and three links.
+2. **"Keep reading"**: three related posts with images.
+3. **An inline quote form** part-way down every post over about 1,100 words (40 of the 56 posts).
+
+The code is in `scripts/build_blog.py`; there is also a small CSS block (`/* blog: next step, related posts, inline quote form */`) in each post's `<head>`.
+
+- [ ] **Check the form handler first.** The inline form posts to `/Contact-Us.html` with the same field names as the Contact Us form (`fname`, `lname`, `email`, `service`, `volume`, `markets`, `message`) plus a hidden `source` field such as `blog:china-to-us-fulfillment-2027`, so you can see which post the lead came from. Confirm the live handler accepts it and that a test submission arrives.
+- [ ] Re-copy each live blog post from its repo file, or copy just the three new blocks and the CSS block into each one. Search the repo file for `class="qform"`, `class="nstep"` and `class="rel"`.
+- [ ] After a month, compare the blog's bounce rate and quote requests in GA4 with October.
+
 ---
 
 ## Quick check after publishing
@@ -191,4 +234,4 @@ Then:
 - Open each new URL on a phone. The hero and infographic should load, and nothing should run off the side of the screen.
 - Paste one new URL into https://search.google.com/test/rich-results. It should find the Article and FAQ data.
 
-Image briefs and style guide, for reference: `IMAGE-BRIEFS-tier10.md`, `IMAGE-BRIEFS-tier12-november-2026.md`, `IMAGE-STYLE-GUIDE.md`.
+Image briefs and style guide, for reference: `IMAGE-BRIEFS-tier10.md`, `IMAGE-BRIEFS-tier12-november-2026.md`, `IMAGE-BRIEFS-tier13-december-2026.md`, `IMAGE-STYLE-GUIDE.md`.

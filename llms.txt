@@ -61,6 +61,9 @@ What we do not do: we are not the importer of record by default. Import duties, 
 - [China 3PL vs Self-Fulfilling for Shopify](https://www.china-fulfillment.com/china-3pl-vs-self-fulfilling-shopify.html)
 - [Direct-from-China D2C vs US 3PL: 2026 Profit Audit](https://www.china-fulfillment.com/direct-from-china-d2c-vs-us-3pl-2026.html)
 - [The US + China Hybrid Fulfillment Model](https://www.china-fulfillment.com/china-us-hybrid-fulfillment-model-2026.html)
+- [Best Shopify Fulfillment for Brands Sourcing from China (2027)](https://www.china-fulfillment.com/best-shopify-fulfillment-brands-sourcing-from-china-2027.html): China 3PLs, US and global 3PLs, the Shopify Fulfillment Network app and the hybrid model, compared on each provider's own stated figures.
+- [ShipBob Alternatives for International Brands (2027)](https://www.china-fulfillment.com/shipbob-alternatives-international-brands-2027.html): ShipMonk, byrd, NextSmartShip, ChinaDivision, SendFromChina, Easyship and China Fulfillment International by where they fulfil from.
+- [Best Crowdfunding Fulfillment Companies (2027)](https://www.china-fulfillment.com/best-crowdfunding-fulfillment-companies-2027.html): US, UK and China-based options for Kickstarter and Indiegogo rewards, and how to choose.
 
 ## Guides: customs, tariffs and compliance (2026)
 
@@ -99,6 +102,8 @@ What we do not do: we are not the importer of record by default. Import duties, 
 - [Q4 Peak Season Fulfilment from China (2026)](https://www.china-fulfillment.com/q4-peak-season-fulfillment-from-china-2026.html)
 - [Christmas 2026 Shipping Deadlines from China](https://www.china-fulfillment.com/christmas-2026-shipping-deadlines-from-china.html): last dispatch dates for D2C orders to the US, UK, EU, Canada and Australia, and peak surcharges.
 - [Chinese New Year 2027 Shipping Deadlines](https://www.china-fulfillment.com/chinese-new-year-2027-shipping-deadlines.html)
+- [China to US Fulfillment (2027)](https://www.china-fulfillment.com/china-to-us-fulfillment-2027.html): delivery times from Shenzhen, duty on every parcel now de minimis is gone, DDP, a cost example and when to hold US stock.
+- [Shipping from China to the USA (2027): Delivery Times and Costs](https://www.china-fulfillment.com/shipping-from-china-to-usa-d2c-2027.html): express, standard DDP, postal, air and sea, dimensional weight, surcharges and duty.
 - [China to UK Fulfilment](https://www.china-fulfillment.com/china-to-uk-fulfilment-shopify.html)
 - [China to Germany and EU Fulfilment](https://www.china-fulfillment.com/china-to-germany-fulfillment-2026.html)
 - [China to Canada Fulfilment](https://www.china-fulfillment.com/china-to-canada-fulfillment-2026.html)
@@ -119,6 +124,9 @@ What we do not do: we are not the importer of record by default. Import duties, 
 - [Source-Side Kitting in China](https://www.china-fulfillment.com/source-side-kitting-bundle-assembly-china.html)
 - [Ecommerce Returns When You Fulfil from China](https://www.china-fulfillment.com/ecommerce-returns-fulfilling-from-china-2026.html)
 - [Quality Control at the Source](https://www.china-fulfillment.com/news-quality-control-china-supplier.html)
+- [When to Switch from Dropshipping to a China 3PL](https://www.china-fulfillment.com/switch-from-dropshipping-to-china-3pl.html): seven signs a dropshipping store is ready to hold its own stock, costs and how to switch.
+- [AliExpress or CJ Dropshipping vs Your Own Stock in a China Warehouse](https://www.china-fulfillment.com/aliexpress-cj-dropshipping-vs-own-stock-china-warehouse.html): the three models compared on control, cost and duty.
+- [From Dropshipping to a Branded D2C Store](https://www.china-fulfillment.com/dropshipping-to-branded-d2c-store.html): a step-by-step plan covering product, name, packaging, compliance, delivery promise and fulfilment.
 
 ## Optional
 

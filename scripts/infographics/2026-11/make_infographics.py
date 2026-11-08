@@ -203,3 +203,47 @@ for mk, rule, note in markets:
 page("infographic-crowdfunding-reward-shipping-2027",
      "<div class='title'>Shipping rewards in 2027</div><div class='fill'>" + cards + "</div>"
      "<div class='foot nv'>Ship DDP: nothing to pay at the door<div class='small'>Price duty, tax and platform fees in before you launch.</div></div>")
+
+
+# ---------------------------------------------------------------------------
+# 8 Nov 2026 round: US market page and China to USA shipping post.
+# ---------------------------------------------------------------------------
+
+# 8. China to US fulfillment in 2027 ----------------------------------------
+steps = [
+    ("shelf", "Stock in Shenzhen", "Counted and inspected on arrival"),
+    ("box", "Picked and packed", "$0.99 per order, your packaging"),
+    ("clear", "Duty paid before delivery", "DDP: MFN + any Section 301 + 12.5%"),
+    ("person", "Delivered in 6&ndash;10 days", "Our standard time to US customers"),
+]
+rows = ""
+for i, (ic, lbl, sub) in enumerate(steps, 1):
+    rows += ("<div class='card' style='padding:20px 30px'>"
+             "<div style='flex:0 0 104px;height:104px;border-radius:50%%;background:%s;color:#fff;font-weight:800;font-size:56px;"
+             "display:flex;align-items:center;justify-content:center'>%d</div>%s"
+             "<div><div class='lbl' style='font-size:46px'>%s</div><div class='sub' style='font-size:34px'><span class='arrow'>&rarr;</span> %s</div></div></div>"
+             % (NAVY, i, ICON[ic], lbl, sub))
+page("infographic-china-to-us-fulfillment-2027",
+     "<div class='title'>China to US fulfillment, 2027</div><div class='fill'>" + rows + "</div>"
+     "<div class='card nv' style='flex-direction:column;align-items:flex-start;gap:4px;padding:26px 34px'>"
+     "<div class='lbl' style='font-size:42px'>Heavy bestsellers?</div>"
+     "<div class='sub' style='font-size:32px'>Bulk import pays duty on wholesale value, not each parcel's retail value</div></div>"
+     "<div class='foot or'>No de minimis: repealed from 1 July 2027<div class='small'>Every US parcel from China pays duty. Ship DDP and price it in.</div></div>")
+
+# 9. Shipping from China to the USA by method -------------------------------
+methods = [
+    ("plane", "Express courier", "3&ndash;5 business days", "Door to door"),
+    ("van", "Standard DDP", "6&ndash;10 days", "Our D2C service"),
+    ("doc", "Postal", "~10&ndash;20 days", "Entry Type 13 from 20 Jan 2027"),
+    ("plane", "Air freight, bulk", "5&ndash;10 days", "To a US warehouse"),
+    ("ship", "Sea freight, bulk", "14&ndash;16 days", "To a West Coast port, plus clearance"),
+]
+cards = ""
+for ic, lbl, days, note in methods:
+    cards += ("<div class='card' style='padding:14px 30px'>%s"
+              "<div style='flex:1'><div class='lbl' style='font-size:42px'>%s</div><div class='small' style='font-size:27px'>%s</div></div>"
+              "<div class='lbl nc' style='font-size:50px;color:%s;white-space:nowrap'>%s</div></div>"
+              % (ICON[ic].replace('width="96" height="96"', 'width="84" height="84"'), lbl, note, ORANGE, days))
+page("infographic-shipping-china-to-usa-2027",
+     "<div class='title'>China to USA: how long?</div><div class='fill'>" + cards + "</div>"
+     "<div class='foot nv'>Cost = chargeable weight + service<div class='small'>plus fuel and peak surcharges, and US duty on every parcel. We quote per shipment.</div></div>")

@@ -291,6 +291,35 @@ document.addEventListener('click',function(e){if(!w.contains(e.target))close();}
 document.addEventListener('keydown',function(e){if(e.key==='Escape'){close();b.blur();}});
 w.addEventListener('focusout',function(e){if(!w.contains(e.relatedTarget))close();});}
 if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',init);else init();})();</script>
+<style>/* blog: next step, related posts, inline quote form */
+.nstep{margin:48px 0 8px;padding:28px 28px 24px;border:1px solid var(--bd);border-left:5px solid var(--ac);border-radius:12px;background:var(--off)}
+.article .nstep h2{margin:0 0 8px;font-size:1.3rem}
+.nstep p{margin-bottom:16px}
+.nstep-links{display:flex;flex-wrap:wrap;gap:10px;align-items:center}
+.article .nstep-links a{text-decoration:none;font-family:'Outfit',sans-serif;font-weight:700;font-size:.95rem;padding:10px 16px;border-radius:8px;border:1px solid var(--bd);background:#fff;color:var(--ink)}
+.article .nstep-links a.nstep-main{background:var(--acd);border-color:var(--acd);color:#fff}
+.article .nstep-links a:hover{border-color:var(--b2)}
+.article .nstep-links a.nstep-main:hover{background:var(--acdh)}
+.rel{margin:40px 0 0}
+.article .rel h2{margin:0 0 16px;font-size:1.2rem}
+.rel-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.article .rel-card{display:flex;flex-direction:column;text-decoration:none;border:1px solid var(--bd);border-radius:12px;overflow:hidden;background:#fff;color:var(--ink);transition:box-shadow .16s,transform .16s}
+.article .rel-card:hover{box-shadow:0 8px 28px rgba(13,33,68,.12);transform:translateY(-2px)}
+.rel-card img{width:100%;aspect-ratio:2/1;object-fit:cover}
+.rel-card span{display:block;padding:12px 14px 4px;font-size:.74rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--acd)}
+.rel-card strong{display:block;padding:0 14px 16px;font-family:'Outfit',sans-serif;font-size:.98rem;line-height:1.3}
+.qform{margin:40px 0;padding:26px 26px 22px;border:1px solid var(--bd);border-radius:14px;background:#fff;box-shadow:0 4px 24px rgba(0,0,0,.06)}
+.article .qform h2{margin:0 0 6px;font-size:1.2rem}
+.article .qform p{font-size:.95rem;margin-bottom:16px}
+.qform .qrow{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:12px}
+.qform label{display:block;font-size:.85rem;font-weight:700;color:var(--ink);margin-bottom:4px}
+.qform input,.qform select,.qform textarea{width:100%;padding:10px 12px;border:1px solid var(--bd);border-radius:8px;font:inherit;font-size:.95rem;background:#fff;color:var(--ink)}
+.qform textarea{min-height:80px;margin-bottom:12px}
+.qform button{width:100%;padding:13px 20px;border:none;border-radius:8px;background:var(--acd);color:#fff;font-family:'Outfit',sans-serif;font-weight:700;font-size:1rem;cursor:pointer}
+.qform button:hover{background:var(--acdh)}
+.article .qform .qnote{font-size:.82rem;color:var(--mu);margin:10px 0 0;text-align:center}
+@media(max-width:700px){.rel-grid{grid-template-columns:1fr}.qform .qrow{grid-template-columns:1fr}.rel-card img{aspect-ratio:3/1}}
+</style>
 </head>
 <body>
 
@@ -388,6 +417,17 @@ if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',
 <p>Walmart Marketplace is following the pattern that made <a href="/tiktok-shop-fulfillment-from-china-2026.html">TikTok Shop</a> worth entering early: a fast-growing platform investing in cross-border logistics, with less seller saturation than Amazon. The sellers who set up clean prep and import now build a position while it is still uncrowded. The ones who treat Walmart like Amazon and prep to the wrong spec spend the first quarter fighting rejections.</p>
 <h2>The bottom line</h2>
 <p>Selling on Walmart from China is entirely doable in 2026: use WFS and stay in good standing, ship from an approved port such as Yantian, and get your importer-of-record and customs bond set up with a broker. You own the account and the customs; we make the goods correct, prep them to Walmart's spec, inspect them, and consolidate and ship them from Shenzhen. <a href="/Contact-Us.html">Tell us about your Walmart range and we'll map the China side</a>.</p>
+<aside class="nstep" aria-label="Next step">
+  <h2>Shipping D2C orders from China?</h2>
+  <p>Send us your products, order volume and main markets and we will come back with a quote, usually within 24 hours. Pick and pack is $0.99 per order with standard packaging included.</p>
+  <div class="nstep-links"><a class="nstep-main" href="Contact-Us.html">Get a free quote &rarr;</a><a href="ecommerce-fulfillment.html">eCommerce fulfillment</a><a href="our-pricing.html">See our pricing</a><a href="express-international-shipping-china.html">Shipping options</a></div>
+</aside>
+
+<div class="rel" role="navigation" aria-label="Related posts">
+  <h2>Keep reading</h2>
+  <div class="rel-grid"><a class="rel-card" href="tiktok-shop-fulfillment-from-china-2026.html"><img src="/images/blog/tiktok-shop-fulfillment-from-china-2026.webp" alt="" width="400" height="200" loading="lazy" decoding="async"/><span>eCommerce</span><strong>TikTok Shop Fulfillment from China: The 2026 Cross-Border Seller&#x27;s Playbook</strong></a><a class="rel-card" href="china-to-australia-fulfillment-2026.html"><img src="/images/blog/china-to-australia-fulfillment-2026.webp" alt="" width="400" height="200" loading="lazy" decoding="async"/><span>eCommerce</span><strong>China to Australia Fulfilment (2026): GST, the A$1,000 Threshold and Real Delivery Times</strong></a><a class="rel-card" href="china-to-canada-fulfillment-2026.html"><img src="/images/blog/china-to-canada-fulfillment-2026.webp" alt="" width="400" height="200" loading="lazy" decoding="async"/><span>eCommerce</span><strong>China to Canada Fulfilment (2026): Duties, CARM and the CAD$20 Reality</strong></a></div>
+</div>
+
   </div>
 </div>
 <div class="ctaf">

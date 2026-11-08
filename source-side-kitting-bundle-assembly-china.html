@@ -291,6 +291,35 @@ document.addEventListener('click',function(e){if(!w.contains(e.target))close();}
 document.addEventListener('keydown',function(e){if(e.key==='Escape'){close();b.blur();}});
 w.addEventListener('focusout',function(e){if(!w.contains(e.relatedTarget))close();});}
 if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',init);else init();})();</script>
+<style>/* blog: next step, related posts, inline quote form */
+.nstep{margin:48px 0 8px;padding:28px 28px 24px;border:1px solid var(--bd);border-left:5px solid var(--ac);border-radius:12px;background:var(--off)}
+.article .nstep h2{margin:0 0 8px;font-size:1.3rem}
+.nstep p{margin-bottom:16px}
+.nstep-links{display:flex;flex-wrap:wrap;gap:10px;align-items:center}
+.article .nstep-links a{text-decoration:none;font-family:'Outfit',sans-serif;font-weight:700;font-size:.95rem;padding:10px 16px;border-radius:8px;border:1px solid var(--bd);background:#fff;color:var(--ink)}
+.article .nstep-links a.nstep-main{background:var(--acd);border-color:var(--acd);color:#fff}
+.article .nstep-links a:hover{border-color:var(--b2)}
+.article .nstep-links a.nstep-main:hover{background:var(--acdh)}
+.rel{margin:40px 0 0}
+.article .rel h2{margin:0 0 16px;font-size:1.2rem}
+.rel-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.article .rel-card{display:flex;flex-direction:column;text-decoration:none;border:1px solid var(--bd);border-radius:12px;overflow:hidden;background:#fff;color:var(--ink);transition:box-shadow .16s,transform .16s}
+.article .rel-card:hover{box-shadow:0 8px 28px rgba(13,33,68,.12);transform:translateY(-2px)}
+.rel-card img{width:100%;aspect-ratio:2/1;object-fit:cover}
+.rel-card span{display:block;padding:12px 14px 4px;font-size:.74rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--acd)}
+.rel-card strong{display:block;padding:0 14px 16px;font-family:'Outfit',sans-serif;font-size:.98rem;line-height:1.3}
+.qform{margin:40px 0;padding:26px 26px 22px;border:1px solid var(--bd);border-radius:14px;background:#fff;box-shadow:0 4px 24px rgba(0,0,0,.06)}
+.article .qform h2{margin:0 0 6px;font-size:1.2rem}
+.article .qform p{font-size:.95rem;margin-bottom:16px}
+.qform .qrow{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:12px}
+.qform label{display:block;font-size:.85rem;font-weight:700;color:var(--ink);margin-bottom:4px}
+.qform input,.qform select,.qform textarea{width:100%;padding:10px 12px;border:1px solid var(--bd);border-radius:8px;font:inherit;font-size:.95rem;background:#fff;color:var(--ink)}
+.qform textarea{min-height:80px;margin-bottom:12px}
+.qform button{width:100%;padding:13px 20px;border:none;border-radius:8px;background:var(--acd);color:#fff;font-family:'Outfit',sans-serif;font-weight:700;font-size:1rem;cursor:pointer}
+.qform button:hover{background:var(--acdh)}
+.article .qform .qnote{font-size:.82rem;color:var(--mu);margin:10px 0 0;text-align:center}
+@media(max-width:700px){.rel-grid{grid-template-columns:1fr}.qform .qrow{grid-template-columns:1fr}.rel-card img{aspect-ratio:3/1}}
+</style>
 </head>
 <body>
 
@@ -379,6 +408,17 @@ if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',
 <p>Put the three pieces together and the cost gap becomes clear. The labour to assemble each kit is paid at Chinese rates rather than Western hourly rates, the single biggest line and the source of most of the 70% kitting saving. The components meet at one Shenzhen hub with zero receiving fees and travel domestically before consolidating, removing the duplicated international freight and handling that Western assembly forces. And the finished kit ships in a box sized to its exact dimensions, cutting the dimensional weight on the international leg.</p>
 <p>Each of these is a saving on its own. Stacked together, on a brand running custom bundles or gift sets at volume, they move kitting from a margin drain into a competitive advantage. The brands still building bundles in a Western warehouse are paying premium labour to assemble premium-shipped components into oversized boxes. Moving the whole operation to the source rewrites every line of that equation at once.</p>
 <p>Run custom bundles or subscription boxes? <a href="/Contact-Us.html">Send us your bill of materials</a> and we will confirm feasibility, packaging options, and per-kit pricing before you commit.</p>
+<aside class="nstep" aria-label="Next step">
+  <h2>Want this handled at the source?</h2>
+  <p>Inspection, kitting, bundling and branded packing happen in our Shenzhen warehouse before anything ships. Tell us what you need and we will quote.</p>
+  <div class="nstep-links"><a class="nstep-main" href="Contact-Us.html">Get a free quote &rarr;</a><a href="branded-packaging-kitting.html">Packaging and kitting</a><a href="quality-control-fba-prep-china.html">Quality control</a><a href="our-pricing.html">See our pricing</a></div>
+</aside>
+
+<div class="rel" role="navigation" aria-label="Related posts">
+  <h2>Keep reading</h2>
+  <div class="rel-grid"><a class="rel-card" href="dim-weight-packaging-optimisation-2026.html"><img src="/images/blog/dim-weight-packaging-optimisation-2026.webp" alt="" width="400" height="200" loading="lazy" decoding="async"/><span>Shipping</span><strong>Cut Your Shipping Bill: DIM Weight and Packaging Optimisation (2026)</strong></a><a class="rel-card" href="best-china-3pl-companies-2026.html"><img src="/images/blog/best-china-3pl-companies-2026.webp" alt="" width="400" height="200" loading="lazy" decoding="async"/><span>Operations</span><strong>The Best China 3PL Depends on What You Ship. An Honest Comparison, Including Where We Lose.</strong></a><a class="rel-card" href="china-3pl-vs-freight-forwarder-vs-sourcing-agent.html"><img src="/images/blog/china-3pl-vs-freight-forwarder-vs-sourcing-agent.webp" alt="" width="400" height="200" loading="lazy" decoding="async"/><span>Operations</span><strong>3PL, Freight Forwarder, Sourcing Agent or Consolidator? Who Does What When You Buy from China</strong></a></div>
+</div>
+
   </div>
 </div>
 <div class="ctaf">

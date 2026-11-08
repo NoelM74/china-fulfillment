@@ -291,6 +291,35 @@ document.addEventListener('click',function(e){if(!w.contains(e.target))close();}
 document.addEventListener('keydown',function(e){if(e.key==='Escape'){close();b.blur();}});
 w.addEventListener('focusout',function(e){if(!w.contains(e.relatedTarget))close();});}
 if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',init);else init();})();</script>
+<style>/* blog: next step, related posts, inline quote form */
+.nstep{margin:48px 0 8px;padding:28px 28px 24px;border:1px solid var(--bd);border-left:5px solid var(--ac);border-radius:12px;background:var(--off)}
+.article .nstep h2{margin:0 0 8px;font-size:1.3rem}
+.nstep p{margin-bottom:16px}
+.nstep-links{display:flex;flex-wrap:wrap;gap:10px;align-items:center}
+.article .nstep-links a{text-decoration:none;font-family:'Outfit',sans-serif;font-weight:700;font-size:.95rem;padding:10px 16px;border-radius:8px;border:1px solid var(--bd);background:#fff;color:var(--ink)}
+.article .nstep-links a.nstep-main{background:var(--acd);border-color:var(--acd);color:#fff}
+.article .nstep-links a:hover{border-color:var(--b2)}
+.article .nstep-links a.nstep-main:hover{background:var(--acdh)}
+.rel{margin:40px 0 0}
+.article .rel h2{margin:0 0 16px;font-size:1.2rem}
+.rel-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.article .rel-card{display:flex;flex-direction:column;text-decoration:none;border:1px solid var(--bd);border-radius:12px;overflow:hidden;background:#fff;color:var(--ink);transition:box-shadow .16s,transform .16s}
+.article .rel-card:hover{box-shadow:0 8px 28px rgba(13,33,68,.12);transform:translateY(-2px)}
+.rel-card img{width:100%;aspect-ratio:2/1;object-fit:cover}
+.rel-card span{display:block;padding:12px 14px 4px;font-size:.74rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--acd)}
+.rel-card strong{display:block;padding:0 14px 16px;font-family:'Outfit',sans-serif;font-size:.98rem;line-height:1.3}
+.qform{margin:40px 0;padding:26px 26px 22px;border:1px solid var(--bd);border-radius:14px;background:#fff;box-shadow:0 4px 24px rgba(0,0,0,.06)}
+.article .qform h2{margin:0 0 6px;font-size:1.2rem}
+.article .qform p{font-size:.95rem;margin-bottom:16px}
+.qform .qrow{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:12px}
+.qform label{display:block;font-size:.85rem;font-weight:700;color:var(--ink);margin-bottom:4px}
+.qform input,.qform select,.qform textarea{width:100%;padding:10px 12px;border:1px solid var(--bd);border-radius:8px;font:inherit;font-size:.95rem;background:#fff;color:var(--ink)}
+.qform textarea{min-height:80px;margin-bottom:12px}
+.qform button{width:100%;padding:13px 20px;border:none;border-radius:8px;background:var(--acd);color:#fff;font-family:'Outfit',sans-serif;font-weight:700;font-size:1rem;cursor:pointer}
+.qform button:hover{background:var(--acdh)}
+.article .qform .qnote{font-size:.82rem;color:var(--mu);margin:10px 0 0;text-align:center}
+@media(max-width:700px){.rel-grid{grid-template-columns:1fr}.qform .qrow{grid-template-columns:1fr}.rel-card img{aspect-ratio:3/1}}
+</style>
 </head>
 <body>
 
@@ -373,6 +402,30 @@ if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',
 <p>This is the part that wrecks cash-flow planning for sellers who do not plan at the source. Amazon does not charge the inbound placement service fee when your shipment is created or even when it arrives. It charges the fee 45 days after your shipment is received.</p>
 <p>That delay sounds harmless. In practice it is a slow-motion drain. You send inventory in January, you see clean-looking inbound costs, you reorder in February assuming your unit economics are healthy, and then the January placement fees hit your ledger in the back half of February, right as your March stock is in production. Sellers running on tight working capital routinely get caught reordering against numbers that do not yet reflect the placement fees already accruing against them.</p>
 <p>The only reliable defence is to model the fee at the moment you commit to a placement option, not when Amazon finally bills it. Decide your placement strategy from inside China before cargo ships and you fix the cost before it becomes a surprise 45 days downstream.</p>
+
+<aside class="qform" aria-label="Get a quote">
+  <h2>Get a quote while you read</h2>
+  <p>Tell us what you sell and where your customers are. We reply with a quote, usually within 24 hours. No commitment.</p>
+  <form action="/Contact-Us.html" method="POST">
+    <input type="hidden" name="source" value="blog:amazon-fba-inbound-placement-fees-2026"/>
+    <div class="qrow">
+      <div><label for="q-fname">First name *</label><input type="text" id="q-fname" name="fname" required autocomplete="given-name"/></div>
+      <div><label for="q-lname">Last name *</label><input type="text" id="q-lname" name="lname" required autocomplete="family-name"/></div>
+    </div>
+    <div class="qrow">
+      <div><label for="q-email">Email *</label><input type="email" id="q-email" name="email" required autocomplete="email" placeholder="you@company.com"/></div>
+      <div><label for="q-service">What do you need? *</label><select id="q-service" name="service" required><option value="ecommerce">eCommerce Fulfillment (Shopify / D2C)</option><option value="crowdfunding">Crowdfunding Fulfillment (Kickstarter / Indiegogo)</option><option value="fba" selected>Amazon FBA Consolidation</option><option value="tariff">Tariff &amp; Customs Management</option><option value="freight">International Freight Forwarding</option><option value="other">Other / Not Sure Yet</option></select></div>
+    </div>
+    <div class="qrow">
+      <div><label for="q-volume">Monthly orders</label><select id="q-volume" name="volume"><option value="" selected>Approximate volume</option><option value="starting">Just starting out</option><option value="1-100">1&#8211;100 orders / month</option><option value="100-500">100&#8211;500 orders / month</option><option value="500-2000">500&#8211;2,000 orders / month</option><option value="2000-10000">2,000&#8211;10,000 orders / month</option><option value="10000+">10,000+ orders / month</option></select></div>
+      <div><label for="q-markets">Main markets</label><input type="text" id="q-markets" name="markets" placeholder="e.g. US, UK, EU"/></div>
+    </div>
+    <label for="q-message">What do you sell?</label>
+    <textarea id="q-message" name="message" rows="3" placeholder="Products, where they are made, and how you fulfil orders today."></textarea>
+    <button type="submit">Send my quote request &rarr;</button>
+    <p class="qnote">New customers: 30 days FREE storage when you ship in your first month.</p>
+  </form>
+</aside>
 <h2>The pre-split routing blueprint</h2>
 <p>This is where a Shenzhen buffer warehouse changes the entire calculation. The reason most sellers accept minimal-split fees is that splitting inventory across five US regional centres from a domestic prep house means coordinating five separate domestic trucking legs, five sets of carton labels, and five appointment windows. The friction is real, so they pay to avoid it.</p>
 <p>When your inventory is consolidated in Shenzhen first, that friction disappears, because the split happens before international transport rather than after it. The blueprint works like this:</p>
@@ -388,6 +441,17 @@ if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',
 <p>The 2026 fee structure punishes two behaviours: shipping to one location, and holding either too much or too little stock in Amazon's network. A source-side buffer answers both at once. Pre-splitting in Shenzhen converts the minimal-split fee into a zero optimized-split fee. Cheap offshore storage plus drip-fed replenishment keeps you above the low-inventory threshold while keeping the bulk of your capital out of Amazon's storage meter entirely. And because the placement decision is made before cargo ships rather than discovered 45 days after receipt, the cash-flow trap never springs.</p>
 <p>The brands that come out of 2026 with their margins intact are not the ones who found a loophole. They are the ones who moved the decision point upstream to Shenzhen, where labour is cheaper, the split is easy, and the fee shield is built into the route itself.</p>
 <p>Want to see what this looks like for your SKUs and shipping volumes? <a href="/Contact-Us.html">Talk to our team</a> and we will map your placement strategy before your next production run ships.</p>
+<aside class="nstep" aria-label="Next step">
+  <h2>Sending stock to Amazon from China?</h2>
+  <p>Tell us your SKUs, carton count and target fulfillment centres and we will quote prep and freight, usually within 24 hours.</p>
+  <div class="nstep-links"><a class="nstep-main" href="Contact-Us.html">Get a free quote &rarr;</a><a href="amazon-fba-prep-china.html">FBA prep in China</a><a href="amazon-fba-consolidation.html">FBA consolidation</a><a href="fba-freight-from-china.html">FBA freight</a></div>
+</aside>
+
+<div class="rel" role="navigation" aria-label="Related posts">
+  <h2>Keep reading</h2>
+  <div class="rel-grid"><a class="rel-card" href="amazon-fba-direct-vs-us-3pl-first-2026.html"><img src="/images/blog/amazon-fba-direct-vs-us-3pl-first-2026.webp" alt="" width="400" height="200" loading="lazy" decoding="async"/><span>Amazon FBA</span><strong>Ship Direct to Amazon FBA or Stage at a US 3PL First? The 2026 Tariff Math</strong></a><a class="rel-card" href="avoid-amazon-fba-prep-rejections-china.html"><img src="/images/blog/hero-fba-prep-rejections.webp" alt="" width="400" height="200" loading="lazy" decoding="async"/><span>Amazon FBA</span><strong>How to Avoid Amazon FBA Prep Rejections When Shipping from China</strong></a><a class="rel-card" href="china-us-hybrid-fulfillment-model-2026.html"><img src="/images/blog/china-us-hybrid-fulfillment-model-2026.webp" alt="" width="400" height="200" loading="lazy" decoding="async"/><span>eCommerce</span><strong>Bestsellers in the US, Long-Tail from China: The Hybrid Fulfillment Model for 2026</strong></a></div>
+</div>
+
   </div>
 </div>
 <div class="ctaf">
