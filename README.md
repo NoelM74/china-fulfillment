@@ -47,7 +47,7 @@ Measured on the October batch: a 390px phone at 2x loads an 18KB hero instead of
 
 ### Things the build does not do
 
-- Add entries to `sitemap.xml`. Do that by hand.
+- Add entries to `sitemap.xml`. Do that by hand, then run `python3 scripts/build_sitemaps.py` to rebuild `sitemap-images.xml` and `sitemap-index.xml`.
 - Remove a card from `blog.html`. It only ever adds.
 - Validate that referenced images exist.
 
@@ -128,6 +128,8 @@ The dev copy at `https://china-fulfillment.borufashions.workers.dev/` builds fro
 *.html                     pages, served as-is
 blog.html                  index, cards added by the build
 sitemap.xml                maintained by hand
+sitemap-images.xml         every page's images, from scripts/build_sitemaps.py
+sitemap-index.xml          points to both; submit this one to Google and Bing
 images/site/               page and service imagery
 images/blog/               post imagery
 scripts/build_blog.py      the generator

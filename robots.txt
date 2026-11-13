@@ -1,5 +1,5 @@
 # robots.txt for www.china-fulfillment.com
-# Last updated: 2026-10-03
+# Last updated: 2026-11-13
 #
 # Search engines and AI assistants (Googlebot, Bingbot, GPTBot, OAI-SearchBot,
 # PerplexityBot, ClaudeBot and others) are all welcome. They follow the
@@ -33,3 +33,4 @@ Allow: /SysEditor/KindEditor/attached/
 Disallow: /SysEditor/
 
 Sitemap: https://www.china-fulfillment.com/sitemap.xml
+Sitemap: https://www.china-fulfillment.com/sitemap-images.xml

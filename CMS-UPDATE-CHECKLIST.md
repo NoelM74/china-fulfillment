@@ -227,6 +227,24 @@ The code is in `scripts/build_blog.py`; there is also a small CSS block (`/* blo
 - [ ] Re-copy each live blog post from its repo file, or copy just the three new blocks and the CSS block into each one. Search the repo file for `class="qform"`, `class="nstep"` and `class="rel"`.
 - [ ] After a month, compare the blog's bounce rate and quote requests in GA4 with October.
 
+## 19. Image sitemap and Bing Webmaster Tools (13 November 2026)
+
+Two new files sit beside `sitemap.xml` in the site root:
+
+| File | What it is | Preview |
+|---|---|---|
+| `sitemap-images.xml` | Every content image on every page in `sitemap.xml` (231 images, 93 pages), with its alt text | [dev](https://china-fulfillment.borufashions.workers.dev/sitemap-images.xml) |
+| `sitemap-index.xml` | Points to `sitemap.xml` and `sitemap-images.xml`, so you submit one URL | [dev](https://china-fulfillment.borufashions.workers.dev/sitemap-index.xml) |
+
+`robots.txt` now lists the image sitemap too. Both files are built by `python3 scripts/build_sitemaps.py`; rerun it whenever `sitemap.xml` changes.
+
+**Before submitting, make the sitemap match the live site.** `sitemap.xml` lists every page in this repo, including the 12 posts in sections 16 and 17 that may not be on production yet. Search engines report every listed URL that returns 404. Either publish those pages first, or delete their `<url>` entries from the uploaded copy of `sitemap.xml` and `sitemap-images.xml`, then add them back once they are live.
+
+- [ ] Upload `sitemap.xml`, `sitemap-images.xml`, `sitemap-index.xml` and `robots.txt` to the site root. Check each opens at `https://www.china-fulfillment.com/<file name>`.
+- [ ] **Bing Webmaster Tools:** open the site, then **Sitemaps → Submit sitemap**, and enter `https://www.china-fulfillment.com/sitemap-index.xml`. If the site is not added yet, use **Import from Google Search Console**, which brings the verification and sitemaps across.
+- [ ] **Google Search Console:** **Sitemaps → Add a new sitemap**, enter `sitemap-index.xml`. The `sitemap.xml` already submitted can stay.
+- [ ] A few days later, check both tools for errors: 404s usually mean a page in the sitemap is not on production yet.
+
 ---
 
 ## Quick check after publishing
