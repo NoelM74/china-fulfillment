@@ -154,10 +154,10 @@ page("infographic-ieepa-refund-who-gets-paid",
 # Cut-offs confirmed by Noel, 24 Oct 2026 (US, UK and express unchanged from the first draft).
 dates = [
     ("EU ex. Germany", "6&ndash;14 days", "Sat 5 Dec"),
-    ("Australia", "4&ndash;7 days", "Mon 7 Dec"),
+    ("Australia", "8&ndash;12 days", "Mon 7 Dec"),
     ("Germany", "5&ndash;9 days", "Wed 9 Dec"),
     ("US", "6&ndash;10 days", "Wed 9 Dec"),
-    ("Canada", "5&ndash;9 days", "Wed 9 Dec"),
+    ("Canada", "9&ndash;12 days", "Wed 9 Dec"),
     ("UK", "5&ndash;8 days", "Fri 11 Dec"),
     ("Express", "2&ndash;5 business days", "Tue 15 Dec"),
 ]
@@ -247,3 +247,33 @@ for ic, lbl, days, note in methods:
 page("infographic-shipping-china-to-usa-2027",
      "<div class='title'>China to USA: how long?</div><div class='fill'>" + cards + "</div>"
      "<div class='foot nv'>Cost = chargeable weight + service<div class='small'>plus fuel and peak surcharges, and US duty on every parcel. We quote per shipment.</div></div>")
+
+
+# ---------------------------------------------------------------------------
+# 26 Nov 2026 round.
+# ---------------------------------------------------------------------------
+
+# 10. Valentine's Day 2027 last dispatch dates -------------------------------
+# Counted back from Fri 12 Feb using the slow end of our standard delivery
+# times (Noel, 26 Nov 2026: "calculate these dates by delivery times"; Canada
+# 9-12 days, Australia 8-12 days). Warehouse closed 6-14 Feb (Noel).
+vdates = [
+    ("EU", "6&ndash;14 days", "Fri 29 Jan"),
+    ("Canada", "9&ndash;12 days", "Sat 30 Jan"),
+    ("Australia", "8&ndash;12 days", "Sat 30 Jan"),
+    ("US", "6&ndash;10 days", "Tue 2 Feb"),
+    ("UK", "5&ndash;8 days", "Thu 4 Feb"),
+    ("Express", "2&ndash;5 business days", "Fri 5 Feb"),
+]
+rows = ""
+for mk, tt, dt in vdates:
+    cls = "card or" if mk == "Express" else "card"
+    sm = "class='small' style='font-size:28px;color:#fff;opacity:.92'" if mk == "Express" else "class='small' style='font-size:28px'"
+    rows += ("<div class='%s' style='padding:10px 32px;justify-content:space-between'>"
+             "<div><div class='lbl' style='font-size:46px'>%s</div><div %s>%s delivery %s</div></div>"
+             "<div class='lbl nc' style='font-size:56px;color:%s;white-space:nowrap'>%s</div></div>"
+             % (cls, mk, sm, "Express" if mk == "Express" else "Standard", tt, "#fff" if mk == "Express" else ORANGE, dt))
+page("infographic-valentines-2027-dispatch-dates",
+     "<div class='title'>Valentine's Day 2027: ship by</div><div class='fill'>" + rows + "</div>"
+     "<div class='foot nv'>Warehouse closed 6&ndash;14 Feb<div class='small'>Chinese New Year. Orders placed then ship from Mon 15 February.</div></div>")
+

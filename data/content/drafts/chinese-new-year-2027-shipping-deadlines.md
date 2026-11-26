@@ -14,7 +14,7 @@ audience: amazon_fba
 geo: global
 content_type: blog_post
 author: Noel Murphy
-last_updated: 2026-08-03
+last_updated: 2026-11-26
 images:
   hero: /images/blog/chinese-new-year-2027-shipping-deadlines.webp
   hero_alt: "A Shenzhen warehouse dispatching stock ahead of the Chinese New Year 2027 shutdown so sellers keep selling through the February disruption"
@@ -43,7 +43,7 @@ og_image: /images/blog/chinese-new-year-2027-shipping-deadlines.webp
     }
   },
   "datePublished": "2026-08-03",
-  "dateModified": "2026-08-03",
+  "dateModified": "2026-11-26",
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "https://www.china-fulfillment.com/chinese-new-year-2027-shipping-deadlines.html"
@@ -85,7 +85,7 @@ og_image: /images/blog/chinese-new-year-2027-shipping-deadlines.webp
       "name": "Can I still ship during the Chinese New Year period?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Fulfilment of stock already in the warehouse can continue over the period, but new production stops and freight capacity is limited, so anything not made and shipped before the wind-down waits until factories reopen and the backlog clears. The reliable plan is to get inventory into your fulfilment warehouse before the holiday and keep dispatching from it, rather than relying on fresh production or bookings during the shutdown."
+        "text": "Partly. Our Shenzhen warehouse is closed from Saturday 6 to Sunday 14 February 2027 and reopens on Monday 15 February, so Friday 5 February is the last dispatch day before the holiday. Outside those nine days, stock already in the warehouse keeps shipping through the wider six to eight week disruption, while new production stops and freight capacity is limited. The reliable plan is to get inventory into the warehouse before factories wind down, and to place a short buffer in your sales markets if you cannot pause orders for those nine days."
       }
     },
     {
@@ -108,7 +108,7 @@ Every year the same thing catches sellers out: China effectively pauses for Chin
 
 Chinese New Year 2027 falls on **6 February**. This guide gives you the dates that matter, an honest picture of how long the disruption really lasts, and the inventory plan that carries you through it.
 
-> **Quick answer:** Chinese New Year 2027 is 6 February, with the public holiday around 4-12 February, but the real disruption to production and freight runs roughly six to eight weeks, from mid-January into late February. Confirm production orders by early December 2026, book sea freight by mid-January, and hold six to eight weeks of forward stock in your fulfilment warehouse before the shutdown so you keep dispatching while China is closed.
+> **Quick answer:** Chinese New Year 2027 is 6 February, with the public holiday around 4-12 February, but the real disruption to production and freight runs roughly six to eight weeks, from mid-January into late February. Confirm production orders by early December 2026, book sea freight by mid-January, and hold six to eight weeks of forward stock in your fulfilment warehouse before the shutdown so you keep dispatching while factories are closed. Our own warehouse closes from **6 to 14 February**, with the last dispatch on **Friday 5 February**.
 
 ## How long China really closes
 
@@ -134,7 +134,9 @@ One honest note: we do not run your factory, and production timing sits with you
 
 The brands that sail through Chinese New Year do one thing: they hold enough forward stock to sell through the gap, and they store it somewhere cheap.
 
-Because the disruption can last six to eight weeks, hold roughly **six to eight weeks of forward cover** in your fulfilment warehouse before the shutdown, plus a margin for the slow post-holiday ramp-up. The mistake is not buying the buffer; the mistake is where you put it. Overstocking an expensive destination fulfilment centre, such as Amazon in Q1, burns margin on storage fees. The efficient move is to hold the buffer in a low-cost [origin warehouse in Shenzhen](/ecommerce-fulfillment.html) at $0.49 per CBM per day, keep dispatching direct to customers over the period, and [drip-feed replenishments](/amazon-fba-consolidation.html) into Amazon or your other channels as you sell. You get the safety stock without the storage penalty.
+Because the disruption can last six to eight weeks, hold roughly **six to eight weeks of forward cover** in your fulfilment warehouse before the shutdown, plus a margin for the slow post-holiday ramp-up. The mistake is not buying the buffer; the mistake is where you put it. Overstocking an expensive destination fulfilment centre, such as Amazon in Q1, burns margin on storage fees. The efficient move is to hold the buffer in a low-cost [origin warehouse in Shenzhen](/ecommerce-fulfillment.html) at $0.49 per CBM per day, keep dispatching direct to customers through the factory shutdown, and [drip-feed replenishments](/amazon-fba-consolidation.html) into Amazon or your other channels as you sell. You get the safety stock without the storage penalty.
+
+**Plan for our own nine-day close.** Our Shenzhen warehouse is closed from **Saturday 6 to Sunday 14 February 2027** and reopens on **Monday 15 February**. **Friday 5 February is the last dispatch day** before the holiday, and orders placed during the close ship from 15 February. If your customers cannot wait nine days, send about two weeks of your fastest sellers to Amazon or a warehouse in your main market before the close, and tell customers on your store that other orders ship from 15 February. Valentine's Day falls inside the close, so our [Valentine's Day 2027 post](valentines-day-2027-shipping-deadlines-from-china.html) has the last dispatch dates by market.
 
 ## What happens to rates and transit
 
@@ -146,7 +148,7 @@ Both waves reward the same behaviour: book early. Cargo handed over before the m
 
 - **Now to early December:** forecast demand through March, confirm production quantities and each factory's cut-off date.
 - **December to mid-January:** get finished goods to the warehouse, book sea freight for bulk, reserve air for priority stock.
-- **Before the shutdown:** hold six to eight weeks of forward cover in a low-cost origin warehouse; keep dispatching from it.
+- **Before the shutdown:** hold six to eight weeks of forward cover in a low-cost origin warehouse; keep dispatching from it, except while our warehouse is closed from 6 to 14 February (last dispatch Friday 5 February).
 - **February to March:** run down the buffer, rebook production and freight as factories reopen, expect a few weeks of post-holiday congestion.
 
 This is the same discipline that protects [Q4 peak season](/q4-peak-season-fulfillment-from-china-2026.html); Chinese New Year is simply the next test of it.

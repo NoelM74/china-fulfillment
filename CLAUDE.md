@@ -77,12 +77,18 @@ Recorded as Noel decided them, with dates where known.
 **Legal, tax and VAT position**
 - Tax, VAT and IOSS registration, importer of record, customs bonds, FDA, MoCRA and FSVP, and dangerous-goods certification are the **seller's or manufacturer's** responsibility, not the 3PL's.
 - On DDP shipments, duty is paid within the shipping price, but the importer's obligations stay with the seller.
+- **Importer on US DDP parcels** (Noel, 26 Nov 2026, asked whose name goes in the importer box on our US DDP parcels): "yes pfc express". This conflicts with existing site copy saying we are not the customer's importer of record (`importer-of-record-china-fulfillment-2026`, `china-to-us-fulfillment-2027`, `shipping-d2c-orders-china-to-us-2027`, `ddp-shipping-from-china-explained-2026` and others). Do not rewrite those pages until Noel confirms the scope and the CTPAT broker position for the 5 January 2027 foreign importer of record rule.
+- **IOSS** (Noel, 26 Nov 2026): "we have our own ioss". Not yet confirmed whether customers' EU parcels ship under it.
 - EU importer for distance sales: **1 July 2028** ("go with what is the most widely published").
 - **DDP duty refunds** (Noel, 24 Oct 2026, asked what to tell customers who shipped DDP with us about IEEPA refunds): "duty cannoyt be refuned". Published as: "If you shipped DDP with us, the duty cannot be refunded." Shipment records on request (Noel, 24 Oct 2026, asked whether we will send customers invoices, packing lists, HTS codes and tracking for their broker): "yes".
 
 **Images** (24 Oct 2026): "Use real photos from file or from free image services like pexels and other before using ai generated content." Record each stock photo's source, photographer and licence in the batch's `IMAGE-BRIEFS-tierN.md`. Infographics are rendered from HTML (`scripts/infographics/`), not generated.
 
 **Logos in photos** (24 Oct 2026): "shots with visible third-party logos (Hapag-Lloyd, COSCO, Yang Ming, Maersk, DHL, UPS, FEDEX and other international carrier that all shipping companies use are perfectly fine) just avoid other 3pl and fulfillment companys -- compeditive - we do not have our own planes or container ships - so these are are partenrs not pur compeditors!" See `IMAGE-STYLE-GUIDE.md` §4.
+
+**Chinese New Year 2027** (Noel, 26 Nov 2026): warehouse "closed from the 6th to the 14 february" (Sat 6 to Sun 14 Feb; last dispatch Fri 5 Feb, reopen Mon 15 Feb). `chinese-new-year-2027-shipping-deadlines` currently says to keep dispatching from Shenzhen over the period: fix it. Valentine's 2027 cut-offs: "calculate these dates by delivery times".
+
+**December 2026 round** (Noel, 26 Nov 2026): approved the January-changes posts, including the Amazon FBA 2027 fees post ("include"). Also asked to research growth in Canada, Germany and Spain.
 
 **Growth plan** (Noel, 8 Nov 2026, approved in full: "just go ahead with these"): a US market page, a China to USA shipping post, three dropshipping bridge posts, three honest best-of comparisons ("Each would be honest, sourced and dated, with us included. Portless stays out under the existing rule."), next-step blocks, related posts and inline quote forms on posts, and "Refresh titles in January" (change "2026" to "2027" on evergreen posts, keep URLs). See `BLOG-SEO-STRATEGY-2026.md` §11.
 

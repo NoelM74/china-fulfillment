@@ -2,7 +2,7 @@ import { chromium } from "/opt/node22/lib/node_modules/playwright/index.mjs";
 const D = process.argv[2];
 import { readdirSync } from "node:fs";
 const names = readdirSync(D).filter(f => /^infographic-.*\.html$/.test(f)).map(f => f.replace(/\.html$/, "")).sort();
-const exe = process.env.CHROMIUM_PATH || "/opt/pw-browsers/chromium-1194/chrome-linux/chrome";
+const exe = process.env.CHROMIUM_PATH || "/opt/pw-browsers/chromium";
 const b = await chromium.launch({executablePath: exe});
 const pg = await b.newPage({viewport:{width:1200,height:1500},deviceScaleFactor:1});
 for (const n of names) {

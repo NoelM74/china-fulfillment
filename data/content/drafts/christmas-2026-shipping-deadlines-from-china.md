@@ -126,10 +126,10 @@ These are the dates by which an order should **leave our Shenzhen warehouse** to
 | Market | Normal delivery time | Christmas dispatch cut-off |
 |---|---|---|
 | European Union, except Germany | 6–14 days | **Saturday 5 December** |
-| Australia | 4–7 days | **Monday 7 December** |
+| Australia | 8–12 days | **Monday 7 December** |
 | Germany | 5–9 days | **Wednesday 9 December** |
 | United States | 6–10 days | **Wednesday 9 December** |
-| Canada | 5–9 days | **Wednesday 9 December** |
+| Canada | 9–12 days | **Wednesday 9 December** |
 | United Kingdom | 5–8 days | **Friday 11 December** |
 | Express upgrade, any of the above | 2–5 business days | **Tuesday 15 December** |
 
