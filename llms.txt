@@ -108,7 +108,10 @@ What we do not do: we are not the importer of record by default. Import duties, 
 - [Shipping from China to the USA (2027): Delivery Times and Costs](https://www.china-fulfillment.com/shipping-from-china-to-usa-d2c-2027.html): express, standard DDP, postal, air and sea, dimensional weight, surcharges and duty.
 - [China to UK Fulfilment](https://www.china-fulfillment.com/china-to-uk-fulfilment-shopify.html)
 - [China to Germany and EU Fulfilment](https://www.china-fulfillment.com/china-to-germany-fulfillment-2026.html)
+- [China to Spain Fulfilment](https://www.china-fulfillment.com/china-to-spain-fulfillment-2027.html): the €3 EU duty and €2 handling fee, IOSS VAT at 21%, Spain's plastic packaging tax, the Canary Islands, and delivery times.
+- [Shipping from China to Germany (2027)](https://www.china-fulfillment.com/shipping-from-china-to-germany-2027.html): express, standard DDP, air, rail, truck and sea times and dated reference rates, EU fees, VAT and LUCID.
 - [China to Canada Fulfilment](https://www.china-fulfillment.com/china-to-canada-fulfillment-2026.html)
+- [Shipping from China to Canada (2027)](https://www.china-fulfillment.com/shipping-from-china-to-canada-2027.html): delivery times by method, the CAD$20 threshold, GST and HST, CARM and DDP.
 - [China to Australia Fulfilment](https://www.china-fulfillment.com/china-to-australia-fulfillment-2026.html)
 - [China to Japan Fulfilment](https://www.china-fulfillment.com/china-to-japan-fulfillment-2026.html)
 - [Middle East Fulfilment from China](https://www.china-fulfillment.com/middle-east-fulfillment-from-china-2026.html)

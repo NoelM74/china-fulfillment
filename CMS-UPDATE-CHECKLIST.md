@@ -273,6 +273,35 @@ Then:
 - [ ] The "Keep reading" blocks on nine other posts now include the new January post. Re-copy them when you next update those pages; the change is only that block.
 - [ ] Request indexing for both new URLs in Google Search Console and Bing Webmaster Tools.
 
+## 21. Canada, Germany and Spain (26 November 2026)
+
+Approved by Noel, 26 November 2026, to grow traffic from Canada, Germany and Spain. A new Spain market page, two shipping posts in the same format as the US one, and an update to the German packaging rules. Copy them the same way as section 1.
+
+| Page (repo file = live URL) | Preview | Images to upload from `images/blog/` |
+|---|---|---|
+| `china-to-spain-fulfillment-2027.html` (new) | [dev](https://china-fulfillment.borufashions.workers.dev/china-to-spain-fulfillment-2027) | `china-to-spain-fulfillment-2027.webp` + `-760w` `-1140w` `-1520w` |
+| `shipping-from-china-to-canada-2027.html` (new) | [dev](https://china-fulfillment.borufashions.workers.dev/shipping-from-china-to-canada-2027) | `shipping-from-china-to-canada-2027.webp` + `-760w` `-1140w` `-1520w` |
+| `shipping-from-china-to-germany-2027.html` (new) | [dev](https://china-fulfillment.borufashions.workers.dev/shipping-from-china-to-germany-2027) | `shipping-from-china-to-germany-2027.webp` + `-760w` `-1140w` `-1520w` |
+| `china-to-germany-fulfillment-2026.html` (updated) | [dev](https://china-fulfillment.borufashions.workers.dev/china-to-germany-fulfillment-2026) | none |
+| `epr-ppwr-eu-packaging-compliance-2026.html` (updated) | [dev](https://china-fulfillment.borufashions.workers.dev/epr-ppwr-eu-packaging-compliance-2026) | none |
+
+That is 12 image files. All three heroes are licensed Pexels photos; sources are in `IMAGE-BRIEFS-tier15-december-2026.md`.
+
+**What changed on the two updated pages:**
+- **China to Germany fulfilment.** New section on Germany's packaging law: LUCID registration, the new VerpackDG from 12 August 2026, and the authorised representative now required for sellers outside Germany. The paragraph on the EU handling fee now says it applies from 1 November 2026, initially €2.
+- **EU packaging compliance.** Adds the authorised representative requirement and the reported 12 November 2026 deadline for existing LUCID registrations.
+
+**Please check (Noel):**
+- [ ] **Spain delivery time.** The Spain page uses our EU standard time, 6 to 14 days, for mainland Spain and the Balearic Islands. Confirm, and tell us if the Canary Islands, Ceuta and Melilla have their own times.
+- [ ] **Canada express time.** The Canada post gives express as about 5 to 9 days, from our existing Canada page, beside your standard 9 to 12 days. Confirm.
+
+Then:
+- [ ] Publish the three new pages and re-copy the two updated ones. Keep both `application/ld+json` blocks in each.
+- [ ] Add the three blog cards to the live blog page (search `blog.html` for each file name).
+- [ ] Add the three URLs to the live sitemap (end of `sitemap.xml`), and re-upload `sitemap-images.xml` and `llms.txt`.
+- [ ] The "Keep reading" blocks on six other posts now link to the new pages. Re-copy them when you next update those pages.
+- [ ] Request indexing for the three new URLs in Google Search Console and Bing Webmaster Tools.
+
 ---
 
 ## Quick check after publishing

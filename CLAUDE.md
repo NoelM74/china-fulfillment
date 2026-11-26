@@ -70,7 +70,7 @@ Recorded as Noel decided them, with dates where known.
 - Amazon SPN service provider: **current** (confirmed 8 Oct 2026).
 - AAAA rating: keep the About page wording ("stick with - AAAA rating the 'highest rating'"). New content does not call it "highest".
 - Contact email on the site: **support@china-fulfillment.com**.
-- Delivery times: **6–10 days to the US, 5–8 days to the UK, 6–14 days to the EU**.
+- Delivery times: **6–10 days to the US, 5–8 days to the UK, 6–14 days to the EU**, **9–12 days to Canada, 8–12 days to Australia** (standard; Noel, 26 Nov 2026: "cnada 9-12 days - australia - 8-12 days").
 
 **Christmas 2026 dispatch cut-offs** (Noel, 24 Oct 2026): "australia 7 december -- canada 9th december germany 9th rest of eu 5th". US Wed 9 Dec, UK Fri 11 Dec and express Tue 15 Dec were proposed and not changed. Rest of EU 5 December is a Saturday. Used in `christmas-2026-shipping-deadlines-from-china` and its infographic. Warehouse over Christmas (Noel, 24 Oct 2026): "Its china - there are no christmas holidays". No daily dispatch cut-off time and no per-country list beyond the main markets (Noel, 28 Oct 2026): "we ship to over 190 countries with over 50 carriers - so it would be impossible to give all the details - bes is to say contact us if you need exact counry and services cut off dates". The post says to contact us for exact cut-offs for other countries and services.
 
@@ -88,7 +88,7 @@ Recorded as Noel decided them, with dates where known.
 
 **Chinese New Year 2027** (Noel, 26 Nov 2026): warehouse "closed from the 6th to the 14 february" (Sat 6 to Sun 14 Feb; last dispatch Fri 5 Feb, reopen Mon 15 Feb). `chinese-new-year-2027-shipping-deadlines` currently says to keep dispatching from Shenzhen over the period: fix it. Valentine's 2027 cut-offs: "calculate these dates by delivery times".
 
-**December 2026 round** (Noel, 26 Nov 2026): approved the January-changes posts, including the Amazon FBA 2027 fees post ("include"). Also asked to research growth in Canada, Germany and Spain.
+**December 2026 round** (Noel, 26 Nov 2026): approved the January-changes posts, including the Amazon FBA 2027 fees post ("include"). Also asked to research growth in Canada, Germany and Spain. Then approved (26 Nov 2026) a China to Spain page, shipping posts for Canada and Germany, the German packaging law update, and a German and Spanish trial of key pages (translations need a native-speaker check; production must be able to host `/de/` and `/es/` pages). Built without Search Console data ("Go without it").
 
 **Growth plan** (Noel, 8 Nov 2026, approved in full: "just go ahead with these"): a US market page, a China to USA shipping post, three dropshipping bridge posts, three honest best-of comparisons ("Each would be honest, sourced and dated, with us included. Portless stays out under the existing rule."), next-step blocks, related posts and inline quote forms on posts, and "Refresh titles in January" (change "2026" to "2027" on evergreen posts, keep URLs). See `BLOG-SEO-STRATEGY-2026.md` §11.
 
