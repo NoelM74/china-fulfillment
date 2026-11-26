@@ -14,7 +14,7 @@ audience: shopify
 geo: eu
 content_type: blog_post
 author: Noel Murphy
-last_updated: 2026-10-06
+last_updated: 2026-11-26
 images:
   hero: /images/blog/epr-ppwr-eu-packaging-compliance-2026.webp
   hero_alt: "Packaging materials weighed and recorded by type for extended producer responsibility reporting across separate EU country registries"
@@ -43,7 +43,7 @@ og_image: /images/blog/epr-ppwr-eu-packaging-compliance-2026.webp
     }
   },
   "datePublished": "2026-10-06",
-  "dateModified": "2026-10-06",
+  "dateModified": "2026-11-26",
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "https://www.china-fulfillment.com/epr-ppwr-eu-packaging-compliance-2026.html"
@@ -128,7 +128,7 @@ Two consequences matter commercially.
 
 **Marketplaces now have to check.** From that date, online marketplace providers carry expanded legal obligations to verify that their sellers are EPR compliant. That is the change that actually bites. A regulation nobody enforces is a risk you can rationally defer. A regulation Amazon enforces on your listings is not.
 
-**Germany replaced its packaging law.** The Packaging Act, VerpackG, was replaced by the Packaging Law Implementation Act, VerpackDG, on the same date. The LUCID register and the dual system structure remain, but obligations expanded to cover B2B packaging that had previously been exempt. If you sell into Germany and set up your compliance around the old scope, that scope has widened.
+**Germany replaced its packaging law.** The Packaging Act, VerpackG, was replaced by the Packaging Law Implementation Act, VerpackDG, on the same date. The LUCID register and the dual system structure remain, but obligations expanded to cover B2B packaging that had previously been exempt. If you sell into Germany and set up your compliance around the old scope, that scope has widened. Sellers with no establishment in Germany must also appoint an **authorised representative** there under the new law. Advisers report that sellers already registered in LUCID had until **12 November 2026** to name one, or risk having their registration deleted, while the registration itself remains the seller's own duty ([verpackungsgesetz.com](https://www.verpackungsgesetz.com/en/bevollmaechtigtenzwang-auslaendische-hersteller/)).
 
 ## There is no single EU registration
 

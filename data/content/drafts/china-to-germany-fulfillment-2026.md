@@ -14,7 +14,7 @@ audience: shopify
 geo: eu
 content_type: blog_post
 author: Noel Murphy
-last_updated: 2026-08-11
+last_updated: 2026-11-26
 images:
   hero: /images/blog/china-to-germany-fulfillment-2026.webp
   hero_alt: "Parcels shipped DDP with IOSS VAT prepaid from a Shenzhen warehouse to German and EU customers after the 2026 de minimis change"
@@ -43,7 +43,7 @@ og_image: /images/blog/china-to-germany-fulfillment-2026.webp
     }
   },
   "datePublished": "2026-08-11",
-  "dateModified": "2026-08-11",
+  "dateModified": "2026-11-26",
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "https://www.china-fulfillment.com/china-to-germany-fulfillment-2026.html"
@@ -116,7 +116,7 @@ For years, consignments valued under €150 entered the EU free of customs duty.
 
 In its place, since **1 July 2026**, low-value consignments arriving from outside the EU carry a **temporary flat customs charge of €3 per item**, applied where the import VAT is handled through IOSS or the goods arrive as a postal item. The EU has published this as a transitional measure, set to run **until 1 July 2028**, when the permanent customs reform and its central data hub come into force and goods under €150 become subject to normal per-product tariffs instead of the flat fee.
 
-Separately, an EU-wide per-parcel handling fee of around €2 has been discussed for introduction later in 2026 to fund the extra customs processing. As of writing it has been proposed but not finally adopted across the bloc, so treat it as a likely near-term addition rather than a settled number, and check the current position before you price it in.
+Separately, since **1 November 2026** an EU **customs handling fee**, initially set at **€2**, applies to low-value e-commerce imports to fund the extra customs processing ([Garrigues](https://www.garrigues.com/es_ES/noticia/union-europea-1-noviembre-2026-comienza-aplicacion-tasa-gestion-comercio-electronico)). It is separate from the €3 duty and is not refunded. Published guidance differs on whether it is charged per item category or per line of the customs declaration, so check the current basis with your carrier before you price it in.
 
 The takeaway is simple: the era of frictionless sub-€150 parcels into the EU is over. Every direct parcel now carries a fee and needs its VAT handled correctly.
 
@@ -135,6 +135,17 @@ To be clear about the line: **choosing your intermediary and registering for IOS
 ## Why DDP is the only clean model for the EU
 
 Because every parcel now carries a fee and VAT that has to be accounted for, [DDP](/ddp-shipping-from-china-explained-2026.html), delivered duty paid, is the model that keeps the experience clean. Ship DAP and leave the customer to settle charges and you hand them a carrier bill plus a handling fee on a large share of orders. Ship DDP with IOSS VAT prepaid and the flat fee, the VAT and the clearance are all handled before the parcel lands, so the buyer simply receives their order. It is the same zero-surprise principle we apply across every market, and it matters more in the EU now than it did a year ago. This builds on the groundwork in our [EU de minimis guide](/eu-de-minimis-2026-customs-duty-guide.html).
+
+## Germany's packaging law: LUCID and an authorised representative
+
+Germany has its own packaging rules on top of the EU customs changes, and they apply to every seller whose packaged goods reach German consumers, wherever the seller is based.
+
+- **LUCID registration.** Every seller that puts packaging on the German market must register in LUCID, the public packaging register run by the Zentrale Stelle Verpackungsregister (ZSVR), and join a dual system that collects and recycles the packaging. There is no exemption for small sellers or sellers abroad. Registration itself is free; the dual system charges by weight and material.
+- **The new law.** On **12 August 2026**, Germany's Packaging Act (VerpackG) was replaced by the Packaging Law Implementation Act (**VerpackDG**), alongside the EU's new packaging regulation.
+- **An authorised representative.** Since 12 August 2026, a seller with no establishment in Germany must appoint an **authorised representative** in Germany for its packaging obligations. Advisers report that existing registrations had until **12 November 2026** to name one, or risk deletion from the register. The registration itself stays the seller's own duty.
+- **Marketplaces check.** Marketplaces must verify that sellers are registered, and listings without a valid LUCID number can be blocked.
+
+These are the seller's obligations. We are a fulfilment provider, not an authorised representative, and we cannot register you with LUCID. Your dual system contract and LUCID reports are based on the weight and material of the packaging you send, so keep a record of the mailers, boxes and fillers your orders ship in. Our [EU packaging compliance guide](/epr-ppwr-eu-packaging-compliance-2026.html) covers the rules in other EU countries.
 
 ## Delivery from Shenzhen
 
