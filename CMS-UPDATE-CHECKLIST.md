@@ -245,6 +245,34 @@ Two new files sit beside `sitemap.xml` in the site root:
 - [ ] **Google Search Console:** **Sitemaps → Add a new sitemap**, enter `sitemap-index.xml`. The `sitemap.xml` already submitted can stay.
 - [ ] A few days later, check both tools for errors: 404s usually mean a page in the sitemap is not on production yet.
 
+## 20. January 2027 changes, Valentine's Day and two corrections (26 November 2026)
+
+Two new posts and two corrections. Copy them the same way as section 1. **Publish these before 15 December** so they are indexed ahead of the January dates.
+
+| Page (repo file = live URL) | Preview | Images to upload from `images/blog/` |
+|---|---|---|
+| `us-import-changes-january-2027-china-sellers.html` (new) | [dev](https://china-fulfillment.borufashions.workers.dev/us-import-changes-january-2027-china-sellers) | `us-import-changes-january-2027-china-sellers.webp` + `-760w` `-1140w` `-1520w` |
+| `valentines-day-2027-shipping-deadlines-from-china.html` (new) | [dev](https://china-fulfillment.borufashions.workers.dev/valentines-day-2027-shipping-deadlines-from-china) | `valentines-day-2027-shipping-deadlines-from-china.webp` + `-760w` `-1140w` `-1520w`, `infographic-valentines-2027-dispatch-dates.webp` + `-600w` `-900w` |
+| `chinese-new-year-2027-shipping-deadlines.html` (correction) | [dev](https://china-fulfillment.borufashions.workers.dev/chinese-new-year-2027-shipping-deadlines) | none |
+| `christmas-2026-shipping-deadlines-from-china.html` (correction) | [dev](https://china-fulfillment.borufashions.workers.dev/christmas-2026-shipping-deadlines-from-china) | `infographic-christmas-2026-dispatch-dates.webp` + `-600w` `-900w` (re-upload, replaces the old ones) |
+
+That is 13 image files. Heroes are licensed Pexels photos; sources are in `IMAGE-BRIEFS-tier14-december-2026.md`.
+
+**The corrections:**
+- **Chinese New Year post.** It said to keep dispatching from Shenzhen through the holiday. Our warehouse is closed from 6 to 14 February 2027 (Noel, 26 November 2026), so the post now gives the close, the last dispatch day (Friday 5 February) and what to do about it.
+- **Christmas post.** The "normal delivery time" column showed express-like times for Canada (5–9 days) and Australia (4–7 days). Noel's standard times are **Canada 9–12 days and Australia 8–12 days**. The cut-off dates themselves are unchanged.
+
+**Please check (Noel):**
+- [ ] **Valentine's dispatch dates**, counted back from Friday 12 February using the slow end of each standard delivery time: EU Fri 29 January, Canada and Australia Sat 30 January, US Tue 2 February, UK Thu 4 February, express Fri 5 February. The Canada and Australia dates fall on a Saturday; confirm the warehouse dispatches that day or move them to Friday 29 January.
+- [ ] **Germany delivery time.** The Christmas post lists Germany separately at 5–9 days. Is that our standard time, or an express time like the old Canada and Australia figures?
+
+Then:
+- [ ] Publish the two new pages, and re-copy the two corrected ones. Keep both `application/ld+json` blocks in each.
+- [ ] Add the two blog cards to the live blog page (search `blog.html` for each file name).
+- [ ] Add the two URLs to the live sitemap (end of `sitemap.xml`), re-upload `sitemap-images.xml` (rebuilt) and `llms.txt`.
+- [ ] The "Keep reading" blocks on nine other posts now include the new January post. Re-copy them when you next update those pages; the change is only that block.
+- [ ] Request indexing for both new URLs in Google Search Console and Bing Webmaster Tools.
+
 ---
 
 ## Quick check after publishing
